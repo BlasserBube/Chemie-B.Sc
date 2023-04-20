@@ -1,0 +1,124 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+
+\begin{document}
+    \section{Woche 1}
+    \subsection{1. Rechenoperationen}
+    Stellen Sie in der Form a + ib dar:
+    \begin{equation*}
+        \frac{1+i}{1-i}
+    \end{equation*}
+    \begin{equation*}
+        \frac{1}{3i}\left(6-5i+\frac{1+5i}{1+i}\right)
+    \end{equation*}
+    \begin{equation*}
+        \left(1-i\right)^{14}
+    \end{equation*}
+    \\
+    a) \begin{equation*}
+        \frac{1+i}{1-i} = \frac{\left(1+i\right)\left(1+i\right)}{\left(1-i\right)\left(1+i\right)}=\frac{1+2i+i^2}{1-i^2}=\frac{1+2i-1}{1-\left(-1\right)}=\frac{2i}{2}=i
+    \end{equation*}
+    b) \begin{equation*}
+        \frac{1}{3i}\left(6-5i+\frac{1+5i}{1+i}\right)=\frac{1}{3i}\left(9-3i\right)=-1-3i
+    \end{equation*}
+    c) \begin{equation*}
+        \left(1-i\right)^{14}=\left(1-i\right)^2\left(1-i\right)^2\left(1-i\right)^2\left(1-i\right)^2\left(1-i\right)^2\left(1-i\right)^2\left(1-i\right)^2
+    \end{equation*}
+    \begin{equation*}
+        =2i\cdot 2i\cdot 2i\cdot 2i\cdot 2i\cdot 2i\cdot 2i=128i^7=128i^2\cdot i^2\cdot i^2\cdot i
+    \end{equation*}
+    \begin{equation*}
+        -128\cdot i^2\cdot i^2\cdot i=128\cdot i^2\cdot i=-128i
+    \end{equation*}
+
+    \subsection{2. Eulersche Formel}
+    Stellen Sie in Polarkoordinaten $z = re^{i\varphi}$ dar:
+    a) $1-i$ \begin{equation*}
+        r=\sqrt{1^2+\left(-1\right)^2}=\sqrt{2}; \varphi=\arctan(\frac{1}{1})=45^{\circ}=\frac{\pi}{4}
+    \end{equation*}
+    \begin{equation*}
+        \sqrt{2}e^{\frac{\pi i}{4}}
+    \end{equation*}
+    b) $-\sqrt{3}+3i$\begin{equation*}
+        r=\sqrt{\left(-\sqrt{3}\right)^2+3^2}=\sqrt{12}; \varphi=\arctan(-\frac{3}{\sqrt{3}})=-\frac{\pi}{3}
+    \end{equation*}
+    \begin{equation*}
+        \sqrt{12}e^{\frac{\pi i}{3}}
+    \end{equation*}
+    c) $\sqrt{2}i$\begin{equation*}
+        r=\sqrt{2};\varphi=90^\circ=\frac{\pi}{2}
+    \end{equation*}
+    \begin{equation*}
+        \sqrt{2}e^{\frac{\pi i}{2}}
+    \end{equation*}
+
+    \subsection{3. Eulersche Formel}
+    a) Welche Kurve in der komplexen Zahlenebene wird durch folgende Gleichung dargestellt?
+    \begin{equation*}
+        | z + 1 - i | = 2 
+    \end{equation*}
+    \begin{equation*}
+        z = x+yi
+    \end{equation*}
+    \begin{equation*}
+        |x+yi+1-i|=2
+    \end{equation*}
+    \begin{equation*}
+        |i(y-1)+(x+1)|
+    \end{equation*}
+    wobei $i(y-1)$ den imaginären Teil dargestellt und $(x+1)$ den reellen Teil\\
+    Es gilt:
+    \begin{equation*}
+        |z_0| = |x_0 + y_0i| = \sqrt{x_0^2 + y_0^2}
+    \end{equation*}
+    Somit:
+    \begin{equation*}
+        \sqrt{\left(y-1\right)^2+\left(x+1\right)^2} = 2
+    \end{equation*}
+    \begin{equation*}
+        \left(y-1\right)^2+\left(x+1\right)^2=4
+    \end{equation*}
+    dies ist die Kreisfunktion mit einem Radius von $r=2$ und dem Mittelpunkt M(-1,  1).\\\\
+
+    b)  Substituieren Sie z in der obigen Kurvengleichung durch die neue Variable
+    \begin{equation*}
+        w=\frac{1}{z+i+1}; z=\frac{1}{w}-i-1
+    \end{equation*}
+    \begin{equation*}
+        |\frac{1}{w}-2i|=2
+    \end{equation*}
+    \begin{equation*}
+        |\frac{1-2i(x+yi)}{x+yi}|=2
+    \end{equation*}
+     \begin{equation*}
+        \sqrt{\left(1+2y\right)^2+{\left(-2x\right)^2}} =2\sqrt{x^2+y^2}
+     \end{equation*}
+     \begin{equation*}
+        1+4y+4y^2+4x^2=4x^2+4y^2
+     \end{equation*}
+     \begin{equation*}
+        1+4y=0
+     \end{equation*}
+     \begin{equation*}
+        y=-\frac{1}{4}
+     \end{equation*}
+
+     \section{Woche 2}
+
+     \subsection{4. Nullstellen}
+     Berechnen und zeichnen Sie:\\
+     a) $\sqrt{-i}$
+     \begin{equation*}
+        z_0 = \sqrt{r}\cdot e^{\left(\frac{i}{2}\left(\varphi + 2 \pi \cdot 0\right)\right)}
+     \end{equation*}
+     \begin{equation*}
+        z_1 = \sqrt{r} \cdot e^{\left(\frac{i}{2}\left(\varphi + 2 \pi \cdot 1\right)\right)}
+     \end{equation*}
+     \begin{equation*}
+        z_0 = \sqrt{1} \cdot e^{\left(-\frac{i}{2}\left(\frac{\pi}{2} + 2 \pi \cdot 0\right)\right)} = e^{-\frac{\pi}{4} \cdot i}
+     \end{equation*}
+     \begin{equation*}
+        z_1 = \sqrt{1} \cdot e^{\left(\frac{i}{2}\left(-\frac{\pi}{2} + 2 \pi\right)\right)} = e^{\frac{3\pi}{4}\cdot i}
+     \end{equation*}
+\end{document}

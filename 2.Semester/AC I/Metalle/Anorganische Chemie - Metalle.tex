@@ -1,0 +1,204 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{mhchem}
+\usepackage{xcolor}
+\usepackage{tikz}
+\begin{document}
+\section{Metalle mit Ingo}
+\subsection{Eigenschaften metallischer Elemente}
+Physikalische Eigenschaften
+\begin{itemize}
+    \item Leitfähigkeit
+    \begin{itemize}
+        \item elektrischen
+        \item thermische
+    \end{itemize}
+    \item Metallischer Glanz
+    \item Duktilität (Formbarkeit)
+    \item Nicht Lichtdurchlässig
+\end{itemize}
+Chemische Eigenschaften
+\begin{itemize}
+    \item niedrige Elektronegativität
+    \item bildet bevorzugt Kationen
+    \item Meist basische Hydroxide!?
+    \begin{itemize}
+        \item niedrige Oxidationsstufe: JA \\Beispiel: \ce{Cr(OH)2 + H2O -> Cr^{2+} + 2OH- + H2O}
+        \item hohe Oxidationsstufe: NEIN \\Beispiel: \ce{Cr(OH)6} (gibt's nicht) wird zu \ce{CrO2(OH)2} $->$\ce{H2CrO4}\\ \ce{H2CrO4 + 2H2O -> CrO4^{2-} + 2H3O+}
+    \end{itemize}
+\end{itemize}
+\subsection{Elektrisches Verhalten}
+\subsubsection{Betrachtung des spezifischen Widerstands}
+\begin{itemize}
+    \item Metalle: $10^{-4}$ bis $10^{-6} \Omega\cdot$ cm$^{-1}$
+    \item Halbleiter: $10^{1}$ bis $10^{4} \Omega\cdot$ cm$^{-1}$
+    \item Isolator: $> 10^{10} \Omega\cdot$ cm$^{-1}$
+\end{itemize}
+\subsubsection{Betrachtung der thermischen Verhaltens der Leitfähigkeit}
+Siehe Folie
+\subsection{Definition des metallischen Zustands}
+Phänomenologisch: schwierig, da makroskopische Eigenschaften wie Glanz, Duktilität verändert werden können.\\
+Temperaturabhängigkeit der elektrischen Leitfähigkeit: schwierig, da andere Stoffklassen ähnliche Eigenschaften aufweisen.
+\subsection{Die chemische Bindung in Metallen}
+\subsubsection{Ketelaar-Diagramm}
+Man stelle sich ein Dreieck vor mit den Eckenbeschriftungen ionische Bindung \ce{NaCl}, kovalente Bindung \ce{Cl2} und metallisch \ce{Na}
+\subsubsection{Das Elektronengasmodell}
+\begin{itemize}
+    \item Die Metallatome geben eine gewisse Zahl an Valenzelektronen ab, es verbleiben positiv geladene Atomrümpfe
+    \item Die Elektronen sind zwischen den Atomrümpfen frei beweglich, ähnlich eines Gases $->$ Elektronengas \textcolor{red}{(versagt bei der Beschreibung der Wärmekapazität von Metallen)}
+\end{itemize}
+\subsubsection{Das Bändermodell}
+\begin{itemize}
+    \item Elektronen können nur bestimmte Energien aufweisen\\$->$ Orbitale (hier Atomorbitale)
+    \item Beim Übergang von Ein- zu Mehratomsystemen\\$->$ Übergang von Atom- zu Molekülorbitalen
+\end{itemize}
+\ce{Li3}: $+\hspace*{0.25cm}+\hspace*{0.25cm}+\hspace*{0.25cm} = \sigma_b$\\
+\hspace*{0.85cm}$+\hspace*{0.25cm}-\hspace*{0.25cm}+\hspace*{0.25cm} = \sigma_{ab}$\\
+\hspace*{0.85cm}$+\hspace*{0.45cm}|\hspace*{0.45cm}+\hspace*{0.25cm} = \sigma_{nb}$
+\begin{itemize}
+    \item Beim Übergang von Mehr- zu Vielatomsystemen\\$->$ Übergang von Molekülorbital zu (Orbital-) Bändern\\$->$ Valenzband: mit Valenzelektronen besetzt, höchster besetzte Zustand: HOMO\\$->$ Leitungsband: frei, niedrigste unbesetzte Zustand: LUMO
+\end{itemize}
+Fermikante = Ort zwischen Besetzt und Unbesetzt\\
+\subsection{Strukturen der Metalle}
+Übersicht:
+\begin{itemize}
+    \item kubisch-innenzentriert
+    \item hexagonal dichteste Packung
+    \item kubisch dichteste Packung
+    \item eigener Strukturtyp
+    \item unbekannt
+\end{itemize}
+\subsubsection{Die kubisch-innenzentrierte Kugelpackung}
+\textbf{(bcc = body-centered cubis), W(olfram)-Typ}
+\\
+\begin{tikzpicture}
+    \draw[color=blue,fill=black] (0,0) circle (1cm);
+    \draw[color=blue,fill=black] (2,0) circle (1cm);
+    \draw[color=blue,fill=black] (4,0) circle (1cm);
+    \draw[color=blue,fill=black] (6,0) circle (1cm);
+    \draw[color=blue,fill=black] (0,2) circle (1cm);
+    \draw[color=blue,fill=black] (2,2) circle (1cm);
+    \draw[color=blue,fill=black] (4,2) circle (1cm);
+    \draw[color=blue,fill=black] (6,2) circle (1cm);
+    \draw[color=blue,fill=black] (0,4) circle (1cm);
+    \draw[color=blue,fill=black] (2,4) circle (1cm);
+    \draw[color=blue,fill=black] (4,4) circle (1cm);
+    \draw[color=blue,fill=black] (6,4) circle (1cm);
+    \draw[color=blue,fill=black] (0,6) circle (1cm);
+    \draw[color=blue,fill=black] (2,6) circle (1cm);
+    \draw[color=blue,fill=black] (4,6) circle (1cm);
+    \draw[color=blue,fill=black] (6,6) circle (1cm);
+    \draw[color=orange,fill=red] (1,-1) circle (1cm);
+    \draw[color=orange,fill=red] (3,-1) circle (1cm);
+    \draw[color=orange,fill=red] (5,-1) circle (1cm);
+    \draw[color=orange,fill=red] (7,-1) circle (1cm);
+    \draw[color=orange,fill=red] (1,1) circle (1cm);
+    \draw[color=orange,fill=red] (3,1) circle (1cm);
+    \draw[color=orange,fill=red] (5,1) circle (1cm);
+    \draw[color=orange,fill=red] (7,1) circle (1cm);
+    \draw[color=orange,fill=red] (1,3) circle (1cm);
+    \draw[color=orange,fill=red] (3,3) circle (1cm);
+    \draw[color=orange,fill=red] (5,3) circle (1cm);
+    \draw[color=orange,fill=red] (7,3) circle (1cm);
+    \draw[color=orange,fill=red] (1,5) circle (1cm);
+    \draw[color=orange,fill=red] (3,5) circle (1cm);
+    \draw[color=orange,fill=red] (5,5) circle (1cm);
+    \draw[color=orange,fill=red] (7,5) circle (1cm);
+\end{tikzpicture}\\
+\underline{C}oordination\underline{N}umber = 8 + 6\\
+Koordinationspolyeder = Rhombododecaeder\\
+Raumerfüllung = 68\%\\
+Siehe Folie für näheres.
+\newpage
+\subsubsection{Die dichtesten Packungen}
+\textbf{Hexagonal-dichteste Kugelpackung\\(hcp = hexagonal close packed), M(a)g(nesium)-Typ}
+\\\\
+\begin{tikzpicture}
+    \draw[color=blue,fill=black] (0,0) circle (1cm);
+    \draw[color=blue,fill=black] (2,0) circle (1cm);
+    \draw[color=blue,fill=black] (4,0) circle (1cm);
+    \draw[color=blue,fill=black] (6,0) circle (1cm);
+    \draw[color=blue,fill=black] (1,1.7) circle (1cm);
+    \draw[color=blue,fill=black] (3,1.7) circle (1cm);
+    \draw[color=blue,fill=black] (5,1.7) circle (1cm);
+    \draw[color=blue,fill=black] (7,1.7) circle (1cm);
+    \draw[color=blue,fill=black] (2,3.4) circle (1cm);
+    \draw[color=blue,fill=black] (4,3.4) circle (1cm);
+    \draw[color=blue,fill=black] (6,3.4) circle (1cm);
+    \draw[color=blue,fill=black] (8,3.4) circle (1cm);
+    \draw[color=orange,fill=red] (1,0.85) circle (1cm);
+    \draw[color=orange,fill=red] (3,0.85) circle (1cm);
+    \draw[color=orange,fill=red] (5,0.85) circle (1cm);
+    \draw[color=orange,fill=red] (7,0.85) circle (1cm);
+    \draw[color=orange,fill=red] (2,2.55) circle (1cm);
+    \draw[color=orange,fill=red] (4,2.55) circle (1cm);
+    \draw[color=orange,fill=red] (6,2.55) circle (1cm);
+    \draw[color=orange,fill=red] (8,2.55) circle (1cm);
+    \draw[color=orange,fill=red] (3,4.25) circle (1cm);
+    \draw[color=orange,fill=red] (5,4.25) circle (1cm);
+    \draw[color=orange,fill=red] (7,4.25) circle (1cm);
+    \draw[color=orange,fill=red] (9,4.25) circle (1cm);
+\end{tikzpicture}\\
+CN=12\\
+Koordinationspolyeder = Antikuboktaeder\\
+Raumerfüllung = 74\%\\\\
+\textbf{Kubisch-dichteste Kugelpackung\\(ccp=cubic close packed), Cu(pfer)-Typ}
+\\\\
+\begin{tikzpicture}
+    \draw[color=blue,fill=black] (0,0) circle (1cm);
+    \draw[color=blue,fill=black] (2,0) circle (1cm);
+    \draw[color=blue,fill=black] (4,0) circle (1cm);
+    \draw[color=blue,fill=black] (6,0) circle (1cm);
+    \draw[color=blue,fill=black] (1,1.7) circle (1cm);
+    \draw[color=blue,fill=black] (3,1.7) circle (1cm);
+    \draw[color=blue,fill=black] (5,1.7) circle (1cm);
+    \draw[color=blue,fill=black] (7,1.7) circle (1cm);
+    \draw[color=blue,fill=black] (2,3.4) circle (1cm);
+    \draw[color=blue,fill=black] (4,3.4) circle (1cm);
+    \draw[color=blue,fill=black] (6,3.4) circle (1cm);
+    \draw[color=blue,fill=black] (8,3.4) circle (1cm);
+    \draw[color=orange,fill=red] (1,0.85) circle (1cm);
+    \draw[color=orange,fill=red] (3,0.85) circle (1cm);
+    \draw[color=orange,fill=red] (5,0.85) circle (1cm);
+    \draw[color=orange,fill=red] (7,0.85) circle (1cm);
+    \draw[color=orange,fill=red] (2,2.55) circle (1cm);
+    \draw[color=orange,fill=red] (4,2.55) circle (1cm);
+    \draw[color=orange,fill=red] (6,2.55) circle (1cm);
+    \draw[color=orange,fill=red] (8,2.55) circle (1cm);
+    \draw[color=orange,fill=red] (3,4.25) circle (1cm);
+    \draw[color=orange,fill=red] (5,4.25) circle (1cm);
+    \draw[color=orange,fill=red] (7,4.25) circle (1cm);
+    \draw[color=orange,fill=red] (9,4.25) circle (1cm);
+    \draw[color=brown,fill=yellow] (2,1.35) circle (1cm);
+    \draw[color=brown,fill=yellow] (4,1.35) circle (1cm);
+    \draw[color=brown,fill=yellow] (6,1.35) circle (1cm);
+    \draw[color=brown,fill=yellow] (8,1.35) circle (1cm);
+    \draw[color=brown,fill=yellow] (3,3.05) circle (1cm);
+    \draw[color=brown,fill=yellow] (5,3.05) circle (1cm);
+    \draw[color=brown,fill=yellow] (7,3.05) circle (1cm);
+    \draw[color=brown,fill=yellow] (9,3.05) circle (1cm);
+    \draw[color=brown,fill=yellow] (4,4.75) circle (1cm);
+    \draw[color=brown,fill=yellow] (6,4.75) circle (1cm);
+    \draw[color=brown,fill=yellow] (8,4.75) circle (1cm);
+    \draw[color=brown,fill=yellow] (10,4.75) circle (1cm);
+\end{tikzpicture}\\
+CN = 12\\
+Koorinationspolyeder = Kuboktaeder\\\\
+\textbf{Varianten der dichtesten Kugelpackungen}\\
+hc-Typ\\
+hhc-Typ\\
+Kommen vor und nach einer Schicht dieselbe Schicht, so ist diese hexagonal umgeben. (Kurz: h)\\
+Sind die Schichten vor und nach der betrachteten Schicht nicht gleich, so ist die betrachtete Schicht kubisch umgeben. (Kurz: c)\\\\
+Siehe Folie.\\\\
+\textbf{Variation der Kristallstruktur der Metalle.\\(Abhängig von Druck und Temperatur)}\\\\
+\ce{Fe}: \ce{$\alpha \left(\mathrm{bcc}\right)$ -> $\gamma \left(\mathrm{ccp}\right)$ -> $\delta \left(\mathrm{bcc}\right)$}\\
+Erster Schritt bei ca. 900$^\circ$, zweiter schritt bei ca. 1400$^\circ$\\\\
+\ce{Na}: bcc \ce{->} ccp \ce{-> -> ->} transparente Modifikation, kein Metall mehr\\
+Dabei läuft der erste Schritt bei 656 Pa ab und der letzte bei $>$ 100 GPa
+\subsubsection{Aufgefüllte dichteste Packungen}
+\begin{itemize}
+    \item Oktaederlücken\\hcp-Abfolge: A c B (A,B = Schichten, c = Lücken)\\$N(\mathrm{Oktaederl\text{ü}cken})=N(\mathrm{Packungsteilchen})$\\
+            ccp Abfolge: A c B a C b A (A,B,C = Schichten, a,b,c = Lücken)
+    \item Tetraederlücken\\hcp:Abfolge: A $\beta$ $\alpha$ B $\alpha$ $\beta$ A $\beta$ (A,B = Schichten, $\alpha, \beta$ = Lücken)\\$N(\mathrm{Tetraederl\text{ü}cken})=2N(\mathrm{Packungsteilchen})$\\Tetraederlücken\\
+            ccp:Abfolge: A $\beta$ c $\alpha$ B $\gamma$ a $\beta$ C $\alpha$ b $\gamma$ A (A,B,C = Schichten, $\alpha, \beta, \gamma$ = Tetraederlücken, a, b, c = Oktaederlücken)
+\end{itemize}
+\end{document}

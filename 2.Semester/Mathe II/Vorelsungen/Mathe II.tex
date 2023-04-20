@@ -1,0 +1,362 @@
+\documentclass{article}
+\usepackage{mhchem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section{Lineare Algebra}
+\subsection{Lineare Vektorräume}
+Beispiel für Vektoren mit mehr als Komponenten\\
+\hspace*{1cm} Quantenmechanik:\\
+\hspace*{1cm} MO-LCAO: \underline{M}olecular \underline{O}rbitals by \underline{L}inear \underline{C}ombination of \underline{A}tomic \underline{O}rbitals\\
+Das bindende $\sigma$-MO im \ce{H2} ist
+\begin{equation*}
+    |\sigma\rangle =c_1(|1s_A+|1s_B\rangle )+c_2(|2s_A\rangle +|2s_B\rangle )+c_3(|2p_{zA}\rangle +\dots)
+\end{equation*}
+MO-Koeffizientenvektor: $(c_1,c_2,c_3,c_4,\dots)$
+Def.: Eine Menge V von Vektoren {${\vec{a},\vec{b},\dots}$} heißen linearer Vektorraum, wenn gilt:
+\vspace*{1cm}
+\begin{itemize}
+    \item Für alle Elemente $\vec{a}$, $\vec{b}$ Element von V gibt es genau ein Element $\vec{a} + \vec{b}$ Element von V (Die Summe zweier Elemente von V gehört wieder zu V)
+    \item Assoziativgesetz: $\vec{a}+(\vec{b}+\vec{c}) = (\vec{a}+\vec{b})+\vec{c}$ für $\vec{a}, \vec{b}, \vec{c}$ Element von V
+    \item Kommutativgesetz: $\vec{a}+\vec{b} = \vec{b} + \vec{a}$
+    \item Neutrales Element "Nullstelle $\vec{o}$ Element von V: $\vec{a} + \vec{o} = \vec{a}$
+    \item Inverses Element $-\vec{a}$: $\vec{a} + (-\vec{a}) = 0$
+\end{itemize}
+Multiplikation mit reellen/komplexen Zahlen
+\begin{itemize}
+    \item Für alle Elemente $\vec{a}$ Element V und z Element C gibt es genau ein Element $z\cdot\vec{a}$ Element V
+    \item Assoziativgesetz
+    \item Distributivgesetz
+\end{itemize}
+\subsection{Dimension und Basis eines Vektorraums}
+Def.: Die Vektoren {$\vec{a_1},\dots,\vec{a_n}$} heißen linear unabhängig, wenn $\sum_{k=1}^{n} z_k \vec{a_k}=\vec{o}$ nur für $\vec{z_k} = 0 (k=1,\dots,\dots)$ erfüllbar ist\\
+Ist mindestens ein $z_k \neq 0$ wählbar, so heißen die Vektoren linear abhängig, d.h. ein Vektor lässt sich als Linearkombination der anderen schreiben:\\
+$\vec{a_k}=-\frac{1}{z_k}\sum_{l=1, l\neq k}^{n}z_l \vec{a_l} = \sum_{l=1,l\neq k}^{a}{z_b}\vec{a_l}$ \hspace*{1cm} $z_b=-\frac{z_l}{z_k}$\\
+Beispiel
+\begin{equation*}
+    \left[\left(\begin{array}{c}
+        0\\ 1\\ 1
+    \end{array}\right),\left(\begin{array}{c}
+        1\\ 0\\ 1
+    \end{array}\right),\left(\begin{array}{c}
+        1\\ 1\\ 0
+    \end{array}\right)\right]
+\end{equation*}
+\begin{equation*}
+    z_1\left(\begin{array}{c}
+        0\\ 1\\ 1
+    \end{array}\right)+z_2\left(\begin{array}{c}
+        1\\ 0\\ 1
+    \end{array}\right)+z_3\left(\begin{array}{c}
+        1\\ 1\\ 0
+    \end{array}\right) = \vec{o}
+\end{equation*}
+\begin{equation*}
+    z_1 0+z_2 0 + z_3 1 = 0
+\end{equation*}
+\begin{equation*}
+    z_1 1+z_2 0 + z_3 1 = 0
+\end{equation*}
+\begin{equation*}
+    z_1 1 +z_2 1 + z_3 0 = 0
+\end{equation*}
+Auflösen nach $z_1,z_2,z_3$ durch Addition bzw. Subtraktion von Vielfachen der Zeilen (Einzelgleichungen) bis Dreiecksform erreicht wurde, anschließend $z_1,z_2,z_3$ durch Rück-rechnung ermitteln, dies ist der Gaußsche Algorithmus\\
+Hierbei gibt es 4 Möglichkeiten, dies ist eine Lösung:\\
+\begin{equation*}
+    0, 0, 2 | 0
+\end{equation*}\
+\begin{equation*}
+    0, -1, 1 | 0
+\end{equation*}
+\begin{equation*}
+    1, 1, 0 | 0
+\end{equation*}
+Durch Rückrechnung:
+\begin{equation*}
+    z_3 = 0, z_2 = 0, z_1 = 0
+\end{equation*}
+Die Vektoren sind linear unabhängig voneinandern d.h. (hier) sie lieben nicht in einer Ebene aber auf einer Geraden!\\
+Das von den Vektoren aufgespannte Spat hat ein Volumen $\neq$ 0, d.h. die Detrminante ist ungleich 0, hier ergibt die Determinante 2.\\
+Das Spatprodukt geht nur mit 3 3D-Vektoren, die allgemeine Determinantenmethode geht mit $n$ $n$D-Vektoren\\
+Entstünde beim LGS eine Mullzeile, kann ein Parameter frei gewählt werden, hierbei kann man diesen z.B. durch $\lambda$ ersetzen.\
+Da i.A. $\lambda \neq 0$ gewählt werden darf, sind die Vektoren linear abhängig, d.h. die liegen in einer Ebene,\\
+$->$ Das von den Vektoren Aufgespannte Spat hat ein Volumen = 0, d.h. die Determinante würde hierbei 0 ergeben.\\
+\\
+Linear abhängig heißt, dass einige Vektoren durch andere desselben Satzes ausdrückbar sind.\\
+\begin{equation*}
+\left(\begin{array}{c}
+    0 \\ i \\ -i
+\end{array}\right)=-i\left[\left(\begin{array}{c}
+    -1 \\ 0 \\ 1
+\end{array}\right)+\left(\begin{array}{c}
+    1 \\ -1 \\ 0
+\end{array}\right)\right]
+\end{equation*}
+Def.: Die Maximalzahl linearunabhängiger Vektoren in der Menge V heißt Dimension des Vektorraums.\\
+\\
+Beispiel:\\
+\begin{center}
+    \begin{tabular}{c c} 
+     \hline
+     Vorstellung & Dimension \\ 
+     \hline
+     Punkt & 0\\ 
+     Gerade & 1 \\ 
+     Ebene & 2\\
+     Raum & 3\\
+     \hline
+    \end{tabular}
+    \end{center}
+$->$ Die Vektoren ${\vec{o},\vec{a}}$ sind immer linear abhängig.\\
+$->$ m $>$ n n-dimensionale Vektore sind immer linear abhängig.\\
+Def.: Eine Menge B, die die Maximalzahl lineat unabhängiger Vektoren in der Menge V enthält, heißt Basis des Vekotrraumes V. Jeder Vektor $\vec{a_i}$ Element in V lässt sich als Linearkombination der Basisvektoren $\vec{b_j}$ Element in B c V. darstellen:\\
+\begin{equation*}
+    \vec{a_i}=\sum_{k=1}^{n}\alpha_{ki} \vec{b_k} = \left(\alpha_{1i},\alpha_{2i},\alpha_{3i},\dots,\alpha_{ni}\right)
+\end{equation*}
+Dies ist die Komponentendarstellung\\
+\\
+Anmerkung: Im allgemeinen gibt es mehr als nur eine mögliche Basis.\\Aber: Die Anzahl der linear unabhängigen Basisvektoren ist immer gleich der Dimensionalität.\\
+\\
+\\
+Beispiel: 3D-Raum\\
+Basis:\\
+\begin{equation*}
+    i = \left(\begin{array}{c}
+        1 \\ 0 \\ 0
+    \end{array}\right), j = \left(\begin{array}{c}
+        0 \\ 1 \\ 0
+    \end{array}\right), k = \left(\begin{array}{c}
+        0 \\ 0 \\ 1
+    \end{array}\right)
+\end{equation*}
+Beliebiger Vektor darstellbar durch
+\begin{equation*}
+    \vec{a_i}=\sum_{k=1}^{n}\alpha_{ki}\vec{b_k}
+\end{equation*}
+Zum Beispiel:
+\begin{equation*}
+    \left(\begin{array}{c}
+        3 \\ 1 \\ -1
+    \end{array}\right) = 3i + j - k
+\end{equation*}
+Diese abkürzende Schreibweise gibt nur die Koeffizienten $\alpha_{ki}$ an, nicht die Basisvektoren. Sie macht aber ohne Festlegung der Basisvektoren keinen Sinn, denn in anderer Basis sind die Koeffizienten im Allgemeinen anders.\\
+\\
+Neue Basis (ausgedrückt in alter Basis i, j, k)
+\begin{equation*}
+    \vec{l}=\left(\begin{array}{c}
+        1 \\ 1 \\ 0
+    \end{array}\right)_{ijk} = i + j 
+\end{equation*}
+\begin{equation*}
+    \vec{m}=\left(\begin{array}{c}
+        1 \\ -1 \\ 0
+    \end{array}\right)_{ijk} = i - j
+\end{equation*}
+\begin{equation*}
+    \vec{n}=\left(\begin{array}{c}
+        0 \\ 0 \\ -1
+    \end{array}\right)_{ijk} = -k
+\end{equation*}
+Selber Vektor von oben in neuer Basis:
+\begin{equation*}
+    \left(\begin{array}{c}
+        3 \\ 1 \\ -1
+    \end{array}\right)_{ijk} = 2 \left(\begin{array}{c}
+        1 \\ 1 \\ 0
+    \end{array}\right)_{ijk} + \left(\begin{array}{c}
+        1 \\ -1 \\ 0
+    \end{array}\right)_{ijk} + \left(\begin{array}{c}
+        0 \\ 0 \\ -1
+    \end{array}\right)_{ijk}
+\end{equation*}
+\begin{equation*}
+    \left(\begin{array}{c}
+        3 \\ 1 \\ -1
+    \end{array}\right)_{ijk} = 2 \vec{l} + \vec{m} + \vec{n} = \left(\begin{array}{c}
+        2 \\ 1 \\ 1
+    \end{array}\right)_{lmn} 
+\end{equation*}
+Beispiel: $\left\{1,x,x^2,\dots\right\}$ bilden die Basis der unendlich dimensionalen Vektorraums der Polynome.\
+\begin{equation*}
+    P_5\left(x\right)=7+3x^2+4x^3-x^5
+\end{equation*}
+ist darstellbar als
+\begin{equation*}
+    \left(7,0,3,4,0,-1\right)
+\end{equation*}
+Dies sind die jeweiligen Koeffizienten.\\
+Def.: Eine Teilmenge von Vektoren eines Vektorraums $\mathbb{V}$ bildet einen Untervektorraum $\mathbb{U}$, wenn alle Kriterien einer Vektorraumes erfüllt werden.\\
+Trivial: $\left\{\vec{o}\right\}$ sowie $\mathbb{V}$ sind Untervektorräume von $\mathbb{V}$.\\
+Beispiel:\\
+Gerade ist eindimensionaler Unterraum einer Ebene.
+Ebene ist zweidimensionaler Unterraum des 3D-Raums.
+\subsection{Spezielle lineare Vektorräume}
+\subsubsection{Euklidische Vektorräume}
+a) Def.: Eine mathematische Operation $\varphi$, die zwei Vektoren eines Vektorraums $\mathbb{V}$ eine reelle Zahl zuordnet, heißt Skalarprodukt, wenn gilt:\\
+für $\vec{a},\vec{b},\vec{c} \in \mathbb{V}$\\
+\begin{itemize}
+    \item[1)] Distributivgesetz
+    \item[2)] Kommutativgesetz
+    \item[3)] Homogenität $x \in \mathbb{R}$\\\\
+    $\varphi\left(x\vec{a},\vec{b}\right)=\varphi\left(\vec{a},x\vec{b}\right)=x\varphi\left(\vec{a},\vec{b}\right)$
+    \item positive Definitheit\\\\
+    $\varphi\left(\vec{a},\vec{a}\right) > 0$ für $\vec{a} \neq \vec{0}$
+\end{itemize}
+Beispiel: Skalarprodukt zwischen
+\begin{equation*}
+    \vec{a}=\left(x_a,y_a\right),\vec{b}=\left(x_b,y_b\right)
+\end{equation*}
+\begin{equation*}
+    => \vec{a}\vec{b}=x_ax_b+y_ay_b
+\end{equation*}
+Beispiel Skalarprodukt zwischen $|a\rangle =a(x), |b\rangle =b(x)$
+\begin{equation*}
+    => \varphi\left(a,b\right) = <a|b\rangle =\int a(x)b(x)dx
+\end{equation*}
+\\
+b) Def.: Die Norm (Länge) eines Vektors $\vec{a}\in\mathbb{V}$ ist von der Definition her:
+\begin{equation*}
+    ||\vec{a}|| = \sqrt{\varphi\left(\vec{a},\vec{a}\right)}=\sqrt{\vec{a}\cdot\vec{a}}
+\end{equation*}
+Anmerkung: Das ist eine von unendlich vielen möglichen Norm-Definitionen\\
+Einheitsvektor, normierter Vektor $\hat{a}: ||\hat{a}|| = 1$
+\begin{equation*}
+    \hat{a}=\frac{\vec{a}}{||\vec{a}||}
+\end{equation*} 
+für $\vec{a} \neq \vec{o}$\\
+Winkel zwischen zwei Vektoren
+\begin{equation*}
+    \cos\gamma = \frac{\varphi \left(\vec{a},\vec{b}\right)}{||\vec{a}||\cdot||\vec{b}||}=\frac{\vec{a}\vec{b}}{||\vec{a}||\cdot||\vec{b}||}
+\end{equation*}
+Zwei Vektoren sind orthogonal, wenn $\varphi\left(\vec{a},\vec{b}\right)=\vec{a}\vec{b}=0$ gilt:\\
+Spezialfall $\vec{o}\vec{a}=0$ für alle $\vec{a}$\\
+Anmerkung: Bisher war der Betrag des Vektors $\vec{a}\left(x_a,y_a\right)$ gegeben als:\\\\
+$|\vec{a}|=\sqrt{x_a^2+y_a^2+z_a^2}$\\\\
+Warum als $||\vec{a}||$?\\\\
+Verallgemeinerung auf Funktionen erfordert eine Unterscheidung.\\
+Betragsbildung:
+\begin{equation*}
+    f(x)=-x^2, |f|=|-x^2|=x^2; x \in \mathbb{R}
+\end{equation*}
+Normbildung:
+\begin{equation*}
+    f(x)=-x^2, ||f||=\left[\int_{x_1}^{x_2} \left(-x^2\right)^2  \,dx \right]^\frac{1}{2}
+\end{equation*}
+\begin{equation*}
+    =\left[\int_{x_1}^{x_2} x^4  \,dx \right]^\frac{1}{2} = \left[\frac{x^5}{5}|_{x_1}^{x_2}\right]^\frac{1}{2}=\mathrm{Zahl}
+\end{equation*}
+c) Def.: Ein Satz von Basisvektoren $\left\{\vec{e_i}\right\}$ heißt Orthonormalsystem (orthonomiert), wenn gilt:\\
+\begin{equation*}
+    \varphi\left(\hat{e_i}, \hat{e_j}\right) = \hat{e_i} \hat{e_j} = \delta_{ij} = 1 \left(i = j\right) \mathrm{bzw.} 0 \left(i \neq j\right)
+\end{equation*}
+Ist die Anzahl der Basisvektoren gleich der DImension des Vektorraums, so geiüt die Basis vollständig.\
+(\underline{V}ollständig \underline{O}rtho\underline{N}ormal\underline{S}ystem, VONS)\\
+Satz: Sind die $m \leq n$ Vektoren $\vec{e_1},\vec{e_2},\vec{e_3},\dots,\vec{e_m}$ in $\mathbb{V}^n$ paarweise zueinander orthogonal, so sind sie auch linear unabhängig. (Die Untersuchung des Satzes gilt nicht!)\\
+Beispiel: Basisvektoren $\left\{\hat{i},\hat{j},\hat{k}\right\}$ des dreidimensionalen Raums: karthesisches Koordinatensystems\\
+Jeder Vektor $\vec{a} \in \mathbb{V}$ lässt sich nach einem VONS entwickeln.
+\begin{equation*}
+    \vec{a}=\sum_{i=1}^{n}a_i\hat{e_i}=\left(a_1,a_2,\dots,a_n\right)
+\end{equation*}
+$\vec{a}=\left(\begin{array}{c}
+    3 \\ 2 \\ 1
+\end{array}\right)$ nach $\hat{i},\hat{j},\hat{k}$ entwickeln: $\vec{a}=3\hat{i}+2\hat{j}+\hat{k}$
+Komponentendarstellung des Skalarprodukts (in einem Orthonormalsystem)\\
+\begin{equation*}
+    \vec{a}\cdot\vec{b}=\left(\sum_{i=1}^{n}a_i\hat{e_i}\right)\left(\sum_{j=1}^{n}b_j\hat{e_j}\right)=\sum_{i=1}^{n}\sum_{j=1}^{n}a_ib_j(\hat{e_i}\hat{e_j}) = \sum_{i=1}^{n}a_ib_i
+\end{equation*}
+Wobei $\hat{e_i}\hat{e_j} = \delta_{ij}$
+c) Konsturktion eines ONS aus linear unabhängigen Vektoren\\
+Das Gramschmidsche Orthogonalitätsverfahren.\\\\
+gegeben: linear unabhängiger, jedoch nicht notwendigerweise normierter und nicht notwendigerweise orthogonale Vektoren $\left\{\vec{a_i}\right\}$.\\\\
+gesucht:ONS im von $\left\{\vec{a_i}\right\}$ aufgespannten Vektorraum.\\\\
+Vorgehen:\\
+\begin{itemize}
+    \item[1)] Normierung von $\vec{a_1}: \hat{a_1}=\frac{\vec{a_1}}{||\vec{a_1}||}$
+    \item[2)] Setze $i=2$
+    \item[3)] Orthogonalisierung von $\vec{a_i}$ auf alle $\vec{a_j}$ mit $j < i$\\\\
+                $\vec{a_1}'=\vec{a_i}-\sum_{j=1}^{i-1}\left(\hat{a_j}\vec{a_i}\right)\hat{a_j}$\\\\wobei $\hat{a_j}\vec{a_i}$ die Komponente von $\vec{a_i}$ in Richtung von $\hat{a_j}$ ist
+\begin{center}
+    Notiz: \textbf{Das Skalarprodukt eines Vektors $\vec{\mathbf{r}}$ mit einem Einheitsvektor $\hat{\mathbf{e}}$ ergibt die Projektion von $\vec{\mathbf{r}}$ auf die Richtung von $\hat{\mathbf{e}}$}
+\end{center}
+    \item[4)] Normierung von $\vec{a_i}': \hat{a_i}=\frac{\vec{a_i}'}{||\vec{a_i}||}$
+    \item[5)] Erhöhe $i$ um 1 für $i < n$ und gehe zurück zu 3), ansonsten fertig, wenn $i=n$ 
+\end{itemize}
+Beispiel:\\
+VONS aus
+\begin{equation*}
+    \left\{
+    \left(\begin{array}{c}
+        1 \\ 1 \\ 0
+    \end{array}\right) + \left(\begin{array}{c}
+        1 \\ 0 \\ 1
+    \end{array}\right) + \left(\begin{array}{c}
+        0 \\ 1 \\ 1
+    \end{array}\right)
+    \right\} = \left\{\vec{a_1},\vec{a_2},\vec{a_3}\right\}
+\end{equation*}
+Lineare Unabhängigkeit, da das Bilden der Determinanten $\neq 0$ als Ergebnis liefert.\\
+\begin{itemize}
+    \item[1)] Normierung von $\vec{a_1}: \hat{a_1}=\frac{\vec{a_1}}{||\vec{a_1}||}=\frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ 1 \\ 0\end{array}\right)$
+    \item[2)] Orthogonalisierung von $\vec{a_2}$ auf $\hat{a_1}$:\\\\
+    \begin{equation*}
+        \left(\vec{a_2}\cdot\hat{a_1}\right) = \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ 1 \\ 0\end{array}\right)\left(\begin{array}{c}1 \\ 0 \\ 1\end{array}\right)=\frac{1}{}\sqrt{2}
+    \end{equation*}
+    \begin{equation*}
+        \left(\vec{a_2}\cdot\hat{a_1}\right)\hat{a_1}=\frac{1}{\sqrt{2}}\cdot\frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ 1 \\ 0\end{array}\right)=\frac{1}{2}\left(\begin{array}{c}1 \\ 1 \\ 0\end{array}\right)
+    \end{equation*}
+    \begin{equation*}
+        \vec{a_2}'=\vec{a_2}-\left(\vec{a_2}\hat{a_1}\right)\hat{a_1}=\left(\begin{array}{c}1 \\ 0 \\ 1\end{array}\right)-\frac{1}{2}\left(\begin{array}{c}1 \\ 1 \\ 0\end{array}\right)=\left(\begin{array}{c}\frac{1}{2} \\ -\frac{1}{2} \\ 1\end{array}\right) \approx \left(\begin{array}{c}1 \\ -1 \\ 2\end{array}\right)
+    \end{equation*}
+    \item[3)] Normierung von $\vec{a_2}'$\\\\$\hat{a_2}=\frac{\vec{a_2}'}{||\vec{a_2}'||}=\frac{1}{\sqrt{6}}\left(\begin{array}{c}1 \\ -1 \\ 2\end{array}\right)$
+    \item[4)] Orthogonalisierung von $\vec{a_3}$ auf $\hat{a_1}$ und $\vec{a_2}$\\
+        \begin{equation*}
+            \vec{a_3}'=\vec{a_3}-\left(\vec{a_3}\hat{a_1}\right)\hat{a_1}-\left(\vec{a_3}\hat{a_2}\right)\hat{a_2}
+        \end{equation*}
+        \begin{equation*}
+            \left(\vec{a_3}\hat{a_1}\right)=\frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ 1 \\ 0\end{array}\right)\left(\begin{array}{c}0 \\ 1 \\ 1\end{array}\right)=\frac{1}{\sqrt{2}}
+        \end{equation*}
+        \begin{equation*}
+            \left(\vec{a_3}\hat{a_1}\right)\hat{a_1}=\frac{1}{\sqrt{2}}\frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ 1 \\ 0\end{array}\right)=\frac{1}{2}\left(\begin{array}{c}1 \\ 1 \\ 0\end{array}\right)
+        \end{equation*}
+        \begin{equation*}
+            \left(\vec{a_3}\hat{a_2}\right)=\frac{1}{\sqrt{6}}\left(\begin{array}{c}1 \\ -1 \\ 2\end{array}\right)\left(\begin{array}{c}0 \\ 1 \\ 1\end{array}\right)=\frac{1}{\sqrt{6}}\left(-1+2\right)=\frac{1}{\sqrt{6}}
+        \end{equation*}
+        \begin{equation*}
+            \left(\vec{a_3}\hat{a_2}\right)\hat{a_2}=\frac{1}{\sqrt{6}}\frac{1}{\sqrt{6}}\left(\begin{array}{c}1 \\ -1 \\ 2\end{array}\right)=\frac{1}{6}\left(\begin{array}{c}1 \\ -1 \\ 2\end{array}\right)
+        \end{equation*}
+        \begin{equation*}
+            \vec{a_3}'=\left(\begin{array}{c}0 \\ 1 \\ 1\end{array}\right)-\frac{1}{2}\left(\begin{array}{c}1 \\ 1 \\ 0\end{array}\right)-\frac{1}{6}\left(\begin{array}{c}1 \\ -1 \\ 2\end{array}\right)=\left(\begin{array}{c}-\frac{4}{6} \\ \frac{4}{6} \\ \frac{4}{6}\end{array}\right)=\left(\begin{array}{c}1 \\ -1 \\ -1\end{array}\right)
+        \end{equation*}
+    \item[5)] Normierung von $\vec{a_3}': \hat{a_3}=\frac{\vec{a_3}'}{||\vec{a_3}'||}=\frac{1}{\sqrt{3}}\left(\begin{array}{c}1 \\ -1 \\ -1\end{array}\right)$
+    \item[Test:] \begin{equation*}
+        \det\left(\hat{a_1},\hat{a_2},\hat{a_3}\right)=\frac{1}{\sqrt{2}}\frac{1}{\sqrt{6}}\frac{1}{\sqrt{3}}\begin{vmatrix} 
+
+            1 & 1  & 1 \\ 
+    
+            1 & -1 & -1 \\ 
+    
+            0 &  2 & 1 \\  
+    
+        \end{vmatrix}=\frac{1}{6}\left(1+2+2+1\right)=1
+    \end{equation*} 
+    Das Ergebnis eines VONS-Rechtssystemes ist \textbf{\underline{IMMER}} 1!
+\end{itemize}
+\subsection{Lineare Operatoren}
+\subsubsection{Grundlagen}
+Def.: Ein Operator $A$ ist eine (Rechen-) Vorschrif, durch welche einem Vektor $|a\rangle $ (einer Funktion $a$) ein Vektor $|b\rangle $ (eine Funktion b) zugeorddnet werden kann.
+\begin{equation*}
+    A|a\rangle  = |b\rangle 
+\end{equation*}
+Für einen linearen Operator gilt:
+\begin{equation*}
+    A\left(|a\rangle  + |b\rangle \right)=A|a\rangle + A|b\rangle 
+\end{equation*}
+\begin{equation*}
+    A\left(\alpha|a\rangle \right) = \alpha \left(A|a\rangle \right)
+\end{equation*}
+Dies gilt für alle $|a\rangle , |b\rangle  \in \mathbb{V}$ und $\alpha \in \mathbb{R}$\\
+Satz: Ist $A, B$ linear, so ist auch $(A+B), (A\cdot B)$ linear\\
+Beispiele: Translation, Rotation, Inversion, $\dots$
+\end{document}
