@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.12)  16 APR 2023 17:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  20 APR 2023 11:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/mgils/Desktop/LaTex/Anorganik Vorlesungen/Seminare/Anorganik Seminar.tex"
-(c:/Users/mgils/Desktop/LaTex/Anorganik Vorlesungen/Seminare/Anorganik Seminar.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-03-30> (E:\LaTex-Stuff\MikTex\tex/latex/base\article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(E:\LaTex-Stuff\MikTex\tex/latex/base\size10.clo
-File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+**"c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/AC I/Seminare/Anorganik Seminar.tex"
+(c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/AC I/Seminare/Anorganik Seminar.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28> (D:\MikTex\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(D:\MikTex\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -19,46 +19,46 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count190
 \c@figure=\count191
 \c@table=\count192
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
-) (E:\LaTex-Stuff\MikTex\tex/latex/mhchem\mhchem.sty
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (D:\MikTex\tex/latex/mhchem\mhchem.sty
 Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
- (E:\LaTex-Stuff\MikTex\tex/latex/l3kernel\expl3.sty
-Package: expl3 2023-03-30 L3 programming layer (loader) 
- (E:\LaTex-Stuff\MikTex\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
+ (D:\MikTex\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-09-28 L3 programming layer (loader) 
+ (D:\MikTex\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count193
 \l__pdf_internal_box=\box51
-)) (E:\LaTex-Stuff\MikTex\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-Package: l3keys2e 2023-01-16 LaTeX2e option processing using LaTeX3 keys
-) (E:\LaTex-Stuff\MikTex\tex/latex/tools\calc.sty
+)) (D:\MikTex\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+) (D:\MikTex\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count194
 \calc@Bcount=\count195
-\calc@Adimen=\dimen141
-\calc@Bdimen=\dimen142
-\calc@Askip=\skip50
-\calc@Bskip=\skip51
+\calc@Adimen=\dimen139
+\calc@Bdimen=\dimen140
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count196
-\calc@Cskip=\skip52
-) (E:\LaTex-Stuff\MikTex\tex/latex/amsmath\amsmath.sty
+\calc@Cskip=\skip51
+) (D:\MikTex\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip53
+\@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(E:\LaTex-Stuff\MikTex\tex/latex/amsmath\amstext.sty
+(D:\MikTex\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (E:\LaTex-Stuff\MikTex\tex/latex/amsmath\amsgen.sty
+ (D:\MikTex\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
-\ex@=\dimen143
-)) (E:\LaTex-Stuff\MikTex\tex/latex/amsmath\amsbsy.sty
+\ex@=\dimen141
+)) (D:\MikTex\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen144
-) (E:\LaTex-Stuff\MikTex\tex/latex/amsmath\amsopn.sty
+\pmbraise@=\dimen142
+) (D:\MikTex\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count197
@@ -78,7 +78,7 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen145
+\big@size=\dimen143
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count268
@@ -96,46 +96,48 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \column@=\count273
 \maxfields@=\count274
 \andhelp@=\toks18
-\eqnshift@=\dimen146
-\alignsep@=\dimen147
-\tagshift@=\dimen148
-\tagwidth@=\dimen149
-\totwidth@=\dimen150
-\lineht@=\dimen151
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
 \@envbody=\toks19
-\multlinegap=\skip54
-\multlinetaggap=\skip55
+\multlinegap=\skip53
+\multlinetaggap=\skip54
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (E:\LaTex-Stuff\MikTex\tex/latex/chemgreek\chemgreek.sty (E:\LaTex-Stuff\MikTex\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2023-01-16 L3 Experimental document command parser
+) (D:\MikTex\tex/latex/chemgreek\chemgreek.sty (D:\MikTex\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2022-06-22 L3 Experimental document command parser
 )
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
 \l__chemgreek_tmpa_int=\count275
 \g__chemgreek_tmpa_int=\count276
-) (E:\LaTex-Stuff\MikTex\tex/latex/graphics\graphics.sty
+) (D:\MikTex\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (E:\LaTex-Stuff\MikTex\tex/latex/graphics\trig.sty
+ (D:\MikTex\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (E:\LaTex-Stuff\MikTex\tex/latex/graphics-cfg\graphics.cfg
+) (D:\MikTex\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (E:\LaTex-Stuff\MikTex\tex/latex/graphics-def\pdftex.def
+ (D:\MikTex\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen150
+\stockheight=\dimen151
 ))
 \l__mhchem_ce_distanceFromLastComma_int=\count277
-\__mhchem_arrow_extPgfLength_skip=\skip56
-\mhchem@minispace@tmp=\skip57
-\mhchem@minibackspace@tmp=\skip58
-\mhchem@bondwidth=\skip59
-\mhchem@bondheight=\skip60
-\mhchem@smallbondwidth@tmpA=\skip61
-\mhchem@smallbondwidth@tmpB=\skip62
-\mhchem@smallbondwidth=\skip63
-\mhchem@bondtmp@minussidebearingleft=\skip64
-\mhchem@bondtmp@minussidebearingright=\skip65
+\__mhchem_arrow_extPgfLength_skip=\skip55
+\mhchem@minispace@tmp=\skip56
+\mhchem@minibackspace@tmp=\skip57
+\mhchem@bondwidth=\skip58
+\mhchem@bondheight=\skip59
+\mhchem@smallbondwidth@tmpA=\skip60
+\mhchem@smallbondwidth@tmpB=\skip61
+\mhchem@smallbondwidth=\skip62
+\mhchem@bondtmp@minussidebearingleft=\skip63
+\mhchem@bondtmp@minussidebearingright=\skip64
 \l__mhchem_option_version_int=\count278
 \mhchem@option@minusmathsidebearingleft=\dimen152
 \mhchem@option@minusmathsidebearingright=\dimen153
@@ -169,7 +171,7 @@ LaTeX Font Info:    ... okay on input line 3.
 
 Package chemgreek Info: Activating mapping `default' on line 3.
 
- (E:\LaTex-Stuff\MikTex\tex/context/base/mkii\supp-pdf.mkii
+ (D:\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count279
 \scratchdimen=\dimen156
@@ -182,26 +184,26 @@ Package chemgreek Info: Activating mapping `default' on line 3.
 \MPnumerator=\count283
 \makeMPintoPDFobject=\count284
 \everyMPtoPDFconversion=\toks22
-) (E:\LaTex-Stuff\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (D:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (E:\LaTex-Stuff\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
+ (D:\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) [1
 
 {C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (Anorganik Seminar.aux) ) 
 Here is how much of TeX's memory you used:
- 2972 strings out of 476326
- 53709 string characters out of 5798509
- 1849660 words of memory out of 5000000
- 23421 multiletter control sequences out of 15000+600000
- 512892 words of font info for 34 fonts, out of 8000000 for 9000
+ 2978 strings out of 475385
+ 53268 string characters out of 2793322
+ 410501 words of memory out of 3000000
+ 24369 multiletter control sequences out of 15000+600000
+ 470804 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,5n,76p,425b,111s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on "Anorganik Seminar.pdf" (1 page, 19913 bytes).
+ 69i,5n,76p,442b,122s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on "Anorganik Seminar.pdf" (1 page, 30495 bytes).
 PDF statistics:
- 16 PDF objects out of 1000 (max. 8388607)
+ 21 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

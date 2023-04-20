@@ -4,6 +4,8 @@
 \usepackage{xcolor}
 \usepackage{amsmath}
 \usepackage{tikz}
+\usepackage{chemfig}
+\usepackage{amsmath}
 \begin{document}
 \section{Thermodynamik für Knechte}
 \subsection{Was ist Thermodynamik?}
@@ -301,7 +303,91 @@ Impulsübertragung:
 \end{equation*}
 Wichtig: $p_A$ ist hier der Impuls
 \begin{equation*}
-    \frac{dp_A}{dt}=\frac{d\left(mv\right)}{dt}=m\frac{dv}{dt}=ma=F; p = \frac{F}{A}=\frac{1}{3}\frac{N}{V}m\langle v\rangle ^2= \frac{1}{3}\frac{N}{V}m \langle v^2 \rangle
+    \frac{dp_A}{dt}=\frac{d\left(mv\right)}{dt}=m\frac{dv}{dt}=ma=F
+\end{equation*}
+\begin{equation*}
+    p = \frac{F}{A}=\frac{1}{3}\frac{N}{V}m\langle v\rangle ^2= \frac{1}{3}\frac{N}{V}m \langle v^2 \rangle
 \end{equation*}
 Wichtig: $p$ ist hier wieder der Druck
+\begin{equation*}
+    p=\frac{1}{3}\frac{N}{V}m\left\langle v^2 \right\rangle 
+\end{equation*}
+\\
+Für 1 Mol:
+\begin{equation*}
+    pV_m=\frac{1}{3}N_Am\langle v^2\rangle = \frac{2}{3}N_AE_{kin}=RT
+\end{equation*}
+\begin{equation*}
+    \sqrt{\langle v^2 \rangle} = \sqrt{\frac{3RT}{M}}
+\end{equation*}
+\\
+Stoßzahl:
+\begin{equation*}
+    z_1=\sqrt{2}\langle v\rangle \sigma \frac{N}{V}
+\end{equation*}
+Wobei $\sigma$ die Kriesfläche eines Zylinders ist, in welchem sich das Tielchen fortbewegt.\\
+Mittlere freie Wellenlänge: 
+\begin{equation*}
+    \lambda = \frac{\langle v \rangle}{z_1}=\frac{1}{\sqrt{2}\sigma\frac{N}{V}}
+\end{equation*}
+\begin{equation*}
+    pV = nRT; R = N_Ak_B; n=\frac{N}{N_A}
+\end{equation*}
+damit:
+\begin{equation*}
+    \frac{N}{V}=\frac{p}{k_BT}=\frac{1}{\sqrt{2}\sigma\frac{p}{k_BT}}
+\end{equation*}
+\subsection{Intermolekulare Wechselwirkungen}
+elektrischer Dipol.\\
+\begin{center}
+    \chemfig{H-Cl}
+\end{center}
+Bei \ce{H} liegt $\delta^+$, bei \ce{Cl} $\delta^-$ somit geht $\vec{\mu}$ von \ce{Cl} zu \ce{H}, von $\delta^-$ zu $\delta^+$\\
+\begin{equation*}
+    \vec{\mu} = q \vec{R}
+\end{equation*}
+Wobei $q$ die Ladung ist und $\vec{R}$ der Abstand\\\\
+induzierter Dipol:
+\begin{equation*}
+    \vec{\mu_{ind}}=\alpha \vec{E}
+\end{equation*}
+Wobei $\alpha$ die Polarisierbarkeit ist und $\vec{E}$ das elektrische Feld.\\
+\begin{center}
+    $\cdot$\chemfig{H-H}$\cdot$ \ce{->} $\cdot$$\cdot$\chemfig{H-H}
+\end{center}
+Momentanes Dipolmoment.\\\\
+Es gibt folgende Wechselwirkungen:
+\begin{itemize}
+    \item elektirscher Dipol - elektrischer Dipol
+    \item elektrischer Dipol - induzierter Dipol
+    \item momentaner Dipol - induzierter Dipol
+\end{itemize}
+Alle Dipol-Dipol-Wechselwirkungen \textcolor{gray}{(Van-der-Waals-Wechselwirkungen)}\\
+$E_{WW} \propto 1\frac{1}{R^6}$\\
+\begin{tikzpicture}
+    \draw[thick,->] (0,4) -- (4.5,4) node[anchor=west] {T};
+    \draw[thick,->] (0,0) -- (0,8) node[anchor=east] {p};
+    \draw[red] (0.3 ,8) .. controls (0.5 ,4.5) and (1.5 ,4.4) .. (4 ,4.1) node[] {\textcolor{black}{Abstoßend}};
+    \draw[blue] (0.7 ,0) .. controls (1 ,3) and (3 ,3.4) .. (4 ,3.8) node[] {\textcolor{black}{Anziehen}};
+    \draw (0.3 ,8) .. controls (0.5 ,-1) and (2.5 ,3.8) .. (4 ,3.8) node[] {\textcolor{black}{$E_{gesamt}$}};
+\end{tikzpicture}
+\begin{equation*}
+    E_{gesamt}=4\epsilon\left\{\left(\frac{r_0}{R}\right)^{12}-\left(\frac{r_0}{R}\right)^6\right\}
+\end{equation*}
+Lennard Jones Potential, wobei $\epsilon$ mol. Parameter: $\mu, \alpha$
+\subsection{Reale Gase}
+Kompressabilitätsfaktor:
+\begin{equation*}
+    Z=\frac{pV}{nRT}=1+\dots
+\end{equation*}\\
+Lösugsansätze:
+\begin{itemize}
+    \item Korrekturterme $\rightarrow$ Van der Waals Gasgleichung
+    \item Reihenenwicklung $\rightarrow$ Virial Gleichung
+\end{itemize}
+\subsubsection{Van der Waals Gleichung}
+\begin{itemize}
+    \item[1)] Eingenvolumen\\ Kovolumen: $\frac{\frac{4}{3}\pi\left(2r\right)^3}{2}=4V_{Molek.} \Rightarrow p=\frac{nRT}{V-nb}$ wobei $b=4V_{Molek.}N_A$
+    \item[2)] Anziehung der Moleküle: $-a\left(\frac{n}{V}\right)^2 \Rightarrow p=\frac{nRT}{V-nb}-a\left(\frac{n}{V}\right)^2$\\$p=\frac{RT}{V_m-b}-\frac{a}{V_m^2}$
+\end{itemize}
 \end{document}
