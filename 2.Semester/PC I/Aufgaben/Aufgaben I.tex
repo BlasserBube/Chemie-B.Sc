@@ -1,0 +1,77 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{mhchem}
+\usepackage{chemfig}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section{Aufgaben - Woche 1}
+\subsection{Aufgabe 1.1}
+\begin{equation*}
+    p = \frac{nRT}{V}; n=\frac{m}{M}
+\end{equation*}
+\begin{equation*}
+    p = \frac{mRT}{MV}
+\end{equation*}
+\begin{equation*}
+    M = \frac{mRT}{pV} = \frac{\SI{2.55}{g}\cdot\SI{373.15}{K}\cdot\SI{8.314}{\frac{J}{mol\cdot K}}}{\SI{101325}{kPa}}= \SIlist{78.08}{\frac{g}{mol}}
+\end{equation*}
+Für den Stoff mit der Formel \ce{C6H6} ergibt die Molmasse\\$M=6\cdot M(\ce{C})+ 6\cdot M(\ce{H}) = \SI{78.08}{\frac{g}{mol}}$ 
+
+\subsection{Aufgabe 1.2}
+Für den Druck gilt:
+\begin{equation*}
+    p_H=\frac{nRT}{V}=\frac{\SI{2}{mol}\cdot \SI{273.15}{K} \cdot \SI{8.135}{\frac{J}{mol\cdot K}}}{\SI{0.0224}{m^3}} = \SI{99187}{\frac{N}{m}}
+\end{equation*}
+\begin{equation*}
+    p_N=\SI{198375,2}{\frac{N}{m}}
+\end{equation*}
+Die Reaktion läuft nach folgender Gleichung ab:\\
+\ce{3H2 + N2 -> NH3}\\
+Somit ergibt der Druck nach der vollständigen Umsetzung:
+\begin{equation*}
+    p_{Ges}=\frac{3}{4}p_H + \frac{1}{4}p_N = \SI{198375,2}{\frac{N}{m}}
+\end{equation*}
+
+\subsection{Aufgabe 1.3}
+a)
+\begin{equation*}
+    dp = \left(\frac{\partial p}{\partial V}\right)_T dV + \left(\frac{\partial p}{\partial T}\right)_V dT
+\end{equation*}
+b)
+\begin{equation*}
+    d^2p=\frac{2nR}{V^3}d^2V-2\frac{nR}{V^2}dTdV
+\end{equation*}
+
+\subsection{Aufgabe 1.4}
+a)
+\begin{equation*}
+    \alpha = \frac{nR}{Vp} = \frac{1}{T}
+\end{equation*}
+\begin{equation*}
+    \beta = \frac{nR}{pV} = \frac{1}{T}
+\end{equation*}
+\begin{equation*}
+    K = \frac{nRT}{p^2V}=\frac{1}{n}
+\end{equation*}
+b)
+\begin{equation*}
+    \alpha = \beta K p
+\end{equation*}
+\begin{equation*}
+    \frac{1}{V}\left(\frac{\partial V}{\partial T}\right)_p = \left(\frac{\partial p}{\partial T}\right)_V\cdot \left(-\frac{1}{V}\right)\left(\frac{\partial V}{\partial p}\right)_T
+\end{equation*}
+\begin{equation*}
+    \left(\frac{\partial V}{\partial T}\right)_p\left(\frac{\partial p}{\partial T}\right)_V\left(\frac{\partial V}{\partial p}\right)_T = -1
+\end{equation*}
+
+\subsection{Aufgabe 1.5}
+\begin{equation*}
+    \sigma = 4,3\cdot 10^{-19} \mathrm{m}^2
+\end{equation*}
+\begin{equation*}
+    \lambda = \frac{1}{\sqrt{2}\cdot 4,3\cdot 10^{-19} \mathrm{m}^2 \cdot \frac{10^2 \frac{\mathrm{kg}}{\mathrm{m}\cdot\mathrm{s^2}}}{298 \mathrm{K} \cdot 1.38 \cdot 10^{-23}\SI{}{\frac{m^2 kg}{s^2 K}}}} = 6.26 \cdot 10^{-5}\SI{}{m}
+\end{equation*}
+\end{document}
