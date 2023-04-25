@@ -3,12 +3,11 @@
 \usepackage{amsmath}
 \usepackage{mhchem}
 \usepackage{chemfig}
-\usepackage{siunitx}
+\usepackage{xcolor}
 
 \begin{document}
-
-\section{Aufgaben - Woche 1}
-\subsection{Aufgabe 1.1}
+\section*{Aufgaben - Woche 1}
+\subsection*{Aufgabe 1.1}
 \begin{equation*}
     p = \frac{nRT}{V}; n=\frac{m}{M}
 \end{equation*}
@@ -16,26 +15,56 @@
     p = \frac{mRT}{MV}
 \end{equation*}
 \begin{equation*}
-    M = \frac{mRT}{pV} = \frac{\SI{2.55}{g}\cdot\SI{373.15}{K}\cdot\SI{8.314}{\frac{J}{mol\cdot K}}}{\SI{101325}{kPa}}= \SIlist{78.08}{\frac{g}{mol}}
+    M = \frac{mRT}{pV} = \frac{2.55 \mathrm{g}\cdot 373.15 \mathrm{K}\cdot\ 8.314 \mathrm{\frac{J}{mol\cdot K}}}{101325 \mathrm{kPa} }= 78.08 \mathrm{\frac{g}{mol}}
 \end{equation*}
-Für den Stoff mit der Formel \ce{C6H6} ergibt die Molmasse\\$M=6\cdot M(\ce{C})+ 6\cdot M(\ce{H}) = \SI{78.08}{\frac{g}{mol}}$ 
+Für den Stoff mit der Formel \ce{C6H6} ergibt die Molmasse\\$M=6\cdot M(\ce{C})+ 6\cdot M(\ce{H}) = 78.08 \mathrm{\frac{g}{mol}}$ 
 
-\subsection{Aufgabe 1.2}
+\subsection*{Aufgabe 1.2}
+\textcolor{red}{ACHTUNG, dieser Teil der Aufgabe ist falsch.}\\
 Für den Druck gilt:
 \begin{equation*}
-    p_H=\frac{nRT}{V}=\frac{\SI{2}{mol}\cdot \SI{273.15}{K} \cdot \SI{8.135}{\frac{J}{mol\cdot K}}}{\SI{0.0224}{m^3}} = \SI{99187}{\frac{N}{m}}
+    p_H=\frac{nRT}{V}=\frac{ 2 \mathrm{mol}\cdot 273.1 \mathrm{K} \cdot 8.135 \mathrm{\frac{J}{mol\cdot K}}}{ 0.0224 \mathrm{m^3}} = 99187 \mathrm{\frac{N}{m}}
 \end{equation*}
 \begin{equation*}
-    p_N=\SI{198375,2}{\frac{N}{m}}
+    p_N= 198375,2 \mathrm{\frac{N}{m}}
 \end{equation*}
 Die Reaktion läuft nach folgender Gleichung ab:\\
 \ce{3H2 + N2 -> NH3}\\
 Somit ergibt der Druck nach der vollständigen Umsetzung:
 \begin{equation*}
-    p_{Ges}=\frac{3}{4}p_H + \frac{1}{4}p_N = \SI{198375,2}{\frac{N}{m}}
+    p_{Ges}=\frac{3}{4}p_H + \frac{1}{4}p_N = 198375,2 \frac{\mathrm{N}}{\mathrm{m}}
 \end{equation*}
+\\
+Korrekte Lösung:
+\begin{center}
+    \begin{tabular}{c c c c}
+        \hline
+        - & $n_H$ & $n_N$ $n_{NH3}$\\
+        \hline
+        vor: & 2 mol & 1 mol & -\\
+        Reakt: & 2 mol & $\frac{2}{3}$ mol & $\frac{4}{3}$ mol\\
+        nach: & - & $\frac{1}{3}$ mol & $\frac{4}{3}$ mol\\ 
+        \hline
+    \end{tabular}
+\end{center}
+\begin{equation*}
+    n_{ges}=\frac{1}{3} + \frac{4}{3} = \frac{5}{3} ( \mathrm{mol})
+\end{equation*}
+\begin{equation*}
+    p_{ges} = 1,69 \cdot 10^5 Pa
+\end{equation*}
+\begin{equation*}
+    x_i = \frac{n_i}{n_{ges}}
+\end{equation*}
+\begin{equation*}
+    x_H = 0; x_N = \frac{\frac{1}{3}}{\frac{5}{3}}; x_{NH3}=0,8
+\end{equation*}
+\begin{equation*}
+    p_i = x_i \cdot p_{ges}
+\end{equation*}
+Damit berechnen.
 
-\subsection{Aufgabe 1.3}
+\subsection*{Aufgabe 1.3}
 a)
 \begin{equation*}
     dp = \left(\frac{\partial p}{\partial V}\right)_T dV + \left(\frac{\partial p}{\partial T}\right)_V dT
@@ -44,17 +73,24 @@ b)
 \begin{equation*}
     d^2p=\frac{2nR}{V^3}d^2V-2\frac{nR}{V^2}dTdV
 \end{equation*}
+Schwartzschen Satz beweisen:
+\begin{equation*}
+    \frac{\partial^2 p}{\partial V \partial T} = \frac{\partial^2 p}{\partial T \partial V}
+\end{equation*}
+\begin{equation*}
+    -\frac{nr}{V^2} = -\frac{nr}{V^2} 
+\end{equation*}
 
-\subsection{Aufgabe 1.4}
+\subsection*{Aufgabe 1.4}
 a)
 \begin{equation*}
-    \alpha = \frac{nR}{Vp} = \frac{1}{T}
+    \alpha = \frac{1}{V}\left(\frac{\partial V}{\partial T}\right)_p = \frac{1}{\frac{nRT}{p}} \cdot \frac{nR}{p} = \frac{1}{T}
 \end{equation*}
 \begin{equation*}
-    \beta = \frac{nR}{pV} = \frac{1}{T}
+    \beta = \frac{1}{p}\left(\frac{\partial p}{\partial T}\right)_V = \frac{1}{\frac{nRT}{V}} \cdot \frac{nR}{V} = \frac{1}{T}
 \end{equation*}
 \begin{equation*}
-    K = \frac{nRT}{p^2V}=\frac{1}{n}
+    K = -\frac{1}{V}\left(\frac{\partial V}{\partial p}\right)_V = -\frac{1}{\frac{nRT}{V}} \cdot -\left(\frac{nRT}{p^2}\right) = \frac{1}{p}
 \end{equation*}
 b)
 \begin{equation*}
@@ -64,14 +100,108 @@ b)
     \frac{1}{V}\left(\frac{\partial V}{\partial T}\right)_p = \left(\frac{\partial p}{\partial T}\right)_V\cdot \left(-\frac{1}{V}\right)\left(\frac{\partial V}{\partial p}\right)_T
 \end{equation*}
 \begin{equation*}
-    \left(\frac{\partial V}{\partial T}\right)_p\left(\frac{\partial p}{\partial T}\right)_V\left(\frac{\partial V}{\partial p}\right)_T = -1
+    \left(\frac{\partial V}{\partial T}\right)_p = -\left(\frac{\partial p}{\partial T}\right)_V \left(\frac{\partial V}{\partial P}\right)_T   |\cdot \left(\frac{\partial T}{\partial V}\right)_P
+\end{equation*}
+\begin{equation*}
+    \left(\frac{\partial V}{\partial T}\right)_p \left(\frac{\partial T}{\partial V}\right)_p = -\left(\frac{\partial p}{\partial T}\right)_V \left(\frac{\partial V}{\partial P}\right)_T \left(\frac{\partial T}{\partial V}\right)_P
+\end{equation*}
+Da gilt:
+\begin{equation*}
+    \left(\frac{\partial V}{\partial T}\right)_p\left(\frac{\partial p}{\partial T}\right)_V\left(\frac{\partial V}{\partial p}\right)_T = -1 ; \left(\frac{\partial V}{\partial T}\right)_p \left(\frac{\partial T}{\partial V}\right)_p = 1
+\end{equation*}
+Ergibt dies:
+\begin{equation*}
+    1 = 1
 \end{equation*}
 
-\subsection{Aufgabe 1.5}
+\subsection*{Aufgabe 1.5}
 \begin{equation*}
-    \sigma = 4,3\cdot 10^{-19} \mathrm{m}^2
+    \lambda = \frac{\langle v \rangle}{z_1}=\frac{1}{\sqrt{2}\sigma \frac{N}{V}}=\frac{1}{\sqrt{2}\sigma \frac{p}{K_BT}}
+\end{equation*}
+Auf diese GLeichung kommt man mit folgenden Umformungen:
+\begin{equation*}
+     z_1 = \sqrt{2} \langle v \rangle \sigma \frac{N}{V}
 \end{equation*}
 \begin{equation*}
-    \lambda = \frac{1}{\sqrt{2}\cdot 4,3\cdot 10^{-19} \mathrm{m}^2 \cdot \frac{10^2 \frac{\mathrm{kg}}{\mathrm{m}\cdot\mathrm{s^2}}}{298 \mathrm{K} \cdot 1.38 \cdot 10^{-23}\SI{}{\frac{m^2 kg}{s^2 K}}}} = 6.26 \cdot 10^{-5}\SI{}{m}
+    pV = nRT | n = \frac{N}{N_A}
+\end{equation*}
+\begin{equation*}
+    pV = \frac{N}{N_A} RT = NK_BT
+\end{equation*}
+\begin{equation*}
+    p = \frac{N}{V}K_BT
+\end{equation*}
+\begin{equation*}
+    \frac{N}{V} = \frac{p}{K_BT}
+\end{equation*}
+Somit:
+\begin{equation*}
+    \lambda_N = 6.76 \cdot 10^{-5} \mathrm{m}
+\end{equation*}
+
+\subsection*{Aufgabe 1.6}
+\begin{equation*}
+    T_1 = 273.15 \, \mathrm{K}, T_2 = 373.15 \, \mathrm{K}
+\end{equation*}
+\begin{equation*}
+    p_1 = p_2
+\end{equation*}
+\begin{equation*}
+    \frac{n_1 R T_1}{V} = \frac{n_2 R T_2}{V}
+\end{equation*}
+\begin{equation*}
+    n_1 T_1 = n_2 T_2
+\end{equation*}
+\begin{equation*}
+    n_1 + n_2 = n = 2 \, \mathrm{mol}
+\end{equation*}
+\begin{equation*}
+    n_1T_1=(2-n_1)T_2
+\end{equation*}
+\begin{equation*}
+    n_1T_1=2T_2-n_1T_2
+\end{equation*}
+\begin{equation*}
+    n_1(T_1+T_2)=2T_2
+\end{equation*}
+\begin{equation*}
+    n_1\frac{2T_2}{T_1 + T_2} = 0.845 \, \mathrm{mol}
+\end{equation*}
+\begin{equation*}
+    n_2 = 2 - n_1 = 1.155 \, \mathrm{mol}
+\end{equation*}
+\begin{equation*}
+    p = \frac{n_1RT_1}{V} = 1.072 \cdot 10^5 \, \mathrm{Pa}
+\end{equation*}
+
+\subsection*{Aufgabe 1.7}
+\begin{equation*}
+    E_{pot} = 4\epsilon\left(\left(\frac{r_0}{r}\right)^{12} - \left(\frac{r_0}{r}\right)^6\right)
+\end{equation*}
+\begin{equation*}
+    F = \frac{dE_{pot}}{dr}=\left(\left(-12\cdot 4\epsilon r_0^{12} \cdot r^{-13}\right)-\left(-6\cdot 4\epsilon r_0^6r^{-7}\right)\right)
+\end{equation*}
+\begin{equation*}
+    \frac{48\epsilon r_0^{12}}{r^13} - \frac{24\epsilon r_0^6}{r^7} = 0
+\end{equation*}
+damit:
+\begin{equation*}
+    0 = \frac{2 r_0^12}{r^13}-\frac{r_0^6}{r^2}
+\end{equation*}
+Damit:
+\begin{equation*}
+    r_0^6r^6 = 2r_0^12
+\end{equation*}
+\begin{equation*}
+    r = \sqrt[6]{2}r_0
+\end{equation*}
+\begin{equation*}
+    r^6=\frac{2r_0^{12}}{r_0^6}=2r_0^6
+\end{equation*}
+\begin{equation*}
+    r=\sqrt[6]{2}r_0
+\end{equation*}
+\begin{equation*}
+    E_{pot}=-\epsilon
 \end{equation*}
 \end{document}

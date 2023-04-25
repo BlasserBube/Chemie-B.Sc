@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.12)  23 APR 2023 21:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  25 APR 2023 09:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/PC I/Aufgaben/Aufgaben I.tex"
-(c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/PC I/Aufgaben/Aufgaben I.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-03-30> (E:\LaTex-Stuff\MikTex\tex/latex/base\article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(E:\LaTex-Stuff\MikTex\tex/latex/base\size10.clo
-File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+**"c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/PC I/Aufgaben/Aufgaben I.tex"
+(c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/PC I/Aufgaben/Aufgaben I.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28> (D:\MikTex\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(D:\MikTex\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -19,24 +19,24 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count190
 \c@figure=\count191
 \c@table=\count192
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
-) (E:\LaTex-Stuff\MikTex\tex/latex/amsmath\amsmath.sty
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (D:\MikTex\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip50
+\@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(E:\LaTex-Stuff\MikTex\tex/latex/amsmath\amstext.sty
+(D:\MikTex\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (E:\LaTex-Stuff\MikTex\tex/latex/amsmath\amsgen.sty
+ (D:\MikTex\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
-\ex@=\dimen141
-)) (E:\LaTex-Stuff\MikTex\tex/latex/amsmath\amsbsy.sty
+\ex@=\dimen139
+)) (D:\MikTex\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen142
-) (E:\LaTex-Stuff\MikTex\tex/latex/amsmath\amsopn.sty
+\pmbraise@=\dimen140
+) (D:\MikTex\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count193
@@ -56,7 +56,7 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen143
+\big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count198
@@ -74,68 +74,70 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \column@=\count269
 \maxfields@=\count270
 \andhelp@=\toks18
-\eqnshift@=\dimen144
-\alignsep@=\dimen145
-\tagshift@=\dimen146
-\tagwidth@=\dimen147
-\totwidth@=\dimen148
-\lineht@=\dimen149
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
 \@envbody=\toks19
-\multlinegap=\skip51
-\multlinetaggap=\skip52
+\multlinegap=\skip50
+\multlinetaggap=\skip51
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (E:\LaTex-Stuff\MikTex\tex/latex/mhchem\mhchem.sty
+) (D:\MikTex\tex/latex/mhchem\mhchem.sty
 Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
- (E:\LaTex-Stuff\MikTex\tex/latex/l3kernel\expl3.sty
-Package: expl3 2023-03-30 L3 programming layer (loader) 
- (E:\LaTex-Stuff\MikTex\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
+ (D:\MikTex\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-09-28 L3 programming layer (loader) 
+ (D:\MikTex\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count271
 \l__pdf_internal_box=\box53
-)) (E:\LaTex-Stuff\MikTex\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-Package: l3keys2e 2023-01-16 LaTeX2e option processing using LaTeX3 keys
-) (E:\LaTex-Stuff\MikTex\tex/latex/tools\calc.sty
+)) (D:\MikTex\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+) (D:\MikTex\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count272
 \calc@Bcount=\count273
-\calc@Adimen=\dimen150
-\calc@Bdimen=\dimen151
-\calc@Askip=\skip53
-\calc@Bskip=\skip54
+\calc@Adimen=\dimen148
+\calc@Bdimen=\dimen149
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count274
-\calc@Cskip=\skip55
-) (E:\LaTex-Stuff\MikTex\tex/latex/chemgreek\chemgreek.sty (E:\LaTex-Stuff\MikTex\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2023-01-16 L3 Experimental document command parser
+\calc@Cskip=\skip54
+) (D:\MikTex\tex/latex/chemgreek\chemgreek.sty (D:\MikTex\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2022-06-22 L3 Experimental document command parser
 )
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
 \l__chemgreek_tmpa_int=\count275
 \g__chemgreek_tmpa_int=\count276
-) (E:\LaTex-Stuff\MikTex\tex/latex/graphics\graphics.sty
+) (D:\MikTex\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (E:\LaTex-Stuff\MikTex\tex/latex/graphics\trig.sty
+ (D:\MikTex\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (E:\LaTex-Stuff\MikTex\tex/latex/graphics-cfg\graphics.cfg
+) (D:\MikTex\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (E:\LaTex-Stuff\MikTex\tex/latex/graphics-def\pdftex.def
+ (D:\MikTex\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen150
+\stockheight=\dimen151
 ))
 \l__mhchem_ce_distanceFromLastComma_int=\count277
-\__mhchem_arrow_extPgfLength_skip=\skip56
-\mhchem@minispace@tmp=\skip57
-\mhchem@minibackspace@tmp=\skip58
-\mhchem@bondwidth=\skip59
-\mhchem@bondheight=\skip60
-\mhchem@smallbondwidth@tmpA=\skip61
-\mhchem@smallbondwidth@tmpB=\skip62
-\mhchem@smallbondwidth=\skip63
-\mhchem@bondtmp@minussidebearingleft=\skip64
-\mhchem@bondtmp@minussidebearingright=\skip65
+\__mhchem_arrow_extPgfLength_skip=\skip55
+\mhchem@minispace@tmp=\skip56
+\mhchem@minibackspace@tmp=\skip57
+\mhchem@bondwidth=\skip58
+\mhchem@bondheight=\skip59
+\mhchem@smallbondwidth@tmpA=\skip60
+\mhchem@smallbondwidth@tmpB=\skip61
+\mhchem@smallbondwidth=\skip62
+\mhchem@bondtmp@minussidebearingleft=\skip63
+\mhchem@bondtmp@minussidebearingright=\skip64
 \l__mhchem_option_version_int=\count278
 \mhchem@option@minusmathsidebearingleft=\dimen152
 \mhchem@option@minusmathsidebearingright=\dimen153
@@ -149,30 +151,30 @@ Package mhchem Warning: You did not specify a 'version' option for the mhchem
 (mhchem)                compatibility mode), because you might get slightly
 (mhchem)                different output with the same input in future versions.
 
-) (E:\LaTex-Stuff\MikTex\tex/latex/chemfig\chemfig.sty (E:\LaTex-Stuff\MikTex\tex/latex/pgf/frontendlayer\tikz.sty (E:\LaTex-Stuff\MikTex\tex/latex/pgf/basiclayer\pgf.sty (E:\LaTex-Stuff\MikTex\tex/latex/pgf/utilities\pgfrcs.sty (E:\LaTex-Stuff\MikTex\tex/generic/pgf/utilities\pgfutil-common.tex
+) (D:\MikTex\tex/latex/chemfig\chemfig.sty (D:\MikTex\tex/latex/pgf/frontendlayer\tikz.sty (D:\MikTex\tex/latex/pgf/basiclayer\pgf.sty (D:\MikTex\tex/latex/pgf/utilities\pgfrcs.sty (D:\MikTex\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks21
 \pgfutil@tempdima=\dimen156
 \pgfutil@tempdimb=\dimen157
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/utilities\pgfutil-latex.def
+ (D:\MikTex\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (D:\MikTex\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box54
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/utilities\pgfrcs.code.tex (E:\LaTex-Stuff\MikTex\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MikTex\tex/generic/pgf/utilities\pgfrcs.code.tex (D:\MikTex\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
-Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (E:\LaTex-Stuff\MikTex\tex/latex/pgf/basiclayer\pgfcore.sty (E:\LaTex-Stuff\MikTex\tex/latex/graphics\graphicx.sty
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+ (D:\MikTex\tex/latex/pgf/basiclayer\pgfcore.sty (D:\MikTex\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (E:\LaTex-Stuff\MikTex\tex/latex/graphics\keyval.sty
+ (D:\MikTex\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
 \Gin@req@height=\dimen158
 \Gin@req@width=\dimen159
-) (E:\LaTex-Stuff\MikTex\tex/latex/pgf/systemlayer\pgfsys.sty (E:\LaTex-Stuff\MikTex\tex/generic/pgf/systemlayer\pgfsys.code.tex
-Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (E:\LaTex-Stuff\MikTex\tex/generic/pgf/utilities\pgfkeys.code.tex
+) (D:\MikTex\tex/latex/pgf/systemlayer\pgfsys.sty (D:\MikTex\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+ (D:\MikTex\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks23
 \pgfkeys@temptoks=\toks24
- (E:\LaTex-Stuff\MikTex\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+ (D:\MikTex\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks25
 ))
 \pgf@x=\dimen160
@@ -195,27 +197,27 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \t@pgf@tokb=\toks27
 \t@pgf@tokc=\toks28
 \pgf@sys@id@count=\count283
- (E:\LaTex-Stuff\MikTex\tex/generic/pgf/systemlayer\pgf.cfg
-File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+ (D:\MikTex\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (E:\LaTex-Stuff\MikTex\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
- (E:\LaTex-Stuff\MikTex\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-))) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (D:\MikTex\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+ (D:\MikTex\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+))) (D:\MikTex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfsyssoftpath@smallbuffer@items=\count284
 \pgfsyssoftpath@bigbuffer@items=\count285
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (E:\LaTex-Stuff\MikTex\tex/latex/xcolor\xcolor.sty
+) (D:\MikTex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (D:\MikTex\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
- (E:\LaTex-Stuff\MikTex\tex/latex/graphics-cfg\color.cfg
+ (D:\MikTex\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
- (E:\LaTex-Stuff\MikTex\tex/latex/graphics\mathcolor.ltx)
+ (D:\MikTex\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -225,19 +227,19 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcore.code.tex
-Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (E:\LaTex-Stuff\MikTex\tex/generic/pgf/math\pgfmath.code.tex (E:\LaTex-Stuff\MikTex\tex/generic/pgf/math\pgfmathutil.code.tex) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/math\pgfmathparser.code.tex
+) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+ (D:\MikTex\tex/generic/pgf/math\pgfmath.code.tex (D:\MikTex\tex/generic/pgf/math\pgfmathcalc.code.tex (D:\MikTex\tex/generic/pgf/math\pgfmathutil.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen170
 \pgfmath@count=\count286
 \pgfmath@box=\box55
 \pgfmath@toks=\toks29
 \pgfmath@stack@operand=\toks30
 \pgfmath@stack@operation=\toks31
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/math\pgfmathfunctions.code.tex) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/math\pgfmathcalc.code.tex) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/math\pgfmathfloat.code.tex
+) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.code.tex (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (D:\MikTex\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count287
-)) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/math\pgfint.code.tex) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (D:\MikTex\tex/generic/pgf/math\pgfint.code.tex) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@picminx=\dimen171
 \pgf@picmaxx=\dimen172
 \pgf@picminy=\dimen173
@@ -252,76 +254,77 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen182
 \pgf@zx=\dimen183
 \pgf@zy=\dimen184
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@path@lastx=\dimen185
 \pgf@path@lasty=\dimen186
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@shorten@end@additional=\dimen187
 \pgf@shorten@start@additional=\dimen188
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box56
 \pgf@hbox=\box57
 \pgf@layerbox@main=\box58
 \pgf@picture@serial@count=\count288
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgflinewidth=\dimen189
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@pt@x=\dimen190
 \pgf@pt@y=\dimen191
 \pgf@pt@temp=\dimen192
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowsep=\dimen193
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen194
 \pgf@sys@shading@range@num=\count289
 \pgf@shadingcount=\count290
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (D:\MikTex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfexternal@startupbox=\box59
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (D:\MikTex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfnodeparttextbox=\box60
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/modules\pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (E:\LaTex-Stuff\MikTex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MikTex\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (D:\MikTex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@nodesepstart=\dimen195
 \pgf@nodesepend=\dimen196
-) (E:\LaTex-Stuff\MikTex\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (E:\LaTex-Stuff\MikTex\tex/latex/pgf/utilities\pgffor.sty (E:\LaTex-Stuff\MikTex\tex/latex/pgf/utilities\pgfkeys.sty (E:\LaTex-Stuff\MikTex\tex/generic/pgf/utilities\pgfkeys.code.tex)) (E:\LaTex-Stuff\MikTex\tex/latex/pgf/math\pgfmath.sty (E:\LaTex-Stuff\MikTex\tex/generic/pgf/math\pgfmath.code.tex)) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/utilities\pgffor.code.tex
-Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MikTex\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (D:\MikTex\tex/latex/pgf/utilities\pgffor.sty (D:\MikTex\tex/latex/pgf/utilities\pgfkeys.sty (D:\MikTex\tex/generic/pgf/utilities\pgfkeys.code.tex)) (D:\MikTex\tex/latex/pgf/math\pgfmath.sty (D:\MikTex\tex/generic/pgf/math\pgfmath.code.tex)) (D:\MikTex\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+ (D:\MikTex\tex/generic/pgf/math\pgfmath.code.tex)
 \pgffor@iter=\dimen197
 \pgffor@skip=\dimen198
 \pgffor@stack=\toks32
 \pgffor@toks=\toks33
-)) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
-Package: tikz 2023-01-15 v3.1.10 (3.1.10)
- (E:\LaTex-Stuff\MikTex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (D:\MikTex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+ (D:\MikTex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@plot@mark@count=\count291
 \pgfplotmarksize=\dimen199
 )
@@ -341,19 +344,19 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikznumberofchildren=\count293
 \tikznumberofcurrentchild=\count294
 \tikz@fig@count=\count295
- (E:\LaTex-Stuff\MikTex\tex/generic/pgf/modules\pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (D:\MikTex\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfmatrixcurrentrow=\count296
 \pgfmatrixcurrentcolumn=\count297
 \pgf@matrix@numberofcolumns=\count298
 )
 \tikz@expandcount=\count299
- (E:\LaTex-Stuff\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (E:\LaTex-Stuff\MikTex\tex/generic/chemfig\chemfig.tex (E:\LaTex-Stuff\MikTex\tex/generic/simplekv\simplekv.tex
+ (D:\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (D:\MikTex\tex/generic/chemfig\chemfig.tex (D:\MikTex\tex/generic/simplekv\simplekv.tex
 Package: simplekv 2022/10/01 v0.2a Simple keyval package (CT)
-) (E:\LaTex-Stuff\MikTex\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
-File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MikTex\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowinset=\dimen264
 \pgfarrowlength=\dimen265
 \pgfarrowwidth=\dimen266
@@ -375,64 +378,7 @@ File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \CF_substtoks=\toks34
 )
 Package: chemfig 2023/02/18 v1.6d Draw molecule with an easy syntax (CT)
-) (E:\LaTex-Stuff\MikTex\tex/latex/siunitx\siunitx.sty
-Package: siunitx 2023-04-13 v3.2.5 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen271
-\l__siunitx_angle_marker_box=\box69
-\l__siunitx_angle_unit_box=\box70
-\l__siunitx_compound_count_int=\count306
- (E:\LaTex-Stuff\MikTex\tex/latex/translations\translations.sty
-Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
- (E:\LaTex-Stuff\MikTex\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count307
-) (E:\LaTex-Stuff\MikTex\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (E:\LaTex-Stuff\MikTex\tex/generic/infwarerr\infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (E:\LaTex-Stuff\MikTex\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-) (E:\LaTex-Stuff\MikTex\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-))
-\l__siunitx_number_exponent_fixed_int=\count308
-\l__siunitx_number_min_decimal_int=\count309
-\l__siunitx_number_min_integer_int=\count310
-\l__siunitx_number_round_precision_int=\count311
-\l__siunitx_number_lower_threshold_int=\count312
-\l__siunitx_number_upper_threshold_int=\count313
-\l__siunitx_number_group_first_int=\count314
-\l__siunitx_number_group_size_int=\count315
-\l__siunitx_number_group_minimum_int=\count316
-\l__siunitx_table_tmp_box=\box71
-\l__siunitx_table_tmp_dim=\dimen272
-\l__siunitx_table_column_width_dim=\dimen273
-\l__siunitx_table_integer_box=\box72
-\l__siunitx_table_decimal_box=\box73
-\l__siunitx_table_uncert_box=\box74
-\l__siunitx_table_before_box=\box75
-\l__siunitx_table_after_box=\box76
-\l__siunitx_table_before_dim=\dimen274
-\l__siunitx_table_carry_dim=\dimen275
-\l__siunitx_unit_tmp_int=\count317
-\l__siunitx_unit_position_int=\count318
-\l__siunitx_unit_total_int=\count319
- (E:\LaTex-Stuff\MikTex\tex/latex/tools\array.sty
-Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen276
-\ar@mcellbox=\box77
-\extrarowheight=\dimen277
-\NC@list=\toks35
-\extratabsurround=\skip66
-\backup@length=\skip67
-\ar@cellbox=\box78
-))
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 8.
- (Aufgaben I.aux)
+) (Aufgaben I.aux)
 \openout1 = `"Aufgaben I.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -452,43 +398,39 @@ LaTeX Font Info:    ... okay on input line 8.
 
 Package chemgreek Info: Activating mapping `default' on line 8.
 
- (E:\LaTex-Stuff\MikTex\tex/context/base/mkii\supp-pdf.mkii
+ (D:\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count320
-\scratchdimen=\dimen278
-\scratchbox=\box79
-\nofMPsegments=\count321
-\nofMParguments=\count322
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count323
-\MPscratchDim=\dimen279
-\MPnumerator=\count324
-\makeMPintoPDFobject=\count325
-\everyMPtoPDFconversion=\toks37
-) (E:\LaTex-Stuff\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+\scratchcounter=\count306
+\scratchdimen=\dimen271
+\scratchbox=\box69
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen272
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks36
+) (D:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (E:\LaTex-Stuff\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
+ (D:\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) (E:\LaTex-Stuff\MikTex\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
-File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
-)
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 8.
- [1
+)) [1
 
-{C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (Aufgaben I.aux) ) 
+{C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4] (Aufgaben I.aux) ) 
 Here is how much of TeX's memory you used:
- 18841 strings out of 476326
- 421928 string characters out of 5798509
- 1860660 words of memory out of 5000000
- 39021 multiletter control sequences out of 15000+600000
- 513951 words of font info for 38 fonts, out of 8000000 for 9000
+ 14609 strings out of 475385
+ 298353 string characters out of 2793322
+ 654847 words of memory out of 3000000
+ 35762 multiletter control sequences out of 15000+600000
+ 470923 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,104p,490b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Aufgaben I.pdf" (2 pages, 117814 bytes).
+ 100i,12n,104p,506b,341s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "Aufgaben I.pdf" (4 pages, 127891 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
