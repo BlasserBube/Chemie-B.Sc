@@ -193,8 +193,28 @@
     \begin{equation*}
         \sum_{n}^{\infty}e^{\frac{-E_n}{kT}} = \frac{1}{1-e} = (1-e)^{-1}
     \end{equation*}
-    b) Es wird angenommen, dass das Ergebnis bei a) falsch ist, da $ln(\frac{1}{1-e})$ nicht existiert., somit ist auch Aufgabenteil c nicht zu bearbeiten.
-
+    b) Es wird angenommen, dass das Ergebnis bei a) falsch ist, da $ln(\frac{1}{1-e})$ nicht existiert.\\
+    somit wird mit
+    \begin{equation*}
+        z = \frac{e^{\frac{a}{2}}}{e^{a-1}}; a = \frac{h \nu}{kT}
+    \end{equation*}
+    weitergerechnet.
+    \begin{equation*}
+        C_V = \frac{\partial}{\partial T}\left(kT^2\frac{\partial}{\partial T}\ln (Z)\right)
+    \end{equation*}
+    \begin{equation*}
+        \ln (Z) = \frac{a}{2} - a - 1 = -\frac{1}{2}a - 1 = -\frac{1}{2} \frac{h\nu}{kT} - 1
+    \end{equation*}
+    \begin{equation*}
+        \frac{\partial}{\partial T} \left(-\frac{1}{2} \frac{h\nu}{kT} - 1\right)= \frac{1}{2}\frac{h\nu}{kT^2}
+    \end{equation*}
+    \begin{equation*}
+        kT^2 \cdot \frac{1}{2} \frac{h\nu}{kT^2} = \frac{h \nu}{2}
+    \end{equation*}
+    \begin{equation*}
+        \frac{\partial}{\partial T} \frac{h\nu}{2} = 1
+    \end{equation*}
+    Ja ne Cheffe, ich habe keinen Plan was ich hier mache lmao
     \subsection*{6. Reihen}
     Das Quotientenkriterium lautet:
     \begin{equation*}
