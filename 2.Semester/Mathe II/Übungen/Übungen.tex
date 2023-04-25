@@ -1,10 +1,11 @@
 \documentclass{article}
 
 \usepackage{amsmath}
+\usepackage{amssymb}
 
 \begin{document}
-    \section{Woche 1}
-    \subsection{1. Rechenoperationen}
+    \section*{Woche 1}
+    \subsection*{1. Rechenoperationen}
     Stellen Sie in der Form a + ib dar:
     \begin{equation*}
         \frac{1+i}{1-i}
@@ -32,7 +33,7 @@
         -128\cdot i^2\cdot i^2\cdot i=128\cdot i^2\cdot i=-128i
     \end{equation*}
 
-    \subsection{2. Eulersche Formel}
+    \subsection*{2. Eulersche Formel}
     Stellen Sie in Polarkoordinaten $z = re^{i\varphi}$ dar:
     a) $1-i$ \begin{equation*}
         r=\sqrt{1^2+\left(-1\right)^2}=\sqrt{2}; \varphi=\arctan(\frac{1}{1})=45^{\circ}=\frac{\pi}{4}
@@ -53,7 +54,7 @@
         \sqrt{2}e^{\frac{\pi i}{2}}
     \end{equation*}
 
-    \subsection{3. Eulersche Formel}
+    \subsection*{3. Eulersche Formel}
     a) Welche Kurve in der komplexen Zahlenebene wird durch folgende Gleichung dargestellt?
     \begin{equation*}
         | z + 1 - i | = 2 
@@ -104,9 +105,9 @@
         y=-\frac{1}{4}
      \end{equation*}
 
-     \section{Woche 2}
+     \section*{Woche 2}
 
-     \subsection{4. Nullstellen}
+     \subsection*{4. Nullstellen}
      Berechnen und zeichnen Sie:\\
      a) $\sqrt{-i}$
      \begin{equation*}
@@ -121,4 +122,136 @@
      \begin{equation*}
         z_1 = \sqrt{1} \cdot e^{\left(\frac{i}{2}\left(-\frac{\pi}{2} + 2 \pi\right)\right)} = e^{\frac{3\pi}{4}\cdot i}
      \end{equation*}
+     b) $\sqrt{1+i}$
+     \begin{equation*}
+        z = a + ib, r = \sqrt{a^2 + b^2}, \varphi=\arctan\left(\frac{a}{b}\right)
+     \end{equation*}
+     \begin{equation*}
+        r = \sqrt{1^2 + 1^2} = \sqrt{2}
+     \end{equation*}
+     \begin{equation*}
+        \varphi = \frac{\pi}{4}
+     \end{equation*}
+     \begin{equation*}
+        \sqrt[n]{z} = \sqrt[n]{r}e^{i\frac{\varphi+2k\pi}{n}}
+     \end{equation*}
+     \begin{equation*}
+        z_0 = \sqrt{2}e^{i\frac{\pi}{8}+0\pi} = \sqrt{2}e^{\frac{i\pi}{8}}
+     \end{equation*}
+    \begin{equation*}
+        z_1 = \sqrt{2}e^{i \left( \frac{\pi}{8} + \pi\right)} = \sqrt{2}e^{\frac{9i\pi}{8}}
+    \end{equation*}
+
+    c) $\sqrt[3]{i}$
+    \begin{equation*}
+        r = \sqrt{1} = 1
+    \end{equation*}
+    \begin{equation*}
+        \varphi = \frac{\pi}{2}
+    \end{equation*}
+    \begin{equation*}
+        z_0 = \sqrt[3]{1}e^{i\left(\frac{\frac{\pi}{2} + 2\cdot0\cdot\pi}{3}\right)} = e^{\frac{i\pi}{6}}
+    \end{equation*}
+    \begin{equation*}
+        z_1 = e^{i\left(\frac{\frac{\pi}{2} + 2\pi}{3}\right)} = e^{\frac{5i\pi}{6}}
+    \end{equation*}
+    \begin{equation*}
+        z_2 = e^{i\left(\frac{\frac{\pi}{2} + 4\pi}{3}\right)} = e^{\frac{3i\pi}{2}}
+    \end{equation*}
+
+    \subsection*{5. Reihen}
+    \begin{equation*}
+        Z = \sum_{n}e^{\frac{-E_n}{kT}}
+    \end{equation*}
+    Die Geometrische Summenformel besagt:
+    \begin{equation*}
+        \sum_{k=0}^{n} q^k = \frac{1-q^{n+1}}{1-q}
+    \end{equation*}
+    in dem Fall sind
+    \begin{equation*}
+        n = \infty; q = e; k = \frac{-E_n}{kT}
+    \end{equation*}
+    Somit kann erhält man durch Einsetzen:
+    \begin{equation*}
+        \sum_{n}^{\infty} e^{\frac{-E_n}{kT}}
+    \end{equation*}
+    Da $E_n = (\frac{1}{2} + n)h\nu$:
+    \begin{equation*}
+        \sum_{n}^{\infty} e^{\frac{-(\frac{1}{2}+n)h\nu}{kT}}
+    \end{equation*}
+    Nun wird der Exponent $k = \frac{-(\frac{1}{2}+n)h\nu}{kT}$ wie folgt betrachtet:
+    Es wird angenommen, dass $kT = \mathrm{const.}$ und $h\nu = \mathrm{const.}$
+    \begin{equation*}
+        \lim_{n \to \infty} \frac{-(\frac{1}{2}+\infty)h\nu}{kT} = \frac{-\infty}{kT} = -\infty
+    \end{equation*}
+    Somit kann in $\sum_{k=0}^{n} q^k = \frac{1-q^{n+1}}{1-q}$ das $n+1 = -\infty$ gesetzt werden, was zu folgender Betrachtung führt:
+    \begin{equation*}
+        e^x = \lim_{x \to -\infty} e^x = e^{-\infty} \to 0
+    \end{equation*}
+    Somit kann angenommen werden, dass $e^{-\infty} = 0$\\
+    Mit dieser Betrachtung kann nun alles eingesetzt werden
+    \begin{equation*}
+        \sum_{n}^{\infty}e^{\frac{-E_n}{kT}} = \frac{1}{1-e} = (1-e)^{-1}
+    \end{equation*}
+    b) Es wird angenommen, dass das Ergebnis bei a) falsch ist, da $ln(\frac{1}{1-e})$ nicht existiert., somit ist auch Aufgabenteil c nicht zu bearbeiten.
+
+    \subsection*{6. Reihen}
+    Das Quotientenkriterium lautet:
+    \begin{equation*}
+        \lim_{k \to \infty} \frac{a_{k+1}}{a_k}
+    \end{equation*}
+    Wobei von $a$ der Summand der Reihe ist. $k$ ist eine frei wählbare Variable nach die Reihe summiert wird.\\
+    a)
+    \begin{equation*}
+        \sum_{n=0}^{\infty} \frac{n^4}{e^{(nx)^2}}
+    \end{equation*}
+    Die Variablen sind:
+    \begin{equation*}
+        a = \frac{n^4}{e^{(nx)^2}}, k = n
+    \end{equation*}
+    Somit:
+    \begin{equation*}
+        \lim_{n \to \infty} \frac{\frac{(n+1)^4}{e^{((n+1)x)^2}}}{\frac{n^4}{e^{(nx)^2}}} = \lim_{x \to \infty} \frac{(n+1)^4}{e^{((n+1)x)^2}} \cdot \frac{e^{(nx)^2}}{n^4}
+    \end{equation*}
+    Der limes wird erstmal weggelassen...
+    \begin{equation*}
+        \frac{(n+1)^4}{n^4} \cdot \frac{e^{(nx)^2}}{e^{(xn+x)^2}} = \left(\frac{(n+1)}{n}\right)^4 \cdot \left(\frac{e^{(nx)}}{e^{(xn+x)}}\right)^2
+    \end{equation*}
+    Betrachtung des Termes mit $e$:
+    \begin{equation*}
+        \frac{e^{(nx)}}{e^{(xn+x)}} = \frac{e^{nx}}{e^{nx} \cdot e^x} = \frac{e^{nx}}{e^{nx}} e^{-x} = 1e^{-x} = e^{-x}
+    \end{equation*}
+    somit:
+    \begin{equation*}
+        \left(\frac{(n+1)}{n}\right)^4 \cdot \left(e^{-x}\right)^2
+    \end{equation*}
+    Betrachtung des anderen Termes:
+    \begin{equation*}
+        \lim_{n \to \infty} \frac{n+1}{n} = \frac{\infty + 1}{\infty} = 1
+    \end{equation*}
+    Somit:
+    \begin{equation*}
+        \left(e^{-x}\right)^2 = e^{-2x}; x \in \mathbb{R} 
+    \end{equation*}
+    \vspace*{1cm}
+    b) $\sum_{n=0}^{\infty}\frac{(\sqrt{5}-x)^n}{n^2+x}$
+    Die Variablen sind
+    \begin{equation*}
+        k = n, a = \frac{(\sqrt{5}-x)^n}{n^2+x}
+    \end{equation*}
+    Somit:
+    \begin{equation*}
+        \frac{(\sqrt{5}-x)^{n+1}}{(n+1)^2 + x} \cdot \frac{n^2 + x}{(\sqrt{5}-x)^n} = \frac{(\sqrt{5}-x)^{n+1}}{(\sqrt{5}-x)^n} \cdot \frac{n^2 + x}{(n+1)^2 + x}
+    \end{equation*}
+    \begin{equation*}
+        (\sqrt{5}-x) \cdot \frac{n^2 + x}{(n+1)^2 + x}
+    \end{equation*}
+    Es wird der Term mit $n$ betrachtet:
+    \begin{equation*}
+        \lim_{n \to \infty} frac{n^2 + x}{(n+1)^2 + x} = \frac{\infty^2 x}{(\infty+1)^2 x} = \frac{\infty x}{\infty x} = 1
+    \end{equation*}
+    Somit:
+    \begin{equation*}
+        (\sqrt{5}-x)\cdot 1 = \sqrt{5}-x; x \in \mathbb{R}
+    \end{equation*}
 \end{document}

@@ -277,7 +277,7 @@ thermische Ausdehnung, Komprassibilität, molares Volumen\\
     \draw (0,0,0) -- ++(-\cubex,0,0) -- ++(0,-\cubey,0) -- ++(\cubex,0,0) -- cycle;
     \draw (0,0,0) -- ++(0,0,-\cubez) -- ++(0,-\cubey,0) -- ++(0,0,\cubez) -- cycle;
     \draw (0,0,0) -- ++(-\cubex,0,0) -- ++(0,0,-\cubez) -- ++(\cubex,0,0) -- cycle;
-    \end{tikzpicture}\\
+\end{tikzpicture}\\
 in diesem Raum bewegen sich kleine Gasteilchen.
 \begin{itemize}
     \item Mittlere Geschwindigkeit $<v>$
@@ -374,7 +374,8 @@ $E_{WW} \propto 1\frac{1}{R^6}$\\
 \begin{equation*}
     E_{gesamt}=4\epsilon\left\{\left(\frac{r_0}{R}\right)^{12}-\left(\frac{r_0}{R}\right)^6\right\}
 \end{equation*}
-Lennard Jones Potential, wobei $\epsilon$ mol. Parameter: $\mu, \alpha$
+Lennard-Jones-Potential, wobei $\epsilon$ mol. Parameter: $\mu, \alpha$\\
+Definitiv eine wichtige Gleichung.
 \subsection{Reale Gase}
 Kompressabilitätsfaktor:
 \begin{equation*}
@@ -387,7 +388,103 @@ Lösugsansätze:
 \end{itemize}
 \subsubsection{Van der Waals Gleichung}
 \begin{itemize}
-    \item[1)] Eingenvolumen\\ Kovolumen: $\frac{\frac{4}{3}\pi\left(2r\right)^3}{2}=4V_{Molek.} \Rightarrow p=\frac{nRT}{V-nb}$ wobei $b=4V_{Molek.}N_A$
+    \item[1)] Eigenvolumen\\ Kovolumen: $\frac{\frac{4}{3}\pi\left(2r\right)^3}{2}=4V_{Molek.} \Rightarrow p=\frac{nRT}{V-nb}$ wobei $b=4V_{Molek.}N_A$
     \item[2)] Anziehung der Moleküle: $-a\left(\frac{n}{V}\right)^2 \Rightarrow p=\frac{nRT}{V-nb}-a\left(\frac{n}{V}\right)^2$\\$p=\frac{RT}{V_m-b}-\frac{a}{V_m^2}$
 \end{itemize}
+\subsubsection{Virialgleichung:}
+\begin{equation*}
+    Z = 1 + B_p(T)\cdot p + C_p(T)p^2 + \dots
+\end{equation*}
+Wobei $B_p(T)$ der zweite Virialkoeffizient folgendes beinhaltet bzw. davon abhängig ist:
+\begin{itemize}
+    \item Eigenvolumen
+    \item Intermolekulare Wechselwirkungen
+    \item Temperatur
+\end{itemize}
+\vspace*{1cm}
+\begin{tikzpicture}
+    \draw[thick,->] (0,4) -- (4.5,4) node[anchor=west] {p};
+    \draw[thick,->] (0,0) -- (0,8) node[anchor=east] {Z};
+    \draw[red] (0,4.125) -- (4, 2) node[] {anziehend};
+    \draw (0 ,4.125) .. controls (1 ,3.5) and (2.5 ,4) .. (3 ,8.5) node[] {abstoßend (typisch: T klein $B_p < 0$)};
+    \draw[blue] (0 ,4.125) .. controls (0.5 ,5) and (1.5 ,6) .. (2 ,7.5) node[] {T groß $B_p > 0$};
+    \draw[orange] (0 ,4.125) .. controls (2 ,4.5) and (2 ,6) .. (2.5 ,7) node[] {Boyle $T_B$};
+\end{tikzpicture}
+\begin{equation*}
+    Z = 1 + \frac{B_V(T)}{V} + \frac{C_V(T)}{V_m^2} + \dots
+\end{equation*}
+\subsubsection{Kondensation}
+p,V-Diagramm\\
+\subsubsection{Kritischer Punkt}
+\begin{equation*}
+    V_{m,g} = V_{m,l}
+\end{equation*}
+\begin{equation*}
+    p_g = p_l
+\end{equation*}
+$T > T_{Krit}$ nur Gas\\
+da $p \approx p_l$ überkritischen Fluid\\
+\ce{CO2} $T_{Krit}=31 \, \mathrm{^\circ C}$\\\\
+Kritische Größen:
+\begin{itemize}
+    \item $T_{Krit}$
+    \item $p_{Krit}$
+    \item $V_{Krit}$
+\end{itemize}
+\vspace*{1cm}
+\begin{equation*}
+    V_{red} = \frac{V_m}{V_{m,Krit}} \mathrm{(reduziertes Volumen)}
+\end{equation*}
+\begin{equation*}
+    p_{red} = \frac{p}{p_{Krit}} \mathrm{(reduzierter Druck)}
+\end{equation*}
+\begin{equation*}
+    T_{red} = \frac{T}{T_{Krit}} \mathrm{(reduzierte Temperatur)}
+\end{equation*}
+
+\section{Erster Hauptsatz der Thermodynamik}
+\subsection{Arbeit, Wärme und Energie}
+Energie $E$: Fähigkeit Arbeit zu verrichten $E [\mathrm{J}]$\\
+\begin{itemize}
+    \item[$\hookrightarrow$] Energieänderung $\Delta E$:
+    \begin{itemize}
+        \item Leistung von Arbeit $w [\mathrm{J}]$
+        \item Austausch von Wärme $q [\mathrm{J}]$
+    \end{itemize}
+\end{itemize}
+Vorzeichen ($q$, $w$) positiv, wenn dem System Energie zugefügt wird.\\
+\subsubsection{Arbeit = Kraft $\cdot$ Weg}
+\begin{equation*}
+    w = \vec{F} \cdot \vec{s} = \left\lvert \vec{F} \right\rvert \left\lvert \vec{s} \right\rvert \cos \varphi
+\end{equation*}
+$\hookrightarrow "\cdot"$ ist hier ein Skalarprodukt.\\
+$\hookrightarrow "\varphi"$ ist hier der Winkel zwischen Kraft und Weg.\\\\
+Allgemein:
+\begin{equation*}
+    F \neq \mathrm{konstant}; dw = \vec{F} \cdot d\vec{s}
+\end{equation*}
+Integration:
+\begin{equation*}
+    w = \int_{A}^{E}  \,dw = \int_{s_1}^{s_2}  \vec{F}\cdot d\vec{s}\,dw
+\end{equation*}
+\subsubsection{Volumenarbeit}
+Volumenarbeit wird immer wie folgt geleistet:
+\begin{itemize}
+    \item am System
+    \item gegen einen äußeren Druck
+\end{itemize}
+\begin{equation*}
+    dw = \vec{F} \cdot d\vec{z}
+\end{equation*}
+Es gilt $p_{ex} = \frac{F}{A}$ und $dz = \frac{dV}{A}$, somit:
+\begin{equation*}
+    dw = p_{ex}A \frac{dV}{A}
+\end{equation*}
+\begin{equation*}
+    dw = -p_{ex} dV
+\end{equation*}
+Kraft und Weg entgegengesetzt.
+\begin{equation*}
+    W = - \int_{V_A}^{V_E} p_{ex} \,dV 
+\end{equation*}
 \end{document}
