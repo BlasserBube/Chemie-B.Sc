@@ -107,8 +107,15 @@
 
      \section*{Woche 2}
 
-     \subsection*{4. Nullstellen}
-     Berechnen und zeichnen Sie:\\
+     \subsection*{4. Wurzeln}
+     Berechnen Sie folgende Wurzeln der komplexen Zahlen.\\
+     Benötigt werden hierfür:
+    \begin{equation*}
+        z = a + ib, r = \sqrt{a^2 + b^2}, \varphi=\arctan\left(\frac{a}{b}\right)
+    \end{equation*}
+    \begin{equation*}
+        \sqrt[n]{z} = \sqrt[n]{r}e^{i\frac{\varphi+2k\pi}{n}}
+     \end{equation*}
      a) $\sqrt{-i}$
      \begin{equation*}
         z_0 = \sqrt{r}\cdot e^{\left(\frac{i}{2}\left(\varphi + 2 \pi \cdot 0\right)\right)}
@@ -124,22 +131,16 @@
      \end{equation*}
      b) $\sqrt{1+i}$
      \begin{equation*}
-        z = a + ib, r = \sqrt{a^2 + b^2}, \varphi=\arctan\left(\frac{a}{b}\right)
-     \end{equation*}
-     \begin{equation*}
         r = \sqrt{1^2 + 1^2} = \sqrt{2}
      \end{equation*}
      \begin{equation*}
         \varphi = \frac{\pi}{4}
      \end{equation*}
      \begin{equation*}
-        \sqrt[n]{z} = \sqrt[n]{r}e^{i\frac{\varphi+2k\pi}{n}}
-     \end{equation*}
-     \begin{equation*}
-        z_0 = \sqrt{2}e^{i\frac{\pi}{8}+0\pi} = \sqrt{2}e^{\frac{i\pi}{8}}
+        z_0 = \sqrt[4]{2}e^{i\frac{\pi}{8}+0\pi} = \sqrt[4]{2}e^{\frac{i\pi}{8}}
      \end{equation*}
     \begin{equation*}
-        z_1 = \sqrt{2}e^{i \left( \frac{\pi}{8} + \pi\right)} = \sqrt{2}e^{\frac{9i\pi}{8}}
+        z_1 = \sqrt[4]{2}e^{i \left( \frac{\pi}{8} + \pi\right)} = \sqrt[4]{2}e^{\frac{9i\pi}{8}}
     \end{equation*}
 
     c) $\sqrt[3]{i}$
@@ -160,61 +161,80 @@
     \end{equation*}
 
     \subsection*{5. Reihen}
+    Geometrische Reihe:
     \begin{equation*}
-        Z = \sum_{n}e^{\frac{-E_n}{kT}}
+        z = \sum_{n} e^{-\frac{E_n}{kT}}
     \end{equation*}
-    Die Geometrische Summenformel besagt:
     \begin{equation*}
-        \sum_{k=0}^{n} q^k = \frac{1-q^{n+1}}{1-q}
+        z = \sum_{n}^{\infty} e^{-\frac{(n+\frac{1}{2})h\nu}{kT}}
     \end{equation*}
-    in dem Fall sind
     \begin{equation*}
-        n = \infty; q = e; k = \frac{-E_n}{kT}
+        z = \sum_{n}^{\infty} e^{-\frac{nh\nu}{kT}}\cdot e^{-\frac{h\nu}{2kT}}
     \end{equation*}
-    Somit kann erhält man durch Einsetzen:
     \begin{equation*}
-        \sum_{n}^{\infty} e^{\frac{-E_n}{kT}}
+        z = e^{-\frac{h\nu}{2kT}} \sum_{n}^{\infty} (e^{-\frac{h\nu}{kT}})^n
     \end{equation*}
-    Da $E_n = (\frac{1}{2} + n)h\nu$:
+    Da nun die Form der geometrischen Reihe vorliegt, wird diese angewandt:
     \begin{equation*}
-        \sum_{n}^{\infty} e^{\frac{-(\frac{1}{2}+n)h\nu}{kT}}
+        z = e^{-\frac{h\nu}{kT}} \cdot \frac{1}{1 - e^{\frac{h\nu}{kT}}}
     \end{equation*}
-    Nun wird der Exponent $k = \frac{-(\frac{1}{2}+n)h\nu}{kT}$ wie folgt betrachtet:
-    Es wird angenommen, dass $kT = \mathrm{const.}$ und $h\nu = \mathrm{const.}$
     \begin{equation*}
-        \lim_{n \to \infty} \frac{-(\frac{1}{2}+\infty)h\nu}{kT} = \frac{-\infty}{kT} = -\infty
+        \frac{h\nu}{kT} = a
     \end{equation*}
-    Somit kann in $\sum_{k=0}^{n} q^k = \frac{1-q^{n+1}}{1-q}$ das $n+1 = -\infty$ gesetzt werden, was zu folgender Betrachtung führt:
     \begin{equation*}
-        e^x = \lim_{x \to -\infty} e^x = e^{-\infty} \to 0
+        z = \frac{e^{-\frac{a}{2}}}{1-e^{-a}}
     \end{equation*}
-    Somit kann angenommen werden, dass $e^{-\infty} = 0$\\
-    Mit dieser Betrachtung kann nun alles eingesetzt werden
+    Erweitern mit $e^a$
     \begin{equation*}
-        \sum_{n}^{\infty}e^{\frac{-E_n}{kT}} = \frac{1}{1-e} = (1-e)^{-1}
+        z = \frac{e^{\frac{a}{2}}\cdot e^a}{e^a-e^{-a} \cdot e^a}
     \end{equation*}
-    b) Es wird angenommen, dass das Ergebnis bei a) falsch ist, da $ln(\frac{1}{1-e})$ nicht existiert.\\
-    somit wird mit
     \begin{equation*}
-        z = \frac{e^{\frac{a}{2}}}{e^{a-1}}; a = \frac{h \nu}{kT}
+        z = \frac{e^\frac{a}{2}}{e^a-1}
     \end{equation*}
-    weitergerechnet.
+    b)
     \begin{equation*}
         C_V = \frac{\partial}{\partial T}\left(kT^2\frac{\partial}{\partial T}\ln (Z)\right)
     \end{equation*}
     \begin{equation*}
-        \ln (Z) = \frac{a}{2} - a - 1 = -\frac{1}{2}a - 1 = -\frac{1}{2} \frac{h\nu}{kT} - 1
+        \ln (Z) = \ln\left(\frac{e^\frac{a}{2}}{e^{a}-1}\right) = \ln\left(e^\frac{h\nu}{2kT}-\ln\left(e^a-1\right)\right) = \frac{a}{2} - \ln\left(e^\frac{h\nu}{kT}-1\right)
     \end{equation*}
     \begin{equation*}
-        \frac{\partial}{\partial T} \left(-\frac{1}{2} \frac{h\nu}{kT} - 1\right)= \frac{1}{2}\frac{h\nu}{kT^2}
+        -\frac{\partial \ln(Z)}{\partial T} = \frac{h\nu}{2kT^2} - \frac{1}{e^{\frac{h\nu}{kT}}-1}\left(-\frac{h\nu}{kT^2}\right)e^{\frac{h\nu}{kT}}
     \end{equation*}
     \begin{equation*}
-        kT^2 \cdot \frac{1}{2} \frac{h\nu}{kT^2} = \frac{h \nu}{2}
+        -\frac{h\nu}{2kT^2}+\frac{h\nu}{kT^2}\frac{e^{\frac{h\nu}{kT}}}{e^{\frac{h\nu}{kT}}-1}
     \end{equation*}
     \begin{equation*}
-        \frac{\partial}{\partial T} \frac{h\nu}{2} = 1
+        \frac{\partial}{\partial T}\left(kT^2 \left(-\frac{h\nu}{2kT^2}+\frac{h\nu}{kT^2}\frac{e^{\frac{h\nu}{kT}}}{e^{\frac{h\nu}{kT}}-1}\right)\right)
     \end{equation*}
-    Ja ne Cheffe, ich habe keinen Plan was ich hier mache lmao
+    \begin{equation*}
+        h\nu\frac{\partial}{\partial T}\left(-\frac{1}{2}+\frac{e^{\frac{h\nu}{kT}}}{e^{\frac{h\nu}{kT}}-1}\right)
+    \end{equation*}
+    \begin{equation*}
+        h\nu\frac{\partial}{\partial T}\left(-\frac{1}{2}+1+\frac{1}{e^{\frac{h\nu}{kT}}-1}\right)
+    \end{equation*}
+    \begin{equation*}
+        h\nu\frac{\partial}{\partial T}\left(\frac{1}{2}+\frac{1}{e^{\frac{h\nu}{kT}}-1}\right)
+    \end{equation*}
+    \begin{equation*}
+        h\nu\left(-\left(e^{\frac{h\nu}{kT}}-1\right)^2\left(-\frac{h\nu}{kT^2}\right)e^{\frac{h\nu}{kT}}\right)
+    \end{equation*}
+    \begin{equation*}
+        \frac{h^2\nu^2}{kT^2}\frac{e^a}{(e^a-1)^2}
+    \end{equation*}
+    \begin{equation*}
+        \frac{ka^2e^a}{(e^a-1)^2}
+    \end{equation*}
+        Da $3N$:
+        \begin{equation*}
+            C_V = 3N\frac{ka^2e^a}{(e^a-1)^2}
+        \end{equation*}
+    c)\begin{equation*}
+        T \to 0: C_V \to 0
+    \end{equation*}
+    \begin{equation*}
+        T \to \infty: C_V \to 3Nk
+    \end{equation*}
     \subsection*{6. Reihen}
     Das Quotientenkriterium lautet:
     \begin{equation*}
@@ -253,7 +273,7 @@
     \begin{equation*}
         \left(e^{-x}\right)^2 = e^{-2x}; x \in \mathbb{R} 
     \end{equation*}
-    \vspace*{1cm}
+    für alle $x > 0$, für $x =0$ divergiert diese.\\\\
     b) $\sum_{n=0}^{\infty}\frac{(\sqrt{5}-x)^n}{n^2+x}$
     Die Variablen sind
     \begin{equation*}
@@ -268,10 +288,12 @@
     \end{equation*}
     Es wird der Term mit $n$ betrachtet:
     \begin{equation*}
-        \lim_{n \to \infty} frac{n^2 + x}{(n+1)^2 + x} = \frac{\infty^2 x}{(\infty+1)^2 x} = \frac{\infty x}{\infty x} = 1
+        \lim_{n \to \infty} \frac{n^2 + x}{(n+1)^2 + x} = \frac{\infty^2 x}{(\infty+1)^2 x} = \frac{\infty x}{\infty x} = 1
     \end{equation*}
     Somit:
     \begin{equation*}
         (\sqrt{5}-x)\cdot 1 = \sqrt{5}-x; x \in \mathbb{R}
     \end{equation*}
+    Die Funktion konvergiert für Werte von $x \in (\sqrt{5}-1, \sqrt{5}+1)$\\
+    Für $x = \sqrt{5}$ konvergiert sie auch, da dann 0 bei herauskommt.
 \end{document}

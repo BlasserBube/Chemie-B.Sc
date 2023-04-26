@@ -359,4 +359,230 @@ Für einen linearen Operator gilt:
 Dies gilt für alle $|a\rangle , |b\rangle  \in \mathbb{V}$ und $\alpha \in \mathbb{R}$\\
 Satz: Ist $A, B$ linear, so ist auch $(A+B), (A\cdot B)$ linear\\
 Beispiele: Translation, Rotation, Inversion, $\dots$
+\subsubsection{Verknüpfung von Operatoren}
+\begin{itemize}
+    \item[a)] Summe: $(A+B)|a\rangle = A|a\rangle + B|b\rangle$
+    \item[b)] Produkt: $(A\cdot B)|a\rangle = A(B|a\rangle) \neq B(A|a\rangle)$\\Im Allgemeinen Nichtvertauschbarkeit von A und B
+\end{itemize}
+Beispiel:
+\begin{itemize}
+\item[A:] "Quadrieren", Skalarproduktbildung mit sich selbst.
+\item[B:] Multiplizieren mit $\alpha \in \mathbb{R}$
+\end{itemize}
+\begin{equation*}
+    AB|a\rangle = A|\alpha a\rangle = \langle a\alpha|\alpha a\rangle = \alpha^2 \langle a|a\rangle 
+\end{equation*}
+\begin{equation*}
+    BA|a\rangle = B\langle a| a\rangle = \alpha \langle a|a\rangle 
+\end{equation*}
+Das heißt: $(AB-BA)|a\rangle \neq 0$\\
+Definition $[A,B] = [A,B]_- = AB - BA$ Kommutator\\
+\hspace*{2.9cm} $[a,B]_+ = AB + BA$ Antikommutator\\\\
+Zwei Operatoren heißen vertauschbar (kommutieren), wenn gilt: $[A,B] = 0$\\\\
+Beispiel:
+\begin{itemize}
+    \item[A:] Drehung um $\frac{\pi}{2}$ (gegen den Uhrzeigersinn)
+    \item[B:] Spiegelung an $y = 0$ ($x$-Achse)
+\end{itemize}
+
+\subsection{Matrizen}
+\subsubsection{Matrixdarstellung von Operatoren}
+\begin{itemize}
+    \item[Gegeben:] VONS $\left\{|\hat{e}_i\rangle\right\}$, linearer Operator $A$
+    \item[] Alle Informationen über die Wirkungsweise von $A$ steckt in den den Bildvektoren $\left\{|A\hat{e}_i\rangle\right\}$!
+\end{itemize}
+\begin{equation*}
+    A|a\rangle = A\sum_{i=1}^{n}a_i|\hat{e}_i\rangle = \sum_{i=1}^{n} a_i(A|\hat{e}_i\rangle) = |b\rangle
+\end{equation*}
+quadratisches Zahlenschema mit $A|\hat{e_i}\rangle$ als $i$-te Spalte \\
+Matrixdarstellung von A in der Basis $\left\{|\hat{e}_i\rangle\right\}$ (Basisabhängig)\\\\
+Es gilt:
+\begin{equation*}
+    |b\rangle = \sum_{k} b_k\vec{e}_k = A\sum_{l} a_l \vec{e}_l = \sum_{l} a_lA\vec{e}_l
+\end{equation*}
+Multipliziere mit $\vec{e}_j$ ergibt
+\begin{equation*}
+    \sum_{k}b_k\vec{e}_j\vec{e}_k = \sum_{l} a_l\vec{e}_jA\vec{e}_l = b_j = \sum_{l}A_{jl}a_l
+\end{equation*}
+$\vec{e}_j\vec{e}_k = \delta_{jk}$ und $\vec{e}_jA\vec{e}_l = A_{jl}$\\\\
+Beispiel: Spiegelung an der $xz$-Ebene und die Streckung um den Faktor $2$\\
+VONS $\left\{ \hat{i}, \hat{j}, \hat{k} \right\}$\\
+\begin{itemize}
+    \item[] $A\hat{i} = 2\hat{i}$
+    \item[] $A\hat{j} = -2\hat{j}$
+    \item[] $A\hat{k} = 2\hat{k}$
+\end{itemize}
+\begin{equation*}
+    A = \left(\begin{array}{c c c}
+        2 & 0 & 0\\
+        0 & -2 & 0\\
+        0 & 0 & 2\\
+    \end{array}\right) = 2 \left(\begin{array}{c c c}
+        1 & 0 & 0\\
+        0 & -1 & 0\\
+        0 & 0 & 1\\
+    \end{array} \right)
+\end{equation*}
+Spiegelung des Vektors $\vec{a}=(1,2,3)$ an der $xz$-Ebene und Streckung um den Faktor 2.
+\begin{equation*}
+    A|a\rangle = \sum_{i} a_i\left(A|\hat{e}_i\rangle\right) \Rightarrow \left(A|a\rangle\right)_j = \sum_{i} a_iA_{ji}
+\end{equation*}
+Merkschema: Matrix $A$ mal Vektor $a$
+\begin{equation*}
+    A\vec{a} = \left(\begin{array}{c c c}
+        2 & 0 & 0\\
+        0 & -2 & 0\\
+        0 & 0 & 2\\
+    \end{array}\right) \cdot \left(\begin{array}{c}
+        1\\
+        2\\
+        3\\
+    \end{array}\right) = \left(\begin{array}{c c c}
+        2\cdot 1 & 0\cdot 2 & 0\cdot 3\\
+        0\cdot 1 & -2\cdot 2 & 0\cdot 3\\
+        0\cdot 1 & 0\cdot 2 & 2\cdot 3\\
+    \end{array}\right) = \left(\begin{array}{c}
+        2\\
+        -4\\
+        6\\
+    \end{array}\right)
+\end{equation*}
+
+\subsubsection{Addition und Multiplikation von Matrizen}
+\textbf{(A,B sind Matrixdarstellungen linearer Operatoren)}\\
+Addition:
+\begin{equation*}
+    (A+B)|a\rangle = A|a\rangle + B|a\rangle
+\end{equation*}
+$i$-te Komponente:\\
+Linke Seite:
+\begin{equation*}
+    \left[\left(A+B\right)|a\rangle\right]_i = \sum_{j=1}^{n} \left(A+B\right)_{ij}a_j
+\end{equation*}
+Rechte Seite:
+\begin{equation*}
+    = \left[A|a\rangle\right]_i + \left[B|a\rangle\right]_i = \sum_{j=1}^{n} A_{ij}a_j + \sum_{j=1}^{n} B_{ij}a_j
+\end{equation*}
+Somit:
+\begin{equation*}
+    = \left(A_{ij}+B_{ij}\right)a_j
+\end{equation*}
+$\rightarrow$ Matrizen werden addiert (subtrahiert), indem man ihre Elemente addiert (subtrahiert):
+\begin{equation*}
+    (A\pm B)_{ij} = A_{ij} \pm B_{ij}
+\end{equation*}
+Beispiel:
+\begin{equation*}
+    \left(\begin{array}{c c}
+        1 & 2\\
+        3 & 4
+    \end{array}\right) + \left(\begin{array}{c c}
+        1 & 3\\
+        2 & 4
+    \end{array}\right) = \left(\begin{array}{c c}
+        2 & 5\\
+        5 & 8
+    \end{array}\right)
+\end{equation*}
+Multiplikation:
+\begin{equation*}
+    (AB)|a\rangle = A(B|a\rangle)
+\end{equation*}
+$i$-te Komponente:
+linke Seite:
+\begin{equation*}
+    \left[\left(AB\right)|a\rangle\right]_i = \sum_{j=1}^{n} \left(AB\right)_{ij}a_j=
+\end{equation*}
+rechte Seite:
+\begin{equation*}
+    \left[A\left(B\right)|a\rangle\right]_i = \sum_{l=1}^{n} A_{il}\left[B|a\rangle\right]_l = \sum_{l=1}^{n} A_{il}\sum_{j=1}^{n} B_{lj}a_j
+\end{equation*}
+\begin{equation*}
+    = \sum_{j=1}^{n}\sum_{l}^{n}A_{il}B_{lj}a_j
+\end{equation*}
+Das $ij$-te Element der Produktmatrix ($AB$) ist das Skalarprodukt der $i$-ten Teile von $A$ und der $j$-ten Spalte von $B$.
+\begin{equation*}
+    \left(AB\right)_{ij} = \sum_{l=1}^{n}A_{il}B_{li}
+\end{equation*}
+Es ist keine Matrixdivision definiert - wohl aber eine Inversion $A^{-1}$\\
+Beispiele: Pauli-Spinmatrizen
+\begin{equation*}
+    \sigma_x = \left(\begin{array}{c c}0&1\\1&0\end{array}\right), \sigma_y = \left(\begin{array}{c c}0&-i\\i&0\end{array}\right), \sigma_z = \left(\begin{array}{c c}1&0\\0&-1\end{array}\right)
+\end{equation*}
+\begin{equation*}
+    \sigma_x\sigma_y = \left(\begin{array}{c c}0&1\\1&0\end{array}\right) \cdot \left(\begin{array}{c c}0&-i\\i&0\end{array}\right) = \left(\begin{array}{c c}-i&0\\0&i\end{array}\right)
+\end{equation*}
+\begin{equation*}
+    \sigma_y\sigma_x = \left(\begin{array}{c c}0&-i\\i&0\end{array}\right) \cdot \left(\begin{array}{c c}0&1\\1&0\end{array}\right) = \left(\begin{array}{c c}-i&0\\0&i\end{array}\right)
+\end{equation*}
+Beispiel: Aus $A^2$ folgt nicht $A = 0$!
+\begin{equation*}
+    A = \left(\begin{array}{c c}
+        0 & \alpha\\0 & 0
+    \end{array}\right)
+\end{equation*}
+
+\subsection{Matrizen mit speziellen Eigenschaften}
+\subsubsection{Die Einheitsmatrix $E$ (auch $I, 1$)}
+\begin{equation*}
+    E_{ij}=\delta_{ij}=\begin{array}{c}
+        0 \text{ für } i \neq j\\1 \text{ für } i=j
+    \end{array} = \begin{array}{c c c}
+        1&0&0\\0&1&0\\0&0&1
+    \end{array}
+\end{equation*}
+Es gilt: $AE = EA = A$ mit $E|a\rangle = |a\rangle$\\
+$ij$-tes Element
+\begin{equation*}
+    (AE)_{ij}=\sum_{l=1}^{n}A_{il}\delta_{lj}=A_{ij}
+\end{equation*}
+\begin{equation*}
+    (EA)_{ij}=\sum_{l=1}^{n}\delta_{il}A_{lj}=A_{ij}
+\end{equation*}
+$i$-te Komponente
+\begin{equation*}
+    (E|a\rangle)_i = \sum_{j=1}^{n} E_{lj}a_j = \sum_{j=1}^{n}\delta_{ij}a_j=a_i
+\end{equation*}
+\subsubsection{Digitalmatrix $D$}
+Besonderheit: $AB =BA$, wenn A und B beide diagonal sind.\\
+Die \underline{Spur} einer Matrix ist die Summe ihrer Diagonalelemente.
+\begin{equation*}
+    Sp(D) = \sum_{i}d_i, Sp(E) = n
+\end{equation*}
+allgemein:
+\begin{equation*}
+    Sp(A)=\sum_{i} A_{ii}
+\end{equation*}
+\begin{equation*}
+    Sp(AB) = Sp(BA)
+\end{equation*}
+Es gilt: $D^m$ ist die Matrx im $(D^m)_{ij} = d_i^m\delta_{ij}$ für $, \in \mathbb{R}$\\
+Beispiel:
+\begin{equation*}
+    (D^2)_{ij} = \sum_{l=1}^{n}D_{il}D_{lj}=\sum_{l=1}^{n}d_id_j\delta_{il}\delta_{lj}=d^2_i\delta_{ij}
+\end{equation*}
+\subsubsection{Die inverse Matrix}
+Definition:
+\begin{equation*}
+    A\cdot A^{-1} = A^{-1}\cdot A = E
+\end{equation*}
+$A^{-1}$ repräsentiert diejenige Operation, die die durch $A$ repräsentierte Operation rückgängig macht\\
+$A^{-1}$ existiert, falls $\det(A)\neq 0$ gilt: $A$ heißt dann reguläre Matrix und ist invertierbar (sonst ist $A$ singulär)\\
+Beispiel: Inverse Matrix von $A=\begin{array}{c c}1&0\\-1&1\end{array}$\\
+$\det(A)=1$, d.h. $A$ ist regulär, $A^{-1}$ existiert.
+\begin{equation*}
+    AA^{-1}=\left(\begin{array}{c c}1&0\\-1&1\end{array}\right)\cdot\left(\begin{array}{c c}a&b\\c&d\end{array}\right) = \left(\begin{array}{c c}1&0\\0&1\end{array}\right) = E
+\end{equation*}
+1)
+\begin{equation*}
+    a = 1, -a+c = 0 \rightarrow c=1
+\end{equation*}
+2)
+\begin{equation*}
+    b = 0, -b + d = 1 \rightarrow d=1
+\end{equation*}
+somit:
+\begin{equation*}
+    A^{-1} =\left(\begin{array}{c c}1&0\\1&1\end{array}\right)
+\end{equation*}
 \end{document}

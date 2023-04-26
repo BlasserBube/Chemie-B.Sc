@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  19 APR 2023 14:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  26 APR 2023 11:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/mgils/OneDrive/Private/Desktop/TexMex/LaTex/Mathe II/Mathe II.tex"
-(c:/Users/mgils/OneDrive/Private/Desktop/TexMex/LaTex/Mathe II/Mathe II.tex
+**"c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/Mathe II/Vorlesungen/Mathe II.tex"
+(c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/Mathe II/Vorlesungen/Mathe II.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-09-28> (D:\MikTex\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -374,3 +374,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 313--314
  []
 
 [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 377--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--400
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--410
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--410
+
+ []
+
+[9] [10] [11] [12] (Mathe II.aux) ) 
+Here is how much of TeX's memory you used:
+ 3526 strings out of 475385
+ 59547 string characters out of 2793322
+ 434975 words of memory out of 3000000
+ 24894 multiletter control sequences out of 15000+600000
+ 473430 words of font info for 44 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 69i,9n,76p,471b,320s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "Mathe II.pdf" (12 pages, 196820 bytes).
+PDF statistics:
+ 111 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
