@@ -2,6 +2,7 @@
 \usepackage{mhchem}
 \usepackage{xcolor}
 \usepackage{tikz}
+\usepackage{chemfig}
 \begin{document}
 \section{Metalle mit Ingo}
 \subsection{Eigenschaften metallischer Elemente}
@@ -200,5 +201,64 @@ Dabei läuft der erste Schritt bei 656 Pa ab und der letzte bei $>$ 100 GPa
             ccp Abfolge: A c B a C b A (A,B,C = Schichten, a,b,c = Lücken)
     \item Tetraederlücken\\hcp:Abfolge: A $\beta$ $\alpha$ B $\alpha$ $\beta$ A $\beta$ (A,B = Schichten, $\alpha, \beta$ = Lücken)\\$N(\mathrm{Tetraederl\text{ü}cken})=2N(\mathrm{Packungsteilchen})$\\Tetraederlücken\\
             ccp:Abfolge: A $\beta$ c $\alpha$ B $\gamma$ a $\beta$ C $\alpha$ b $\gamma$ A (A,B,C = Schichten, $\alpha, \beta, \gamma$ = Tetraederlücken, a, b, c = Oktaederlücken)
+\end{itemize}
+
+\subsection{Die Elemente der ersten und elften Periode (-\ce{H}$\&$\ce{Rg})}
+\begin{itemize}
+    \item[1. Gruppe] Alkalimetalle
+    \item[11. Gruppe] Münzmetalle 
+\end{itemize}
+\subsubsection{Vorkommen}
+\begin{itemize}
+    \item[Alkalimetalle]:
+    \begin{itemize}
+        \item kationisch in salzartifen Verbindungen \ce{NaCl} - Halit, \ce{KCl} -Sylvin
+        \item kationisch eingelagert in Alumosilicaten (\ce{LiAlSi2O6})
+    \end{itemize}
+    \item[Münzmetalle]:
+    \begin{itemize}
+        \item[Kupfer:] hauptsächlich sulfidisch: \ce{Cu2S}, \ce{CuFeS2}, $\dots$\\auch: gediegen (elementar)
+        \item[Silber:] hauptsächlich gediegen\\auch: sulfidisch
+        \item[Gold:] hauptsächlich gediegen\\selten: Goldtelluride  
+    \end{itemize}
+\end{itemize}
+\subsubsection{Herstellung}
+\begin{itemize}
+    \item[Alkalimetalle]:
+    \begin{itemize}
+        \item[\ce{Li} und  \ce{Na}:] Schmelzflusselektrolyse aus Salz(-mischungen)
+        \item[\ce{K}:] Reduktion mit metallischem \ce{Na}
+        \item[\ce{Rb} und \ce{Cs}:] Reduktion mit metallischem \ce{Ca} und anschließender Destillation
+    \end{itemize}
+    \item[Münzmetalle]:
+    \begin{itemize}
+        \item[\ce{Cu}:] Rösten der sulfideischen Kupfererze\\Rösten: \ce{6CuFeS2 + 13O2 -> 3Cu2S + 2Fe3O4 + 9SO2}\\Schlacke: \ce{2Fe3O4 + 2CO + 3 SiO2 -> 3Fe2SiO4 + 2 CO2}\\$\rightarrow$(Abtrennug des Eisenanteils)\\\begin{center}\ce{2Cu2S + 3O2 -> 2 Cu2O + 2SO2}\end{center}\begin{tabular}{c | c}Röstreaktion & Röstreduktion\\\ce{2Cu2O + Cu2S -> 6Cu + SO2$\uparrow$}&\ce{Cu2O + CO -> 2Cu + CO2$\uparrow$}\end{tabular}\\Reinigung des Rohkupfers durch elektrolytische Kupferaffinition
+        \item[\ce{Ag} und \ce{Au}:] Reinigung der gediegenen Metalle
+        \begin{itemize}
+            \item Recycling aus Anodenschlamm (Reinigung des Rohkupfers)
+            \item Amalgamierung vom Gold, Goldwäsche
+            \item Cyanidlaugerei\\\ce{Ag2S + 4NaCN -> 2Na[Ag(CN)2] + Na2S}\\\ce{2Ag + H2O + 1/2O2 + 4NaCN -> 2Na[Ag(CN)2] + 2 NaOH}\\\\\ce{Ag^+ + 2CN^- -> [Ag(CN)2]^-} $K_K \approx 10^{21}\mathrm{\frac{mol^2}{l^2}}$\\$K_K=\frac{\ce{[[Ag(CN)2]^-]}}{[\ce{Ag^+}]\cdot\ce{[CN^-]^2}} \rightarrow \ce{[Ag^+]} = \frac{\ce{[[Ag(CN)2]^-]}}{K_K\cdot\ce{[CN^-]^2}}$\\$E=E^o_{(\ce{Ag}/\ce{Ag^+})}+\frac{RT}{zF}\ln([\ce{Ag^+}])$\\\\Rückgewinnung des Silbers\\\ce{2Na[Ag(CN)2] + Zn -> 2Ag + Na2[Zn(CN)4]}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\subsubsection{Verbindungen}
+\begin{itemize}
+    \item[Halogenide]:
+    \begin{itemize}
+        \item Alkalimetallhalogenide: \ce{A} = \ce{Li} bis \ce{Cs} $\rightarrow$ \ce{AX} $\leftarrow$ \ce{X} = \ce{F} bis \ce{I}
+        \item[] \ce{NaCl}-Struktur: ccp mit allen Oktaederlücken gefüllt
+        \item[] \ce{CsCl}-Struktur: kubisch-primitiver Aufbau der Packungsteilchen, Lückensitzer im Zentrum des Würfels 
+    \end{itemize}
+    \item[Münzmetalle]:
+    \begin{itemize}
+        \item[] Cu(I)-Halogenide vom \chemfig{Cl-I}
+        \item[] Cu(II)-Halogenide $\rightarrow$ schwache Oxidationsmittel
+        \item[] \ce{CuCl2 + Cu -> CuCl} $\ce{->[\mathrm{mehr} \ce{Cl^-}] CuCl_{2/3/4}^{1/2/3 -}}$
+        \item[] \ce{CuCl2 + Fe^{2+} -> CuCl + Fe^{3+} + Cl^-}
+        \item[] \ce{CuI2 -> CuI + 1/2I2}
+        \item[] \ce{Cu^{2+} + 2 CN^- -> CuCN + 1/2 (CN)2}
+        \item[] Oxidation organischer Verbindungen $\rightarrow$ Fehling-Probe
+        \item[] \ce{Ag^+} + Halogenide $\rightarrow$ \ce{AgF}, \ce{AgCl}, \ce{AgBr}, \ce{AgI} 
+    \end{itemize}
 \end{itemize}
 \end{document}

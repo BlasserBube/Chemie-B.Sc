@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  19 APR 2023 13:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  26 APR 2023 13:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/mgils/OneDrive/Private/Desktop/TexMex/LaTex/Anorganik Vorlesungen/Anorganische Chemie - Metalle.tex"
-(c:/Users/mgils/OneDrive/Private/Desktop/TexMex/LaTex/Anorganik Vorlesungen/Anorganische Chemie - Metalle.tex
+**"c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/AC I/Metalle/Anorganische Chemie - Metalle.tex"
+(c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/AC I/Metalle/Anorganische Chemie - Metalle.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-09-28> (D:\MikTex\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -353,104 +353,28 @@ File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@expandcount=\count299
  (D:\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))) (Anorganische Chemie - Metalle.aux)
-\openout1 = `"Anorganische Chemie - Metalle.aux"'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-
-Package chemgreek Info: Activating mapping `default' on line 5.
-
- (D:\MikTex\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count300
-\scratchdimen=\dimen264
-\scratchbox=\box65
-\nofMPsegments=\count301
-\nofMParguments=\count302
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count303
-\MPscratchDim=\dimen265
-\MPnumerator=\count304
-\makeMPintoPDFobject=\count305
-\everyMPtoPDFconversion=\toks35
-) (D:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (D:\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) [1
-
-{C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-
- []
-
-[2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 113--197
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--197
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--197
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--197
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--197
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--197
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--197
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--197
-
- []
-
-[4] [5] (Anorganische Chemie - Metalle.aux) ) 
-Here is how much of TeX's memory you used:
- 13613 strings out of 475385
- 279116 string characters out of 2793322
- 632706 words of memory out of 3000000
- 34770 multiletter control sequences out of 15000+600000
- 474751 words of font info for 47 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 85i,12n,90p,503b,481s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Anorganische Chemie - Metalle.pdf" (5 pages, 101123 bytes).
-PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+))) (D:\MikTex\tex/latex/chemfig\chemfig.sty (D:\MikTex\tex/generic/chemfig\chemfig.tex (D:\MikTex\tex/generic/simplekv\simplekv.tex
+Package: simplekv 2022/10/01 v0.2a Simple keyval package (CT)
+) (D:\MikTex\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen264
+\pgfarrowlength=\dimen265
+\pgfarrowwidth=\dimen266
+\pgfarrowlinewidth=\dimen267
+)
+\CF_cnt_atomgroup=\count300
+\CF_cnt_group=\count301
+\CF_cnt_atom=\count302
+\CF_cnt_cycle=\count303
+\CF_cnt_cyclebonds=\count304
+\CF_cnt_compound=\count305
+\CF_dim=\dimen268
+\CF_arrowsize=\dimen269
+\CF_zero=\dimen270
+\CF_box=\box65
+\CF_boxstuff=\box66
+\CF_testbox=\box67
+\CF_chargebox=\box68
+\CF_substtoks=\toks34
+)
+Package: chemfig 2023/02/18 v1.6d Draw molecule with an easy syntax
