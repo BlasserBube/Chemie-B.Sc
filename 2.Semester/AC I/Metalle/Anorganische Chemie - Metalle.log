@@ -377,4 +377,130 @@ File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \CF_chargebox=\box68
 \CF_substtoks=\toks34
 )
-Package: chemfig 2023/02/18 v1.6d Draw molecule with an easy syntax
+Package: chemfig 2023/02/18 v1.6d Draw molecule with an easy syntax (CT)
+) (Anorganische Chemie - Metalle.aux)
+\openout1 = `"Anorganische Chemie - Metalle.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+
+Package chemgreek Info: Activating mapping `default' on line 6.
+
+ (D:\MikTex\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count306
+\scratchdimen=\dimen271
+\scratchbox=\box69
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen272
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks36
+) (D:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (D:\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)) [1
+
+{C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+[2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 114--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--198
+
+ []
+
+[4]
+Overfull \hbox (10.5812pt too wide) in paragraph at lines 206--206
+[]\OT1/cmr/bx/n/14.4 Die El-e-mente der er-sten und elften Pe-ri-ode (-$[]$$\OT1/cmr/m/n/14.4 &$$[]$\OT1/cmr/bx/n/14.4 ) 
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+
+ []
+
+
+Overfull \hbox (16.94402pt too wide) in paragraph at lines 235--236
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
+[6] [7] (Anorganische Chemie - Metalle.aux) ) 
+Here is how much of TeX's memory you used:
+ 14785 strings out of 475385
+ 301843 string characters out of 2793322
+ 678756 words of memory out of 3000000
+ 35925 multiletter control sequences out of 15000+600000
+ 476435 words of font info for 53 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 85i,18n,90p,637b,771s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Anorganische Chemie - Metalle.pdf" (7 pages, 140238 bytes).
+PDF statistics:
+ 85 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
