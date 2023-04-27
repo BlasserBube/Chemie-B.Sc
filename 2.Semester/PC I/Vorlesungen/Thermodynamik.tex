@@ -5,8 +5,16 @@
 \usepackage{amsmath}
 \usepackage{tikz}
 \usepackage{chemfig}
-\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\hypersetup{
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
 \begin{document}
+\tableofcontents
 \section{Thermodynamik für Knechte}
 \subsection{Was ist Thermodynamik?}
 Thermodynamik:
@@ -219,7 +227,7 @@ Zustandsfläche\newpage
     \draw[red] (1 ,3.7) .. controls (1.5 ,2.5) and (3 ,2) .. (4 ,1.7) node[] {\textcolor{black}{T hoch}};
 \end{tikzpicture}\\
 \begin{equation*}
-    p \alpha \frac{1}{V}
+    p \varpropto \frac{1}{V}
 \end{equation*}\\
 \begin{equation*}
     pV = \mathbf{konst}
@@ -232,7 +240,7 @@ isotherm\\\\
     \draw(1.2 ,0.4) -- (3.7, 2.3) node[] {V groß};
 \end{tikzpicture}\\
 \begin{equation*}
-    p \alpha T
+    p \varpropto T
 \end{equation*}
 isochor\newpage
 \begin{tikzpicture}
@@ -242,7 +250,7 @@ isochor\newpage
     \draw(1.2 ,0.4) -- (3.7, 2.3) node[] {p groß};
 \end{tikzpicture}\\
 \begin{equation*}
-    V \alpha T
+    V \varpropto T
 \end{equation*}
 isobar\\\\
 \subsubsection{ideale Gasgleichung $pV = nRT$ bzw. $pV_m = RT$}
@@ -485,6 +493,129 @@ Es gilt $p_{ex} = \frac{F}{A}$ und $dz = \frac{dV}{A}$, somit:
 \end{equation*}
 Kraft und Weg entgegengesetzt.
 \begin{equation*}
-    W = - \int_{V_A}^{V_E} p_{ex} \,dV 
+    W = - \int_{z_1}^{z_2} F\,dz = - \int_{V_A}^{V_E} p_{ex} \,dV 
 \end{equation*}
+\textbf{Beispiel 1} (Ein Ballon)
+\begin{equation*}
+    p_{ex} = 0, w = ? \rightarrow w = - \int_{V_A}^{V_E} p_{ex} \, dV = 0; \text{ Freie Expansion}
+\end{equation*}
+\textbf{Beispiel 2}
+\begin{equation*}
+    p_{ex} = \text{konst.}, w = -\int_{V_A}^{V_E} p_{ex} \, dV = - p_{ex} \int_{V_A}^{V_E} \, dV = -p_{ex}(V_E-V_A) = -p_{ex}\Delta V
+\end{equation*}
+\textbf{Beispiel 3} isotherme, reversible Expansion
+\begin{equation*}
+    T = \text{konst},\,p_{ex}=p_{in},\,T_{ex} = T_{in}
+\end{equation*}
+\begin{equation*}
+    w0-\int_{V_A}^{V_E}p\,dV = -nRT \int_{V_A}^{V_E} \frac{1}{V} \,dV = nRT \ln(V) \vert_{V_A}^{V_E} = -nRT(\ln(V_E)-\ln(V_A)) = -nRT\ln\left(\frac{V_E}{V_A}\right)
+\end{equation*}
+\begin{equation*}
+    |w_{rev}|_{p_{in} = p_{ex}} > |w_{innen}|_{p_{ex}=\text{konst.}}
+\end{equation*}
+\subsubsection{Wärme}
+\begin{equation*}
+    T_{System} = T_S,\,T_{Umgebung} = T_U
+\end{equation*}
+\begin{equation*}
+    T_S > T_U
+\end{equation*}
+Somit muss eine Wärmemenge $q$ ausgetauscht werden.\\
+Wenn keine Phasenänderungen und keine chemische Reaktionen stattfinden:
+\begin{equation*}
+    q \varpropto C \Delta T
+\end{equation*}
+Wobei $C$ die Wärmekapazität ist.\\
+Um nun die intensiven Zustandsgröße Wärmekapazität zu einer extensiven Zustandsgröße zu machen, wird die spezifische Wärmekapazität berechnet:
+\begin{equation*}
+    C_S = \frac{C}{m}
+\end{equation*}
+Oder die molare Wärmekapazität:
+\begin{equation*}
+    C_m = \frac{C}{n}
+\end{equation*}
+
+\subsection[innere Energie 1.HS]{innere Energie und der 1. Hauptsatz}
+Gesamtenergie = äußere Energie $\leftrightarrow$ äußere Koordinaten (Höhe) + Innere Energie $\leftrightarrow$ innere Koordinaten ($p,V,T,n$)\\
+Änderung der inneren Energie (Zustandsgröße, extensive Größe)
+\begin{equation*}
+    \Delta U = U_E - U_A = q + w
+\end{equation*}
+1. Hauptsatz (ab)geschlossene Systeme\\
+\begin{equation*}
+    U_1 (\text{Zustand 1}) \ce{<=>[{Weg 1}][{Weg 2}]} U_2 (\text{Zustand 2}) 
+\end{equation*}
+$U$ muss eine Zustandsgröße sein, sonst wäre ein perpetum mobile möglich.\\
+adiabatische Prozesse
+\begin{equation*}
+    q = 0 \rightarrow \Delta U = w
+\end{equation*}
+isochor:
+\begin{equation*}
+    \Delta V = 0 \rightarrow p\Delta V = 0, \, w = 0 \rightarrow \Delta U = q
+\end{equation*}
+abgeschlossen
+\begin{equation*}
+    \Delta U = 0
+\end{equation*}
+Zustandsgröße $U$\\
+Weggröße $q,\,w$\\
+Änderung:
+\begin{equation*}
+    dU = \delta q + \delta w
+\end{equation*}
+Endliche Änderung:
+\begin{equation*}
+    \Delta U = U_E - U_A = \int_{U_A}^{U_E} \,dU
+\end{equation*}
+\begin{equation*}
+    q=\int_{A}^{E} \delta q \neq q_e - q_a = \Delta q
+\end{equation*}
+$K,\,n,\,p,\,V\,T$ (S)
+\subsubsection{thermische zustandsgleichungen \textcolor{gray}{($pV=nRT$)}}
+kalorische zustandsgleichung:
+\begin{equation*}
+    U = f(V,\,T) ?
+\end{equation*}
+totales Differential:
+\begin{equation*}
+    dU = \left(\frac{\partial U}{\partial T}\right)_V\,dT+\left(\frac{\partial U}{\partial V}\right)_T\,dV
+\end{equation*}
+Verknüpfung mit dem 1. Hauptsatz $dU = \delta q + \delta w$\\
+Wenn nur Volumenarbeit:
+\begin{equation*}
+    -p_{ex}\,dV + \delta q = \left(\frac{\partial U}{\partial T}\right)_V\,dT+\left(\frac{\partial U}{\partial V}\right)_T\,dV
+\end{equation*}
+Bei isochoren Prozessen: $dV = 0$
+\begin{equation*}
+    \delta q = \left(\frac{\partial U}{\partial T}\right)_V \,dT = C_V \,dT \Rightarrow dU = C_V \,dT
+\end{equation*}
+Da $\left(\frac{\partial U}{\partial T}\right)_V = C_V$ ist, \textcolor{gray}{($C_V =$ Wärmekapazität bei konstantem Volumen)}\\
+Für einatomige Gase:
+\begin{equation*}
+    U_m = N_A\langle E_{kin}\rangle = \frac{3}{2}RT \rightarrow C_V,m = \left(\frac{\partial U_m}{T}\right)_V = \frac{3}{2}R = 24,9 \mathrm{\frac{J}{K \cdot mol}}
+\end{equation*}
+
+\subsubsection{Freie Expansion}
+empirisch $q = 0$\\
+$p_{ex}=0 \rightarrow w=0$\\
+$\hookrightarrow \Delta U =0$\\
+somit
+\begin{equation*}
+    dU = \left(\frac{\partial U}{\partial T}\right)_V\,dT+\left(\frac{\partial U}{\partial V}\right)_T\,dV = 0
+\end{equation*}
+Wobei $\left(\frac{\partial U}{\partial V}\right)_T\,dV$ der Binnendruck $\pi_T$ ist.\\
+Wenn isotherm:
+\begin{equation*}
+    dT = 0 \rightarrow \left(\frac{\partial U}{\partial V}\right)_V = 0
+\end{equation*}
+$\hookrightarrow$ ideales Gas
+\begin{equation*}
+    dU = D_V\, dT + 0
+\end{equation*}
+Ideales Gas.\\
+\begin{equation*}
+    dU = C_V\, dT + \pi_T \,dV
+\end{equation*}
+Reale Gase.
 \end{document}
