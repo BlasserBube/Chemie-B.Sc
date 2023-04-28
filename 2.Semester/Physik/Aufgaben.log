@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  27 APR 2023 13:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  28 APR 2023 10:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -224,6 +224,22 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen154
 \Gin@req@width=\dimen155
+) (D:\MikTex\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (D:\MikTex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (D:\MikTex\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (D:\MikTex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count282
@@ -231,25 +247,25 @@ File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 ) (Aufgaben.aux)
 \openout1 = `Aufgaben.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-Package hyperref Info: Link coloring OFF on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+Package hyperref Info: Link coloring OFF on input line 8.
  (Aufgaben.out) (Aufgaben.out)
 \@outlinefile=\write3
 \openout3 = `Aufgaben.out'.
@@ -273,42 +289,52 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (D:\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<Abbildungen/Abb.1.png.png, id=3, 297.11pt x 323.70938pt>
-File: Abbildungen/Abb.1.png.png Graphic file (type png)
-<use Abbildungen/Abb.1.png.png>
-Package pdftex.def Info: Abbildungen/Abb.1.png.png  used on input line 18.
-(pdftex.def)             Requested size: 297.10927pt x 323.70859pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
  (D:\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
  (D:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+<Abbildungen/Abb.1.png.png, id=3, 297.11pt x 323.70938pt>
+File: Abbildungen/Abb.1.png.png Graphic file (type png)
+<use Abbildungen/Abb.1.png.png>
+Package pdftex.def Info: Abbildungen/Abb.1.png.png  used on input line 32.
+(pdftex.def)             Requested size: 297.10927pt x 323.70859pt.
+ [1
 
-{C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Abbildungen/Abb.1.png.png>]
-<Abbildungen/Abb.2.png, id=21, 288.07625pt x 170.6375pt>
+{C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (41.86829pt too wide) detected at line 49
+[] \OT1/cmr/m/n/10 = [] [] = 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 42 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[][] \OMS/cmsy/m/n/10 ^^A [] []
+ []
+
+<Abbildungen/Abb.2.png, id=20, 558.085pt x 321.2pt>
 File: Abbildungen/Abb.2.png Graphic file (type png)
 <use Abbildungen/Abb.2.png>
-Package pdftex.def Info: Abbildungen/Abb.2.png  used on input line 38.
-(pdftex.def)             Requested size: 288.07553pt x 170.63707pt.
- [2 <./Abbildungen/Abb.2.png>] (Aufgaben.aux)
+Package pdftex.def Info: Abbildungen/Abb.2.png  used on input line 56.
+(pdftex.def)             Requested size: 558.08365pt x 321.19922pt.
+
+Overfull \hbox (213.08365pt too wide) in paragraph at lines 55--57
+ [] 
+ []
+
+[2 <./Abbildungen/Abb.1.png.png>] [3 <./Abbildungen/Abb.2.png>] [4] (Aufgaben.aux)
 Package rerunfilecheck Info: File `Aufgaben.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9351 strings out of 475385
- 142798 string characters out of 2793322
- 480585 words of memory out of 3000000
- 30619 multiletter control sequences out of 15000+600000
- 472503 words of font info for 41 fonts, out of 8000000 for 9000
+ 9831 strings out of 475385
+ 148730 string characters out of 2793322
+ 493046 words of memory out of 3000000
+ 31085 multiletter control sequences out of 15000+600000
+ 472811 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,6n,77p,325b,446s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Aufgaben.pdf (2 pages, 208597 bytes).
+ 72i,8n,77p,464b,509s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Aufgaben.pdf (4 pages, 212663 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
