@@ -1,16 +1,16 @@
-\contentsline {section}{\numberline {1}Thermodynamik für Knechte}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Was ist Thermodynamik?}{1}{subsection.1.1}%
+\contentsline {section}{\numberline {1}Thermodynamik für Knechte}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Was ist Thermodynamik?}{2}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Thermodynamische Systeme}{2}{subsection.1.2}%
 \contentsline {subsubsection}{\numberline {1.2.1}Phase}{2}{subsubsection.1.2.1}%
 \contentsline {subsubsection}{\numberline {1.2.2}Aggregatzustände}{3}{subsubsection.1.2.2}%
 \contentsline {subsubsection}{\numberline {1.2.3}Gleichgewicht}{3}{subsubsection.1.2.3}%
-\contentsline {subsubsection}{\numberline {1.2.4}0. Hauptsatz der Thermodynamik}{3}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.4}0. Hauptsatz der Thermodynamik}{4}{subsubsection.1.2.4}%
 \contentsline {subsection}{\numberline {1.3}Zustandsgrößen}{4}{subsection.1.3}%
 \contentsline {subsubsection}{\numberline {1.3.1}intensive Zustandsgrößen \textcolor {gray}{(unabhängig von der Stoffmenge $n$ - \underline {in}dependent)}}{4}{subsubsection.1.3.1}%
 \contentsline {subsubsection}{\numberline {1.3.2}extensive Zustandsgrößen \textcolor {gray}{(abhängig von der Stoffmenge $n$)}}{4}{subsubsection.1.3.2}%
 \contentsline {subsubsection}{\numberline {1.3.3}Definition einer spezifische Größe \textcolor {gray}{(teilen durch Masse)}}{4}{subsubsection.1.3.3}%
-\contentsline {subsubsection}{\numberline {1.3.4}Definition einer molaren Größe \textcolor {gray}{(teilen durch Stoffmenge)}}{4}{subsubsection.1.3.4}%
-\contentsline {subsubsection}{\numberline {1.3.5}verschiedene Größen}{4}{subsubsection.1.3.5}%
+\contentsline {subsubsection}{\numberline {1.3.4}Definition einer molaren Größe \textcolor {gray}{(teilen durch Stoffmenge)}}{5}{subsubsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {1.3.5}verschiedene Größen}{5}{subsubsection.1.3.5}%
 \contentsline {subsubsection}{\numberline {1.3.6}thermodynamische Prozesse}{5}{subsubsection.1.3.6}%
 \contentsline {subsection}{\numberline {1.4}Zustandsgleichung - Zusammenhang zwischen Zustandsgrößen}{5}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Gase}{6}{section.2}%
@@ -31,3 +31,9 @@
 \contentsline {subsection}{\numberline {3.2}innere Energie 1.HS}{15}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}thermische zustandsgleichungen \textcolor {gray}{($pV=nRT$)}}{15}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Freie Expansion}{16}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Enthalpie}{16}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Temperaturabhängigkeit \textcolor {gray}{(p = konstant)}}{17}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Druckabgängigkeit der Enthalpie \textcolor {gray}{(Entspannung durch Drossel)}}{17}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Kalorimetrie: Messung von Wärmeeffekten \textcolor {gray}{Schmelzenthalpien und Reaktionsenthalpien}}{18}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Adiabatisches Bombenkalorimeter}{18}{subsubsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.5}Adiabatisches Verbrennungskalorimeter}{18}{subsection.3.5}%

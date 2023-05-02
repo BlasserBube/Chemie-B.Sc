@@ -612,5 +612,104 @@ Ideales Gas.\\
 \begin{equation*}
     dU = C_V\, dT + \pi_T \,dV
 \end{equation*}
-Reale Gase.
+Reale Gase.\\
+\subsection{Enthalpie}
+isobare Prozesse:
+\begin{itemize}
+    \item $dU = \delta q + \delta w$
+    \item $(dU)_p = \delta q_p - p d V$
+    \item Integration $ \Rightarrow \Delta U = U_E - U_A = q_p - p (V_E - V_A)$
+    \item Umschreiben $q_p = ( U_E + pV_E ) - ( U_A + pV_A) = \Delta (U+pV)$
+    \item Definition $H = U + pV$ Enthalpie
+    \item $dH = dU + d(pV) = dU + pdV + Vdp$\\$= \delta q + \delta w + pdV + Vdp = \delta q - pdV + pdV + Vdp$\\$\Rightarrow dH = \delta q + Vdp$
+    \item $H = H(p,T)$
+    \item $dH = \left(\frac{\partial H}{\partial T}\right)_p dT + \left(\frac{\partial H}{\partial p} dp\right)$
+\end{itemize}
+
+\subsubsection{Temperaturabhängigkeit \textcolor{gray}{(p = konstant)}}
+\begin{equation*}
+    dH = \delta q_p = \left(\frac{\partial H}{\partial T}\right)_p dT
+\end{equation*}
+Wobei $\left(\frac{\partial H}{\partial T}\right)_p$ die $C_p$ Wärmekapazität bei konstantem Druck ist\,ideale Gase $C_p - C_V = nR$\\
+Für Flüssigkeiten: $\Delta V \approx 0$\\
+Für Feststoffe: $\Delta p \approx 0$\\
+$\hookrightarrow \Delta H \approx \Delta U,\, C_p = C_V$
+
+\subsubsection{Druckabgängigkeit der Enthalpie \textcolor{gray}{(Entspannung durch Drossel)}}
+\begin{itemize}
+    \item[] Kompression links $V_A \rightarrow 0$
+    \item[] $w = -p\Delta V=-p_a(0-V_A)=pV_A$
+    \item[] Espansion rechts
+    \item[] $w = -p\Delta V = -p_E(V_E - 0) = -p_EV_E$
+    \item[] Gesamtarbeit: $w = p_AV_A-p_EV_E$
+    \item[] $\Delta U=U_E-U_E=w=p_aV_A - P_eV_E$
+\end{itemize}
+Somit
+\begin{equation*}
+    U_E + p_Ev_E = U_A + p_AV_a
+\end{equation*}
+\begin{equation*}
+    H_E = H_A
+\end{equation*}
+Dies nennt man einen isenthalpischen Prozess, da die Anfangs- und Endenthalpie gleich sind.\\
+totales Differential:
+\begin{equation*}
+    dH = \left(\frac{\partial H}{\partial T}\right)_p dT = \left(\frac{\partial H}{\partial p}\right)_T dp
+\end{equation*}
+Hier:
+\begin{equation*}
+    0 = C_p dT + \left(\frac{\partial H}{\partial p}\right)_T dp
+\end{equation*}
+Umschreiben:
+\begin{equation*}
+    \mu = \left(\frac{\partial T}{\partial p}\right)_H = - \frac{1}{C_p}\left(\frac{\partial H}{\partial p}\right)_T
+\end{equation*}
+Wobei $\mu$ der Joule-Thomson-Koeffizient ist.\\
+Kalometrische Zustandsgleichung für $H$:
+\begin{equation*}
+    dH = C_p dT - \mu C_p dp
+\end{equation*}
+Wobei $\mu C_p = 0$ für ein ideales Gas ist.
+
+\subsection{Kalorimetrie: Messung von Wärmeeffekten \textcolor{gray}{Schmelzenthalpien und Reaktionsenthalpien}}
+Grundlagen:\\
+\begin{center}
+    \begin{tabular}{c c}
+        \hline
+        isochor & $q_V = du$\\
+        isobar & $q_p = dH$\\
+        \hline
+    \end{tabular}\\
+\end{center}
+Kalorimetrie: Bestimmung von $q$ aus $T$-Änderung.\\
+\begin{equation*}
+    q = C\Delta T
+\end{equation*}
+$\hookrightarrow$ Wärmekapazität des Kalorimeters, Kalorimeterkonstante\\
+
+\subsubsection{Adiabatisches Bombenkalorimeter}
+\begin{itemize}
+    \item Kalibrierung
+    \item Bekannte Wärmemenge $q = VIt$
+    \item Messen Temperaturänderung
+\end{itemize}
+
+\subsection{Adiabatisches Verbrennungskalorimeter}
+\begin{equation*}
+    q_p = C_p \Delta T
+\end{equation*}
+\begin{equation*}
+    q_p + q_{p,ex} = (C_p + C_{p,ex}) \Delta T
+\end{equation*}
+\begin{equation*}
+    C_{p,ex} = \frac{q_{p,ex}}{\Delta T} = \frac{p_{ex}}{\alpha} \rightarrow \Delta H = \int_{T_1}^{T_2} C_{p,ex} \, dT
+\end{equation*}
+Heizrate:
+\begin{equation*}
+    \frac{\Delta T}{\Delta t}
+\end{equation*}
+Heizleistung:
+\begin{equation*}
+    \frac{q_{p,ex}}{\Delta t} = p_{ex}
+\end{equation*}
 \end{document}
