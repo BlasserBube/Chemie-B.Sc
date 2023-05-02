@@ -296,4 +296,45 @@
     \end{equation*}
     Die Funktion konvergiert für Werte von $x \in (\sqrt{5}-1, \sqrt{5}+1)$\\
     Für $x = \sqrt{5}$ konvergiert sie auch, da dann 0 bei herauskommt.
+
+
+    \section*{Woche 3}
+
+    \subsection*{7. Reihen}
+    \begin{equation*}
+        y(x) = \sum_{k=0}^{\infty} \frac{(-1)^k}{2k+1}x^{2k+2} = x \sum_{k=0}^{\infty} \frac{(-1)^k}{2k+1}x^{2k+1} = x \int \frac{\partial}{\partial x} \left(\sum_{k=0}^{\infty} \frac{(-1)^k}{2k+1}x^{2k+1}\right) \, dx  
+    \end{equation*}
+    \begin{equation*}
+        = x \left(\arctan(x) + c\right) = x \int \sum_{k=0}^{\infty} (-x^2)^k \, dx = x \int \frac{1}{1+x^2} \, dx
+    \end{equation*}
+
+    \subsection*{8. Reihen}
+    \begin{equation*}
+        f(x) = x\pi
+    \end{equation*}
+    mit $[0; 2\pi[$:
+    \begin{equation*}
+        f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos(nx)+b_n\sin(nx)
+    \end{equation*}
+    \begin{equation*}
+        f(x)=\frac{1}{\sqrt{2\pi}}\sum_{k = -\infty}^{\infty} c_k e^{ikx}
+    \end{equation*}
+    \begin{equation*}
+        k \neq 0, \, c_k = \frac{1}{\sqrt{2\pi}} \int_{0}^{1} (x-\pi)e^{ikx} \, dx = \frac{1}{\sqrt{2\pi}} \int_{0}^{1} \left[(x-\pi)\frac{1}{ik}e^{ikx}\right]^{2\pi}_0 + \frac{1}{ik} \int_{0}^{2\pi} \frac{e^{-ikx}}{-ik} \, dx
+    \end{equation*}
+    \begin{equation*}
+        = \frac{1}{\sqrt{2\pi}}-\left(\frac{\pi}{-ik} - \frac{-\pi}{-ik} + \frac{1}{ik}\left(\frac{1}{-ik}-\frac{1}{-ik}\right)\right) = \frac{i\sqrt{2\pi}}{k}
+    \end{equation*}
+    \begin{equation*}
+        \tilde{f} = \sum_{k=-\infty}^{\infty'} \frac{i}{k} e^{ikx} = \sum_{k=-\infty}^{\infty'} \frac{i}{k} \left(\cos(kx)+i\sin(kx)\right) = \sum_{k=1}^{\infty} \frac{-2}{k}\sin(kx)
+    \end{equation*}
+    \begin{equation*}
+        \frac{\pi}{2} = 2(1-\frac{1}{3}+\frac{1}{5}-\dots)
+    \end{equation*}
+    \begin{equation*}
+        \frac{\pi}{2} = \sum_{k=1}^{\infty} \frac{-2}{k} \sin\left(\frac{3\pi}{2}\right) \rightarrow 1, 0, -1, 0, 1, \dots
+    \end{equation*}
+    \begin{equation*}
+        \sum_{k=1}^{\infty} \frac{-2}{2k+1}\left((-1)^k\right)
+    \end{equation*}
 \end{document}
