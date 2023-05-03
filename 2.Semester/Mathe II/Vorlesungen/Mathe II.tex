@@ -2,6 +2,12 @@
 \usepackage{mhchem}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage[
+  left=1cm,
+  right=1cm,
+  top=2cm,
+  bottom=2cm,
+]{geometry}
 
 \begin{document}
 
@@ -585,4 +591,172 @@ somit:
 \begin{equation*}
     A^{-1} =\left(\begin{array}{c c}1&0\\1&1\end{array}\right)
 \end{equation*}
+\subsubsection{Die transponierte Matrix $\tilde{A}, A^T, A^+$}
+Def.:
+\begin{equation*}
+    (\tilde{A})_{ij} = A_{ji}
+\end{equation*}
+$\tilde{A}$ entsteht aus $A$ durch Vertauschen von Zeilen und Spalten bzw. durch Spiegelung der Matrix an der Hauptdiagonalen\\
+Def.: Symmetrische Matrix: $\tilde{A} = A$\
+Beispiel:
+\begin{equation*}
+    A = \left(\begin{array}{c c c}
+        1 & 0 & -1\\ 0 & 2 & o\\ -1 & i & 3
+    \end{array}\right)
+\end{equation*}
+Def.: Orthogonale Matrix $\tilde{A} = A^{-1}$\\
+Beispiel:
+\begin{equation*}
+    A = \left(\begin{array}{c c c}
+        0&0&1\\1&0&0\\0&-1&0
+    \end{array}\right)
+    ,\, \tilde{A} = \left(\begin{array}{c c c}
+        0&1&0\\0&0&-1\\1&0&0
+    \end{array}\right)
+\end{equation*}
+Eigenschaften orthogonaler Matrizen:\\
+\textbf{1.}
+\begin{equation*}
+    AA^{-1} = E = A\tilde{A}
+\end{equation*}
+Wobei $A\tilde{A}$ das Skalarprodukt der $i$-ten und $j$-ten Teilen von $A$ ergibt $\delta_{ij}$, das heißt Zeilenvektoren sind othonormiert.\\
+\textbf{2.}
+\begin{equation*}
+    1 = \det(E) = \det(AA^{-1}) =^*\det(A)\det(A^{-1}) = \det(A) \det(\tilde{A}) = \left[\det(A)\right]^2
+\end{equation*}
+* - Eigenschaften von Determinanten $\det$:
+\begin{itemize}
+    \item $\det(A) = \det(\tilde{A})$
+    \item $\det(AB) = \det(A)\cdot\det(B)$
+\end{itemize}
+Es muss gelten:\\
+\begin{equation*}
+    \det(A) = \pm 1,\, \text{falls} A\, \text{eine orthogonale Matrix ist}
+\end{equation*}
+Ganz allgemein:
+\begin{equation*}
+    (AB)^T = B^TA^T
+\end{equation*}
+\subsubsection{Die adjungierte Matrix $A^+$}
+Erweiterung der Transporniertenbildung auf komplexe Matrizen\\
+Def.:
+\begin{equation*}
+    A^+ = (\tilde{A})^*
+\end{equation*}
+Def.: selbstadjungierte Matrix (hermitische Matrix)
+\begin{equation*}
+    A^+ = A
+\end{equation*}
+(entspircht symmetrischen Matrizen im Komplexen)\\
+Beispiel: alle quantenmechanische Operatoren sind hermitische
+\begin{equation*}
+    s_y = \frac{1}{2}\sigma_y = \frac{1}{2}\left(\begin{array}{c c}
+        0&-i\\i&0
+    \end{array}\right)
+\end{equation*}
+\begin{equation*}
+    s_y^+ = \frac{1}{2}\left(\begin{array}{c c}0&-i\\i&0\end{array}\right) = \frac{1}{2}\left(\begin{array}{c c}0&-i\\i&0\end{array}\right)^* = \frac{1}{2}\left(\begin{array}{c c}0&-i\\i&0\end{array}\right) = s_y
+\end{equation*}
+Def.: Unitäre Matrizen $A^+ = A^-1$ entsprechen orthogonalen Matrizen im komplexen Zahlenraum
+\subsection{Determinanten}
+\subsubsection{Definition}
+Die Determinante einer quadratischen Matrix $A$ der Dimension $n$ ist eine Zahl, welche durch Anwendung der folgenden Rechenvorschrift bestimmt wird.
+\begin{equation*}
+    \det(A) = \left\lvert \begin{array}{c c c}A_{11}&A_{12}&\dots\\A_{21}&A_{22}&\dots\\\vdots&\vdots&\ddots\end{array}\right\rvert =^{Def} \sum_{p}(-1)^{j(p)}\cdot A_{1i_1}\cdot A_{2i_2} \cdot A_{3i_3} \cdot \dots \cdot A_{ni_n}
+\end{equation*}
+$\sum_{p}$ gibt somit die Summer über alle möglichen Permutationen der Zahlen $1,2,\dots,n$ an.\\
+$j(p)$ ist die Anzahl der INversionen der Permutationen $p = \left(\begin{array}{c c c c}1&2&\dots&n\\i_1&i_2&\dots&i_n\end{array}\right)$.\\
+Beispiel:
+\begin{equation*}
+    \left\lvert\begin{array}{c c c}3&1&2\\0&4&-1\\2&1&7\end{array} \right\rvert = \begin{array}{c c c}A_{1i_1} \cdot & A_{2i_2} \cdot & A_{3i_3}\\ (+)3 \cdot & 4 \cdot &7\\-3 \cdot & (-1) \cdot& 1\\-1 \cdot & 0 \cdot & 7\\(+)1 \cdot &(-1) \cdot& 2\\(+)2\cdot&0\cdot&1\\-2 \cdot&4\cdot&2\end{array} \begin{array}{c c c c}i_1 & i_2 & i_3 & j\\(1 & 2& 3) & 0\\(1 & 3&2) & 1\\(2&1&3)&1\\(2&3&1)&2\\(3&1&2)&2\\(3&2&1)&1\end{array}
+\end{equation*}
+\begin{equation*}
+    84 + 2 - 0 - 2 + 0 - 16 = 69
+\end{equation*}
+Bemerkungen:\\
+- Determinanten stellen eine Kerngröße für eine Matrix dar.\
+\textbf{1.} Laplace'scher Entwicklungssatz:
+\begin{itemize}
+    \item Entwischlung nach der $i$-ten Zeile
+\end{itemize}
+\begin{equation*}
+    \det(A)=\sum_{k=1}^{n} (-1)^{i+k} A_{ik} D_{ik}
+\end{equation*}
+Wobei $D_{ik}$ eine Unterdeterminante ist das heißt, Determinante der $(n-1)\times (n-1)$ Matrix, die entsteht, wenn von $A$ die $i$-te Zeile und $k$-te Spalte gestrichen wird.\\
+\textbf{2.} Entwicklung nach der Spalte
+\begin{equation*}
+    det(A) = \sum_{i=1}^{n}(-1)^{i+k}A_{ik}D_{ik}
+\end{equation*}
+Wiederholte Anwendung des Entwicklungssatzes: Zurückführen auf Unterdeterminanten 3.Ordnung und 2. Ordnung
+\begin{equation*}
+    \left\lvert \begin{array}{c c c}a&b&c\\d&e&f\\g&h&i\end{array} \right\rvert = a \left\lvert \begin{array}{c c}e&f\\h&i\end{array} \right\rvert - b \left\lvert \begin{array}{c c}d&f\\g&i\end{array} \right\rvert - c \left\lvert \begin{array}{c c}d&e\\g&h\end{array} \right\rvert = aei + bfg + cdh - ceg - bdi - afh
+\end{equation*}
+\begin{equation*}
+    \left\lvert \begin{array}{c c}a&b\\c&d\end{array} \right\rvert = ad-bc
+\end{equation*}
+Beispiel:
+\begin{equation*}
+    \left\lvert\begin{array}{c c c c}(+)2&7&1&4\\(-)5&(+)0&(-)0&(+)3\\-1&2&1&0\\4&5&-1&1\end{array} \right\rvert = -5 \left\lvert\begin{array}{c c c}7&1&4\\2&1&0\\5&-1&1\end{array} \right\rvert + 3 \left\lvert\begin{array}{c c c}2&7&1\\-1&2&1\\4&5&-1\end{array} \right\rvert
+\end{equation*}
+Hier wurde nach der 2. Zeile entwickelt, da nur 2 Unterdeterminanten notwendig sind.\\
+\begin{equation*}
+    -5(7-8-20-2)+3(-4+28-5-8-10-7) = 97
+\end{equation*}
+Spezialfall: Determinante einer Dreiecksmatrix ist das Produkt der Diagonalelemente
+\begin{equation*}
+    \left\lvert \begin{array}{c c c c}1&0&0&0\\3&2&0&0\\7&-1&3&0\\5&0&6&4\end{array} \right\rvert = 4 \left\lvert \begin{array}{c c c}1&0&0\\3&2&0\\7&-1&3\end{array} \right\rvert = 4 \cdot 3 \left\lvert \begin{array}{c c}1&0\\3&2\end{array} \right\rvert = 4 \cdot 3 \cdot 2 \cdot 1 = 24
+\end{equation*}
+Hier wurde jeweils nach der letzten Spalte entwickelt.
+\subsubsection{Eigenschaften von Determinanten}
+\begin{itemize}
+    \item[a)] Eine Determinante verschwindet (hat den  Wert 0), wenn Zeilen (doer Spalten) linear abhängig (oder identisch) sind.
+\end{itemize}
+Beweis: Laplace-Entwicklung bis zur Unterdeterminante 2.Ordnung
+\begin{equation*}
+    \left\lvert \begin{array}{c c}\lambda a & \lambda b\\a&b\end{array}\right\rvert = \lambda ab - \lambda ab = 0
+\end{equation*}
+\begin{equation*}
+    \left\lvert \begin{array}{c c} \lambda a & a\\ \lambda b & b\end{array} \right\rvert = \lambda ab - \lambda ab = 0
+\end{equation*}
+
+\begin{itemize}
+    \item[b)] Die  Bildung der transponierten Matrix ändert nicht den Wert der Determinante.
+\end{itemize}
+Beweis: zeilen bzw. Spalten spielen bei der Definition der Determinante bzw. im Laplace-Entwicklungssatz dieselbe Rolle.
+\begin{equation*}
+    \left\lvert \begin{array}{c c}a&b\\c&d\end{array}\right\rvert = ad-bc,\, \left\lvert \begin{array}{c c}a&c\\b&d\end{array}\right\rvert = ad - bc
+\end{equation*}
+\begin{itemize}
+    \item[c)] Ein gemeinsamer Faktor in \underline{einer} Zeile (Spalte) kann vor die Determinante gezogen werden.
+\end{itemize}
+Beweis: Entwicklung nach der Zeile (Spalte), aus der $\lambda$ herausgezogen werden soll:
+\begin{equation*}
+    \sum_{k=1}^{n}(-1)^{i+k}(\lambda A_{ik})D_{ik} = \lambda \sum_{k=1}^{n}(-1)^{i+k}A_{ik}D_{ik}\, \text{ für } i \text{-te Zeile}
+\end{equation*}
+\begin{itemize}
+    \item[d)] Die Vertauschung zweier Zeilen bzw. Spalten ändert das Vorzeichen der Determinanten
+\end{itemize}
+Beweis: Rückführung auf Unterdeterminante 2.Ordnung mit dem Laplace-Entwicklungssatz, wobei diese die Elemente der zu vertauschenden Zeilen (Spalten) enthalten.
+\begin{equation*}
+    \left\lvert \begin{array}{c c}a&b\\c&d\end{array}\right\rvert = ad-cb = -(bc-ad) - \left\lvert \begin{array}{c c}c&b\\a&b\end{array} \right\rvert=-\left\lvert \begin{array}{c c}b&a\\d&c\end{array}\right\rvert
+\end{equation*}
+\begin{itemize}
+    \item[e)] Zeilen bzw. Spalten in Determinanten können beliebig linearkombiniert werden, ohne dass sich der Wert der Determinanten ändert.
+\end{itemize}
+\begin{equation*}
+    \left\lvert \begin{array}{c c}a & b\\c+\lambda a & d+\lambda b\end{array} \right\rvert = ad+\lambda ab - bc -\lambda ab = ad - bc
+\end{equation*}
+\begin{itemize}
+    \item[f)] Multiplikationssatz für Determinanten: $\det(AB) = \det(A)\det(B)$
+\end{itemize}
+\begin{equation*}
+    \det(A)\det(B) = \left(\begin{array}{c c}ae + bg& af + bh\\ce + dg & cd + dh\end{array}\right) = AB
+\end{equation*}
+\begin{equation*}
+    \det(AB)=(ae+bg)(cf+dh)-(ce+dg)(af+bh)=acef+adeh+befg+bdgh-acef-bceh-adfg-bdgh
+\end{equation*}
+\begin{equation*}
+    = (ad-cb)(eh-fg) = \det(A)\det(B)
+\end{equation*}
+Warnung: Es gilt \underline{nicht}: $\det(A+B) = \det(A)+\det(B)$
 \end{document}

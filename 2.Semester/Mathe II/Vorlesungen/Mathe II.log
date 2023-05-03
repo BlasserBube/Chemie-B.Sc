@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  26 APR 2023 11:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  3 MAY 2023 11:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -160,255 +160,311 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (Mathe II.aux)
+)) (D:\MikTex\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (D:\MikTex\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+) (D:\MikTex\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (D:\MikTex\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count279
+\Gm@cntv=\count280
+\c@Gm@tempcnt=\count281
+\Gm@bindingoffset=\dimen156
+\Gm@wd@mp=\dimen157
+\Gm@odd@mp=\dimen158
+\Gm@even@mp=\dimen159
+\Gm@layoutwidth=\dimen160
+\Gm@layoutheight=\dimen161
+\Gm@layouthoffset=\dimen162
+\Gm@layoutvoffset=\dimen163
+\Gm@dimlist=\toks22
+ (D:\MikTex\tex/latex/geometry\geometry.cfg)) (Mathe II.aux)
 \openout1 = `"Mathe II.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
-Package chemgreek Info: Activating mapping `default' on line 6.
+Package chemgreek Info: Activating mapping `default' on line 12.
 
  (D:\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count279
-\scratchdimen=\dimen156
+\scratchcounter=\count282
+\scratchdimen=\dimen164
 \scratchbox=\box54
-\nofMPsegments=\count280
-\nofMParguments=\count281
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count282
-\MPscratchDim=\dimen157
-\MPnumerator=\count283
-\makeMPintoPDFobject=\count284
-\everyMPtoPDFconversion=\toks22
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen165
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks24
 ) (D:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (D:\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
- (D:\MikTex\tex/latex/amsfonts\umsa.fd
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=557.38951pt
+* \textheight=681.15898pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+(D:\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
  (D:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (4.23116pt too wide) in paragraph at lines 10--14
-|  \OT1/cmr/m/n/10 MO-LCAO: $[]$olecular $[]$rbitals by $[]$inear $[]$ombination of $[]$tomic $[]$rbitals 
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--94
+
  []
 
 [1
 
 {C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (4.6047pt too wide) in paragraph at lines 64--67
-\OT1/cmr/m/n/10 Zeilen (Einzel-gle-ichun-gen) bis Dreiecks-form er-re-icht wurde, an-schlie^^Yend $\OML/cmm/m/it/10 z[]; z[]; z[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--67
+Underfull \hbox (badness 10000) in paragraph at lines 102--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--88
+Underfull \hbox (badness 10000) in paragraph at lines 102--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--88
+Underfull \hbox (badness 10000) in paragraph at lines 118--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--100
+Underfull \hbox (badness 10000) in paragraph at lines 123--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--100
+Underfull \hbox (badness 10000) in paragraph at lines 123--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--115
+Underfull \hbox (badness 10000) in paragraph at lines 123--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--153
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 117--125
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--125
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--125
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--125
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--147
+Underfull \hbox (badness 10000) in paragraph at lines 210--212
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 197--199
+Underfull \hbox (badness 10000) in paragraph at lines 238--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--204
+Underfull \hbox (badness 10000) in paragraph at lines 238--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--206
+Underfull \hbox (badness 10000) in paragraph at lines 238--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
+
+ []
+
+
+Overfull \hbox (28.55602pt too wide) in paragraph at lines 259--265
+\OT1/cmr/m/n/10 Ist die An-zahl der Ba-sisvek-toren gle-ich der DI-men-sion des Vek-tor-raums, so gei^^?ut die Ba-sis vollst^^?andig. ($[]$ollst^^?andig $[]$rtho$[]$ormal$[]$ystem,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--281
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 232--240
+Underfull \hbox (badness 10000) in paragraph at lines 284--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--240
+Underfull \hbox (badness 10000) in paragraph at lines 284--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--240
+Underfull \hbox (badness 10000) in paragraph at lines 304--306
 
  []
 
 
-Overfull \hbox (9.59738pt too wide) in paragraph at lines 249--251
-\OT1/cmr/m/n/10 c) Def.: Ein Satz von Ba-sisvek-toren $[]$ hei^^Yt Or-thonor-mal-sys-tem (or-thonomiert),
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 261--266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--280
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--280
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 298--300
+Underfull \hbox (badness 10000) in paragraph at lines 383--389
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+Underfull \hbox (badness 10000) in paragraph at lines 383--389
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+Underfull \hbox (badness 10000) in paragraph at lines 402--406
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 412--416
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
+Underfull \hbox (badness 10000) in paragraph at lines 412--416
 
  []
 
-[7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 377--383
+[7] [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 632--633
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--383
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 396--400
+[10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 700--702
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 406--410
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 406--410
-
- []
-
-[9] [10] [11] [12] (Mathe II.aux) ) 
+[12] (Mathe II.aux) ) 
 Here is how much of TeX's memory you used:
- 3526 strings out of 475385
- 59547 string characters out of 2793322
- 434975 words of memory out of 3000000
- 24894 multiletter control sequences out of 15000+600000
+ 4131 strings out of 475385
+ 69013 string characters out of 2793322
+ 452960 words of memory out of 3000000
+ 25483 multiletter control sequences out of 15000+600000
  473430 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,9n,76p,471b,320s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 69i,9n,76p,558b,322s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Mathe II.pdf" (12 pages, 196850 bytes).
+Output written on "Mathe II.pdf" (12 pages, 207320 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
