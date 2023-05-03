@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.12)  2 MAY 2023 23:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  3 MAY 2023 08:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/Mathe II/Übungen/Übungen.tex"
-(c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/Mathe II/Übungen/Übungen.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-03-30> (E:\LaTex-Stuff\MikTex\tex/latex/base\article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(E:\LaTex-Stuff\MikTex\tex/latex/base\size10.clo
-File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+**"c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/Mathe II/Übungen/Übungen.tex"
+(c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/Mathe II/Übungen/Übungen.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28> (D:\MikTex\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(D:\MikTex\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -19,24 +19,24 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count190
 \c@figure=\count191
 \c@table=\count192
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
-) (E:\LaTex-Stuff\MikTex\tex/latex/amsmath\amsmath.sty
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (D:\MikTex\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip50
+\@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(E:\LaTex-Stuff\MikTex\tex/latex/amsmath\amstext.sty
+(D:\MikTex\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (E:\LaTex-Stuff\MikTex\tex/latex/amsmath\amsgen.sty
+ (D:\MikTex\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
-\ex@=\dimen141
-)) (E:\LaTex-Stuff\MikTex\tex/latex/amsmath\amsbsy.sty
+\ex@=\dimen139
+)) (D:\MikTex\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen142
-) (E:\LaTex-Stuff\MikTex\tex/latex/amsmath\amsopn.sty
+\pmbraise@=\dimen140
+) (D:\MikTex\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count193
@@ -56,7 +56,7 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen143
+\big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count198
@@ -74,29 +74,29 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \column@=\count269
 \maxfields@=\count270
 \andhelp@=\toks18
-\eqnshift@=\dimen144
-\alignsep@=\dimen145
-\tagshift@=\dimen146
-\tagwidth@=\dimen147
-\totwidth@=\dimen148
-\lineht@=\dimen149
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
 \@envbody=\toks19
-\multlinegap=\skip51
-\multlinetaggap=\skip52
+\multlinegap=\skip50
+\multlinetaggap=\skip51
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (E:\LaTex-Stuff\MikTex\tex/latex/amsfonts\amssymb.sty
+) (D:\MikTex\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (E:\LaTex-Stuff\MikTex\tex/latex/amsfonts\amsfonts.sty
+ (D:\MikTex\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (E:\LaTex-Stuff\MikTex\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
+)) (D:\MikTex\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count271
 \l__pdf_internal_box=\box53
 ) (Übungen.aux)
@@ -117,11 +117,11 @@ LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
- (E:\LaTex-Stuff\MikTex\tex/latex/amsfonts\umsa.fd
+ (D:\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
- (E:\LaTex-Stuff\MikTex\tex/latex/amsfonts\umsb.fd
+ (D:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
@@ -141,21 +141,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--279
  []
 
 [6]
-Overfull \hbox (15.41116pt too wide) detected at line 324
+Overfull \hbox (15.41116pt too wide) detected at line 330
 \OML/cmm/m/it/10 k \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 ;  c[] \OT1/cmr/m/n/10 = [] [][](\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^Y\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 e[] dx \OT1/cmr/m/n/10 = [] [][] [][] + [] [][] [] \OML/cmm/m/it/10 dx
  []
 
 [7] (Übungen.aux) ) 
 Here is how much of TeX's memory you used:
- 1691 strings out of 476326
- 24277 string characters out of 5798509
- 1863660 words of memory out of 5000000
- 22170 multiletter control sequences out of 15000+600000
- 515196 words of font info for 44 fonts, out of 8000000 for 9000
+ 1693 strings out of 475385
+ 24120 string characters out of 2793322
+ 373325 words of memory out of 3000000
+ 23115 multiletter control sequences out of 15000+600000
+ 472168 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,6n,62p,307b,121s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Übungen.pdf (7 pages, 164507 bytes).
+ 54i,6n,62p,324b,121s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Übungen.pdf (7 pages, 164727 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
