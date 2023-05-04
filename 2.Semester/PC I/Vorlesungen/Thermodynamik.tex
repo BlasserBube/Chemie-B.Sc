@@ -7,9 +7,16 @@
 \usepackage{chemfig}
 \usepackage{amssymb}
 \usepackage{hyperref}
+\usepackage[
+  left=1cm,
+  right=1cm,
+  top=2cm,
+  bottom=2cm,
+]{geometry}
 
 \begin{document}
 \tableofcontents
+\newpage
 \section{Thermodynamik für Knechte}
 \subsection{Was ist Thermodynamik?}
 Thermodynamik:
@@ -711,5 +718,125 @@ Heizrate:
 Heizleistung:
 \begin{equation*}
     \frac{q_{p,ex}}{\Delta t} = p_{ex}
+\end{equation*}
+
+\subsection{Thermochemie - Wärmeeffekte chemischer Reaktionen}
+\begin{equation*}
+    q_p = \Delta H,\, \text{chemische Reaktion: } \Delta_R H
+\end{equation*}
+\begin{equation*}
+    \ce{aA + bB -> cC + dD}
+\end{equation*}
+\begin{equation*}
+    \Delta_R H = cH_c + dH_d - (aH_a + bH_b)
+\end{equation*}
+Es gilt:
+\begin{itemize}
+    \item[] $\Delta_R H < 0 :$ exotherm
+    \item[] $\Delta_R H > 0 :$ endotherm 
+\end{itemize}
+
+\subsubsection{Standardreaktionsenthalpie}
+\begin{equation*}
+    \Delta_RH^0 = \sum\text{ (Produkte) }\nu_i H_{m,i}^0 - \sum\text{ (Edukte) } \nu_i H_{m,i}^0
+\end{equation*}
+$H_m^0$ Standardenthalpie\\
+Standardbildungsenthalpie $\Delta_BH^0$\\
+Bildungsenthalpie (Reaktionsenthalpie für die Bildung aus Elementen im Standardzustand) \textcolor{gray}{(Standardzustand heißt: stabilste Form bei $p=1$ bar)}\\
+Bei 298 $^\circ$C \ce{Ns_{(g)}, Hg_{(l)}, C} (Graphit)
+
+\subsubsection{Datz von Hess}
+\begin{equation*}
+    \ce{C_{(s)} + 1/2 O2_{(g)} -> CO_{(g)}} \Delta_R H_1
+\end{equation*}
+\begin{equation*}
+    \ce{CO_{(g)} + 1/2 O2_{(g)} -> CO2_{(g)}} \Delta_R H_2 = -283 \mathrm{\frac{kJ}{mol}}
+\end{equation*}
+\begin{equation*}
+    \ce{C_{(s)} + O2_{(g)} -> CO2_{(g)}} \Delta_R H_3 = -394 \mathrm{\frac{kJ}{mol}}
+\end{equation*}
+\begin{equation*}
+    \Delta_RH_1 + \Delta_RH_2 = \Delta_RH_3 \Leftrightarrow \Delta_RH1 = \Delta_RH_3 - \Delta_RH_2 = -111 \mathrm{\frac{kJ}{mol}}
+\end{equation*}
+
+\subsubsection{Kirchhoffsches Gesetz}
+\begin{equation*}
+    H(T_2) = H(T_1) + \int_{T_1}^{T_2} C_p \, dT = H(T_1)+C_p \Delta T
+\end{equation*}
+Weg I:
+\begin{equation*}
+    \Delta H^0 (I) = \Delta_RH^0 (T_1) + \Delta_{Erw} H^0 (T_1 \rightarrow T_2) = \Delta_RH^0(T_1) + (C_{p,m}^0(C) + C_{p,m}(D)) \Delta T
+\end{equation*}
+Weg II:
+\begin{equation*}
+    \Delta H^0 (II) = \Delta_{Erw} H^0 (T_1 \rightarrow T_2) + \Delta_RH^0 (T_2) = (C_{p,m}^0 (A) + C_{p,m}^0 (B))\Delta T + \Delta_RH^0 (T_2)
+\end{equation*}
+\begin{equation*}
+    \Delta_RH^0 (T_2) = \Delta_RH^0 (T_1) + (C_{p,m}^0 (C)+C_{p,m}^0 (D)-C_{p,m}^0(A)-C_{p,m}^0(B)) \Delta T = \Delta_RH^0 (T_1) + \Delta_RC_p^0 \Delta T
+\end{equation*}
+
+\section{Der 2. Hauptsatz}
+\subsection{Carnotscher Kreisprozess}
+\subsubsection{isotherme Prozesse (reversibel) ideales Gas}
+\begin{equation*}
+    dU = \delta q - pdV = \left(\frac{\partial U}{\partial T}\right)_V \, dT + \left(\frac{\partial U}{\partial V}\right)_T \, dV
+\end{equation*}
+$\Rightarrow dU = 0$ und $\delta q = pdV$\\
+\begin{itemize}
+    \item[] Expansion: $dV>0$
+    \item[] Kompression: $dV<0$
+\end{itemize}
+Für den Prozess $V_A \rightarrow V_E$ gilt:
+\begin{equation*}
+    W = - \int_{V_A}^{V_E} p \, dV = -nRT \int_{V_A}^{V_E} \frac{1}{V} \, dV = -nRT \ln\left(\frac{V_E}{V_A}\right) = -q_{Exp}
+\end{equation*}
+Für den Prozess $V_E \rightarrow V_A$ gilt:
+\begin{equation*}
+    W = -nRT \ln\left(\frac{V_A}{V_E}\right)=-q_{Kom}
+\end{equation*}
+
+\subsubsection{Adiabatische Prozesse (reversibel) \textcolor{gray}{($q=0$)}}
+\begin{itemize}
+    \item[] Bei Expansion $W < 0 \Rightarrow \Delta U < 0$
+\end{itemize}
+\begin{equation*}
+    \Delta U = \int_{T_1}^{T_2} C_V dT = C_V \Delta T
+\end{equation*}
+\begin{equation*}
+    \Delta U_{\mathrm{adiabatisch}} = C_V \Delta T
+\end{equation*}
+\begin{equation*}
+    \Delta U = q + w \Rightarrow w = C_V \Delta T
+\end{equation*}
+
+\subsubsection{Adiabatengleichung}
+\begin{equation*}
+    dU = D_V \,dT = -p\,dV = - \frac{nRT}{V} \, dV
+\end{equation*}
+Um dies nun zu integrieren, ist eine Trennung der Variablen notwendig.
+\begin{equation*}
+    -nR \frac{dV}{V} = C_V \frac{dT}{T}
+\end{equation*}
+\begin{equation*}
+    -R \int_{V_A}^{V_E} \frac{1}{V}\,dV = \int_{T_A}^{T_E} \frac{1}{T} \, dT
+\end{equation*}
+Mit der Annahme $C_V \neq C_V (T)$ ist folgendes Möglich:
+\begin{equation*}
+    -nR \ln\left(\frac{V_E}{V_A}\right) = C_V \ln\left(\frac{T_E}{T_A}\right)
+\end{equation*}
+Einsetzen von $nR = C_p - C_V$:
+\begin{equation*}
+    - \frac{C_p - C_V}{C_V} \ln\left(\frac{V_E}{V_A}\right) = ln\left(\frac{T_E}{T_A}\right), \, \gamma = \frac{C_p}{C_V} > 1
+\end{equation*}
+\begin{equation*}
+    (\gamma - 1)\ln\left(\frac{V_A}{V_E}\right) = \ln\left(\frac{T_E}{T_A}\right)
+\end{equation*}
+\begin{equation*}
+    \ln\left(\frac{V_A}{V_E}\right)^{\gamma-1} = \ln\left(\frac{T_E}{T_A}\right)
+\end{equation*}
+Dies ist die Adiabatengleichung.\\
+Mit $T = \frac{pV}{nR}$ ist noch folgende Umformung möglich:
+\begin{equation*}
+    p_EV_E^\gamma = p_AV_A^\gamma
 \end{equation*}
 \end{document}
