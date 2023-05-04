@@ -4,6 +4,12 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{xcolor}
+\usepackage[
+  left=1cm,
+  right=1cm,
+  top=2cm,
+  bottom=2cm,
+]{geometry}
 
 \begin{document}
 
@@ -52,7 +58,7 @@ Da:
 \end{equation*}
 
 \subsection*{Aufgabe 3}
-\begin{center}paint
+\begin{center}
     \includegraphics{Abbildungen/Abb.2.png}
 \end{center}
 \begin{equation*}
@@ -64,6 +70,8 @@ Da:
 
 \subsection*{Aufgabe 4 (T)}
 2-Achsiges Koordinatensystem, an den Achsen spiegeln, bis eine Punktsymmetrie zum Ursprung vom Ausgangspunkt entseht, bei einem spitzeren Winkel müssen mehr "Generationen" \textcolor{gray}{(Spiegelladungen)} auftreten, bis die Punktsymmetrie entsteht.
+
+\newpage
 
 \subsection*{Aufgabe 5 (T)}
 a) \begin{equation*}
@@ -81,5 +89,76 @@ b)
 \end{equation*}
 \begin{equation*}
     T = \frac{2\pi r}{v}=1.5 \cdot 10^{-16}\text{ s}
+\end{equation*}
+
+\section*{Woche 2}
+\subsection*{Aufgabe 1}
+a)\\
+Das elektrische Potential einer unendlich ausgedehnten, dünnen Platte beträgt $\vec{U_1} = -100\,\mathrm{\frac{V}{m}\,z}$\\
+Das elektrische Feld kann wie folgt dargestellt werden:
+\begin{equation*}
+    \vec{E}(\vec{r}) = -\vec{\nabla}U(\vec{r}) = \left(\begin{array}{c}\frac{\partial U}{\partial x}\\\\\frac{\partial U}{\partial y}\\\\\frac{\partial U}{\partial z}\end{array}\right)
+\end{equation*}
+durch Einsetzen von $\vec{U_1} = -100\,\mathrm{\frac{V}{m}\,z}$ erhält man:
+\begin{equation*}
+    \vec{\nabla}U(r) = \left(\begin{array}{c}0\\0\\-100\mathrm{\frac{V}{m}}\end{array}\right)
+\end{equation*}
+Somit zeigt der Vektor in $-z$-Richtung und trägt ein negatives Vorzeichen, somit zeigt das Feld in $-z$-Richtung und trägt ein negatives Vorzeichen.\\\\
+b)\\
+Ein unendlich langer, positiv geladener Draht hat die Längenladungsdichte $\lambda = \frac{Q}{a}$.\\
+Ein Abschnitt $a$ trägt die Ladungsdichte $Q$.\\
+$\lambda = 1\cdot 10^{-6} \mathrm{\frac{C}{m}}$\\
+Für den Vektor des elektrischen Feldes gilt:
+\begin{equation*}
+    \vec{E} = \frac{\lambda}{2\pi \varepsilon_0 r} \cdot \vec{e_{r\perp}}
+\end{equation*}
+Hierbei ist $r$ der Abstand zum Draht und $\vec{e_{r\perp}}$ der vom Draht aus radial nach außen zeigende Einheitsvektor ist.\\
+Im Vergleich zu einer Punktladung, verläuft der Vektor radial um den Draht, somit "entspringt" dieser nicht aus der Ladungsquelle (wie bei einer Punktladung) sondern verläuft Kriesförmig um diesen herum, weshalb eine Normierung nach $\hat{r}$ nicht nötig ist.\\
+Die Arbeit die verrichtet wird, wenn eine Ladung von $r_1 \rightarrow r_2$ verschoben wird, kann wie folgt berechnet werden:
+\begin{equation*}
+    W = \int_{r_1}^{r_2} \vec{E}\,dr
+\end{equation*}
+Durch das Einsetzen der zuvor beschriebenen Gleichung wird der folgender Ausdruck erhalten:
+\begin{equation*}
+    W = \int_{r_1}^{r_2} \left(\frac{\lambda}{2\pi \varepsilon_0 r} \cdot \vec{e_{r\perp}}\right) \, dr = \int_{r_1}^{r_2} \frac{\lambda}{2\pi \varepsilon_0} \cdot \vec{e_{r\perp} \cdot \frac{1}{r}} \, dr = \left[ln(r) \frac{\lambda}{2\pi \varepsilon_0}\right] = ln(r_2) \frac{\lambda}{2\pi \varepsilon_0} - ln(r_1) \frac{\lambda}{2\pi \varepsilon_0} = \frac{\lambda}{2\pi\varepsilon_0}\left(\ln(r_2)-\ln(r_1)\right)
+\end{equation*}
+\textcolor{gray}{(Anmerkung: hier war ich mir nicht sicher, wie ich den Vektor $\vec{e_{r\perp}}$ nach r integrieren sollte... womöglich hätte ich diesen auch mit $\int_{r_1}^{r_2} \vec{e_{r\perp}}$ rausziehen können)}\\
+Die Arbeit, die bei einer Verschiebung einer Ladung (hier Elektron) radial nach außen, geleistet wird, wird durch die folgende Gleichung beschrieben:
+\begin{equation*}
+    W = q \int_{r_1}^{r_2} E\,dr
+\end{equation*} 
+Da hier nur die Ladung der Probe $q$ (hier ein Elektron $q = e = 1.602 \cdot 10^{-19}$ C) vor dem Integral steht, wird für dieses das oben berechnete Integral eingesetzt.\\
+Für die Verschiebung gilt eine von $r_1 = 1 \mathrm{\mu m} = 10^{-6} \mathrm{m} \rightarrow r_2 = 2 \mathrm{\mu m} = 10^{-6} \mathrm{m}$.\\
+Für $\varepsilon_0 = 8.854 \cdot 10^{-12} \mathrm{\frac{As}{Vm}}$.
+\begin{equation*}
+    W = \frac{e\lambda}{2\pi\varepsilon_0}\left(\ln(r_2)-\ln(r_1)\right) \approx 1.996 \cdot 10^{-15}
+\end{equation*}
+
+\subsection*{Aufgabe 2}
+Mit der Formel
+\begin{equation*}
+    \vec{E}(\vec{r})=\frac{1}{4\pi\varepsilon_0}\frac{Q}{r^2}
+\end{equation*}
+Werden die Potentiale zwischen den einzelnen Ladungsträgern berechnet und schlussendlich addiert.
+\begin{equation*}
+    E_{21} = E_{23} = \frac{Q_2}{4\pi\varepsilon_0r^2}=2.3\cdot 10^{-23}
+\end{equation*}
+\begin{equation*}
+    E{13} = 3.25 \cdot 10^{-22}
+\end{equation*}
+\textcolor{gray}{(Anmerkung: Hier bin ich mir wieder bei der Lösung wieder unsicher)}
+
+\subsection*{Aufgabe 3}
+Das Dipolmoment kann wie folgt berechnet werden:
+\begin{equation*}
+    \vec{p} = q\vec{d} = 1.602 \cdot 10^{-19} \mathrm{C} \cdot 0.7 \cdot 10^{-10} \mathrm{m} = 1.1214 \cdot 10^{-29} \mathrm{Cm} 
+\end{equation*}
+Da $\vec{p}$ eine vektorielle Größe ist und der Dipol linear aufgebaut ist, wird angenommen, dass das Molekül auf der $x$-Achse eines kartesischen Koordinatensystems liegt:
+\begin{equation*}
+    \vec{p} = \left(\begin{array}{c}1.1214 \cdot 10^{-29} \mathrm{Cm} \\0\\0\end{array}\right)
+\end{equation*}
+Das Drehmoment wird wie folgt berechnet:
+\begin{equation*}
+    \vec{M}_{Dipol} = \vec{p} \times \vec{E} = |\vec{p}| \cdot |\vec{E}| \cdot \sin(\theta) = 6.9427 \cdot 10^{-14} \mathrm{CV}
 \end{equation*}
 \end{document}
