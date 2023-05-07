@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  25 APR 2023 10:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  7 MAY 2023 19:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -378,57 +378,111 @@ File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \CF_substtoks=\toks34
 )
 Package: chemfig 2023/02/18 v1.6d Draw molecule with an easy syntax (CT)
-) (Aufgaben I.aux)
+) (D:\MikTex\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (D:\MikTex\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (D:\MikTex\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count306
+\Gm@cntv=\count307
+\c@Gm@tempcnt=\count308
+\Gm@bindingoffset=\dimen271
+\Gm@wd@mp=\dimen272
+\Gm@odd@mp=\dimen273
+\Gm@even@mp=\dimen274
+\Gm@layoutwidth=\dimen275
+\Gm@layoutheight=\dimen276
+\Gm@layouthoffset=\dimen277
+\Gm@layoutvoffset=\dimen278
+\Gm@dimlist=\toks35
+ (D:\MikTex\tex/latex/geometry\geometry.cfg)) (Aufgaben I.aux)
 \openout1 = `"Aufgaben I.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
-Package chemgreek Info: Activating mapping `default' on line 8.
+Package chemgreek Info: Activating mapping `default' on line 14.
 
  (D:\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
-\scratchdimen=\dimen271
+\scratchcounter=\count309
+\scratchdimen=\dimen279
 \scratchbox=\box69
-\nofMPsegments=\count307
-\nofMParguments=\count308
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count309
-\MPscratchDim=\dimen272
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
-\everyMPtoPDFconversion=\toks36
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count312
+\MPscratchDim=\dimen280
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks37
 ) (D:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (D:\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) [1
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=557.38951pt
+* \textheight=681.15898pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[1
 
 {C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4] (Aufgaben I.aux) ) 
 Here is how much of TeX's memory you used:
- 14609 strings out of 475385
- 298353 string characters out of 2793322
- 654847 words of memory out of 3000000
- 35762 multiletter control sequences out of 15000+600000
+ 15174 strings out of 475385
+ 307074 string characters out of 2793322
+ 672032 words of memory out of 3000000
+ 36315 multiletter control sequences out of 15000+600000
  470923 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,12n,104p,506b,341s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 100i,12n,104p,506b,344s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Aufgaben I.pdf" (4 pages, 127971 bytes).
+Output written on "Aufgaben I.pdf" (4 pages, 136986 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

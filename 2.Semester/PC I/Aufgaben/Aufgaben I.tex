@@ -4,6 +4,12 @@
 \usepackage{mhchem}
 \usepackage{chemfig}
 \usepackage{xcolor}
+\usepackage[
+  left=1cm,
+  right=1cm,
+  top=2cm,
+  bottom=2cm,
+]{geometry}
 
 \begin{document}
 \section*{Aufgaben - Woche 1}
@@ -203,5 +209,59 @@ Damit:
 \end{equation*}
 \begin{equation*}
     E_{pot}=-\varepsilon
+\end{equation*}
+
+\section*{Aufgaben - Woche 2}
+\subsection*{Aufgabe 2.1}
+Wird die Virialgleichung nach dem zweiten Glied abgebrochen lautet diese:
+\begin{equation*}
+    \frac{pV_m}{RT} = 1+B_pp
+\end{equation*}
+Mit den ersten Werten $p = 1.013$ bar und $pV_m = 22.693\,\mathrm{\frac{bar}{mol}}$, ergibt sich:
+\begin{equation*}
+    \frac{22.693\,\mathrm{\frac{bar}{mol}}}{8.3145\,\mathrm{\frac{J}{molK}}\,\cdot273\,\mathrm{K}} = 1 + B_p \cdot 1.013 \,\mathrm{bar} \rightarrow B_p = -0.977\,\mathrm{J}
+\end{equation*}
+\begin{center}
+    \begin{tabular}{c c c}
+        \hline
+        $p$ [bar] & $pV_m$ [$\mathrm{\frac{bar}{mol}}$] & $B_p$ [J]\\
+        \hline
+        1.013&22.693&-0.9772\\
+        3.039&22.673&-0.3256\\
+        5.065&22.652&-0.1955\\
+        \hline
+    \end{tabular}
+\end{center}
+Mit der Gleichung
+\begin{equation*}
+    T_B \approx \frac{a}{bR}
+\end{equation*}
+mit den Van-der-Waals-Koeffizienten $a(\ce{N2}) = 140.8\cdot 10^{-3}\,\mathrm{\frac{Jm^3}{mol^2}}$ und $b(\ce{N2})=39.1\cdot 10^{-6}\,\mathrm{\frac{m^3}{mol}}$
+\begin{equation*}
+    T_B = 433.10\,\mathrm{K} < 273\,\mathrm{K}
+\end{equation*}
+Somit liegt die Messtemperatur unter der Boyletemperatur $T_B$.
+
+\subsection*{Aufgabe 2.2}
+\begin{equation*}
+    p = \frac{nRT}{V-nb} - a \left(\frac{n}{V}\right)^2 = \frac{1\cdot 8.3145 \cdot 200}{0.005 - 1 \cdot 39.13 \cdot 10^{-6}}-140,8\cdot 10^{-3}\left(\frac{1}{0.005}\right)^2 \,\mathrm{bar} = 329.5740\,\mathrm{kbar}
+\end{equation*}
+\begin{equation*}
+    p = \frac{nRT}{V} \rightarrow p = \frac{1\cdot 8.3145 \cdot 200}{0.005}\,\mathrm{bar} = 332.5800\,\mathrm{kbar}
+\end{equation*}
+Da der Druck nach der VdW Gleichung kleiner ist als nach der idealen Gasgleichung ist davon auszugehen, dass die anziehenden Kräfte zwischen den Molekülen überwiegt, dafür spricht auch das typische Verhalten bei kleinem $T$ und $B_p < 0$
+
+\subsection*{Aufgabe 2.6}
+a)
+\begin{equation*}
+    w = -\int_{V_A}^{V_E} p\,dV = -nRT\ln\left(\frac{V_E}{V_A}\right) = -1\cdot 8.3145 \cdot 273 \cdot \ln\left(\frac{0.0448}{0.0224}\right) \,\mathrm{J}= -1573,3460 \,\mathrm{J}
+\end{equation*}
+\\b)
+\begin{equation*}
+    -p_{ex}\Delta V = -\frac{RT}{V} \cdot 0.0224\,\mathrm{m^3}=2269.8585\,\mathrm{J}
+\end{equation*}
+\\c)
+\begin{equation*}
+    w = 0
 \end{equation*}
 \end{document}
