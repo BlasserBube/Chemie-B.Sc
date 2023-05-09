@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  7 MAY 2023 19:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  9 MAY 2023 21:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,7 +8,16 @@ entering extended mode
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-09-28> (D:\MikTex\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(D:\MikTex\tex/latex/base\size10.clo
+(D:\MikTex\tex/latex/base\fleqn.clo
+File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
+\mathindent=\skip47
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+) (D:\MikTex\tex/latex/base\size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -19,8 +28,8 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count190
 \c@figure=\count191
 \c@table=\count192
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
 \bibindent=\dimen138
 ) (D:\MikTex\tex/latex/chemfig\chemfig.sty (D:\MikTex\tex/latex/pgf/frontendlayer\tikz.sty (D:\MikTex\tex/latex/pgf/basiclayer\pgf.sty (D:\MikTex\tex/latex/pgf/utilities\pgfrcs.sty (D:\MikTex\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks16
@@ -277,15 +286,15 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count288
 \calc@Adimen=\dimen256
 \calc@Bdimen=\dimen257
-\calc@Askip=\skip49
-\calc@Bskip=\skip50
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count289
-\calc@Cskip=\skip51
+\calc@Cskip=\skip52
 ) (D:\MikTex\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip52
+\@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
 (D:\MikTex\tex/latex/amsmath\amstext.sty
@@ -342,8 +351,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \totwidth@=\dimen265
 \lineht@=\dimen266
 \@envbody=\toks33
-\multlinegap=\skip53
-\multlinetaggap=\skip54
+\multlinegap=\skip54
+\multlinetaggap=\skip55
 \mathdisplay@stack=\toks34
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
@@ -355,16 +364,16 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use 
 \g__chemgreek_tmpa_int=\count303
 )
 \l__mhchem_ce_distanceFromLastComma_int=\count304
-\__mhchem_arrow_extPgfLength_skip=\skip55
-\mhchem@minispace@tmp=\skip56
-\mhchem@minibackspace@tmp=\skip57
-\mhchem@bondwidth=\skip58
-\mhchem@bondheight=\skip59
-\mhchem@smallbondwidth@tmpA=\skip60
-\mhchem@smallbondwidth@tmpB=\skip61
-\mhchem@smallbondwidth=\skip62
-\mhchem@bondtmp@minussidebearingleft=\skip63
-\mhchem@bondtmp@minussidebearingright=\skip64
+\__mhchem_arrow_extPgfLength_skip=\skip56
+\mhchem@minispace@tmp=\skip57
+\mhchem@minibackspace@tmp=\skip58
+\mhchem@bondwidth=\skip59
+\mhchem@bondheight=\skip60
+\mhchem@smallbondwidth@tmpA=\skip61
+\mhchem@smallbondwidth@tmpB=\skip62
+\mhchem@smallbondwidth=\skip63
+\mhchem@bondtmp@minussidebearingleft=\skip64
+\mhchem@bondtmp@minussidebearingright=\skip65
 \l__mhchem_option_version_int=\count305
 \mhchem@option@minusmathsidebearingleft=\dimen267
 \mhchem@option@minusmathsidebearingright=\dimen268
@@ -495,7 +504,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip65
+\Hy@SectionHShift=\skip66
 ) (D:\MikTex\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (D:\MikTex\tex/generic/iftex\ifvtex.sty
@@ -604,13 +613,13 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (D:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [1
+
+{C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
 \tf@toc=\write5
 \openout5 = `Thermodynamik.toc'.
 
- [1
-
-{C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+ [2]
 Underfull \hbox (badness 10000) in paragraph at lines 33--36
 
  []
@@ -650,7 +659,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--99
 
  []
 
-[2]
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 103--106
 
  []
@@ -690,7 +699,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--137
 
  []
 
-[3]
+[4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 137.
@@ -776,12 +785,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--169
 
  []
 
-[4]
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 193--196
 
  []
 
-[5]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
@@ -801,7 +810,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--244
 
  []
 
-[6]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
@@ -856,7 +865,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 279--282
 
  []
 
-[7]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 351--352
 
  []
@@ -871,7 +880,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 358--361
 
  []
 
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 363--365
 
  []
@@ -881,17 +890,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 368--370
 
  []
 
-[8] [9]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 427--428
 
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 434--439
 
  []
 
-[10]
+
 Underfull \hbox (badness 10000) in paragraph at lines 457--458
 
  []
@@ -918,11 +927,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 469--473
 
  []
 
-[11]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 545--547
 
  []
 
+[13]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 577.
@@ -931,7 +941,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 577.
 
-[12]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 617--619
 
  []
@@ -941,7 +951,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 621--623
 
  []
 
-[13]
+[15]
 Overfull \hbox (2.44205pt too wide) in paragraph at lines 681--681
 []\OT1/cmr/bx/n/12 Kalorimetrie: Mes-sung von W^^?armeeffekten []Schmelzen-thalpien und Reak-tion-sen-thalpien[] 
  []
@@ -961,11 +971,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 694--696
 
  []
 
-[14]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 783--785
 
  []
 
+[17]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 798.
@@ -974,22 +985,43 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 798.
 
-[15] [16] (Thermodynamik.aux)
+[18]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 889.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 889.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 902.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Delta' on input line 902.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 902.
+
+[19] [20] (Thermodynamik.aux)
 Package rerunfilecheck Info: File `Thermodynamik.out' has not changed.
-(rerunfilecheck)             Checksum: 6025BB1F3A7F70176F8099B135C27971;10211.
+(rerunfilecheck)             Checksum: 4E4E6F6F173CDE48B1D16FC8566EE614;12290.
  ) 
 Here is how much of TeX's memory you used:
- 22669 strings out of 475385
- 423016 string characters out of 2793322
- 789440 words of memory out of 3000000
- 43616 multiletter control sequences out of 15000+600000
+ 22701 strings out of 475385
+ 423578 string characters out of 2793322
+ 794530 words of memory out of 3000000
+ 43631 multiletter control sequences out of 15000+600000
  473430 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,15n,118p,619b,712s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 115i,17n,118p,619b,712s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Thermodynamik.pdf (16 pages, 267303 bytes).
+Output written on Thermodynamik.pdf (20 pages, 283753 bytes).
 PDF statistics:
- 398 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
- 397 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 469 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 477 words of extra memory for PDF output out of 10000 (max. 10000000)
 

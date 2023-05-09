@@ -1,4 +1,4 @@
-\documentclass[a4paper]{article}
+\documentclass[a4paper, fleqn]{article}
 \usepackage{chemfig}
 \usepackage{mhchem}
 \usepackage{xcolor}
@@ -839,4 +839,92 @@ Mit $T = \frac{pV}{nR}$ ist noch folgende Umformung möglich:
 \begin{equation*}
     p_EV_E^\gamma = p_AV_A^\gamma
 \end{equation*}
+
+\subsubsection{Carnotscherkreisprozess}
+\begin{center}
+    \begin{tabular}{c c c}
+        \hline
+        Schritt & q & w\\
+        \hline
+        \\
+        1 & $q_w=nRT_w\ln\frac{V_B}{V_A}$ & $w_1 = -nRT\ln\frac{V_B}{V_A} < 0$\\
+        \\
+        2 & $q_2=0$ & $w_2=C_V\Delta T = C_V(T_K-T_w) < 0$\\
+        \\
+        3 & $q_k$ = $nRT\ln\frac{V_D}{V_C}$ & $w_3 = -nRT \ln\frac{V_D}{V_C} > 0$\\
+        \\
+        4 & $q_4 = 0$ & $w_4 = C_V\Delta T = C_V(T_W-T_K) > 0$\\
+        \hline
+    \end{tabular}
+\end{center}
+\begin{eqnarray*}
+    \Delta U = q+w=q_w+q_k+w_1+w_2+w_3+w_4 = 0 \Rightarrow w=-(q_w+q_k)\\
+    w=-nRT_w\ln\frac{V_B}{V_A}+C_V(T_K-T_W)-nRT_k\ln\frac{V_D}{V_C}+C_V(T_W-T_K)\\
+    =-nRT_W\ln\frac{V_B}{V_A}-nRT_K\ln\frac{V_D}{V_C}\\
+    \frac{T_W}{T_K}=\left(\frac{V_C}{V_B}\right)^{\gamma-1}=\left(\frac{V_D}{V_C}\right)^{\gamma-1} \Rightarrow \left(\frac{V_D}{V_C}\right)=\left(\frac{V_A}{V_B}\right)\,\text{ in überstehende Gleichung:}\\
+    w = -nRT_W\ln\frac{V_B}{V_A}-nRT_K\ln\frac{V_A}{V_B}\\
+    = -nRT(T_W-T_K)\ln\frac{V_B}{V_A}
+\end{eqnarray*}
+
+\subsubsection{Wärmekraftmaschine}
+\begin{itemize}
+    \item Dampfturbine
+\end{itemize}
+
+\subsubsection{Wirkungsgrad}
+\begin{eqnarray*}
+    \eta = \frac{\text{geleistete Arbeit}}{\text{aufgenommene Wärme}}=\frac{-w}{q_w}=\frac{T_W-T_K}{T_W}=1-\frac{T_K}{T_W} < 1\\
+    w=-nRT(T_W-T_K)\ln\frac{V_B}{V_A}\\
+    q_w = nRT_W\ln\frac{V_B}{V_A}
+\end{eqnarray*}
+
+\subsection{Entropie}
+\begin{eqnarray*}
+    q_w=nRT_W\ln\frac{V_B}{V_A} \Leftrightarrow \frac{q_w}{T_w}=nR\ln\frac{V_B}{V_A}\\
+    q_k = nRT_K\ln\frac{V_D}{V_C} \Leftrightarrow \frac{q_k}{T_K}=nR\ln\frac{V_D}{V_C}\\
+    \frac{q_w}{T_W}+\frac{q_k}{T_K}=nR\ln\frac{V_B}{V_C}+nR\ln\frac{V_D}{V_C}=0\\
+    \sum \frac{q_{rev}}{T}=0
+\end{eqnarray*}
+
+\subsubsection{Definition der Zustandsgröße Entropie $S$}
+\begin{eqnarray*}
+    dS_{Sys}=\frac{q_{rev}}{T}\\
+    \Delta S_{Sys}=\frac{q_{rev}}{T}
+\end{eqnarray*}
+Für die Umgebung gilt:
+\begin{eqnarray*}
+    V = \text{konst.} \Rightarrow w = 0\\
+    \Rightarrow dU = \partial q\\
+    \\
+    dS_{Sys} = \frac{\partial q_{Umg}}{T_{Umg}}
+\end{eqnarray*}
+
+\subsubsection{Isotherme ($\Delta T=0$), reversiple Expansion}
+\begin{eqnarray*}
+    \Delta_{Sys}=\int_{A}^{E}\frac{\partial q_{res}}{T} = \frac{1}{T} \int_{A}^{E} \partial q_{res} = \frac{q_{res}}{T}\\
+    q = nRT\ln\frac{V_E}{V_A}\\
+    \Rightarrow \Delta_{Sys} = nR\ln\frac{V_E}{V_A}>0
+\end{eqnarray*}
+
+\subsubsection{adiabatische, reversible Expansion}
+\begin{equation*}
+    \Delta_{Sys} = 0,\,q_{res}=0
+\end{equation*}
+
+\subsubsection{Isobarer Phasenübergang}
+\begin{eqnarray*}
+    \Delta p = 0 \Rightarrow \partial q_p = dH\\
+    \Delta S_{Sys} = \frac{q_p}{T_{Trans}}=\frac{\Delta_{Trans} H}{T_{Trans}}
+\end{eqnarray*}
+
+\subsubsection{Isobare Erhitzung}
+\begin{eqnarray*}
+    \Delta p = 0,\,\partial q = dH = C_p\,dT\\
+    \Delta S_{Sys} = \int_{A}^{E}  \frac{\partial q_{rev}}{T} = \int_{T_A}^{T_E} C_p \frac{1}{T}\,dT = C_p\ln\frac{T_E}{T_A}
+\end{eqnarray*}
+
+\subsubsection{Beliebiger Kreisprozess ist die Summe von Carnotprozessen}
+\begin{eqnarray*}
+    \oint \frac{\partial q_{rev}}{T}=0\\
+\end{eqnarray*}
 \end{document}
