@@ -251,6 +251,80 @@ Somit liegt die Messtemperatur unter der Boyletemperatur $T_B$.
 \end{equation*}
 Da der Druck nach der VdW Gleichung kleiner ist als nach der idealen Gasgleichung ist davon auszugehen, dass die anziehenden Kräfte zwischen den Molekülen überwiegt, dafür spricht auch das typische Verhalten bei kleinem $T$ und $B_p < 0$
 
+\subsection*{Aufgabe 2.3}
+a)
+\begin{equation*}
+    p = \frac{RT}{V_m-b}-\frac{a}{V_m^2}
+\end{equation*}
+\begin{equation*}
+    \frac{\partial p}{\partial V_m} = 0, \, \frac{\partial^2 p}{partial V_m^2}=0
+\end{equation*}
+\begin{equation*}
+    \frac{\partial p}{\partial V_m} = \frac{RT}{(V_m-b)^2}+\frac{2a}{V_m^3}=0 \Rightarrow \frac{2}{(V_m-b)}\frac{2a}{V_m^3} = \frac{6a}{V_m^4}
+\end{equation*}
+\begin{equation*}
+    \frac{\partial^2 p}{\partial V_m^2} = \frac{2RT}{(V_m-b)^3}-\frac{6a}{Vm^4}=0 \Rightarrow \frac{2}{V_m-b}=\frac{3}{V_m}
+\end{equation*}
+\begin{equation*}
+    V_{m,krit} = 3b
+\end{equation*}
+Daraus folgt:
+\begin{equation*}
+    T_{krit} = \frac{2a(V_m-b)^2}{V_m^3\cdot R}=\frac{8a}{27Rb}
+\end{equation*}
+\begin{equation*}
+    p_{krit} = \frac{\frac{8a}{b}}{3b-b}-\frac{a}{9b^2} = \frac{a}{27b^2}
+\end{equation*}
+b)
+\begin{equation*}
+    T_{krit} = 304,01 \,\mathrm{K}
+\end{equation*}
+c)
+\begin{equation*}
+    \left(p_r\frac{3}{V_r^2}\right) = \frac{\frac{8T_r}{3}}{\left(V_r-\frac{1}{3}\right)}
+\end{equation*}
+\begin{equation*}
+    \left(p_r\frac{3}{V_r^2}\right)\left(V_r-\frac{1}{3}\right) = \frac{8}{3}T_r
+\end{equation*}
+
+\subsection*{Aufgabe 2.4}
+\begin{equation*}
+    p = \frac{RT}{Vm}-\frac{B}{V_m^2}+\frac{C}{V_m^3}
+\end{equation*}
+\begin{eqnarray*}
+    p' = -RTV_m^{-2}+2BV_m^{-3}-3CV_m^{-4} = 0\\
+    p'' = 2RTV_m^{-3}-6BV_m^{-4}+12CV_m^{-5} = 0
+\end{eqnarray*}
+Die beiden miteinander verrechnet ergibt:
+\begin{eqnarray*}
+    (4B-6B)V_m+12C-6C = 0\\
+    -2BV_m+6C=0\\
+    V_{m,krit} = \frac{3C}{B}
+\end{eqnarray*}
+
+\subsection*{Aufgabe 2.5}
+\begin{eqnarray*}
+    \frac{pV_m}{RT}=1+B_pp+C_pp^2\\
+    \frac{pV_m}{RT}=1+\frac{B_V}{V_m}+\frac{C_V}{V_m^2}
+\end{eqnarray*}
+Die zweite Gleichung nach p umgestellt ergibt:
+\begin{equation*}
+    p = \frac{RT}{V_m}+\frac{B_VRT}{V_m}+\frac{C_VRT}{V_m^3}
+\end{equation*}
+\begin{equation*}
+    \frac{pV_m}{RT}=1+\frac{B_pRT}{V_m}+\frac{B_pB_VRT}{V_m^2}+\frac{B_pC_VRT}{V_m^3}+C_p\left(\frac{RT}{V_m}+\frac{B_VRT}{V_m^2}+\frac{C_VRT}{V_m^3}\right)\cdot\left(\frac{RT}{V_m}+\frac{B_VRT}{V_m^2}+\frac{C_VRT}{V_m^3}\right)
+\end{equation*}
+\begin{eqnarray*}
+    \frac{pV_m}{RT}\approx 1 + \frac{B_pRT}{V_m}+\frac{B_pB_vRT}{V_m^2}+\frac{C_p(RT)^2}{V_m^2}\\
+    =1+\frac{B_pRT}{V_m}+\frac{RTB_pB_V+C_p(RT)^2}{V_m^2}
+\end{eqnarray*}
+Somit ist $\frac{B_pRT}{V_m} = B_V$ und $\frac{RTB_pB_V+C_p(RT)^2}{V_m^2} = C_V$
+\begin{eqnarray*}
+    = B_V^2+C_p(RT)^2\\
+    C_V - B_V^2 = C_p(RT)^2\\
+    C_p = \frac{C_V-B_V^2}{(RT)^2}
+\end{eqnarray*}
+
 \subsection*{Aufgabe 2.6}
 a)
 \begin{equation*}
@@ -258,10 +332,24 @@ a)
 \end{equation*}
 \\b)
 \begin{equation*}
-    -p_{ex}\Delta V = -\frac{RT}{V} \cdot 0.0224\,\mathrm{m^3}=2269.8585\,\mathrm{J}
+    -p_{ex}\Delta V = -\frac{RT}{V} \cdot 0.0224\,\mathrm{m^3}=-1135.5528\,\mathrm{J}
 \end{equation*}
 \\c)
 \begin{equation*}
     w = 0
 \end{equation*}
+
+\subsection*{Aufgabe 2.7}
+\begin{eqnarray*}
+    \partial w = -p\,dV\\
+    dV = \left(\frac{\partial V}{\partial T}\right)_p\,dT + \left(\frac{\partial V}{\partial p}\right)_T\,dp,\,V=\frac{nRT}{p}\\
+    \left(\frac{\partial V}{\partial T}\right)_p = \frac{nR}{p}\\
+    \left(\frac{\partial V}{\partial p}\right)_T = \frac{-nRT}{p^2}\\
+    \partial w = -p\frac{nR}{p}\,dT + p \frac{nRT}{p^2}dp = -nR\,dT + \frac{nRT}{p}\,dp\\
+    \left(\frac{\partial w}{\partial T}\right)_p = -nR,\, \left(\frac{\partial w}{\partial p}\right)_T = \frac{nRT}{p}\\
+    \left(\frac{\partial^2 w}{\partial T \partial p}\right) = \frac{\partial}{\partial p}\left(\frac{nRT}{p}\right)=\frac{nR}{T}\\
+    \frac{\partial^2 w}{\partial p \partial T} = \frac{\partial}{\partial p}(-nR) = 0\\
+    \frac{\partial^2 w}{\partial T \partial p} = \frac{\partial^2 w}{\partial p \partial T} \Rightarrow \partial w
+\end{eqnarray*}
+$w$ ist keine Zustandsgröße
 \end{document}
