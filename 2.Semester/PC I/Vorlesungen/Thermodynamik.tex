@@ -776,6 +776,9 @@ Weg II:
 \end{equation*}
 
 \section{Der 2. Hauptsatz}
+\textbf{2. Hauptsatz nach Clausius: Wärme verbreitet nicht spontan von kalt nach warm.}\\
+\textbf{2. Hauptsatz nach Kelvin: Kreisprozess, wobei $q$ vollständig in Arbeit $w$ umgesetzt wird ist unmöglich!}
+
 \subsection{Carnotscher Kreisprozess}
 \subsubsection{isotherme Prozesse (reversibel) ideales Gas}
 \begin{equation*}
@@ -878,7 +881,7 @@ Mit $T = \frac{pV}{nR}$ ist noch folgende Umformung möglich:
     q_w = nRT_W\ln\frac{V_B}{V_A}
 \end{eqnarray*}
 
-\subsection{Entropie}
+\section{Entropie}
 \begin{eqnarray*}
     q_w=nRT_W\ln\frac{V_B}{V_A} \Leftrightarrow \frac{q_w}{T_w}=nR\ln\frac{V_B}{V_A}\\
     q_k = nRT_K\ln\frac{V_D}{V_C} \Leftrightarrow \frac{q_k}{T_K}=nR\ln\frac{V_D}{V_C}\\
@@ -927,4 +930,76 @@ Für die Umgebung gilt:
 \begin{eqnarray*}
     \oint \frac{\partial q_{rev}}{T}=0\\
 \end{eqnarray*}
+
+\subsubsection{Wärme Austausch zwischen einem warmen und einem kalten Reservoir}
+\begin{center}
+    \begin{tabular}{l c c c}
+        \hline
+        \rule{0pt}{15pt}&Wärme A&WärmeB&Arbeit\\
+        \hline
+        \rule{0pt}{15pt}hin(irreversibel)&$-q_k$&$q_k$&0\\
+        \rule{0pt}{15pt}zurück(reversibel)&$q_w$&$-q-k$&$-nR(T_W-T_K)\ln\frac{V_B}{V_A} > 0$\\
+        \hline
+        \rule{0pt}{15pt}Summe&$q_w-Q_k>0$&0&$-nR(T_W-T_K)\ln\frac{V_B}{V_A} < 0$\\
+        \rule{0pt}{15pt}&plus an Wärme&&Minus an Arbeit\\
+        \hline
+    \end{tabular}
+\end{center}
+
+\begin{center}
+    \begin{tabular}{l c c c}
+        \hline
+        \rule{0pt}{15pt}&$\Delta U_{Sys}$&Wärme umgebung & Arbeit Umgebung\\
+        \hline
+        \rule{0pt}{15pt}hin(irrev)&$0=-q_1+p_z\Delta V$&$-q_1 = -p_z\Delta V$& $-p_E\Delta v$\\
+        \rule{0pt}{15pt}rück(rev)&$0=-q_2+nRT\ln\frac{V_E}{V_A}$&$q_w0nRT\ln\frac{V_E}{V_A}$&$-nRT\ln\frac{V_E}{V_A}$\\
+        \hline
+        \rule{0pt}{15pt}Summe&0&$nRT\ln\frac{V_E}{V_A}-p_{ex}\Delta V > 0$&$-nRT\ln\frac{V_E}{V_A}-p_E\Delta V < 0$
+    \end{tabular}
+\end{center}
+
+\begin{eqnarray*}
+    \Delta S_W=-\frac{|q|}{T_W}\\
+    \Delta S_K=\frac{||q|}{T_K}\\
+    \Delta S_{Ges}=\Delta S_W + \Delta S_K = q(\frac{1}{T_K}-\frac{1}{T_W}) >0\\
+    \Delta S_{Ges} > 0 \text{ bei freiwilligen Prozessen}
+\end{eqnarray*}
+
+\subsection{Volumenänderung}
+$\rightarrow$ Irreversibel\\
+\begin{eqnarray*}
+    \Delta S_{Umg} = ?\\
+    \Delta S_{Sys} = ?\\\
+    \text{Umgebung} q = -w\\
+    w = -\int_{V_A}^{V_E}p_{ex}\,dV=-p_{ex}\Delta V\\
+    \Delta S_{Umg} = \frac{q_{Umg}}{T_{Umg}} = \frac{-q}{T_{Umg}}=\frac{-p_{ex}\Delta V}{T_{Umg}} < 0\\
+    \Delta S_{Sys} = \frac{q_{rev}}{T} = \frac{-w}{T} = \frac{nRT\ln\frac{V_E}{V_A}}{T} = nR\ln\frac{V_E}{V_A} > 0\\\\
+    \Delta S_{Ges} = \Delta S_{Sys}+\Delta D_{Umg} > 0
+\end{eqnarray*}
+
+\subsubsection{Clausiussche Ungleichung}
+\begin{eqnarray*}
+    \text{reversibel: } dU = \delta q_{rev} - p\,dV\\
+    \text{irreversibel: } dU = \delta q - p_{ex}\,dV\\
+    \delta q_{rev} - \delta q = (p-p_{ex})\,dV\\
+    \Rightarrow \delta q_{rev} - \delta q \geqslant 0\\
+    dS = \frac{\delta q_{rev}}{T} \Leftrightarrow \delta q_{rev} = T\,dS\\
+    T\,dS \geqslant \delta q\\
+    \text{Clausiussche Ungleichung: } dS_{Sys} \geqslant \frac{\delta q}{T}\\
+    \Delta S \geqslant \frac{q}{T}\\
+    > \text{ für irreversible Prozesse } = \text{ für reversible}
+\end{eqnarray*}
+
+\begin{center}
+    \begin{tabular}{l c c}
+        \hline
+        \rule{0pt}{15pt}&reversibel&irreversibel\\
+        \hline
+        \rule{0pt}{15pt}geschlossen ($q\neq 0$)&$\Delta S = \frac{q_{rev}}{T}$&$\Delta S-\frac{q_{irrev}}{T} > 0$\\
+        \rule{0pt}{15pt}abgeschlossen ($q=0$)&$\Delta S = 0$& $\Delta S > 0$\\
+    \end{tabular}
+\end{center}
+Beispiel: Universum\\
+reversible Prozesse Entropie des Universums bleibt gleich\\
+irreversible (spontante) Prozesse, die Entropie nimmt zu.\\
 \end{document}

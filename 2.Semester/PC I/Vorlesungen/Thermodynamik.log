@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  10 MAY 2023 08:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  11 MAY 2023 11:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -972,56 +972,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 694--696
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 783--785
+Underfull \hbox (badness 10000) in paragraph at lines 786--788
 
  []
 
 [17]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 798.
+(hyperref)                removing `math shift' on input line 801.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 798.
+(hyperref)                removing `math shift' on input line 801.
 
 [18]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 889.
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 892.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 889.
+(hyperref)                removing `math shift' on input line 892.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 902.
+(hyperref)                removing `math shift' on input line 892.
+
+[19]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 905.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Delta' on input line 902.
+(hyperref)                removing `\Delta' on input line 905.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 902.
+(hyperref)                removing `math shift' on input line 905.
 
-[19] [20] (Thermodynamik.aux)
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 969--970
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1002--1005
+
+ []
+
+[21] (Thermodynamik.aux)
 Package rerunfilecheck Info: File `Thermodynamik.out' has not changed.
-(rerunfilecheck)             Checksum: 4E4E6F6F173CDE48B1D16FC8566EE614;12290.
+(rerunfilecheck)             Checksum: 3EBC5C66EC5E17A433180B38EC13B889;13043.
  ) 
 Here is how much of TeX's memory you used:
- 22701 strings out of 475385
- 423578 string characters out of 2793322
- 794530 words of memory out of 3000000
- 43631 multiletter control sequences out of 15000+600000
+ 22708 strings out of 475385
+ 423685 string characters out of 2793322
+ 792536 words of memory out of 3000000
+ 43634 multiletter control sequences out of 15000+600000
  473430 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,17n,118p,619b,712s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Thermodynamik.pdf (20 pages, 283753 bytes).
+Output written on Thermodynamik.pdf (21 pages, 292530 bytes).
 PDF statistics:
- 469 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
- 477 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 488 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 501 words of extra memory for PDF output out of 10000 (max. 10000000)
 
