@@ -758,5 +758,260 @@ Beweis: Rückführung auf Unterdeterminante 2.Ordnung mit dem Laplace-Entwicklun
 \begin{equation*}
     = (ad-cb)(eh-fg) = \det(A)\det(B)
 \end{equation*}
-Warnung: Es gilt \underline{nicht}: $\det(A+B) = \det(A)+\det(B)$
+Warnung: Es gilt \underline{nicht}: $\det(A+B) = \det(A)+\det(B)$\\
+\begin{eqnarray*}
+    \det(A+A) = \det(2A) = 2^n\det(A)
+\end{eqnarray*}
+Wobei $n$ die Dimension der Matrix ist, der Faktor 2 kann aus jeder Zeile/Spalte herausgezogen werden.\\
+\begin{equation*}
+    \det(A^2)=\det(A\cdot A)=\det(A) \det(A) = \left[\det(A)\right]^2
+\end{equation*}
+Anwendung:
+\begin{eqnarray*}
+    1 = \det(E) = \det(AA^{-1}) = \det(A)\det(A^{-1})\\
+    \Rightarrow \det(A^{-1})\frac{1}{\det(1)}
+\end{eqnarray*}
+Das heißt: $\det(A) \neq 0$ muss gelten, damit $\det(A^{-1})$ existiert.
+
+\subsection{Lineare Gleichungssysteme}
+\subsubsection{Gaußsche Algorithmen}
+Lineares GLeichungssystem ($n$-Gleichungen für $n$ Unbekannte $x_i$)\\
+\begin{eqnarray*}
+    A_{11}x_1 + A_{12} x_2 + \dots + A_{1n} x_n = b_1\\
+    A_{21}x_1 + A_{22} x_2 + \dots + A_{2n} x_n = b_2\\
+    A_{31}x_1 + A_{32} x_2 + \dots + A_{3n} x_n = b_3\\
+    \vdots\\\
+    A_{n1}x_1 + A_{n2} x_2 + \dots + A_{nn} x_n = b_n\\
+\end{eqnarray*}
+Sas System heißt linear, weil alle $x_i$ nur in 0-ter Ordnung oder 1-ter Potenz vorkommen.\\
+Alle $A_{ij}$ und $b_i$ sind bekannt.\\
+In Matrixschreibweise:
+\begin{equation*}
+    A\vec{x} = \vec{b}
+\end{equation*}
+Homogenes Gleichungssystem: $\vec{b} = \vec{o}$\\
+Inhomogenes Gleichungssystem: $\vec{b} \neq \vec{o}$\\\\
+Achtung: Ein lineares Gleichungssystem ist nicht zwangsläufig lösbar!\\
+\begin{itemize}
+    \item[a)] Lösung mit der inversen Koeffizientenmatrix\\
+    \begin{equation*}
+        A^{-1}\,|\,A\vec{x} = \vec{b} \rightarrow \vec{x} = A^{-1}\vec{b}
+    \end{equation*}\\
+    Die Methode versagt, wenn $A^{-1}$ nicht existiert, es muss gelten: $\det(A) \neq 0$, $A$ muss eine reguläre Matrix sein.
+    \item[b)]Cramersche Regel\\
+    \begin{equation*}
+        x_k = \frac{\det(A_k)}{\det(A)}
+    \end{equation*}\\
+    $A_k$: Matrix $A$, in der die $k$-te Spalte durch $\vec{b}$ ersetzt wurde.\\
+    Die Methode versagt, wenn $\det(A) = 0$.
+    \item[c)]Gaußscher Algorithmus (Methode der Wahl)\\
+    Erweitertes Koeffizientenschema
+    \begin{eqnarray*}
+        A_{11} A_{12} \dots A_{1n} | b_1\\
+        A_{21} A_{22} \dots A_{2n} | b_2\\
+        \vdots\\
+        A_{n1} A_{n2} \dots A_{nn} | b_n
+    \end{eqnarray*}
+    Es sollte wieder ein 0-Dreieck geschaffen werden, um eine Rückrechnung zu ermöglichen.\\
+    \begin{itemize}
+        \item[$\alpha$)]Vertauschen von Zeilen (einzelner Gleichungen)
+        \item[$\beta$)] Bilden von Linearkombinationen von Zeilen.
+    \end{itemize}
+\end{itemize}
+Beispiel:
+\begin{equation*}
+    \left(\begin{array}{c c c}1&-1&0\\2&1&1\\1&1&1\end{array}\right) \vec{x} = \left(\begin{array}{c}1\\4\\3\end{array}\right)\\
+\end{equation*}
+Koeffizientenschema:
+\begin{equation*}
+    \begin{matrix}
+        1&-1&0&|\,1\\
+        2&1&2&|\,4\\
+        1&1&1&|\,3
+    \end{matrix}
+\end{equation*}
+(2) - (3)
+\begin{equation*}
+    \begin{matrix}
+        1&-1&0&|\,1\\
+        2&0&0&|\,1\\
+        1&1&1&|\,3
+    \end{matrix}
+\end{equation*}
+Mit Vertauschen:
+\begin{equation*}
+    \begin{matrix}
+        2&0&0&|\,1\\
+        1&-1&0&|\,1\\
+        1&1&1&|\,3
+    \end{matrix}
+\end{equation*}
+Hier wurde die Dreiecksform, bzw. das Nullerdreieck geschaffen.\\
+Lösung des \underline{homogenen} Gleichungssystemes: Anzahl der Nullzeilen $d=0$
+\begin{equation*}
+    \begin{matrix}
+        1&0&0&|\,0\\1&-1&0&|\,0\\1&1&1&|\,0
+    \end{matrix}
+\end{equation*}
+$\Rightarrow \vec{x_{hom}} = \vec{o}$\\
+Allgemein gilt:\\
+\begin{itemize}
+    \item Wenn das Koeffizientenschema in Dreiecksform keine Nullzeiele hat, dann ist $\vec{x_{hom}} = \vec{o}$ die einzige Lösung
+\end{itemize}
+Lösung des \underline{inhomogenen} Gleichungssystems: Anzahl Nullzeilen $d' = 0,\,d' = d$\\
+\begin{equation*}
+    \begin{matrix}
+        1&0&0&|\,1\\1&-1&0&|\,1\\1&1&1&|\,3\\
+    \end{matrix}
+\end{equation*}
+Für $d=d'$ hat das inhomogene Gleichungssystem nur eine eindeutige Lösung.\\\\
+Beispiel 2:
+\begin{equation*}
+    \left(\begin{array}{c c c}2&-2&0\\2&1&1\\-1&1&0\end{array}\right) \vec{x} = \left(\begin{array}{c}2\\2\\-1\end{array}\right)
+\end{equation*}
+Koeffizientenschema:
+\begin{equation*}
+    \begin{matrix}
+        2&-2&0&|\,2\\
+        2&1&1&|\,2\\
+        -1&1&0&|\,1
+    \end{matrix}
+\end{equation*}
+\begin{equation*}
+    \begin{matrix}
+        0&0&0&|\,0\\
+        -1&1&0&|\,-1\\
+        2&1&1&|\,2
+    \end{matrix}
+\end{equation*}
+Lösung des \underline{homogenen} Gleichungssystems: Anzahl der Nullzeilen $d=1$
+\begin{equation*}
+    \begin{matrix}
+        0&0&0&|\,0\\
+        -1&1&0&|\,0\\
+        2&1&1&|\,0
+    \end{matrix}
+\end{equation*}
+\underline{eine} Nullzeile: Wahl des Parameters $x_1 = \lambda$, dadurch: $x_2 = \lambda$, dadurch: $x_3 = -3 \lambda$
+\begin{equation*}
+    \vec{x_{hom}} = \lambda \left(\begin{array}{c}
+        1\\1\\-3
+    \end{array}\right)
+\end{equation*}
+Allgemein gilt: treten im Koeffizientenschema in Dreiecksform $d\neq 0$ Nullzeilen auf, so sind $d$ Unbekannte frei wählbar $\rightarrow$ $d$- parametrige Lösungsschar\\
+Lösung des \underline{inhomogenen} Gleichungssystem: Anzahl der Nullzeilen $d' = 1$
+\begin{equation*}
+    \begin{matrix}
+        0&0&0&|\,0\\
+        -1&1&0&|\,-1\\
+        2&1&1&|\,2\\
+    \end{matrix}
+\end{equation*}
+\underline{eine} Nullzeile: Wahl des Parameters: $x_1 = \lambda$\\
+\begin{eqnarray*}
+    -\lambda + x_2 = -1 \Rightarrow x_2 = \lambda - 1\\
+                        \Rightarrow x_3 = 3-3\lambda
+\end{eqnarray*}
+\begin{equation*}
+    \vec{x_{ih}}=\left(\begin{array}{c}0\\-1\\3\end{array}\right)+\lambda\left(\begin{array}{c}1\\1\\-3\end{array}\right)=\vec{x_p}+\vec{x_{hom}}
+\end{equation*}
+Allgemein gilt:
+\begin{itemize}
+    \item[] Treten im erweiterten Koeffizientenschema $d' \neq 0$ Nullzeilen auf, so ist die allgemeine Lösung eine $d$-parametrige Schar.
+\end{itemize}
+Satz:
+\begin{itemize}
+    \item[] Die allgemeine Lösung $\vec{x_{ih}}$ eines inhomogenen linearen Gleichungssystems lässt sich als Summe aus der allgemeinen Lösung des homogenen Systems $\vec{x_{hom}}$ und einer partikulären Lösung (speziellen Lösung) des Systems schreiben.
+\end{itemize}
+Beweis:
+\begin{eqnarray*}
+    A\vec{x_{ih}}=\vec{b}\\
+    A(\vec{x_{hom}} + \vec{x_p}) = A\vec{x_{hom}} + A\vec{x_p} = \vec{O}+\vec{b}
+\end{eqnarray*}
+\\
+Beispiel 3:
+\begin{equation*}
+    \left(\begin{array}{c c c }
+        2&-2&0\\2&1&1\\-1&1&0
+    \end{array}\right) \vec{x} = \left(\begin{array}{c}1\\2\\-1\end{array}\right)
+\end{equation*}
+Koeffizientenschema:
+\begin{equation*}
+    \begin{matrix}
+        2&-2&0&|\,1\\
+        2&1&1&|\,2\\
+        -1&1&0&|\,-1
+    \end{matrix}
+\end{equation*}
+\begin{equation*}
+    \begin{matrix}
+        0&0&0&|\,-1\\
+        -1&1&0&|\,-1\\
+        2&1&1&|\,2
+    \end{matrix}
+\end{equation*}
+Lösen des homogenen Gleichungssystems bleibt gleich wie bei Beispiel 2.\\\\
+Lösen des inhomogenen Gleichungssystems:
+\begin{equation*}
+    \begin{matrix}
+        0&0&0&|\,-1\\
+        -1&1&0&|\,-1\\
+        2&1&1&|\,2
+    \end{matrix}
+\end{equation*}
+Da $0 \neq -1$ ist dies ein Widerspruch und somit nicht lösbar!\\\\
+Allgemein glit:
+\begin{itemize}
+    \item[] Stimmen die Anzahlen der Nullzeilen im Koeffizientenschema ($d$) und im erweiterten Koeffizientenschme ($d'$) nicht überein ($d\neq d'$), so ist das Gleichungssystem nicht lösbar.
+\end{itemize}
+Rechenregeln für:
+\begin{itemize}
+    \item[a)] Matritzen
+    \item[b)] Determinanten
+    \item[c)] Koeffizientenschemata
+\end{itemize}
+\begin{itemize}
+    \item[1)] Gemeinsame Faktoren
+    \begin{itemize}
+        \item[a)] Kann vorgezogen werden, wenn er in \underline{allen} Elementen der Matrix enthalten ist.
+        \item[b)] Kann vorgezogen werden, wenn er in \underline{einer} Zeile oder Spalte enthalten ist.
+        \item[c)] Kann gekürtzt werden, wenn er in \underline{allen} Elementen \underline{einer} Zeile oder Spalte enthalten ist.
+    \end{itemize}
+    \item[2)] Vertauschen von Zeilen bzw. Spalten
+    \begin{itemize}
+        \item[a)] Nicht erlaubt
+        \item[b)] Die Vertauschung von Zeilen bzw. Spalten verändert das Vorzeichen
+        \item[c)] Vertauschung von Zeilen ist erlaubt
+    \end{itemize}
+    \item[3)] Linearkombinationen von Zeilen bzw. Spalten
+    \begin{itemize}
+        \item[a)] nicht erlaubt
+        \item[b)] erlaubt für Zeilen bzw. Spalten
+        \item[c)] ist erlaubt für Zeilen 
+    \end{itemize}
+\end{itemize}
+
+\subsection{Basistransformation}
+Gegeben: linearer Vektorraum $\mathbb{V}$, Dimension $n$\\
+Basissysteme: $\{ \vec{e_i} \}$ "alte Basis"\\
+\hspace*{1cm} $\{ \vec{e'_i} \}$ "neue Basis"\\\\
+Gesucht: Umrechnungsbeziehung zwischen dern Basissystemen sowie für die Matrix- und Komponentendarstellung von Operatoren bzw. Vektoren in den Basissystemen.
+
+\subsubsection{Transformationsmatrix}
+Komponentendarstellung der $\{\vec{e'_i}\}$ in $\{ \vec{e_i} \}$
+\begin{equation*}
+    \vec{e_i} = \sum_{j=1}^{n}C_{ji}\vec{e_j}=\left(\begin{array}{c}C_{1i}\\C_{2i}\\\vdots\\C_{ni}\end{array}\right)
+\end{equation*}
+Zusammenfassung der $C_{ji}$ als Matrix:
+\begin{equation*}
+    C = \left(\begin{array}{c c c c}
+        C_{11}&C_{12}&\dots&C_{1n}\\
+        C_{21}&C_{22}&\dots&C_{2n}\\
+        \vdots&\vdots&\ddots&\vdots\\
+        C_{n1}&C_{n2}&\dots&C_{nn}\\
+    \end{array}\right)
+\end{equation*}
+Transformationsmatrix:\\
+Spaltvektoren sind die neuen Basisvektoren ausgedrückt in der alten Basis:\\
+$\{\vec{e'_1}\}$, $\{\vec{e'_2}\}$, $\{\vec{e'_3}\}$ in $\{\vec{e_i}\}$
 \end{document}
