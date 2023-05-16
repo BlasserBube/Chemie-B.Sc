@@ -1002,4 +1002,68 @@ $\rightarrow$ Irreversibel\\
 Beispiel: Universum\\
 reversible Prozesse Entropie des Universums bleibt gleich\\
 irreversible (spontante) Prozesse, die Entropie nimmt zu.\\
+
+\section{3.Hauptsatz der Thermodynamik}
+Empirisch Nernst'sche Wärmetheorie
+\begin{equation*}
+    \lim_{T\rightarrow 0} \Delta S = 0
+\end{equation*}
+Reaktion:
+\begin{equation*}
+    \Delta S = \sum_{i} \nu_i S_{m,i} \Rightarrow \lim_{T\rightarrow 0} \Delta S = 0,\, S(\mathrm{Edukte}) \approx S(\mathrm{Produkte})
+\end{equation*}
+\begin{equation*}
+    S_m (T=0\,\mathrm{K}) \text{ ist stoffunabhängig}
+\end{equation*}
+Postulieren $S_m (T=0\,\mathrm{K})=0$ für perfekte Kristalle\\\\
+Beispiel:\\
+Phasenübergang $\ce{S}(\beta) \rightarrow \ce{S}(\alpha)$\\
+\begin{equation*}
+    \Delta S = \int^{E}_{A} \frac{\delta q_{rev}}{T}=\int_{300K}^{0K}c_p\frac{1}{T}\,dT
+\end{equation*}
+\subsection*{Freie Energiegrößen}
+Smausius Ungleichung
+\begin{equation*}
+    dS > \frac{\delta q}{T} \Leftrightarrow TdS-\delta q > 0\,\text{ (spontante Prozesse)}
+\end{equation*}
+isochor:
+\begin{eqnarray*}
+    dU = \delta q_V\\
+    dU-T\,dS < 0\\
+    A = U-TS\,\text{ Freie Energie, Helmholtz-Energie (Zustandsgröße)}\\
+    dA = dU-d(TS) = dU - T\,dS-S\,dT\\
+\end{eqnarray*}
+\begin{itemize}
+    \item isotherm $dA = dU-T\,dS$
+    \item spontan $dA<0$
+    \item nicht spontan $dA > 0$
+    \item Gleichgewicht $dA = 0$
+\end{itemize}
+\begin{eqnarray*}
+    T\,dS-\delta q \geq 0\\
+    dU = \delta q + \delta w\\
+    \Rightarrow \delta w \geq dU - T\,dS\\
+    \delta w_{max} = dU-T\,dS = dA (V=T=\mathrm{konst})
+\end{eqnarray*}
+$A$ ist der maximale für Leistung von Arbeit verfügbarer Teil der inneren Energie.\\
+\\isobar:
+\begin{eqnarray*}
+    dH = \delta q_p\\
+    \text{freiwillig: } dH-T\,dS<0\text{ für reversible: } dH-T\,dS=0\\
+    G=H-TS \text{ Freie Enthalpie, HGibbs Energie}\\
+    dG = dH-T\,dS-S\,dT\\
+    \text{isotherm: } dG=dH-T\,dS \Leftrightarrow \Delta G = \Delta H-T\Delta S\\
+    \text{freiwillig: } \Delta G < 0 \text{ exergonisch}\\
+    \text{nicht freiwillig } \Delta G > 0 \text{ endergonisch}
+\end{eqnarray*}
+\section{1. + 2. Hauptsatz}
+\begin{eqnarray*}
+    dU = \delta w + \delta q \Rightarrow dU = T\,dS-p\,dV \text{ Fundamentalgleichung der inneren Energie}\\
+    H=U+pV\Rightarrow dH=dU+p\,dV+V\,dp\Rightarrow dH=T\,dS+V\,dp\,(S,p)\\
+    A=U-TS\Rightarrow dA=dU=T\,dS-S\,dT\Rightarrow dA=-S\,dT-ü\,dV\,(T,V)\\
+    G=H-TS\Rightarrow dG=dH-T\,dS-S\,dT\Rightarrow dG=-S\,dT+V\,dp\,(T,p)
+\end{eqnarray*}
+\begin{eqnarray*}
+    dU=\left(\frac{\partial U}{\partial S}\right)_V\,dS+\left(\frac{\partial U}{\partial V}\right)_S\,dV = T\,dS-p\,dV
+\end{eqnarray*}
 \end{document}

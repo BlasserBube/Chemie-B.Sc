@@ -1,10 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1683704101 "c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/AC I/Nichtmetalle/Chemie der Nichtmetalle.tex" "Chemie der Nichtmetalle.pdf" "Chemie der Nichtmetalle" 1683704120 0
+["pdflatex"] 1684229727 "c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/AC I/Nichtmetalle/Chemie der Nichtmetalle.tex" "Chemie der Nichtmetalle.pdf" "Chemie der Nichtmetalle" 1684229758 0
   "C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1683188044 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/mgils/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1681807980 11548 bab35a9c624a0c97a498ac4f39535339 ""
   "C:/Users/mgils/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1681807288 10771595 0d079affff91875ac464ba32b0914fe3 ""
-  "Chemie der Nichtmetalle.aux" 1683704119 3618 daf5404fd6537d638c7478e344a3979b "pdflatex"
-  "Chemie der Nichtmetalle.tex" 1683704086 10687 5fdbd70baf626d0d6d63d80110eaacbc ""
+  "Chemie der Nichtmetalle.aux" 1684229756 3617 845f9fd54955dad1af58bd2ece662a9f "pdflatex"
+  "Chemie der Nichtmetalle.tex" 1684229719 11615 28068bb2731b015c1bc5d99d2e7ccf87 ""
   "D:/MikTex/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "D:/MikTex/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233955448 1004 54797486969f23fa377b128694d548df ""
   "D:/MikTex/fonts/tfm/public/cm/cmbx10.tfm" 1136768654 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -28,6 +28,8 @@
   "D:/MikTex/fonts/type1/public/amsfonts/cm/cmti7.pfb" 1247596668 36607 d654cb3f2bc54f57509240071db3bffa ""
   "D:/MikTex/tex/context/base/mkii/supp-pdf.mkii" 1580393758 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "D:/MikTex/tex/generic/chemfig/chemfig.tex" 1677167826 121813 d428a7d455ccc3a20ad4e89c42ca22f7 ""
+  "D:/MikTex/tex/generic/iftex/iftex.sty" 1644000708 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
+  "D:/MikTex/tex/generic/iftex/ifvtex.sty" 1644000708 1057 525c2192b5febbd8c1f662c9468335bb ""
   "D:/MikTex/tex/generic/pgf/basiclayer/pgfcore.code.tex" 1621073246 992 855ff26741653ab54814101ca36e153c ""
   "D:/MikTex/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex" 1621073246 43820 1fef971b75380574ab35a0d37fd92608 ""
   "D:/MikTex/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex" 1621073246 19324 f4e4c6403dd0f1605fd20ed22fa79dea ""
@@ -95,6 +97,8 @@
   "D:/MikTex/tex/latex/chemfig/chemfig.sty" 1677167826 388 2f9ccd1a71661ff4bea57e7855b0518e ""
   "D:/MikTex/tex/latex/chemgreek/chemgreek.sty" 1579211076 47530 64600845afa9c25b782d42fa33f66772 ""
   "D:/MikTex/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
+  "D:/MikTex/tex/latex/geometry/geometry.cfg" 1578057146 1104 7ac475a4e3466b0b43e138e9356bda83 ""
+  "D:/MikTex/tex/latex/geometry/geometry.sty" 1578057146 42759 9cf6c5257b1bc7af01a58859749dd37a ""
   "D:/MikTex/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "D:/MikTex/tex/latex/graphics-cfg/graphics.cfg" 1465894292 1224 978390e9c2234eab29404bc21b268d1e ""
   "D:/MikTex/tex/latex/graphics-def/pdftex.def" 1663918690 19448 1e988b341dda20961a6b931bcde55519 ""
@@ -120,7 +124,7 @@
   "D:/MikTex/tex/latex/pgf/utilities/pgfrcs.sty" 1621073246 325 f9f16d12354225b7dd52a3321f085955 ""
   "D:/MikTex/tex/latex/tools/calc.sty" 1654690828 10214 de3e21cfc0eccc98ca7f8dac0ef263d2 ""
   "D:/MikTex/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/AC I/Nichtmetalle/Chemie der Nichtmetalle.tex" 1683704086 10687 5fdbd70baf626d0d6d63d80110eaacbc ""
+  "c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/AC I/Nichtmetalle/Chemie der Nichtmetalle.tex" 1684229719 11615 28068bb2731b015c1bc5d99d2e7ccf87 ""
   (generated)
   "Chemie der Nichtmetalle.aux"
   "Chemie der Nichtmetalle.log"

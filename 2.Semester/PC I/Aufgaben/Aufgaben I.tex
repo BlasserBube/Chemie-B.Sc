@@ -347,7 +347,7 @@ a)
     \left(\frac{\partial V}{\partial p}\right)_T = \frac{-nRT}{p^2}\\
     \partial w = -p\frac{nR}{p}\,dT + p \frac{nRT}{p^2}dp = -nR\,dT + \frac{nRT}{p}\,dp\\
     \left(\frac{\partial w}{\partial T}\right)_p = -nR,\, \left(\frac{\partial w}{\partial p}\right)_T = \frac{nRT}{p}\\
-    \left(\frac{\partial^2 w}{\partial T \partial p}\right) = \frac{\partial}{\partial p}\left(\frac{nRT}{p}\right)=\frac{nR}{T}\\
+    \left(\frac{\partial^2 w}{\partial T \partial p}\right) = \frac{\partial}{\partial p}\left(\frac{nRT}{p}\right)=\frac{nR}{p}\\
     \frac{\partial^2 w}{\partial p \partial T} = \frac{\partial}{\partial p}(-nR) = 0\\
     \frac{\partial^2 w}{\partial T \partial p} = \frac{\partial^2 w}{\partial p \partial T} \Rightarrow \partial w
 \end{eqnarray*}
@@ -356,32 +356,54 @@ $w$ ist keine Zustandsgröße
 \section*{Woche 3}
 \subsection*{Augabe 3.1}
 a)\begin{eqnarray*}
-    C_p = C_V+R_S,\,R_S = \frac{R}{M} = \frac{8.3145}{8} = 1.03925\cdot\,\mathrm{\frac{J}{K\cdot mol}}\\
-    C_V = C_p - R_S = 19.75075\,\mathrm{\frac{J}{mol\cdot K}}
-    \delta q = C_V\,dT\\
-    \delta q = 19.75075\cdot 10 \,\mathrm{J}\\
-    \delta q = 197.5075\,\mathrm{J}\\
-    w = -p\Delta V = 0\\
+    V=\mathrm{const.},\,w=0\\
+    q_v=nc_{m,V}\Delta T\\
+    c_p=c_V+nR \rightarrow c_{v,m} = c_{p,m} - R\\
+    q_V=(c_{p,m}-R)n\Delta T = 124.76\,\mathrm{J}
 \end{eqnarray*}
-Es wird keine Arbeit verrichtet
+Es wird keine Arbeit verrichtet\\
 b)\begin{eqnarray*}
-    p_{ex} = 0,\,w=-\int_{V_A}^{V_E}p_{ex}\,dV=0\\
+    p = \mathrm{const.}\\
+    q_p=nc_{p,m}\Delta T = 207.9\,\mathrm{J}\\
 \end{eqnarray*}
-Es wird keine Arbeit geleistet\\
-Bei konstantem Druck:
-\begin{eqnarray*}
-    \delta q_p = C_p\,dT = 207.9\,\mathrm{J}\\
-\end{eqnarray*}
+\begin{equation*}
+    w=-p\Delta V \ce{->[{pV=nRT}]} -p(\frac{nRT_E}{p}-\frac{nRT_A}{p})=-nr\Delta T = -83.14\,\mathrm{J}
+\end{equation*}
 
 \subsection*{Aufgabe 3.2}
 \begin{eqnarray*}
-    (C+c_v)\Delta T = m\cdot q\\
-    \frac{(C+c_v)\Delta T}{m} = q\\
-    \frac{(5100+0.24025352)\cdot 1.64}{0.2}\,\mathrm{\frac{J}{g}}=q\\
-    41821.97\,\mathrm{\frac{J}{g}}=41.8220\,\mathrm{\frac{kJ}{g}}=q
+    q_K=C\Delta T,\,V=\mathrm{const.}\\
+    q_V=\Delta U=-C\Delta T = n \Delta U_m = \frac{m}{M} \Delta U_m\\
+    \Delta U_m = -\frac{C\Delta TM}{m}=-3261.96\,\mathrm{J}
 \end{eqnarray*}
-Standardverbrennungsenthalpie = $-3228\,\mathrm{\frac{kJ}{mol}}$
+\begin{eqnarray*}
+    H=U+pV\\
+    \Delta H=\Delta U + \Delta (pV) = \Delta U + p \Delta V \rightarrow[{p\Delta V = \Delta n_gRT}]\rightarrow \Delta U + \Delta n_g RT\\
+    \Delta n_g = (6-7.5)\,\mathrm{mol} = -1.5\,\mathrm{mol}\\
+    \Delta H_m = -3265.7\cdot 10^3 \,\mathrm{\frac{J}{mol}}
+\end{eqnarray*}
 
+\subsection*{Aufgabe 3.3}
+\begin{eqnarray*}
+    \mu = \left(\frac{\partial T}{\partial p}\right)_H
+    d H_m = \left(\frac{\partial H_m}{\partial T}\right)_p\,dT+\left(\frac{\partial H_m}{\partial p}\right)_T\,dp=C_{p,m}\,dT+\left(\frac{\partial H_m}{\partial p}\right)_T\,dp\\
+    \text{mit: } \left(\frac{\partial H_m}{\partial p}\right)_T = -T\left(\frac{\partial V_m}{\partial T}\right)_p + V_m\\
+    c_{p,m}\,dT+\left[-T\left(\frac{\partial V_m}{\partial T}\right)_p+V_m\right]\,dp=0\\
+    \mu = \left(\frac{\partial T}{\partial p}\right)_H = \frac{1}{C_{p,m}}\left[T\left(\frac{\partial V_m}{\partial T}\right)_p - V_m\right]
+\end{eqnarray*}
+a)\begin{eqnarray*}
+    pV_m-pb=RT\\
+    V_m = \frac{RT}{p}+b\\
+    \left(\frac{\partial V_m}{\partial T}\right)_p = \frac{R}{p}\\
+    \mu = \frac{1}{c_{p,m}}\left[T\frac{R}{p}-\left(\frac{RT}{p}+b\right)\right]=-\frac{b}{c_{p,m}}<0\\
+\end{eqnarray*}
+b)\begin{eqnarray*}
+    pV_m=RT+(b-\frac{a}{RT})_p\\
+    V_m = \frac{RT}{p}+b-\frac{a}{RT}\\
+    \left(\frac{\partial V_m}{\partial T}\right)_p = \frac{R}{p}+\frac{a}{RT^2}\\
+    \mu = \frac{1}{c_{p,m}}\left[-\left(\frac{R}{p}+\frac{a}{RT^2}\right)-\left(\frac{RT}{p}+b-\frac{a}{RT}\right)\right]\\
+    = \frac{1}{c_{p,m}}\left(\frac{2a}{RT}-b\right)
+\end{eqnarray*}
 \subsection*{Aufgabe 3.4}
 \begin{center}
     I. \ce{(Cyclohexan) + 18 O2 -> 6CO2 + 6H2O}\\
