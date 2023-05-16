@@ -180,27 +180,12 @@ b)\begin{eqnarray*}
 \end{eqnarray*}
 
 \subsection*{Aufgabe 2}
-a)\begin{eqnarray*}
-    C=\frac{Q}{U},\, Q = \frac{\sigma}{\varepsilon^2A},\,U=dE\\
-    C=\frac{\frac{\sigma}{\varepsilon^2A}}{dE}\\
-    d=\frac{\sigma}{\varepsilon^2ACE}\\
-    \sigma = \frac{\varepsilon^2ACE}{d}\\
-    \sigma = \frac{\varepsilon^2ACE}{\frac{1}{10}d} = \frac{10 \varepsilon^2ACE}{d}
-\end{eqnarray*}
-Verzehnfacht sich\\
-b)\begin{eqnarray*}
-    D=\frac{Q}{A},\,A = \frac{dC}{\varepsilon_0}\\
-    D=\frac{Q\varepsilon_0}{dC}\\
-    D=\frac{Q\varepsilon_0}{\frac{1}{10}dC}\\
-    D=\frac{10Q\varepsilon_0}{dC}
-\end{eqnarray*}
-Verzehnfacht sich\\
-c)\begin{eqnarray*}
-    E=\frac{U}{d}\\
-    E=\frac{U}{\frac{1}{10}d}\\
-    E=\frac{10U}{d}
-\end{eqnarray*}
-Verzehnfacht sich\\
+a)
+Bleibt gleich\\
+b)
+Bleibt gleich\\
+c)
+Bleibt gleich\\
 d)\begin{eqnarray*}
     E=\frac{U}{d}\\
     \frac{1}{E}=\frac{d}{U}\\
@@ -208,28 +193,16 @@ d)\begin{eqnarray*}
     U=\frac{1}{10}dE
 \end{eqnarray*}
 Verringert sich um den Faktor 0.1\\
-e)\begin{eqnarray*}
-    w_{el}=\frac{W}{V}=\frac{1}{2}\varepsilon_0\varepsilon_rE^2\\
-    w_{el}=\frac{W}{V}=\frac{1}{2}\varepsilon_0\varepsilon_r\left(\frac{U}{d}\right)^2\\
-    w_{el}=\frac{W}{V}=\frac{1}{2}\varepsilon_0\varepsilon_r\left(\frac{U}{\frac{1}{10}d}\right)^2\\
-    w_{el}=\frac{W}{V}=\frac{1}{2}\varepsilon_0\varepsilon_r\left(\frac{10U}{d}\right)^2\\
-    w_{el}=\frac{W}{V}=\frac{1}{2}\varepsilon_0\varepsilon_r\frac{100U^2}{d^2}\\
-\end{eqnarray*}
-Verhundertfacht sich\\
+e)
+Bleibt gleich\\
 f)\begin{eqnarray*}
     W=\frac{1}{2}CU^2\\
     W=\frac{1}{2}C\left(dE\right)^2\\
-    W=\frac{1}{2}C\left(\frac{1}{10}dE\right)^2\\
-    W=\frac{1}{2}C\frac{1}{100}d^2E^2\\
+    W=\frac{1}{2}C\frac{1}{10}dE^2\\
 \end{eqnarray*}
-Verringert sich um den Faktor 0.01\\
-g)\begin{eqnarray*}
-    2F=qE\\
-    F=\frac{qU}{d}\\
-    F=\frac{qU}{\frac{1}{10}d}\\
-    F=\frac{10qU}{d}
-\end{eqnarray*}
-Verzehnfacht sich\\
+Verringert sich um den Faktor 0.1\\
+g)
+Bleibt gleich\\
 e)\begin{eqnarray*}
     C=\frac{A\varepsilon_0}{d}\\
     C=\frac{A\varepsilon_0}{\frac{1}{10}d}\\
@@ -238,4 +211,45 @@ e)\begin{eqnarray*}
 Verzehnfacht sich.
 
 \subsection*{Aufgabe 3}
+\begin{eqnarray*}
+    F_g = F_{el}\\
+    \gamma \frac{m_1m_2}{r^2}=\frac{1}{4\pi \varepsilon_0}\frac{q_1q_2}{r^2}\\
+    \frac{m_1m_2}{q_1q_2}=\frac{1}{4\pi\varepsilon_0\gamma}\\
+    \frac{q_1}{m_1}=\sqrt{4\pi\varepsilon_0\gamma}\\
+    q_1 = (N_e-N_p)_e,\,m_1=2N_p\\
+    \frac{(N_e-N_p)e}{2N_pm_p}=\sqrt{4\pi\varepsilon_0\gamma}\\
+    \frac{N_e-N_p}{N_p}=\frac{mp}{e}\sqrt{4\pi\varepsilon_0\gamma}\\
+    \approx 1.8\cdot 10^{-18}
+\end{eqnarray*}
+
+\subsection*{Aufgabe 4 (T)}
+a)\begin{eqnarray*}
+    d=1\,\mathrm{cm},\,U=5\,\mathrm{kV},\,A=0.1\,\mathrm{m^2}\\
+    C=\varepsilon_0\frac{A}{d}=88.5\,\mathrm{pF}\\
+    Q=CU=4.4\cdot 10^{-7}\,\mathrm{C}\\
+    E=\frac{U}{d}=5\cdot 10^5\,\mathrm{\frac{V}{m}}
+\end{eqnarray*}
+b)\begin{eqnarray*}
+    W_{Feld}=\frac{1}{2}CU^2,\,U(t)=RI(t)\\
+    W_{Feld}=\int_{0}^{\infty}U(t)I(t)\,dt=\int_{0}^{\infty}(I(t))^2R\,dt\\
+    I(t)=\frac{U_0}{R}e^{-\frac{t}{RC}}\\
+    \Rightarrow W_{Feld} = \left[\frac{U_0^2}{R}\cdot\left(-\frac{RC}{2}\right)e^{-\frac{2t}{RC}}\right]_0^{\infty}=\frac{U_0^2C}{2}
+\end{eqnarray*}
+c)\begin{eqnarray*}
+    q=\pm e,\,d=5\cdot 10^{-11}\,\mathrm{m}\\
+    \vec{D}=\vec{p}\times \vec{E}\\
+    |\vec{D}| = 4\cdot 10^{-24}\,\mathrm{Nm}\\
+    \vec{W}_{pot}=\vec{p}\vec{E}=4\cdot 10^{-24}\,\mathrm{J}
+\end{eqnarray*}
+
+\subsection{Aufgabe 5 (T)}
+\begin{eqnarray*}
+    C=\varepsilon_0\varepsilon_r\frac{A}{D}\\
+    C_{ges}=C_1+\left(\frac{1}{C_2}+\frac{1}{C_3}+\frac{1}{C_4}\right)^{-1}\\
+    =C_1+\left(\frac{2}{C_2}+\frac{1}{C_3}\right)^{-1}\\\\
+    C_1 =\frac{\varepsilon_0 A}{2d}\\
+    C_2 =\frac{2\varepsilon_0 A}{d}\\
+    C_3 =\frac{\varepsilon_0\varepsilon_rA}{d}\\\\
+    C_[ges]=\frac{\varepsilon_0A}{d}\left(\frac{1}{2}+\frac{\varepsilon_r}{\varepsilon_r+1}\right)
+\end{eqnarray*}
 \end{document}
