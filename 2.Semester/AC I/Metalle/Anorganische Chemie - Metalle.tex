@@ -1,11 +1,11 @@
-\documentclass[a4paper, 12pt]{article}
-\usepackage{mhchem}
+\documentclass{article}
 \usepackage{xcolor}
-\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{mhchem}
 \usepackage{chemfig}
 \usepackage[
-  left=3cm,
-  right=2cm,
+  left=1cm,
+  right=1cm,
   top=2cm,
   bottom=2cm,
 ]{geometry}
@@ -31,7 +31,7 @@ Chemische Eigenschaften
     \item Meist basische Hydroxide!?
     \begin{itemize}
         \item niedrige Oxidationsstufe: JA \\Beispiel: \ce{Cr(OH)2 + H2O -> Cr^{2+} + 2OH- + H2O}
-        \item hohe Oxidationsstufe: NEIN \\Beispiel: \ce{Cr(OH)6} (gibt's nicht) wird zu \ce{CrO2(OH)2} $->$\ce{H2CrO4}\\ \ce{H2CrO4 + 2H2O -> CrO4^{2-} + 2H3O+}
+        \item hohe Oxidationsstufe: NEIN \\Beispiel: \ce{Cr(OH)6} (gibt's nicht) wird zu \ce{CrO2(OH)2} $\rightarrow$\ce{H2CrO4}\\ \ce{H2CrO4 + 2H2O -> CrO4^{2-} + 2H3O+}
     \end{itemize}
 \end{itemize}
 \subsection{Elektrisches Verhalten}
@@ -52,18 +52,18 @@ Man stelle sich ein Dreieck vor mit den Eckenbeschriftungen ionische Bindung \ce
 \subsubsection{Das Elektronengasmodell}
 \begin{itemize}
     \item Die Metallatome geben eine gewisse Zahl an Valenzelektronen ab, es verbleiben positiv geladene Atomrümpfe
-    \item Die Elektronen sind zwischen den Atomrümpfen frei beweglich, ähnlich eines Gases $->$ Elektronengas \textcolor{red}{(versagt bei der Beschreibung der Wärmekapazität von Metallen)}
+    \item Die Elektronen sind zwischen den Atomrümpfen frei beweglich, ähnlich eines Gases $\rightarrow$ Elektronengas \textcolor{red}{(versagt bei der Beschreibung der Wärmekapazität von Metallen)}
 \end{itemize}
 \subsubsection{Das Bändermodell}
 \begin{itemize}
-    \item Elektronen können nur bestimmte Energien aufweisen\\$->$ Orbitale (hier Atomorbitale)
-    \item Beim Übergang von Ein- zu Mehratomsystemen\\$->$ Übergang von Atom- zu Molekülorbitalen
+    \item Elektronen können nur bestimmte Energien aufweisen\\$\rightarrow$ Orbitale (hier Atomorbitale)
+    \item Beim Übergang von Ein- zu Mehratomsystemen\\$\rightarrow$ Übergang von Atom- zu Molekülorbitalen
 \end{itemize}
 \ce{Li3}: $+\hspace*{0.25cm}+\hspace*{0.25cm}+\hspace*{0.25cm} = \sigma_b$\\
 \hspace*{0.85cm}$+\hspace*{0.25cm}-\hspace*{0.25cm}+\hspace*{0.25cm} = \sigma_{ab}$\\
 \hspace*{0.85cm}$+\hspace*{0.45cm}|\hspace*{0.45cm}+\hspace*{0.25cm} = \sigma_{nb}$
 \begin{itemize}
-    \item Beim Übergang von Mehr- zu Vielatomsystemen\\$->$ Übergang von Molekülorbital zu (Orbital-) Bändern\\$->$ Valenzband: mit Valenzelektronen besetzt, höchster besetzte Zustand: HOMO\\$->$ Leitungsband: frei, niedrigste unbesetzte Zustand: LUMO
+    \item Beim Übergang von Mehr- zu Vielatomsystemen\\$\rightarrow$ Übergang von Molekülorbital zu (Orbital-) Bändern\\$\rightarrow$ Valenzband: mit Valenzelektronen besetzt, höchster besetzte Zustand: HOMO\\$\rightarrow$ Leitungsband: frei, niedrigste unbesetzte Zustand: LUMO
 \end{itemize}
 Fermikante = Ort zwischen Besetzt und Unbesetzt\\
 \subsection{Strukturen der Metalle}
@@ -77,41 +77,6 @@ Fermikante = Ort zwischen Besetzt und Unbesetzt\\
 \end{itemize}
 \subsubsection{Die kubisch-innenzentrierte Kugelpackung}
 \textbf{(bcc = body-centered cubis), W(olfram)-Typ}
-\\
-\begin{tikzpicture}
-    \draw[color=blue,fill=black] (0,0) circle (1cm);
-    \draw[color=blue,fill=black] (2,0) circle (1cm);
-    \draw[color=blue,fill=black] (4,0) circle (1cm);
-    \draw[color=blue,fill=black] (6,0) circle (1cm);
-    \draw[color=blue,fill=black] (0,2) circle (1cm);
-    \draw[color=blue,fill=black] (2,2) circle (1cm);
-    \draw[color=blue,fill=black] (4,2) circle (1cm);
-    \draw[color=blue,fill=black] (6,2) circle (1cm);
-    \draw[color=blue,fill=black] (0,4) circle (1cm);
-    \draw[color=blue,fill=black] (2,4) circle (1cm);
-    \draw[color=blue,fill=black] (4,4) circle (1cm);
-    \draw[color=blue,fill=black] (6,4) circle (1cm);
-    \draw[color=blue,fill=black] (0,6) circle (1cm);
-    \draw[color=blue,fill=black] (2,6) circle (1cm);
-    \draw[color=blue,fill=black] (4,6) circle (1cm);
-    \draw[color=blue,fill=black] (6,6) circle (1cm);
-    \draw[color=orange,fill=red] (1,-1) circle (1cm);
-    \draw[color=orange,fill=red] (3,-1) circle (1cm);
-    \draw[color=orange,fill=red] (5,-1) circle (1cm);
-    \draw[color=orange,fill=red] (7,-1) circle (1cm);
-    \draw[color=orange,fill=red] (1,1) circle (1cm);
-    \draw[color=orange,fill=red] (3,1) circle (1cm);
-    \draw[color=orange,fill=red] (5,1) circle (1cm);
-    \draw[color=orange,fill=red] (7,1) circle (1cm);
-    \draw[color=orange,fill=red] (1,3) circle (1cm);
-    \draw[color=orange,fill=red] (3,3) circle (1cm);
-    \draw[color=orange,fill=red] (5,3) circle (1cm);
-    \draw[color=orange,fill=red] (7,3) circle (1cm);
-    \draw[color=orange,fill=red] (1,5) circle (1cm);
-    \draw[color=orange,fill=red] (3,5) circle (1cm);
-    \draw[color=orange,fill=red] (5,5) circle (1cm);
-    \draw[color=orange,fill=red] (7,5) circle (1cm);
-\end{tikzpicture}\\
 \underline{C}oordination\underline{N}umber = 8 + 6\\
 Koordinationspolyeder = Rhombododecaeder\\
 Raumerfüllung = 68\%\\
@@ -119,76 +84,10 @@ Siehe Folie für näheres.
 \newpage
 \subsubsection{Die dichtesten Packungen}
 \textbf{Hexagonal-dichteste Kugelpackung\\(hcp = hexagonal close packed), M(a)g(nesium)-Typ}
-\\\\
-\begin{tikzpicture}
-    \draw[color=blue,fill=black] (0,0) circle (1cm);
-    \draw[color=blue,fill=black] (2,0) circle (1cm);
-    \draw[color=blue,fill=black] (4,0) circle (1cm);
-    \draw[color=blue,fill=black] (6,0) circle (1cm);
-    \draw[color=blue,fill=black] (1,1.7) circle (1cm);
-    \draw[color=blue,fill=black] (3,1.7) circle (1cm);
-    \draw[color=blue,fill=black] (5,1.7) circle (1cm);
-    \draw[color=blue,fill=black] (7,1.7) circle (1cm);
-    \draw[color=blue,fill=black] (2,3.4) circle (1cm);
-    \draw[color=blue,fill=black] (4,3.4) circle (1cm);
-    \draw[color=blue,fill=black] (6,3.4) circle (1cm);
-    \draw[color=blue,fill=black] (8,3.4) circle (1cm);
-    \draw[color=orange,fill=red] (1,0.85) circle (1cm);
-    \draw[color=orange,fill=red] (3,0.85) circle (1cm);
-    \draw[color=orange,fill=red] (5,0.85) circle (1cm);
-    \draw[color=orange,fill=red] (7,0.85) circle (1cm);
-    \draw[color=orange,fill=red] (2,2.55) circle (1cm);
-    \draw[color=orange,fill=red] (4,2.55) circle (1cm);
-    \draw[color=orange,fill=red] (6,2.55) circle (1cm);
-    \draw[color=orange,fill=red] (8,2.55) circle (1cm);
-    \draw[color=orange,fill=red] (3,4.25) circle (1cm);
-    \draw[color=orange,fill=red] (5,4.25) circle (1cm);
-    \draw[color=orange,fill=red] (7,4.25) circle (1cm);
-    \draw[color=orange,fill=red] (9,4.25) circle (1cm);
-\end{tikzpicture}\\
 CN=12\\
 Koordinationspolyeder = Antikuboktaeder\\
 Raumerfüllung = 74\%\\\\
 \textbf{Kubisch-dichteste Kugelpackung\\(ccp=cubic close packed), Cu(pfer)-Typ}
-\\\\
-\begin{tikzpicture}
-    \draw[color=blue,fill=black] (0,0) circle (1cm);
-    \draw[color=blue,fill=black] (2,0) circle (1cm);
-    \draw[color=blue,fill=black] (4,0) circle (1cm);
-    \draw[color=blue,fill=black] (6,0) circle (1cm);
-    \draw[color=blue,fill=black] (1,1.7) circle (1cm);
-    \draw[color=blue,fill=black] (3,1.7) circle (1cm);
-    \draw[color=blue,fill=black] (5,1.7) circle (1cm);
-    \draw[color=blue,fill=black] (7,1.7) circle (1cm);
-    \draw[color=blue,fill=black] (2,3.4) circle (1cm);
-    \draw[color=blue,fill=black] (4,3.4) circle (1cm);
-    \draw[color=blue,fill=black] (6,3.4) circle (1cm);
-    \draw[color=blue,fill=black] (8,3.4) circle (1cm);
-    \draw[color=orange,fill=red] (1,0.85) circle (1cm);
-    \draw[color=orange,fill=red] (3,0.85) circle (1cm);
-    \draw[color=orange,fill=red] (5,0.85) circle (1cm);
-    \draw[color=orange,fill=red] (7,0.85) circle (1cm);
-    \draw[color=orange,fill=red] (2,2.55) circle (1cm);
-    \draw[color=orange,fill=red] (4,2.55) circle (1cm);
-    \draw[color=orange,fill=red] (6,2.55) circle (1cm);
-    \draw[color=orange,fill=red] (8,2.55) circle (1cm);
-    \draw[color=orange,fill=red] (3,4.25) circle (1cm);
-    \draw[color=orange,fill=red] (5,4.25) circle (1cm);
-    \draw[color=orange,fill=red] (7,4.25) circle (1cm);
-    \draw[color=orange,fill=red] (9,4.25) circle (1cm);
-    \draw[color=brown,fill=yellow] (2,1.35) circle (1cm);
-    \draw[color=brown,fill=yellow] (4,1.35) circle (1cm);
-    \draw[color=brown,fill=yellow] (6,1.35) circle (1cm);
-    \draw[color=brown,fill=yellow] (8,1.35) circle (1cm);
-    \draw[color=brown,fill=yellow] (3,3.05) circle (1cm);
-    \draw[color=brown,fill=yellow] (5,3.05) circle (1cm);
-    \draw[color=brown,fill=yellow] (7,3.05) circle (1cm);
-    \draw[color=brown,fill=yellow] (9,3.05) circle (1cm);
-    \draw[color=brown,fill=yellow] (4,4.75) circle (1cm);
-    \draw[color=brown,fill=yellow] (6,4.75) circle (1cm);
-    \draw[color=brown,fill=yellow] (8,4.75) circle (1cm);
-    \draw[color=brown,fill=yellow] (10,4.75) circle (1cm);
-\end{tikzpicture}\\
 CN = 12\\
 Koorinationspolyeder = Kuboktaeder\\\\
 \textbf{Varianten der dichtesten Kugelpackungen}\\
@@ -198,7 +97,7 @@ Kommen vor und nach einer Schicht dieselbe Schicht, so ist diese hexagonal umgeb
 Sind die Schichten vor und nach der betrachteten Schicht nicht gleich, so ist die betrachtete Schicht kubisch umgeben. (Kurz: c)\\\\
 Siehe Folie.\\\\
 \textbf{Variation der Kristallstruktur der Metalle.\\(Abhängig von Druck und Temperatur)}\\\\
-\ce{Fe}: \ce{$\alpha \left(\mathrm{bcc}\right)$ -> $\gamma \left(\mathrm{ccp}\right)$ -> $\delta \left(\mathrm{bcc}\right)$}\\
+\ce{Fe}: $\alpha \left(\mathrm{bcc}\right) \rightarrow \gamma \left(\mathrm{ccp}\right) \rightarrow \delta \left(\mathrm{bcc}\right)$\\
 Erster Schritt bei ca. 900$^\circ$, zweiter schritt bei ca. 1400$^\circ$\\\\
 \ce{Na}: bcc \ce{->} ccp \ce{-> -> ->} transparente Modifikation, kein Metall mehr\\
 Dabei läuft der erste Schritt bei 656 Pa ab und der letzte bei $>$ 100 GPa
@@ -210,7 +109,7 @@ Dabei läuft der erste Schritt bei 656 Pa ab und der letzte bei $>$ 100 GPa
             ccp:Abfolge: A $\beta$ c $\alpha$ B $\gamma$ a $\beta$ C $\alpha$ b $\gamma$ A (A,B,C = Schichten, $\alpha, \beta, \gamma$ = Tetraederlücken, a, b, c = Oktaederlücken)
 \end{itemize}
 
-\section{Die Elemente der ersten und elften Periode (-\ce{H}$\&$\ce{Rg})}
+\section{Die Elemente der ersten und elften Periode (-\ce{H}\&\ce{Rg})}
 \begin{itemize}
     \item[1. Gruppe] Alkalimetalle
     \item[11. Gruppe] Münzmetalle 
@@ -399,12 +298,12 @@ z.B. \ce{CaF2} $\rightarrow$ siehe Folie
 \subsubsection{Chalkogenide}
 \ce{ZnS} in Zinkblende und Wurzit-Typ $\rightarrow$ siehe Folie\\
 Kalk: \ce{CaCO3} (Kalkstein)\\
-\ce{CaCO3 ->[{$\Delta T$}]} CaO + CO2\\
+\ce{CaCO3 ->} CaO + CO2\\
 \ce{CaO} ist gebrannter Kalk\\
 \ce{CaO + H2O -> Ca(OH)2}\\
 \ce{Ca(OH)2} ist gelöschter Kalk\\
 \ce{Ca(OH)2 + CO2 -> CaCO3 + H2O}\\\\
-Gips: \ce{CaSO4$\cdot$2H2O ->[{$\Delta T$}] CaSO4$\cdot$0.5H2O}\\
+Gips: \ce{CaSO4$\cdot$2H2O -> CaSO4$\cdot$0.5H2O}\\
 $\cdot\ce{0.5H2O}$ nennt man Hemihydrat\\
 Anhydrit: \ce{CaSO4} wasserfrei\\\\\\
 
@@ -420,4 +319,101 @@ Enthärtung von \ce{H2O}:\\
     \item Umkehrosmose
     \item Kristallisationskeim
 \end{itemize}
+
+\subsubsection*{Grimm-Sommerfeld-Verbindungen}
+Kation aus der $N-k$-ten Gruppe + Anion aus der $N+k$-ten Gruppe = Struktur, die einen Element aus der $N$-ten Gruppe des PSE\\\\
+Beispiele:\\
+\begin{itemize}
+    \item[1.] \ce{BN} $\rightarrow$ Struktur von \ce{C} \textcolor{gray}{(Diamant, Graphit)} (14.Gruppe)
+    \item[2.] \ce{CdSn} $\rightarrow$ Struktur von \ce{C} \textcolor{gray}{(Diamant)} (14.Gruppe)
+    \item[3.] \ce{GeSe} $\rightarrow$ Struktur von \ce{As} \textcolor{gray}{(auch möglich: Struktur von \ce{P} oder \ce{Sb})} (15.Gruppe)
+\end{itemize}
+Wichtige Vertreter:\\
+\ce{CdS},\ce{CdSe} und \ce{CdTe} $\rightarrow$ wichtige Farbpigmente\\
+\ce{ZnSe},\ce{CdSe},\ce{CdTe} $\rightarrow$ Halbleitermaterialien\\
+\ce{CdS} $\rightarrow$ Fotohalbleiter\\
+\ce{ZnS}:\ce{M} $\rightarrow$ Phosphoreszenzmaterial (:\ce{M} heißt dotiert mit \ce{M})
+
+\subsubsection*{Hydroxide}
+\begin{center}
+    \ce{Be(OH)2 -> Ba(OH)2}\\
+    höherer \ce{->[{kovalenter Bindungsanteil}]} niedrigerer\\
+    niedrige \ce{->[{Löslichkeit}]} hohe
+\end{center}
+
+\begin{center}
+    \ce{Zn(OH)2 + 2H^+ -> Zn^{2+} + 2H2O} Säure\\
+    \ce{Zn(OH)2 + 2OH^- -> [Zn(OH)4]^{2-}} Base\\
+    Cd- und Hg-Hydroxide sind basisch
+\end{center}
+
+\subsection{Die Chemie des Quecksilbers}
+\subsubsection{Besonderheiten}
+\begin{itemize}
+    \item relativistische Effekte\\$\hookrightarrow$ keine "$sp^3$-Hybridisierung", maximal sp $\rightarrow$ lineare Koordination
+    \item pseudo-Edelgaskonfiguration\\$\hookrightarrow$ schwache Bindungskräfte zwischen den Atomen $\rightarrow$ flüssig bei Zimmertemperatur
+    \item Ox-Stufe +1 in Form von \ce{Hg2^{2+}}-Kationen
+\end{itemize}
+
+\subsubsection{Halogenide}
+\ce{Hg2Cl2,Hg2Br2,Hg2I2} molekular aufgebaut\\
+Kalomel-Reaktion:\\
+\begin{center}
+    \ce{Hg2Cl2 +2NH3 -> Hg + [Hg(NH2)]Cl + Cl^- + NH4^+}\\
+    \ce{HgCl2, HgBr2, HgI2} molekular, \ce{HgF2} ionisch\\
+    \ce{HgCl2 + 2NH3 -> [Hg(NH3)2]^{2+}+2Cl^-}\\
+    zwischen \ce{Hg} und \ce{I} besonders starke Bindung\\
+    \ce{HgCl2 + 2 I^- -> HgF2 + 2Cl^-}\\
+    \ce{HgI2 + 2I^- -> [HgI4]^{2-}}\\
+    \ce{[HgI4]^{2-} + NH4^+ + 4OH^- -> [Hg2N]I + 7I^- + 4H2O}
+\end{center}
+
+\subsubsection{Chalkogenide}
+\begin{center}
+    \ce{Hg2O -> Hg+HgO} Disproportionierung\\
+    \ce{HgO -> Hg + 1/2 O2}\\
+    \ce{HgO} zeigt Thermochromie (Farbwechsel bei Temperaturerhöhung)\\
+    \ce{HgS}:
+    \begin{itemize}
+        \item Metacinnabarit (\ce{ZnS}-Struktur, schwarz)
+        \item Cinnabarit/Zinnoger (\ce{HgS}, rot)
+    \end{itemize}
+\end{center}
+
+\subsubsection{Amalgame}
+Metallverbindungen mit Quecksilberbeteiligung
+\begin{itemize}
+    \item[1.] Stöchiometrische Amalgame (intermet. Verbindungen)\\z.B. \ce{NaHg2}; \ce{BaHg11}
+    \item[2.] Amalgame mit Phasenbreiten (intermet. Verbindung)\\\ce{HgIn_{1 +- x}; Hg_{2 +- x}Tl}
+    \item[3.] Amalgame mit Löckenlose Mischbarkeit (farbe Lösung)\\\ce{Hg_xAu_{1-x}}
+\end{itemize}
+
+\section{Die Metalle des p-Blocks}
+\subsection{Eigenschaften}
+\subsubsection{Tabelle}
+\subsubsection{Grnazbereich Metalle-Nichtmetalle}
+\begin{itemize}
+    \item \ce{Al} $\rightarrow$ ccp
+    \item \ce{Ga} $\rightarrow$ spezieller Strukturtyp
+    \item \ce{In} $\rightarrow$ verzerrte ccp
+    \item \ce{Tl} $\rightarrow$ hcp
+    \item \ce{Sn} $\rightarrow$ verzerrte dichteste Kugelpackung
+    \item \ce{Pb} $\rightarrow$ verzerrte dichteste Kugelpackung
+    \item \ce{Sb} $\rightarrow$ Arsenstruktur
+    \item \ce{Bi} $\rightarrow$ Arsenstruktur
+\end{itemize}
+\subsection{Vorkommen}
+\subsubsection{Erdmetalle}
+\ce{Al}: 3.häufigstes Element in der Erdkrust\\
+$\hookrightarrow$ Al-Oxiden, - Hydroxiden, - Silcaten, -Alumosilicaten\\
+\ce{Ga, In, Tl}
+\begin{itemize}
+    \item \ce{Ga} Begleiter von \ce{Al}
+    \item \ce{In,Tl} Begleiter von \ce{Sn,Pb}
+\end{itemize}
+
+\subsubsection{Zinn,Blei,Actino-,Bismut}
+\ce{Sn,Pb}: oxidisch (\ce{Sn}) und sulfidisch (\ce{Pb})\\
+\ce{Sb}: \ce{Sb2S3} (Grauspießerglanz)\\
+\ce{Bi}: \ce{Bi2S3} aber auch \ce{Bi2O3}
 \end{document}
