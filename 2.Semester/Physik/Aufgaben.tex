@@ -259,36 +259,77 @@ a)\begin{eqnarray*}
     R_{Ges}=R_1 + R_2 = 1000\,\mathrm{\Omega} + 100\,\mathrm{\Omega} = 1100\,\mathrm{\Omega}\\
     U_1 = R_1I,\,U_2=R_2I,\,U=I(R_1+R_2)=IR_{Ges}\\
     I = \frac{U}{R_{Ges}}=\frac{12\,\mathrm{V}}{1100\,\mathrm{\Omega}}= \frac{12}{1100}\,\mathrm{A}\approx 0.0109\,\mathrm{A}\\
-    U_1 = R_1 \cdot I = 1000\,\mathrm{\Omega}\cdot \frac{12}{1100}\,\mathrm{A} = 1.0909\,\mathrm{V}\\
-    U_2 = 0.1091\,\mathrm{V}\\
-    U_0 = U_1 + U_2 = 1.2\,\mathrm{V}\\
-    P = \frac{U_0^2}{4R_i} = 1.44\,\mathrm{W}
+    U_1 = R_1 \cdot I = 1000\,\mathrm{\Omega}\cdot \frac{12}{1100}\,\mathrm{A} = 10.9091\,\mathrm{V}\\
+    U_2 = 1.9091\,\mathrm{V}\\
+    P = UI = 0.131\,\mathrm{W}
 \end{eqnarray*}
 b)\begin{eqnarray*}
     R_{2L} = \frac{R_2R_L}{R_2+R_L}=\frac{100\cdot 1000}{1100} \,\mathrm{\Omega}=90.9091\,\mathrm{\Omega}
     I = \frac{U}{R_{Ges}} = \frac{U}{R_1+R_{2L}} = \frac{12\,\mathrm{V}}{1090.9091\,\mathrm{\Omega}} \approx 0.0110\,\mathrm{A}\\
-    U_1 = 1.0909\,\mathrm{V}\\
-    U_{2L} = 1.0000\,\mathrm{V}\\
-    U_{0} = 2.0909\,\mathrm{V}\\
-    P = \frac{U_0^2}{4R_i} = 4.3719\,\mathrm{W}
+    U_1 = 11\,\mathrm{V}\\
+    U_{2L} = 1\,\mathrm{V}\\
+    P = UI = 0.3124\,\mathrm{W}
 \end{eqnarray*}
 c)\begin{eqnarray*}
-    I_L = \frac{U_{2L}}{R_L} = 0.0021\,\mathrm{A}\\
-    U_L = I_LR_L = 2.0909\,\mathrm{V}\\
-    P = U\cdot I = 0.0044\,\mathrm{W}
+    I_L = \frac{U_{2L}}{R_L} = 0.0010\,\mathrm{A}\\
+    I_1 = 0.0110\,\mathrm{A}\\
+    P_1 = 0.0121\,\mathrm{W}\\
+    I_2 = 0.0100\,\mathrm{A}\\
+    P_2 = 0.0100\,\mathrm{A}\\
+    P_{Ges} = 0.0131\,\mathrm{W}
 \end{eqnarray*}
 
 \subsection*{Aufgabe 2}
-Dies ist sowas von falsch:
 a)\begin{eqnarray*}
-    R_? = R_1 + R_{24} + R_{3587} + R_{69}\\
-    R_{24} = \frac{1}{R_2} + \frac{1}{R_4}\\
-    R_{2587} = \frac{1}{R_3} + \frac{1}{R_5} + \frac{1}{R_8} + \frac{1}{R_7}\\
-    R_{69} = \frac{1}{R_6} + \frac{1}{R_9}\\
-    R_? = R_1 + \frac{1}{R_2} + \frac{1}{R_4} + \frac{1}{R_3} + \frac{1}{R_5} + \frac{1}{R_8} + \frac{1}{R_7} + \frac{1}{R_6} + \frac{1}{R_9}
+    R_{369} = R_3 R_6 R_9\\
+    R_{5369} = \frac{R_5 R_{369}}{R_{369} + R_5}\\
+    R_? = \left(\left(\frac{\left(R_3+R_6+R_9\right)R_5}{R_3+R_6+R_9+R_5}\right)+R_2+R_8+R_4\right)+R_1+R_7
 \end{eqnarray*}
-Demnach ist auch das falsch:
 b)\begin{eqnarray*}
-    R_? = 100.08\,\mathrm{\Omega}
+    R_{369} = 300\,\mathrm{\Omega}\\
+    R_{5369} = 75\,\mathrm{\Omega}\\
+    R_? = 273\,\mathrm{\Omega}
+\end{eqnarray*}
+
+\subsection*{Aufgabe 3}
+\begin{eqnarray*}
+    A=1\,\mathrm{mm}^2,\,I=2\,\mathrm{A},\,n=10^{20}\,\mathrm{\frac{1}{mm^3}}\\
+    V=\frac{I}{enA}=\frac{2A}{2.603\cdot 10^{-19}\,\mathrm{As}\cdot10^{20}\,\mathrm{\frac{1}{mm^3}}\cdot 1\,\mathrm{mm^2}}\\
+    V=0.1248\,\mathrm{\frac{1}{\frac{s}{mm}}} = 0.1248\,\mathrm{\frac{mm}{s}}
+\end{eqnarray*}
+
+\subsubsection*{Aufgabe 4 (T)}
+a)\begin{eqnarray*}
+    U_C=\frac{Q}{C}\,\frac{d}{dt}\\
+    \dot{U_C} = \frac{\dot{Q}}{C} = \frac{I}{C}\\
+    \Rightarrow U_R + U_C = 0 \Rightarrow U_C = -U_R\\
+    \Rightarrow \frac{dU}{dt} = \\frac{-U}{\frac{R}{C}} = -\frac{1}{RC}U\\
+    \Rightarrow U(t) = U_0e^{-\frac{1}{RC}t}
+\end{eqnarray*}
+b)\begin{eqnarray*}
+    U(t)=5\,\mathrm{V}\dots t=-RC\ln\left(\frac{5}{12}\right)\approx 8.755\,\mathrm{ms}
+\end{eqnarray*}
+d)\begin{eqnarray*}
+    U(0)=U_0 \Rightarrow W(0)=\frac{1}{2}CU_0^2\\
+    U(10\,\mathrm{ms})=U_0e^{-\frac{10\,\mathrm{ms}}{RC}} = U_0e^{-1}\\
+    W(10\,\mathrm{ms})=\frac{1}{2}CU_0^2\frac{1}{e^2}\\
+    \Delta W = W (0\,\mathrm{ms}) - W(10\,\mathrm{ms}) = \frac{1}{2}CU_0^2\left(1-\frac{1}{e^2}\right)=6.23\cdot 10^{-5}\,\mathrm{J}\\
+    P=\frac{dW}{dt}=\frac{\Delta W}{\Delta t} = 0.0623\,\mathrm{W}
+\end{eqnarray*}
+
+\subsubsection*{Aufgabe 5 (T)}
+a)\begin{eqnarray*}
+    U=(R_i+R_V)I \Rightarrow R_V = \frac{U}{I}-R_i\\
+    1\,\mathrm{V}: R_V = 200\,\mathrm{\Omega}\\
+    5\,\mathrm{V}: R_V = 1200\,\mathrm{\Omega}
+\end{eqnarray*}
+b)\begin{eqnarray*}
+    U_1 = U_2\\
+    I_1R_i = I_2R_p\\
+    \RightarrowI_2=I_1\frac{R_i}{R_p}\\
+    I=I_1+I_2\\
+    \Rightarrow R_p = \frac{I_1R_i}{I - I_1}\\
+    I=50\,\mathrm{mA}:  R_p = 4.35\,\mathrm{\Omega}
+    I=200\,\mathrm{mA}:  R_p = 1.02\,\mathrm{\Omega}
 \end{eqnarray*}
 \end{document}
