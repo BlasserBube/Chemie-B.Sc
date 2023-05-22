@@ -2,6 +2,7 @@
 \usepackage{mhchem}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{hyperref}
 \usepackage[
   left=1cm,
   right=1cm,
@@ -10,7 +11,8 @@
 ]{geometry}
 
 \begin{document}
-
+\tableofcontents
+\newpage
 \section{Lineare Algebra}
 \subsection{Lineare Vektorräume}
 Beispiel für Vektoren mit mehr als Komponenten\\
@@ -1014,4 +1016,82 @@ Zusammenfassung der $C_{ji}$ als Matrix:
 Transformationsmatrix:\\
 Spaltvektoren sind die neuen Basisvektoren ausgedrückt in der alten Basis:\\
 $\{\vec{e'_1}\}$, $\{\vec{e'_2}\}$, $\{\vec{e'_3}\}$ in $\{\vec{e_i}\}$
+
+\subsubsection{Transformation von Vektoren in Komponentendarstellung}
+Vektor $\vec{a}$ in alter Basis $\vec{a} = (a_1,a_2,a_3,\dots)$, in neuer Basis $\vec{a'} = (a_1',a_2',a_3',\dots)$\\
+' bezeichnet keinen anderen Vektor, sonder symbolisiert nur di eDasrtellung einer anderen Basis.\\\\
+Es muss gelten:
+\begin{equation*}
+    \vec{a} = \vec{a'}
+\end{equation*}
+Gilt für die Vektoren an sich und bedeutet \underline{nicht} Gleichheit der Komponenten\\
+\begin{eqnarray*}
+    \underbrace{\sum_{j=1}^{n} a_j\vec{e_j} = \sum_{i=1}^{n}a'_i\vec{e'_i} = \sum_{i=1}^{n} a'_i \left(\sum_{j=1}^{n} c_{ji}\vec{e_j}\right)=\sum_{j=1}^{n}\left(\sum_{i=1}^{n} a'_ic_{ji}\right)\vec{e_j}}
+\end{eqnarray*}
+Koeffizientenvergleich:
+\begin{center}
+    \begin{tabular}{c c}
+        $a_j=\sum_{i=1}^{n}a'_ic_{ji}$&$\vec{a}=C\vec{a'}$\\
+        &$C^{-1}\vec{a} =\vec{a'}$
+    \end{tabular}
+\end{center}
+\subsubsection{Transformation der Matrixdarstellung von Operatoren}
+Operator $A$ in alter Basis $A$, in neuer Basis $A'$\\
+Abbildung eines Vektors $\vec{a}$ durch $A$ auf einen Vektor $\vec{b}$
+alte Basis: $\vec{b}=A\vec{a}$\\\\
+Basistransformation von $\vec{a}$ und $\vec{b}$ (siehe 1.9.2)\\
+\begin{eqnarray*}
+    C\vec{b'}=A(C\vec{a'})\\
+    \vec{b'}=C^{-1}AC\vec{a'}\\
+\end{eqnarray*}n
+neue Basis: $\vec{b'} = A'\vec{a'}$\\
+Koeffizientenvergleich:
+\begin{equation*}
+    A' = C^{-1}AC
+\end{equation*}
+$A'$ ist der Operator in neuer Basis und $A$ in alter Basis.\\
+Beispiel: alte Basis $\vec{e_1}=(1,1) \vec{e_2}=(1,-1s)$\\
+\hspace*{2cm} neue Basis: $\vec{e'_1}=(1,0) \vec{e'_2}=(0,1)$\\
+Aufstellen der Transformationsmatrix\\
+1.Spalte:
+\begin{equation*}
+    \vec{e'}: \left(\begin{array}{c}1\\0\end{array}\right)=C_{11}\left(\begin{array}{c}1\\1\end{array}\right)+C_{12}\left(\begin{array}{c}1\\-1\end{array}\right)
+\end{equation*}
+2.Spalte
+\begin{equation*}
+    \vec{e'_2}: \left(\begin{array}{c}0\\1\end{array}\right)=C_{21}\left(\begin{array}{c}1\\1\end{array}\right)+C_{22}\left(\begin{array}{c}1\\-1\end{array}\right)
+\end{equation*}
+lineare inhomogene Gleichungssysteme:
+\begin{eqnarray*}
+    \begin{array}{c c | c}
+        1&1&1\\1&-1&0
+    \end{array}\\
+    \begin{array}{c c | c}
+        1&1&0\\1&-1&1
+    \end{array}
+\end{eqnarray*}
+\begin{eqnarray*}
+    c_{11} = \frac{1}{2}\\
+    c_{12} = \frac{1}{2}\\
+    c_{21} = \frac{1}{2}\\
+    c_{22} = -\frac{1}{2}\\
+\end{eqnarray*}
+Damit:
+\begin{equation*}
+    C=\frac{1}{2}\left(\begin{array}{c c}
+        1&1\\1&-1
+    \end{array}\right)
+\end{equation*}
+Inverse Transformationsmatrix: statt Konventioneller Matrixversion $\rightarrow$ ($\sqrt{2}C$) ist orthogonale Matrix, C ist symmetrisch.\\
+\begin{eqnarray*}
+    C=\tilde{C}=\frac{1}{\sqrt{2}}\left(\tilde{\sqrt{2}C}\right)\tilde{C}=\frac{1}{\sqrt{2}}\left(\sqrt{2}C\right)^{-1}=\frac{1}{2}C^{-1}
+\end{eqnarray*}
+Damit $C^{-1} = 2C$\\
+Komponentandarstellung eines Vektors in\\
+alter Basis $\vec{a}=(5,-2)$\\
+neuer Basis $\vec{a'}=C^{-1}\vec{a}=\left(\begin{array}{c}3\\7\end{array}\right)$\\
+Kontrolle: $\vec{a}=C\vec{a'} = \left(\begin{array}{c}5\\-2\end{array}\right)$\\
+Matrixdarstellung eines Operators\\
+
+\subsection{Das Eigenwertproblem}
 \end{document}
