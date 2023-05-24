@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  16 MAY 2023 11:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  23 MAY 2023 11:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -615,19 +615,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
-[6] (Chemie der Nichtmetalle.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--314
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 324--330
+
+ []
+
+[7] (Chemie der Nichtmetalle.aux) ) 
 Here is how much of TeX's memory you used:
- 15403 strings out of 475385
- 311530 string characters out of 2793322
- 692550 words of memory out of 3000000
- 36535 multiletter control sequences out of 15000+600000
+ 15431 strings out of 475385
+ 312022 string characters out of 2793322
+ 699844 words of memory out of 3000000
+ 36563 multiletter control sequences out of 15000+600000
  473229 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,19n,118p,523b,684s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 115i,19n,118p,572b,784s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on "Chemie der Nichtmetalle.pdf" (6 pages, 184738 bytes).
+Output written on "Chemie der Nichtmetalle.pdf" (7 pages, 191488 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
+ 96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

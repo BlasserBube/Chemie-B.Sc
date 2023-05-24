@@ -445,42 +445,85 @@ a)
     \includegraphics[width=500pt]{img/What.png}
 \end{center}
 b)\begin{eqnarray*}
-    n=\frac{pV}{RT} \approx 0.0198\,\mathrm{mol}\\
-    (B) V_B = 2V_A = 49\,\mathrm{l}\\
-    p = \frac{nRT}{V} \approx 0.9698\,\mathrm{bar}\\
-    T_B = T_A = 289\,\mathrm{K}\\\\
-    (C) V_C = V_A = 24.5\,\mathrm{l}\\
-    p_C = p_B = 0.9698\,\mathrm{bar}\\
-    T = \frac{pV}{nR} \approx 144.3267
+    V_A = 24.5\,\mathrm{l}\\
+    V_B = 49\,\mathrm{l}\\
+    T_A = 298\,\mathrm{K}\\
+    T_B = 298\,\mathrm{K}\\
+    p_AV_A=p_BV_B (T=\mathrm{const.})\\
+    p_B=\frac{p_AV_A}{V_B}=\frac{p_A}{2} = \frac{2\,\mathrm{bar}}{2} = 1\,\mathrm{bar}\\\\
+    B\rightarrow C\\
+    p = \mathrm{const} p_C = 1\,\mathrm{bar}\\\\
+    C\rightarrow A (q = 0)\\
+    p_AV_A^\gamma = p_CV_C^\gamma\\
+    \gamma = \frac{C_{p,m}}{C_{V,m}} = \frac{C_{V,m}+R}{C_{v,m}} = \frac{\frac{5R}{2}+R}{\frac{5R}{2}} = \frac{7}{5}= 1,4
+    V_C = V_A \left(\frac{p_A}{p_C}\right)^\frac{1}{\gamma} = 24.5\,\mathrm{l}\cdot 2^\frac{1}{1.4} = 40.2\,\mathrm{l}\\\\
+    B\rightarrow C\\
+    \frac{V_C}{V_B} = \frac{T_C}{T_B}\\
+    T_C = \frac{T_BV_C}{V_B} = 244.5\,\mathrm{K}\\
+    T_V = \frac{p_CV_C}{nR}\\
+    n=\frac{p_AV_A}{RT_A} = 1.978\,\mathrm{mol}
 \end{eqnarray*}
 c)\begin{eqnarray*}
-    (A\rightarrow B) w = -nRT\ln\left(\frac{V_E}{V_A}\right) = -34.0050\,\mathrm{J}\\
-    q_w = nRT\ln\frac{V_B}{V_A} = 34.0050\,\mathrm{J}\\
-    (B\rightarrow C) w = -p_ex\Delta V = -23.7601\,\mathrm{J}\\
-    q = \Delta U - w = 
-    (C\rightarrow A) w = 0, q = 0
+    A\rightarrow B\\
+    T =\mathrm{const},\,\Delta U_1 = 0 = q_1+w_1 \Rightarrow w_1 = -q_1\\
+    w_1 = -nRT_A\ln\frac{V_B}{V_A} = -p_AV_A\ln 2 = -2\cdot 10^5 \,\mathrm{Pa} \cdot 24.5\,cdot 10^{-3}\,\mathrm{m^3}\ln 2 = -3396,42\,\mathrm{J}\\
+    q_1=3396,42\,\mathrm{J}\\\\
+    B\rightarrow C\\
+    p = \mathrm{const.}\\
+    w_2 = -p_B(V_C-V_B)=-10^5\,\mathrm{Pa}(40.2-49)\cdot 10^{-3}\,\mathrm{m^3} = 880.4\,\mathrm{J}\\
+    q_2 = nC_{p,m}(T_C-T_B) = \frac{7}{2}\cdot 8.314\,\mathrm{\frac{J}{mol\cdot K}}\cdot 1.978\,\mathrm{mol}(244.5-298)\,\mathrm{K} = -3081.6\,\mathrm{J}\\
+    C_{p,m}=C_{V,m}+R = \frac{7R}{2}\\\\
+    C\rightarrow A\\
+    q_3 = 0,\, \Delta U_3 = w_3 = nC_{V,m}(T_A-T_C)=2201.18\,\mathrm{J}
 \end{eqnarray*}
 d)\begin{eqnarray*}
-    \eta = \frac{-w}{q} = 1.6987
+    \eta = \frac{|w_{Ges|}}{q_1}\\
+    w_{Ges} = 2_1 + w_2 + w_3 = -314.8\,\mathrm{J}\\
+    \eta = \frac{314.8\,\mathrm{J}}{3396.42\,\mathrm{J}} = 0.093 = 9.3\,\%
 \end{eqnarray*}
 
 \subsubsection*{Aufgabe 4.2}
 \begin{eqnarray*}
-    \Delta S_{Ges} = \Delta S_W -\Delta S_K = \frac{q_K}{T_K}-\frac{q_W}{T_W} = n_1R\ln\frac{V_B}{V_A} - n_2R\ln\frac{V_D}{V_C}
+    dS = \frac{\delta q_{rev}}{T},\, \delta q =\frac{nRT}{V}dV\\
+    dS = \frac{1}{T}\left(\frac{nRT}{V}dV\right)\\
+    \Delta S = nR \int_{V_A}^{V_E}\frac{1}{V}dV\\
+    = nR \ln \frac{V_E}{V_A}\\
+    \Delta S = \Delta S_A + \Delta S_B\\
+    =n_A R\ln \left(\frac{V_{ges}}{V_A}\right)+n_BR\ln\left(\frac{V_{ges}}{V_B}\right),\, p_V = nRT \Rightarrow V = \frac{nRT}{p}\\
+    =n_AR\ln\left(\frac{n_{ges}}{n_A}\right)+n_BR\ln\left(\frac{n_{ges}}{n_A}\right)\\\\
+    B:
+    \Delta S = 4.16\,\mathrm{\frac{J}{K}}\\
+    \text{Wenn nicht gleich 0, irreversibel}\\
 \end{eqnarray*}
 
 \subsection*{Aufgabe 4.3}
 \begin{eqnarray*}
-    \Delta S_{Ges} = \Delta S_2 -\Delta S_1 = q(\frac{1}{T_1}-\frac{1}{T_2})\\
-    \Delta S = \int_{T_1}^{T_2} C_p \frac{1}{T}\,dT
+    T_W =\frac{T_1+T_2}{2}\\
+    \Delta S_{Sys} = \Delta S_1 + \Delta S_2\\
+    = \int_{T_1}^{T_E}C_p\,dT + \int_{T_1}^{T_E}C_p\,dT\\
+    C_P\ln\frac{T_2}{T_1}+C_p\ln\frac{T_E}{T_2} \text{ für} T_E \text{ in vorheriger Gleichung einsetzen}\\
+    C_p\ln\frac{T_E^2}{T_1T_2}=C_p\ln\frac{\left(T_1+T_2\right)^2}{4T_1T_2}\\
+    \Delta S_{Umg} = 0\\
+    \frac{\ln\left(T_1 + T_2\right)^2}{4T_1T_2}\\\text{Der obere Teil im ln muss größer 1 sein, damit der gesamte obere Teil des Bruches größer als 1 wird}\\
+    (T_1 + T_2)^2 > 4T_1T_2\\
+    T_1^2+2T_1T_2+T_2^2 > 4T_1T_2\\
+    (T_1 - T_2)^2 > 0\\
+    T_1 \neq T_2
 \end{eqnarray*}
 
 \subsubsection*{Aufgabe 4.4}
 a)\begin{eqnarray*}
-    q_p = q_{rev} = \Delta H = 6000\,\mathrm{J}\\
-    \Delta S_{Sys} = \frac{q_{rev}}{T} = \frac{6000\,\mathrm{J}}{273\,\mathrm{K}} = 21.9780\,\mathrm{\frac{J}{K}}\\
-    \Delta S_{Umg} = \frac{-q}{T} = \frac{-6000}{273} = -21.9780\,\mathrm{\frac{J}{K}}\\
-    \Delta S_{Ges} = \Delta S_{Umg} + \Delta S_{Sys} = 0
+    \Delta S_m = -\Delta_{S,m} H_m^{273}=\frac{-6000\,\mathrm{\frac{J}{mol}}}{273.15\,\mathrm{K}}=-21.97\,\mathrm{\frac{J}{mol\cdot K}}\\
+    \Delta_{einfrieren}H = -\Delta_{s,m}H\\
+    \Delta S_{Umg} = 21.97\,\mathrm{\frac{J}{mol\cdot K}}\\
+    \Delta S_{Ges} = 0
 \end{eqnarray*}
-b) nicht ganz verstanden wie Vorzugehen ist.
+b)\begin{eqnarray*}
+    \Delta S =C_p\ln\frac{T_E}{T_A}\\
+    \Delta S = \Delta S_{1,m} + \Delta S_{2,m} + \Delta S_{3,m} = C_{p,m}\ln\frac{T_2}{T_1}-\frac{\Delta_{s,m}H^{273}}{T_2}+C_{p,m}\ln\frac{T_1}{T_2}\\
+    =75\,\mathrm{\frac{J}{mol\cdot K}}\ln\frac{273.15}{263.15}-21.97\,\,mathrm{\frac{J}{mol\cdot K}}+38\,\mathrm{\frac{J}{mol\cdot K}}\ln\frac{263.15}{273.15}=-20.59\,\mathrm{\frac{J}{mol\cdot K}}\\
+    \mathrm{Umgebung}:\\
+    \Delta S_{Umg} = \frac{\Delta_{s,m} H ^{263}}{T_1} = \frac{5630\,\mathrm{\frac{J}{mol\cdot K}}}{263.15\,\mathrm{K}}=21.395\,\mathrm{\frac{J}{mol\cdot K}}\\
+    \Delta S_{Ges} = 0.8\,\mathrm{\frac{J}{mol\cdot K}}
+\end{eqnarray*}
 \end{document}

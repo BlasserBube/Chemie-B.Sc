@@ -1066,4 +1066,68 @@ $A$ ist der maximale für Leistung von Arbeit verfügbarer Teil der inneren Ener
 \begin{eqnarray*}
     dU=\left(\frac{\partial U}{\partial S}\right)_V\,dS+\left(\frac{\partial U}{\partial V}\right)_S\,dV = T\,dS-p\,dV
 \end{eqnarray*}
+\subsubsection{Satz von Schwartz}
+\begin{eqnarray*}
+    \frac{\partial}{\partial x}\left(\frac{\partial f}{\partial y}\right)_x = \frac{\partial}{\partial x}\left(\frac{\partial f}{\partial x}\right)_y\\
+    U = U(S,V),\, dU=T\,dS-p\,dV\\
+    \frac{\partial}{\partial V}\left(\frac{\partial U}{\partial S}\right)_V = \frac{\partial}{\partial S}\left(\frac{\partial U}{\partial V}\right)_S \Rightarrow \left(\frac{\partial T}{\partial V}\right)_S = -\left(\frac{\partial p}{\partial S}\right)_V
+\end{eqnarray*}
+
+\subsubsection{Guggenheim}
+\begin{equation*}
+    +\begin{array}{c c c}
+        S U V\\
+        H  A\\
+        p G T\\
+    \end{array}-
+\end{equation*}
+\begin{eqnarray*}
+    dG = V\,dp+D\,dT\\
+    S = -\frac{\partial G}{\partial T} = - \frac{\partial A}{\partial T}
+\end{eqnarray*}
+
+\subsubsection{$T$- , $p$-Abhängigkeit von $G$}
+\begin{eqnarray*}
+    \left(\frac{\partial G}{\partial T}\right)_p = -S\\
+    \left(\frac{\partial G}{\partial p}\right)_T = V
+\end{eqnarray*}
+
+\subsubsection{$T$-Abhängigkeit von $G$}
+\begin{eqnarray*}
+    \Delta D = G_E - G_A\\
+\end{eqnarray*}
+G in Feststoffen nimmt nur langsam ab, in Flüssigkeiten etwas schneller und in Gasen sehr rapide.
+
+\subsubsection{Gibbs-Helmholtz Gleichung}
+\begin{eqnarray*}
+    \Delta G = \Delta H - T \Delta S\\
+    G = H-TS \Leftrightarrow S= -\frac{G-H}{T} \text{ Einsetzen } S=-\frac{\partial G}{\partial T}_p\\
+    \left(\frac{\partial G}{\partial T}\right)_p = \frac{G-H}{T}\\
+    \frac{\partial}{\partial T}\left(\frac{G}{T}\right) = \frac{1}{T}\frac{\partial G}{\partial T} - \frac{G}{T^2}=\frac{1}{T}\left(\left(\frac{\partial G}{\partial T}\right)-\frac{G}{F}\right)\\
+    \frac{\partial}{\partial T}\left(\frac{G}{T}\right) = -\frac{H}{T^2}\\
+    \frac{\partial}{\partial T}\left(\frac{\Delta G}{T}\right)_p = -\frac{\Delta H}{T^2}
+\end{eqnarray*}
+$\rightarrow$ Gibbs-Helmholtz Gleichung
+
+\subsubsection{$p$-Abhängigkeiten $V_{gas}>>V_l>V_s$ bei $T =$konst}
+\begin{eqnarray*}
+    \int_{G_A}^{G_E}dG = \int_{T_A}^{T_E}-S\,dT+\int_{p_A}^{p_E}V\,dp\\
+    \Delta G = \int_{p_A}^{p_E}V\,dp\\
+    \text{solid, liquid: } \Delta G = V\Delta p\\
+    \text{gas: } \Delta G = \int_{p_A}^{p_E}V_m\,dp=RT\int_{p_A}^{p_E}\frac{1}{p}\,dp=RT\ln\frac{p_E}{p_A}
+\end{eqnarray*}
+
+\subsubsection{chemisches Potential}
+$G$ extensive Größe\\
+$G_m = \frac{G}{n}$ hier ist $n$ die Stoffmenge\\
+Gemisch:\\
+Chemisches Potential $\mu_i = \left(\frac{\partial G}{\partial n_i}\right)_{p,T,n'}$\\
+$G(p,T,n_1,n_2,n_s,\dots,n_k) \Rightarrow dG = \left(\frac{\partial G}{\partial p}\right)_{T,n_i}\,dp+ \left(\frac{\partial G}{\partial T}\right)_{p,n}\,dT+\left(\frac{\partial G}{\partial n_1}\right)_{p,T,n'}\,dn_1+\left(\frac{\partial G}{\partial n_2}\right)_{p,T,n'}\,dn_2$\\
+\begin{eqnarray*}
+    dG = V\,dp - S\,dT + \sum_{i=1}^{k} \mu_i\,dn_i\\
+    T,p = \mathrm{const.} \Rightarrow dG = \sum_{i=1}^{k}\mu_i\,dn_i\\
+    G=\sum_{i=1}^{k} \mu_in_i\\
+    dU=T\,dS-p\,dV\\
+    S,V=\mathrm{const.} \Rightarrow dU = \sum_{i=1}^{k} \mu_i\,dn_i \Rightarrow \mu_i = \left(\frac{\partial U}{\partial n_i}\right)_{V,S,n'}
+\end{eqnarray*}
 \end{document}
