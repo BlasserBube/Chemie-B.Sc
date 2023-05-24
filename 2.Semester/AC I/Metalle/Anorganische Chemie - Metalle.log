@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  24 MAY 2023 09:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  24 MAY 2023 13:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -573,16 +573,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 359--361
 
  []
 
-[8]
+[8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 443--454
 
-c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/AC I/Metalle/Anorganische Chemie - Metalle.tex:387: Package mhchem Error: Assertion failed: Unexpected input character. In case
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 456--469
+
+ []
+
+[10]
+
+c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/AC I/Metalle/Anorganische Chemie - Metalle.tex:472: Package mhchem Error: Assertion failed: Unexpected input character. In case
 (mhchem)                you think this is a bug, please contact the package
 (mhchem)                author.
 
 Type <return> to continue.
  ...                                              
                                                   
-l.387 ...ndung)\\\ce{HgIn_{1 +- x}; Hg_{2 +- x}Tl}
+l.472 ...)6]^{3+}->[Al(H2O)5OH]^{2+} + H^+_{(aq)}}
                                                   
 
 LaTeX does not know anything more about this error, sorry.
@@ -591,7 +601,12 @@ Try typing <return> to proceed.
 If that doesn't work, type X <return> to quit.
 
 
-[9] [10] (Anorganische Chemie - Metalle.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--480
+
+ []
+
+[11] (Anorganische Chemie - Metalle.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -605,9 +620,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  100i,18n,104p,637b,773s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on "Anorganische Chemie - Metalle.pdf" (10 pages, 195308 bytes).
+Output written on "Anorganische Chemie - Metalle.pdf" (11 pages, 201199 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 112 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
