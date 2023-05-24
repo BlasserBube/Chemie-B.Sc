@@ -450,6 +450,7 @@ c)\begin{equation*}
 \end{equation*}
 Nicht linear Abhängig.
 
+<<<<<<< Updated upstream
 
 
 
@@ -587,4 +588,72 @@ Eigenvektoren zu bestimmen:
         0\\0\\0        
     \end{array}\right)
 \end{eqnarray*}
+=======
+\section*{Woche 6}
+\subsection*{Aufgabe 14}
+Lineare Unabhängigkeit:
+\begin{equation*}
+    \begin{array}{| c c c |}
+        1&2&2\\
+        1&3&2\\
+        0&2&3\\
+        1&1&2
+    \end{array} = 9+8-4-6 = 7
+\end{equation*}
+Normierung von $\vec{a_1}$:
+\begin{eqnarray*}
+    \hat{a_1} = \frac{\vec{a_1}}{||\vec{a_1}||} = \frac{(1,1,0,1)}{\sqrt{3}} = \frac{1}{\sqrt{3}}\cdot \left(\begin{array}{c}1\\1\\0\\1\end{array}\right)
+\end{eqnarray*}
+Orthogonalisierung von $\vec{a_2}$ auf $\hat{a_1}$:
+\begin{eqnarray*}
+    \vec{a_2'} = \vec{a_2} - (\hat{a_1}\cdot\vec{a_2}\cdot\hat{a_1}) = \left(\begin{array}{c}2\\3\\2\\1\end{array}\right)-\left(\begin{array}{c}2\\2\\0\\2\end{array}\right) = \left(\begin{array}{c}0\\1\\2\\-1\end{array}\right)
+\end{eqnarray*}
+Normieren bon $\vec{a_2'}$:
+\begin{equation*}
+    \hat{a_2'}=\frac{\vec{a_2'}}{||\vec{a_2'}||} = \frac{1}{\sqrt{6}} \left(\begin{array}{c}0\\1\\2\\-1\end{array}\right)
+\end{equation*}
+Orthogonalisierung von $\vec{a_3'}$ auf $\hat{a_1}$ und $\hat{a_2}$:
+\begin{eqnarray*}
+    \vec{a_3'}=\vec{a_3}-(\hat{a_1}\vec{a_3})\hat{a_1}-(\hat{a_2'}\vec{a_3})\hat{a_2'} = 2\left(\begin{array}{c}1\\1\\0\\1\end{array}\right) - \left(\begin{array}{c}0\\1\\2\\-1\end{array}\right)\\
+    \left(\begin{array}{c}2\\2\\3\\2\end{array}\right)-\left(\begin{array}{c}2\\2\\0\\2\end{array}\right)-\left(\begin{array}{c}0\\1\\2\\-1\end{array}\right) = \left(\begin{array}{c}0\\-1\\1\\1\end{array}\right)
+\end{eqnarray*}
+Normierung:
+\begin{equation*}
+    \vec{a_3'}=\frac{1}{\sqrt{3}}\left(\begin{array}{c}0\\-1\\1\\1\end{array}\right)
+\end{equation*}
+
+\subsection*{Aufgabe 15}
+a) Operator: Spiegelung an $\left(\begin{array}{c}0\\1\\1\end{array}\right)$ somit:
+\begin{equation*}
+    \left(\begin{array}{c c c}
+        -1&0&0\\0&1&0\\0&0&1
+    \end{array}\right)
+\end{equation*}
+b) Drehung um $z$-Achse um Winkel $\varphi$
+\begin{eqnarray*}
+    B= \left(\begin{array}{c c c}
+        \cos(\varphi)&-\sin(\varphi)&0\\
+        \sin(\varphi)&\cos(\varphi)&0\\
+        0&0&1
+    \end{array}\right)
+\end{eqnarray*}
+c) Winkel in $0<\varphi<2\pi$ für die $A,B$ vertauschbar sind. Somit $AB - BA = 0$
+\begin{equation*}
+    AB = \left(\begin{array}{c c c}
+        -\cos(\varphi)&\sin(\varphi)&0\\
+        \sin(\varphi)&\cos(\varphi)&0\\
+        0&0&1
+    \end{array}\right)
+\end{equation*}
+\begin{equation*}
+    BA = \left(\begin{array}{c c c}
+        -\cos(\varphi)&-\sin(\varphi)&0\\
+        -\sin(\varphi)&\cos(\varphi)&0\\
+        0&0&1
+    \end{array}\right)
+\end{equation*}
+Aus den Operatoren ist zu sehen, dass sich nur das Vorzeichen des $\sin$ verändert, somit muss gelte $\sin(\varphi) = -\sin(\varphi)$\\
+Somit $\varphi = k\pi,\, k \in \mathbb{Z}$\\
+Also: $\varphi = \pi$ 
+>>>>>>> Stashed changes
 \end{document}
