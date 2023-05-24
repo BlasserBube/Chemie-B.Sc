@@ -183,7 +183,10 @@ INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 OUTPUT Übungen.pdf
 INPUT C:\Users\mgils\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT D:\MikTex\fonts\tfm\public\cm\cmbx10.tfm
 INPUT Übungen.aux
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmex10.pfb
