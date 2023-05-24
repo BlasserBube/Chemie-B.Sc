@@ -25,3 +25,7 @@
 \contentsline {subsubsection}{\numberline {1.9.2}Transformation von Vektoren in Komponentendarstellung}{18}{subsubsection.1.9.2}%
 \contentsline {subsubsection}{\numberline {1.9.3}Transformation der Matrixdarstellung von Operatoren}{18}{subsubsection.1.9.3}%
 \contentsline {subsection}{\numberline {1.10}Das Eigenwertproblem}{19}{subsection.1.10}%
+\contentsline {subsubsection}{\numberline {1.10.1}Hermitsche Matrix}{19}{subsubsection.1.10.1}%
+\contentsline {subsubsection}{\numberline {1.10.2}Die Eigenvektoren als Basissystem, Hauptachsentransformation}{21}{subsubsection.1.10.2}%
+\contentsline {section}{\numberline {2}Differentialgleichungen}{22}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Allgemeines}{22}{subsection.2.1}%

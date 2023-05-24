@@ -1094,4 +1094,218 @@ Kontrolle: $\vec{a}=C\vec{a'} = \left(\begin{array}{c}5\\-2\end{array}\right)$\\
 Matrixdarstellung eines Operators\\
 
 \subsection{Das Eigenwertproblem}
+
+\subsubsection{Hermitsche Matrix}
+Es gilt:\begin{eqnarray*}
+    A = A^+ = \tilde{A^*} \text{ bzw. } A_{ij} = A_{ji}^*
+\end{eqnarray*}
+Bedeutung in der Quantenmechanik:\\
+Hermitsche Operatoren für die Messung, deren Eigenwerte sind mögliche Messwerte und müssen damit reell sein.\\
+Satz: \begin{eqnarray*}
+    \langle x | A_y\rangle = \langle A_x | y\rangle
+\end{eqnarray*}
+Beweis:
+\begin{eqnarray*}
+    \langle x | A_y \rangle = \text{ Komponentendarstellunf in VONS } = \sum_{i} x_i \left(\sum_{j}A_{ij}y_j\right) = \sum_{ij}A_{ji}^*x_i^*y_j\\
+    = \sum_{j} \left(\sum_{i} A_{ji}^*x_i^*\right)y_j = \langle Ax|y\rangle
+\end{eqnarray*}
+$\alpha$) Die Eigenwerte einer hermitschen Matrix sind reel:\\
+Eigenwertproblem: \begin{eqnarray*}
+    A|x_i\rangle = \lambda_i|x_i\rangle
+\end{eqnarray*}
+Skalarprodukt mit $\langle x_i|$\begin{eqnarray*}
+    \langle x_i|Ax_i\rangle = \lambda_i\langle x_i|x_i\rangle
+\end{eqnarray*}
+Konjugiert:\begin{eqnarray*}
+    \langle Ax_i|x_i \rangle = \lambda_i^* \langle x_i|x_i\rangle\\
+    \text{Allgemein: } \langle a|b\rangle ^* = \langle b|a\rangle\\
+    \left(\sum_{i}a_i^*b_i\right)^* = \left(\sum_{i}b_i^*a_i\right) \text{ in VONS}
+\end{eqnarray*}
+Differenzbildung:
+\begin{eqnarray*}
+    \underbrace{\langle x_i|A_{xi}\rangle - \langle A_{xi}|x_i\rangle} = \left(\lambda_i-\lambda_i^*\right)\langle x_i|x_i\rangle\\
+    = 0\text{ Wie oben bewiesen},\,\text{ reell } \neq 0 \text{für } |x_i\rangle \neq |0\rangle
+\end{eqnarray*}
+$\Rightarrow$ Es muss immer gelten $\lambda_i = \lambda_i^*$ bzw. lm$(\lambda_i)=0$\\
+$\beta$) Die Eigenvektoren einer hermiteschen Matrix sind orthogonal, wenn sie zu verschiedenen Eigenwerten gehören.\
+Eigenwertproblem: \begin{eqnarray*}
+    A|x_i\rangle = \lambda|x_i\rangle \text{ und } A|x_j\rangle = \lambda_j|x_j\rangle
+\end{eqnarray*}
+Skalarprodukt mit\begin{eqnarray*}
+    \langle x_j|\text{ bzw. }\langle x_i |\text{ : }\\
+    \langle x_j|Ax_i\rangle = \lambda_i \langle x_j | x_i \rangle
+    \langle x_i|Ax_j\rangle = \lambda_j \langle x_i | x_j \rangle
+\end{eqnarray*}
+Konjugiert Komplexes: \begin{eqnarray*}
+    \langle Ax_i|x_j\rangle = \lambda_i\langle x_i|x_j\rangle\
+\end{eqnarray*}
+A hermitisch:
+\begin{eqnarray*}
+    \langle x_i|Ax_j\rangle = \lambda_i \langle x_i|x_j\rangle\\
+    0 = \left(\lambda_i - \lambda_j\right)\langle x_i|x_j\rangle
+\end{eqnarray*}
+Differenzbildung: $\Rightarrow$ für $\lambda_i \neq \lambda_j$ muss gelten $\langle x_i|x_j\rangle = 0$\\
+$\gamma$) Die Eigenvektoren einer hermiteschen Matrix können orthogonalisiert werden, falls sie zum gleichen Eigenwert gehören.\\
+\begin{eqnarray*}
+    \lambda_i = \lambda_j = \lambda\\
+    A|x_i\rangle = \lambda|x_i\rangle \text{ und } A|x_j\rangle = \lambda|x_j\rangle
+\end{eqnarray*}
+Linearkombination:
+\begin{eqnarray*}
+    A\left(c_i|x_i\rangle +c_j|x_j\right) = \lambda\left(c_i|x_i\rangle+c_i|x_j\rangle\right)
+\end{eqnarray*}
+$c_i,c_j$ können zum Beispiel durch Schmidtsches Orthogonalisierungsverfahren bestimmt werden.\\\\
+Kommutierende Matrizen haben gemeinsame Eigenvektoren.\\
+Es gelte $\left[A,B\right] = 0$ sowie $A\vec{x} = \lambda \vec{x}$\\
+Multiplikation von links mit $B$:\begin{eqnarray*}
+    B(a\vec{x}) = B(\lambda\vec{x})
+\end{eqnarray*}
+$B$ ist ein linearer Operator und $A$ kommutiert mit $B$:
+\begin{eqnarray*}
+    A(B\vec{x}) = \lambda(B\vec{xz})
+\end{eqnarray*}
+$\Rightarrow (B\vec{x})$ ist Eigenvektor von $A$ zum Eigenwert $\lambda$\\
+Falls keine zusammenfallenden Eigenwerte vorliegen, muss gelten $(B\vec{x}||\vec{x})$ bzw. $B\vec{x}=\mu\vec{x}$\\
+$\Rightarrow \vec{x}$ ist Eigenvektor von $B$ zum Eigenwert $\mu$\\
+$\vec{x}$ kann Eigenvektor zu verschiedenen Operatoren sein.
+
+\subsubsection{Die Eigenvektoren als Basissystem, Hauptachsentransformation}
+Die Eigenschaften einer hermiteschen Matrix $A = A^+$ bilden ein Orthonormalsystem, die Transformation in das System der Eigenvektoren von $A$ heißt Hauptachsentransformation\\
+$C^{-1}AC$ ist eine Diagonalmatrix mit den Eigenwerten von $A$ als Diagonalelement, Transformationsmatrix $C$ ist unitär, d.h. $C^{-1} = C^+$.\\
+Eigenwertproblem:\begin{eqnarray*}
+    A|x_i\rangle = \lambda_i|x_i\rangle
+\end{eqnarray*}
+Transformationsmatrix:\begin{eqnarray*}
+    C=\left(\begin{array}{c c c c}
+        |x_1\rangle&|x_2\rangle&\dots&|x_n\rangle
+    \end{array}\right)
+\end{eqnarray*}
+Jedes $x_k$ ist ein Spaltenvektor!!!\\
+\begin{eqnarray*}
+    C{-1} = C^+ = \left(\begin{array}{c}
+        \langle x_1\\
+        \langle x_2|\\
+        \vdots\\
+        \langle x_n|
+    \end{array}\right)
+\end{eqnarray*}
+wobei hier $x_k$ ein Zeilenvektor ist.\\
+Basistransformation:\begin{eqnarray*}
+    A' = C^{-1}AC\\
+    =\left(\begin{array}{c}
+        \langle x_1\\
+        \langle x_2|\\
+        \vdots\\
+        \langle x_n|
+    \end{array}\right) A \left(\begin{array}{c c c c}
+        |x_1\rangle&|x_2\rangle&\dots&|x_n\rangle
+    \end{array}\right)\\
+    = \left(\begin{array}{c}
+        \langle x_1\\
+        \langle x_2|\\
+        \vdots\\
+        \langle x_n|
+    \end{array}\right)\left(\begin{array}{c c c c}
+        |\lambda_1 x_1\rangle&|\lambda_2 x_2\rangle&\dots&|\lambda_n x_n\rangle
+    \end{array}\right)\\
+    = \left(\begin{array}{c c c c}
+        \lambda_1&0&\hdots&0\\
+        0&\lambda_2&&\vdots \\
+        \vdots&&\ddots&\vdots\\
+        0&\hdots&\hdots&\lambda_n
+    \end{array}\right)
+\end{eqnarray*}
+Beispiel: Berehcnung von $A^\alpha$ ($A$ sei symmetrische Matrix, $A = \tilde{A}$)\\
+\begin{eqnarray*}
+    A\ce{->[Hauptachsentransformation]}A' \text{ diagonal} \ce{->[Potenzieren]} A'^\alpha \text{ diagonal} \ce{->[R\text{ü}cktransformation]} A^\alpha
+\end{eqnarray*}
+Konkret: \begin{eqnarray*}
+    A = \left(\begin{array}{c c}
+        2&1\\1&2
+    \end{array}\right)
+\end{eqnarray*}
+gesucht: $A^{-\frac{1}{2}}$\\
+\begin{itemize}
+    \item[1.] Eigenwerte, Eigenvektor von $A$\\$\begin{array}{|c c|}
+        2-\lambda & 1\\
+        1 & 2-\lambda
+    \end{array} = \lambda^2-4\lambda+3=0$\\$\lambda{1,2}=\frac{4+\sqrt{16-12}}{2},\, \lambda_1 = 3,\, \lambda_2 = 1$\\ $\lambda_1 = 3 \rightarrow \begin{array}{c c| c}
+        -1&1&0\\
+        1&-1&0\\
+    \end{array} \rightarrow \hat{x_1} = \frac{1}{\sqrt{2}} (1,1)$\\
+    $\lambda_2 = 1 \rightarrow \begin{array}{c c| c}
+        1&1&0\\
+        1&1&0\\
+    \end{array} \rightarrow \hat{x_2} = \frac{1}{\sqrt{2}} (1,-1)$
+\end{itemize}
+\textbf{2.Haupttransformation: $A'=C^{-1}AC$}\\
+hier $C^{-1}=\tilde{C}$ da orthogonale Matrix
+\begin{eqnarray*}
+    A' = \frac{1}{\sqrt{2}}\left(\begin{array}{c c}
+        1&1\\1&-1
+    \end{array}\right)\left(\begin{array}{c c}
+        2&1\\1&2
+    \end{array}\right)\frac{1}{\sqrt{2}}\left(\begin{array}{c c}
+        1&1\\1&-1
+    \end{array}\right) = \frac{1}{2}\left(\begin{array}{c c}
+        1&1\\1&-1
+    \end{array}\right)\left(\begin{array}{c c}
+        3&1\\3&-1
+    \end{array}\right)=\frac{1}{2}\left(\begin{array}{c c}
+        6&0\\0&2
+    \end{array}\right) = \left(\begin{array}{c c}
+        3&0\\0&1
+    \end{array}\right)
+\end{eqnarray*}
+3.Potenzieren
+\begin{eqnarray*}
+    A'^{-\frac{1}{2}}=\left(\begin{array}{c c}
+        3^{-\frac{1}{2}}&0\\0&1^{-\frac{1}{2}}
+    \end{array}\right) = \left(\begin{array}{c c}
+        \frac{1}{\sqrt{3}}&0\\0&1
+    \end{array}\right)
+\end{eqnarray*}
+4.Rücktransformation $A^{-\frac{1}{2}} = CA'^{-\frac{1}{2}}C^{-1}$
+\begin{eqnarray*}
+    A^{-\frac{1}{2}} = \frac{1}{2}\left(\begin{array}{c c}
+        \frac{1}{\sqrt{3}}+1&\frac{1}{\sqrt{3}}-1\\
+        \frac{1}{\sqrt{3}}-1&\frac{1}{\sqrt{3}}+1
+    \end{array}\right)
+\end{eqnarray*}
+
+\section{Differentialgleichungen}
+\subsection{Allgemeines}
+\begin{itemize}
+    \item DGLs sind schwierig zu lösen un im Allgemeinen nicht Schulstoff
+    \item Anwendung in allen Bereichen der Naturwissenschaften sowie Ingenieurs- und Wirtschaftswissenschaften
+\end{itemize}
+\textbf{Eingangsbeispiel:}
+Chemische Reaktion 1.Ordnung (monomolekularer Zerfall)
+\begin{center}
+    \ce{A -> B + C}
+\end{center}
+Die Wahrscheinlichkeit, dass ein Molekül \ce{A} zefällt, sei unabhängig davon, wie lange es schon existiert und wieviele andere Moleküle \ce{A} in der Nähe sind. (Keine gegenseitige Beeinflussung). Dann gilt:
+\begin{eqnarray*}
+    D = k\cdot N\cdot\Delta t
+\end{eqnarray*}
+$D$ ist die Anzahl der Zerfälle $N$ die Anzahl von \ce{A} Molekülen "Je mehr \ce{A}s da sind, desto mehr kann zerfallen." $\Delta t$ ist der Beobachtungszeitraum "Je länger zugesehen wird, desto mehr Zerfälle können beobachtet werden." $k$ ist eine Proportionalitätskonstante.\\
+Der Zefall reduziert aber $N$, also ist $D = -\Delta N$\\
+\begin{eqnarray*}
+    -\Delta N = kN\Delta t\\
+    \frac{\Delta N}{\Delta t} = -kN
+\end{eqnarray*}
+Wir wollen aber keine Beschreibung, die nur an diskreten Punkten in der Zeit gilt, sondern eine kontinuierliche\\
+$\rightarrow$ Übergang von $\Delta t$ zu $dt$
+\begin{eqnarray*}
+    \Rightarrow \frac{dN}{dt}=-kN\,\text{ Differentialgleichung / DGl}
+\end{eqnarray*}
+Diese DGL beschreibt implizit eine Funktion $N(t)$!\\
+Lösung der DGL $\hat{=}$ Auffinden eines $N(t)$, das dieser DGL genügt.\\
+Hier:
+\begin{eqnarray*}
+    \underbrace{N(t) = N_0e^{-kt}}\\
+    \text{Exponentieller Zerfall}
+\end{eqnarray*}
+Differentialgleichung: eine Gleichung zwischen einer Funktion, ihren Ableitungen sowie einer oder mehrerer Variablen.\\
+Gesucht ist die Funktion = Lösung oder Integral der DGL
 \end{document}
