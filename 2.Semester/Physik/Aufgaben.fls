@@ -521,6 +521,16 @@ INPUT .\Aufgaben.aux
 INPUT Aufgaben.aux
 INPUT Aufgaben.aux
 OUTPUT Aufgaben.aux
+INPUT .\Aufgaben.out
+INPUT Aufgaben.out
+INPUT .\Aufgaben.out
+INPUT Aufgaben.out
+INPUT .\Aufgaben.out
+INPUT Aufgaben.out
+INPUT .\Aufgaben.out
+INPUT Aufgaben.out
+INPUT .\Aufgaben.out
+INPUT .\Aufgaben.out
 OUTPUT Aufgaben.out
 OUTPUT Aufgaben.pdf
 INPUT D:\MikTex\tex\context\base\mkii\supp-pdf.mkii

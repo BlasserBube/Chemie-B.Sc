@@ -1123,11 +1123,43 @@ $G_m = \frac{G}{n}$ hier ist $n$ die Stoffmenge\\
 Gemisch:\\
 Chemisches Potential $\mu_i = \left(\frac{\partial G}{\partial n_i}\right)_{p,T,n'}$\\
 $G(p,T,n_1,n_2,n_s,\dots,n_k) \Rightarrow dG = \left(\frac{\partial G}{\partial p}\right)_{T,n_i}\,dp+ \left(\frac{\partial G}{\partial T}\right)_{p,n}\,dT+\left(\frac{\partial G}{\partial n_1}\right)_{p,T,n'}\,dn_1+\left(\frac{\partial G}{\partial n_2}\right)_{p,T,n'}\,dn_2$\\
+\begin{align*}
+    dG &= V\,dp - S\,dT + \sum_{i=1}^{k} \mu_i\,dn_i\\
+    T,p &= \mathrm{const.} \Rightarrow dG = \sum_{i=1}^{k}\mu_i\,dn_i\\
+    G&=\sum_{i=1}^{k} \mu_in_i\\
+    dU&=T\,dS-p\,dV\\
+    S,V&=\mathrm{const.} \Rightarrow dU = \sum_{i=1}^{k} \mu_i\,dn_i \Rightarrow \mu_i = \left(\frac{\partial U}{\partial n_i}\right)_{V,S,n'}
+\end{align*}
+
+\section{zustandsänderung}
+\subsection{Einkomponentensysteme}
+Übergänge zwischen Aggregatzuständen: s $\Leftrightarrow$ l $\Leftrightarrow$ g (natürlich ist auch möglich: s $\Leftarrow$ g)\\
+Allotropen: Strukturformen eines Elements: \ce{C}: Diamand, Graphit\\
+Polymorphen: Strukturformen einer Verbindung im gleichen Aggregatzustand\\
+geordnete/ungeordnete Phasen\\
+Phasenübergänge = spontaner Übergänge von einer Phase zur anderen\\
+Thermodynamisch: $\Delta_{Trans} G < 0$ exergonisch\\
 \begin{eqnarray*}
-    dG = V\,dp - S\,dT + \sum_{i=1}^{k} \mu_i\,dn_i\\
-    T,p = \mathrm{const.} \Rightarrow dG = \sum_{i=1}^{k}\mu_i\,dn_i\\
-    G=\sum_{i=1}^{k} \mu_in_i\\
-    dU=T\,dS-p\,dV\\
-    S,V=\mathrm{const.} \Rightarrow dU = \sum_{i=1}^{k} \mu_i\,dn_i \Rightarrow \mu_i = \left(\frac{\partial U}{\partial n_i}\right)_{V,S,n'}
+    \Delta_{Trans}G=\Delta_{Trans} H - T_{Trans} \Delta_{Trans} S
 \end{eqnarray*}
+NICHT in der TD. Kinetik. Diamant $\rightarrow$ Graphit $\Delta G < 0$\\
+
+\subsection{Gibbsche Phasenregel}
+\begin{equation*}
+    F = K-P+2
+\end{equation*}
+$F$: Anzahl der Freiheitsgrade $p,T,$Zusammensetzung\\
+$K$: Anzahl der Komponenten\\
+$P$: Anzahl der Phasen (s,l,g,$\dots$)\\
+Beispiel für ein Glas Wasser::
+\begin{align*}
+    \ce{H2O_{(l)}}&:\,K = 1,\,P=1\Rightarrow\,F=2\\
+    \ce{H2O_{(l,s)}}&:\,K=1,\,P=2\Rightarrow\,F=1\\
+    \ce{H2O_{(l,s,g)}}&:\,K=1,\,P=3\Rightarrow\,F=0\\
+\end{align*}
+
+\subsection{Phasendiagramm ($K=1$)}
+graphische Darstellung der Stabilität von verschiedenen Phasen in einem $p,T$-Diagramm 
+
+
 \end{document}

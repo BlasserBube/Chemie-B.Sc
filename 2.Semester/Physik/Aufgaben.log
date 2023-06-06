@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  19 MAY 2023 10:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  26 MAY 2023 10:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -283,6 +283,7 @@ LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 Package hyperref Info: Link coloring OFF on input line 14.
+ (Aufgaben.out) (Aufgaben.out)
 \@outlinefile=\write3
 \openout3 = `Aufgaben.out'.
 
@@ -375,40 +376,22 @@ Overfull \hbox (0.417pt too wide) in paragraph at lines 114--118
 \OT1/cmr/m/n/10 Im Ver-gle-ich zu einer Punk-t-ladung, verl^^?auft der Vek-tor ra-dial um den Draht, somit "entspringt" dieser nicht aus der Ladungsquelle
  []
 
-[3] [4] [5] [6] [7] [8]
-c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/Physik/Aufgaben.tex:329: Undefined control sequence.
-<recently read> \RightarrowI 
-                             
-l.329     \RightarrowI
-                      _2=I_1\frac{R_i}{R_p}\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[9] (Aufgaben.aux)
-
-Package rerunfilecheck Warning: File `Aufgaben.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Aufgaben.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+[3] [4] [5] [6] [7] [8] [9] (Aufgaben.aux)
+Package rerunfilecheck Info: File `Aufgaben.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10340 strings out of 475385
- 156377 string characters out of 2793322
- 519598 words of memory out of 3000000
- 31569 multiletter control sequences out of 15000+600000
+ 10345 strings out of 475385
+ 156576 string characters out of 2793322
+ 519713 words of memory out of 3000000
+ 31568 multiletter control sequences out of 15000+600000
  472811 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,9n,77p,511b,461s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Aufgaben.pdf (9 pages, 267196 bytes).
+Output written on Aufgaben.pdf (9 pages, 269294 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
+ 139 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

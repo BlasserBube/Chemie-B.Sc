@@ -518,12 +518,121 @@ a)\begin{eqnarray*}
     \Delta S_{Umg} = 21.97\,\mathrm{\frac{J}{mol\cdot K}}\\
     \Delta S_{Ges} = 0
 \end{eqnarray*}
-b)\begin{eqnarray*}
-    \Delta S =C_p\ln\frac{T_E}{T_A}\\
-    \Delta S = \Delta S_{1,m} + \Delta S_{2,m} + \Delta S_{3,m} = C_{p,m}\ln\frac{T_2}{T_1}-\frac{\Delta_{s,m}H^{273}}{T_2}+C_{p,m}\ln\frac{T_1}{T_2}\\
-    =75\,\mathrm{\frac{J}{mol\cdot K}}\ln\frac{273.15}{263.15}-21.97\,\,mathrm{\frac{J}{mol\cdot K}}+38\,\mathrm{\frac{J}{mol\cdot K}}\ln\frac{263.15}{273.15}=-20.59\,\mathrm{\frac{J}{mol\cdot K}}\\
+b)\begin{align*}
+    \Delta S &=C_p\ln\frac{T_E}{T_A}\\
+    \Delta S &= \Delta S_{1,m} + \Delta S_{2,m} + \Delta S_{3,m} = C_{p,m}\ln\frac{T_2}{T_1}-\frac{\Delta_{s,m}H^{273}}{T_2}+C_{p,m}\ln\frac{T_1}{T_2}\\
+    &=75\,\mathrm{\frac{J}{mol\cdot K}}\ln\frac{273.15}{263.15}-21.97\,\,mathrm{\frac{J}{mol\cdot K}}+38\,\mathrm{\frac{J}{mol\cdot K}}\ln\frac{263.15}{273.15}=-20.59\,\mathrm{\frac{J}{mol\cdot K}}\\
     \mathrm{Umgebung}:\\
-    \Delta S_{Umg} = \frac{\Delta_{s,m} H ^{263}}{T_1} = \frac{5630\,\mathrm{\frac{J}{mol\cdot K}}}{263.15\,\mathrm{K}}=21.395\,\mathrm{\frac{J}{mol\cdot K}}\\
-    \Delta S_{Ges} = 0.8\,\mathrm{\frac{J}{mol\cdot K}}
+    \Delta S_{Umg} &= \frac{\Delta_{s,m} H ^{263}}{T_1} = \frac{5630\,\mathrm{\frac{J}{mol\cdot K}}}{263.15\,\mathrm{K}}=21.395\,\mathrm{\frac{J}{mol\cdot K}}\\
+    \Delta S_{Ges} &= 0.8\,\mathrm{\frac{J}{mol\cdot K}}
+\end{align*}
+
+\section*{Woche 5}
+\subsection*{Aufgabe 5.1}
+1) Eis -10 °C auf 0 °C
+\begin{eqnarray*}
+    q_1 = nC_{p,m}\Delta T\\
+    n = \frac{m}{M} = \frac{1000}{18} = 55.556\,\mathrm{mol}\\
+    q_1 = 55.556\,\mathrm{mol}\cdot 38\,\mathrm{\frac{J}{mol\cdot K}}\cdot 10\,\mathrm{K}=21.1\,\mathrm{kJ}
 \end{eqnarray*}
+2)
+\begin{eqnarray*}
+    q_2 = n\Delta H_{schmelz,s}^{Eis} = 333,3\,\mathrm{kJ}
+\end{eqnarray*}
+3) Wasser 0 °C auf 100 °C
+\begin{eqnarray*}
+    q_3 = nC_{p,m}^{Wasser}\Delta T =419.4\,\mathrm{kJ}
+\end{eqnarray*}
+4) Verdampfen
+\begin{eqnarray*}
+    q_4 = n \Delta H_{verd,m}1{Wasser} = 2277.8\,\mathrm{kJ}
+\end{eqnarray*}
+5) Dampf 100 °C auf 150 °C
+\begin{eqnarray*}
+    q_5 = nC_{p,m}^{Dampf} \Delta T = 
+\end{eqnarray*}
+\begin{equation*}
+    q_{\sum} = q_1 + q_2 + q_3 + q_4 + q_5 = 3146\,\mathrm{kJ}
+\end{equation*}
+\begin{align*}
+    \Delta S &= n C_{p,m} \ln\frac{T_E}{T_A}\text{ Erwärmen}\\
+    \Delta S &= \frac{n\Delta H}{T}=\frac{q}{T}\text{ Phasenübergang}\\
+    \Delta S_1 &= 78.8\,\mathrm{\frac{J}{K}}\\
+    \Delta S_2 &= 1221\,\mathrm{\frac{J}{K}}\\
+    \Delta S_3 &= 1309.1\,\mathrm{\frac{J}{K}}\\
+    \Delta S_4 &= 6106.6\,\mathrm{\frac{J}{K}}\\
+    \Delta S_5 &= 237.6\,\mathrm{\frac{J}{K}}\\
+    \Delta S_{\sum} &= 8953.1\,\mathrm{\frac{J}{K}}
+\end{align*}
+\subsection*{Aufgabe 5.2}
+\begin{align*}
+    C &= a+bT\\
+    T_1 &= 373\,\mathrm{K}\\
+    T_2 = 573\,\mathrm{K}\\
+\end{align*}
+a)
+\begin{align*}
+    \Delta H &= a(T_2-T_1)+\frac{b}{2}(T_2^2-T_1^2) = 22.996\,\mathrm{\frac{kJ}{mol}}
+\end{align*}
+b)
+\begin{align*}
+    \Delta S = a \ln\frac{T_2}{T_1} + b(T_2-T_1) = 48.734\,\mathrm{\frac{J}{mol\cdot K}}
+\end{align*}
+
+\subsection*{Aufgabe 5.3}
+\begin{align*}
+    \Delta S &= \int_{T_1}^{T_2} \frac{\delta q}{T} = \int_{T_1}^{T_2} \frac{C_p}{T}\,dT\\
+    \Delta S &= \frac{\Delta H}{T}\\
+    \Delta S &= S_{T_S} - S_{T=0\,\mathrm{K}} = S_{T_S}\\
+    &= \int_{0}^{T_t} \frac{c_p\,dT}{T}+\frac{\Delta H_{trans}}{T_t} + \int_{T_t}^{T_t}\frac{c_p\,dT}{T}+\frac{\Delta H_{Schm}}{T_f} + \int_{T_f}^{T_S} \frac{c_p\,dT}{T}+\frac{\Delta H{Verd.}}{T_S} = 27.2\,\mathrm{\frac{J}{mol\cdot K}}\\
+    &= 27.2\,\mathrm{\frac{J}{mol\cdot K}}+\frac{229\,\mathrm{\frac{J}{mol}}}{35.61\,\mathrm{K}}+23.4\,\mathrm{\frac{J}{mol\cdot K}}+\frac{721\,\mathrm{\frac{J}{mol}}}{63.14\,\mathrm{K}}+11.4\,\mathrm{\frac{J}{mol\cdot K}}+\frac{5580\,\mathrm{\frac{J}{mol}}}{77.32\,\mathrm{K}}\\
+    &= 152\,\mathrm{\frac{J}{mol\cdot K}}
+\end{align*}
+
+\subsection*{Aufgabe 5.4}
+a)
+\begin{align*}
+    -\left(\frac{\partial S}{\partial p}\right)_T &= \left(\frac{\partial V}{\partial T}\right)_p\\
+    dG &= -S\,dT+V\,dp\\
+    dG &= \left(\frac{\partial G}{\partial T}\right)_p \,dT + \left(\frac{\partial G}{\partial p}\right)_T\,dp\\
+    \Rightarrow \left(\frac{\partial G}{\partial T}\right)_p &= -S\\
+    \Rightarrow \left(\frac{\partial G}{\partial p}\right)_T &= V\\
+    \frac{\partial}{\partial p}\left(\frac{\partial G}{\partial T}\right) &= \frac{\partial}{\partial T}\left(\frac{\partial G}{\partial p}\right)\\
+    -\left(\frac{\partial S}{\partial p}\right)_T &= \left(\frac{\partial V}{\partial T}\right)_p\\
+\end{align*}
+b)
+\begin{align*}
+    dH &= T\,dS + V\,dp\\
+    \frac{\partial H}{\partial p} &= T\frac{\partial S}{\partial p}+V\\
+    \left(\frac{\partial H}{\partial p}\right)_T &= -T \left(\frac{\partial V}{\partial T}\right)_p + V
+\end{align*}
+
+\subsection*{Aufgabe 5.5}
+\begin{equation*}
+    G(p)=ap+b\ln p + c
+\end{equation*}
+a)
+\begin{align*}
+    V(p) &= \left(\frac{\partial G}{\partial p}\right)_T\\ &= \frac{\partial }{\partial p} (ap+b\ln p + c)\\ &= a+\frac{b}{p}
+\end{align*}
+b)
+\begin{align*}
+    K &= -\frac{1}{V}\left(\frac{\partial V}{\partial p}\right)_T\\
+    \left(\frac{\partial V}{\partial p}\right)_T &= \frac{\partial}{\partial p}\left(a+\frac{b}{p}\right)\\
+    &= -\frac{b}{p^2}\\
+    K &= -\frac{1}{a+\frac{b}{p}}\left(-\frac{b}{p^2}\right)\\
+    &= \frac{b}{ap^2 + bp}
+\end{align*}
+c)
+\begin{align*}
+    A(p)\\
+    A &= U-TS\\
+    H &= U+pV\\
+    U &= H - pV\\
+    A &= H-pV-TS\\
+    G &= H-TS\\
+    A &= G-pV\\
+    &= ap + b\ln p + c - p (a+\frac{b}{p})\\
+    &= b\ln p + c - b
+\end{align*}
 \end{document}
