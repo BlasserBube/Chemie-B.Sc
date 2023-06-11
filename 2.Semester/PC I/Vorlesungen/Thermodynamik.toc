@@ -68,3 +68,7 @@
 \contentsline {subsubsection}{\numberline {7.0.5}Gibbs-Helmholtz Gleichung}{23}{subsubsection.7.0.5}%
 \contentsline {subsubsection}{\numberline {7.0.6}$p$-Abhängigkeiten $V_{gas}>>V_l>V_s$ bei $T =$konst}{23}{subsubsection.7.0.6}%
 \contentsline {subsubsection}{\numberline {7.0.7}chemisches Potential}{24}{subsubsection.7.0.7}%
+\contentsline {section}{\numberline {8}zustandsänderung}{24}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Einkomponentensysteme}{24}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Gibbsche Phasenregel}{24}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Phasendiagramm ($K=1$)}{24}{subsection.8.3}%

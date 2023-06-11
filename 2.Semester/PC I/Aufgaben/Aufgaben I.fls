@@ -529,13 +529,18 @@ INPUT .\img\What.png
 INPUT .\img\What.png
 INPUT .\img\What.png
 INPUT D:\MikTex\fonts\tfm\public\cm\cmbx10.tfm
+INPUT D:\MikTex\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT Aufgaben I.aux
+INPUT C:\Users\mgils\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\mgils\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cmextra\cmex7.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cmextra\cmex7.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi5.pfb
