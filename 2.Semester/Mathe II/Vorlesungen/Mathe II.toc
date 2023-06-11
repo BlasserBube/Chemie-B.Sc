@@ -29,3 +29,6 @@
 \contentsline {subsubsection}{\numberline {1.10.2}Die Eigenvektoren als Basissystem, Hauptachsentransformation}{21}{subsubsection.1.10.2}%
 \contentsline {section}{\numberline {2}Differentialgleichungen}{22}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Allgemeines}{22}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Gewöhnliche Differentialgleichungen 1.Ordnung}{23}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}MEthode der Variablentrennung / Separation der Variablen}{23}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Lineare Differentialgleichungen 1. Ordnung}{25}{subsubsection.2.2.2}%

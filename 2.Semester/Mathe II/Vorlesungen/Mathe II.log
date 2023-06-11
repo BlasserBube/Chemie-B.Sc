@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  24 MAY 2023 11:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  7 JUN 2023 11:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -765,22 +765,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 1290--1293
 
  []
 
-[22] [23] (Mathe II.aux)
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 1308--1311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1308--1311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1317--1318
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 1352--1355
+
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 1387--1390
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1413--1415
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 1418--1421
+
+ []
+
+[26] (Mathe II.aux)
 Package rerunfilecheck Info: File `"Mathe II".out' has not changed.
-(rerunfilecheck)             Checksum: 6578B312B06C9571504F171F30ABB695;6087.
+(rerunfilecheck)             Checksum: 1E39B57D5CD3DA7ED7A1990EA10367A1;7032.
  ) 
 Here is how much of TeX's memory you used:
- 10914 strings out of 475385
- 174916 string characters out of 2793322
- 556363 words of memory out of 3000000
- 32105 multiletter control sequences out of 15000+600000
+ 10923 strings out of 475385
+ 175047 string characters out of 2793322
+ 556371 words of memory out of 3000000
+ 32108 multiletter control sequences out of 15000+600000
  473430 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,16n,77p,558b,527s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Mathe II.pdf" (23 pages, 271584 bytes).
+ <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "Mathe II.pdf" (26 pages, 293271 bytes).
 PDF statistics:
- 342 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 376 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 273 words of extra memory for PDF output out of 10000 (max. 10000000)
 

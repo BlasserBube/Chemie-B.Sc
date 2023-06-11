@@ -1307,5 +1307,140 @@ Hier:
     \text{Exponentieller Zerfall}
 \end{eqnarray*}
 Differentialgleichung: eine Gleichung zwischen einer Funktion, ihren Ableitungen sowie einer oder mehrerer Variablen.\\
-Gesucht ist die Funktion = Lösung oder Integral der DGL
+Gesucht ist die Funktion = Lösung oder Integral der DGL\\\\Für die erfolgreiche Lösung ganz wichtig: DGLs korrekt klassifizieren können. DIe meisten Lösungsverfahren arbeiten in gegebener Weise nur für bestimmte DGL-Typen. - Nomenklatur nötig!\\
+\begin{itemize}
+    \item \underline{Eine} unabhängige Variable\\ $y=y(x)$\\$y' = \frac{dy}{dx}$\\ $\Rightarrow$ gewöhnliche DIfferentialgleichung $n$-Ordnung\\$F(x,y,y',\dots ,y(n)) = 0$\\ Beispiele:\\$y''-5y=0$\\$y^2(1+y'^2)-1=0$
+    \item \underline{Mehrere} unabhängige Variablen\\$y=y(x_1,x_2,x_3,\dots ,x_m)$\\$y_{x_i} = \frac{\partial y}{\partial x_i},\dots$\\$\Rightarrow$ partielle Differentialgleichungen
+\end{itemize}
+
+\subsection{Gewöhnliche Differentialgleichungen 1.Ordnung}
+Allgemeine Form:\\
+\begin{equation*}
+    F(x,y,y') = 0
+\end{equation*}
+\subsubsection{MEthode der Variablentrennung / Separation der Variablen}
+Kann angewandt werden, wenn $F(x,y,y') = 0$ umgeformt werden kann zu:
+\begin{equation*}
+    y' = \frac{dy}{dx} = f(x)g(y)
+\end{equation*}
+\textbf{DIESER SCHRITT FUNKTIONIERT NICHT IMMER!}
+\begin{align*}
+    \frac{dy}{g(y)}&=f(x)dx\\
+    \int \frac{dy}{g(y)}&=\int f(x)dx
+\end{align*}
+Beispiel: (vgl. Eingangsbeispiel)
+\begin{equation*}
+    \frac{1}{y}\cdot \frac{dy}{dx} = c
+\end{equation*}
+mit $c<0$ ist das die übliche Formulierung einer Reaktion 1. Ordnung
+\begin{align*}
+    \frac{dy}{y} &= c\,dx\\
+    \int \frac{dy}{y} &= c \int dx\\ 
+    \ln y &= cx + \tilde{c} \text{ das ist die Integrationskonstante}\\
+    y &= e^{cx+\tilde{c}}\\
+    y &= e^{cx}\cdot e^{\tilde{c}}\\
+    y &= \tilde{\tilde{c}}e^{cx}
+\end{align*}
+Satz: Die allgemeine Lösung einer gewöhnlichen DGL $n$-ter Ordnung enthält $n$ freie Parameter (Integrationskonstanten)\\
+Man unterscheidet bei der Bestimmung der freien Parameter (ergibt dann eine spezielle Lösung) \\
+1) Anfangswertproblem:
+\begin{align*}
+    y(x_0) &= y_0\\
+    y'(x_0) &= y_0'\\
+    &\vdots\\
+    y^{n-1}(x_0)&=y_0^{n-1}
+\end{align*}
+2) Randwertprobleme:\
+sorgegebenes Intervall $x \in [a,b]$ in dem die DGL gelöst werden soll und an dessen Rändern $y$ bereits gegeben ist.\\
+\begin{equation*}
+    \begin{array}{c c c}
+        y(a)=y_a & & y(b)=y_b\\
+        y'(a)=y'_a & & y'(b)=y'_b\\
+        \vdots && \vdots\\ 
+    \end{array}
+\end{equation*}
+Wenn DGL nicht separierbar, dann gegebenenfalls durch Umformung dahin bringen!\\
+Ziel: Separierbare DGLs 1. Ordnung\\
+a)
+\begin{align*}
+    y'&=f(\frac{y}{x})\\
+    u &= \frac{y}{x}\\
+\end{align*}
+b) \begin{align*}
+    y' &= f(ax+by+c)\\
+    u &= ax+by+c\\
+\end{align*}
+$\Rightarrow$ DGL für $u = u(x)$ ist seperierbar\\
+Beispiel:
+\begin{align*}
+    x^2y' -xy+y^2 &= 0 \text{ so nicht separierbar}\\
+    y' - \frac{y}{x}+\frac{y^2}{x^2} &= 0\\
+    u &= \frac{y}{x} \text{ entspricht Fall a)}\\
+    \frac{du}{dx} = u'=y'x^{-1}-yx^{-2} &=\frac{y'}{x}-\frac{y}{x^2}\\
+    \Rightarrow y' &= xu'+u\\
+    xu'+u-u+u^2 &= 0\\
+    -\frac{du}{u^2} &= \frac{dx}{x}\\
+    \frac{1}{u} &= \ln x + c\\
+    u(x) &= \frac{1}{\ln x + c}\\
+    \frac{y}{x} &= \frac{1}{\ln x + c}\\
+    y &= \frac{x}{\ln x + c}\\
+\end{align*}
+c kann ggf. durch Anfangsbedingung bestimmt werden\\\\
+Beispiel:
+\begin{align*}
+    y' &= \left(x+y\right)^2 \text{ so nicht separierbar}\\
+    u &= x+y \text{ Fall b)}\\
+    \frac{du}{dx} &= 1+y'\\
+    y' &= u' - 1\\
+    u'-1 &= u^2\\
+    \frac{du}{dx} &= u^2 +1\\
+    \frac{du}{u^2+1} &= dx\\
+    \int \frac{du}{u^2 + 1} &= \int \,dx\\
+    \arctan u &= x+c\\
+    u &= \tan(x+c)\\
+    y &= \tan(x+c)-x
+\end{align*}
+\subsubsection{Lineare Differentialgleichungen 1. Ordnung}
+Eine DGL heißt linear, wenn die unbekannte Funktion und ihre Ableitung nur in der ersten Potenz vorkommen und wenn keine Produkte dieser Größen auftauchen.\\
+gewöhnliche DGL 1. Ordnung:
+\begin{equation*}
+    F(x,y,y') = 0
+\end{equation*}
+Spezialfall:\\
+\underline{lineare} DGL 1. Ordnung:
+\begin{equation*}
+    y' + f(x)y = g(x)
+\end{equation*}
+nicht separierbar für $f(x) \neq 0$ \underline{und} $g(x) \neq 0$.\\
+\begin{align*}
+    g(x) &= 0 \text{ homogene DGL}\\
+    g(x) &\neq 0 \text{ inhomogene DGL}
+\end{align*}
+$g(x)$ ist nicht die "rechte Seite der Gleichung", sondern ein ggf. $x$-abhängiger Term, in dem werden y' noch y vorkommt. (wie bei linearen Gleichungssystemen)\\
+Lösung der homogenen DGL: Separation der Variablen und Integration\\
+\begin{align*}
+    \frac{dy}{dx} f(x)y &= 0\\
+    \int \frac{dy}{y} &= -\int f(x)dx\\
+    \ln y &= - \int f(x)dx + \tilde{c}\\
+    y_{ah} &= c e^{-\int f(x)dx}\\
+    &= c \cdot \bar{y_{ah}} 
+\end{align*}
+Lösung der inhomogenen DGL: Variation der Konstanten\\
+Ansatz:
+\begin{align*}
+    y_{ai} &= c(x)\cdot \bar{y_{ah}}\\
+    y'_{ai} &= c'(x)\bar{y_{ah}}+c(x)\bar{y'_{ah}}\\
+\end{align*}
+eingesetzt in: $y'+f(x)y = g(x)$
+\begin{align*}
+    c'(x)\bar{y_{ah}}+c(x)\bar{y'_{ah}} + f(x)c(x)\bar{y_{ah}} &= g(x)\\
+    c'(x) &= \frac{g(x)}{\bar{y_{ah}}}\\
+    c(x) &= \int \frac{g(x)}{\bar{y_{ah}}(x)}dx+\tilde{c}\\
+    &\vdots\\
+    &= y_{ah} + y_{pi}
+\end{align*}
+Satz: Die allgemeine Lösung der inhomogenen DGL, $y_{ai}$, ist die SUmme aus der allgemeinen Lösung der homogenen DGL und einer speziellen / partikulären Lösung der inhomogenen DGL, $y_{pi}$:
+\begin{equation*}
+    y_{ai} = y_{ah} + y_{pi}
+\end{equation*}
 \end{document}

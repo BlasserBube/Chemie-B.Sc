@@ -3,6 +3,8 @@
 \usepackage{amsmath}
 \usepackage{mhchem}
 \usepackage{chemfig}
+\usepackage{tabularx}
+\usepackage{makecell}
 \usepackage[
   left=1cm,
   right=1cm,
@@ -383,7 +385,7 @@ Kalomel-Reaktion:\\
 \subsubsection{Amalgame}
 Metallverbindungen mit Quecksilberbeteiligung
 \begin{itemize}
-    \item[1.] Stöchiometrische Amalgame (intermet. Verbindungen)\\z.B. \ce{NaHg2}; \ce{BaHg11}
+    \item[1.] Stöchiometrische Amalgame (intermet. Verbindungen)\\z.B. \ce{NaHg2}, \ce{BaHg11}
     \item[2.] Amalgame mit Phasenbreiten (intermet. Verbindung)\\$\mathrm{HgIn}_{1 +- x} \mathrm{Hg}_{2 +- x}\mathrm{Tl}$
     \item[3.] Amalgame mit Löckenlose Mischbarkeit (farbe Lösung)\\$\mathrm{Hg}_x\mathrm{Au}_{1-x}$
 \end{itemize}
@@ -448,7 +450,7 @@ Zinn + Blei: \ce{SnX4} und \ce{PbX4} sind leicht flüchtige und moderat hydrolys
 \ce{SnF4} und \ce{PbF4} siehe Folie\\
 für \ce{Pb -> PbX2}\\
 \ce{PbI2 + 2I^- -> [Pb(I)_4]^{2-}}\\
-\ce{Sb,Bi}:  \ce{SbX3 + X^- -> [SbX4]^-} und \ce{BiX3 + X^- -> [BiX4]^-}:\\
+\ce{Sb},\ce{Bi}:  \ce{SbX3 + X^- -> [SbX4]^-} und \ce{BiX3 + X^- -> [BiX4]^-}:\\
 Bei den Zinnverbindungen sind lonepairs vorhanden, es gibt Lonepairaktivität, Stereochemisch aktiv.\\
 Bismutverbindungen sind über Kanten Verknüpft und Pentagonale Dipyramiden, das lonepair ist nicht visualisierbar, nicht stereochemisch aktiv\\
 
@@ -459,28 +461,116 @@ Korun, sehr stabil. Passivierung von metallischem Aluminium.\\
 \ce{Al2O3}:\ce{Fe^{2+}}\ce{Ti^{3+}} $\rightarrow$ Saphir\\
 $\hookrightarrow$ \ce{Ga2O3}; \ce{In2O3}; aber \ce{Tl2O}\\\\
 Zinn und Blei:\\
-\ce{SnO2} ; \ce{PbO2} ; \ce{SnO} ; \ce{PbO}\\
+\ce{SnO2} , \ce{PbO2} , \ce{SnO} , \ce{PbO}\\
 \ce{PbO2 -> Pb12O19 -> Pb12O17 -> Pb3O4 -> PbO}
 Antimon und Bismut:
-\ce{Sb2O3}; \ce{Bi2O3}\\
-\ce{Sb2S3}; \ce{Bi2S3}\\
+\ce{Sb2O3}, \ce{Bi2O3}\\
+\ce{Sb2S3}, \ce{Bi2S3}\\
 $\downarrow$\\
 \ce{[SbS3]^{3-}}
 
 \subsubsection{Aquakomplexe von Aluminium}
-\begin{center}
-    \ce{[Al(H2O)6]^{3+}->[Al(H2O)5OH]^{2+} + H^+_{(aq)}}
-\end{center}
+\ce{[Al(H2O)6]^{3+} -> [Al(H2O)5OH]^{2+} + H^{+}_{(aq)}}
 \ce{Al^{3+}} ist klein hart und hoch geladen, somit schafft es die Elektronenhülle von Sauerstoff leicht zu polarisieren.\\
-Dadurch entsteht eine kovalente Bindung zwischen einem Wassermolekül und dem \ce{Al^{3+}}, wodurch ein \ce{H^+} abgespalten werden muss!\\
-Danach nimmt der Effekt ab.\\\\
-\ce{Al(OH)3 + H^+ -> Al^{3+}_{(aq)} + 3H2O}\\
-\ce{Al(OH)3 + OH^- -> [Al(OH)4]^-}\\
+Dadurch entsteht eine kovalente Bindung zwischen einem Wassermolekül und dem \ce{Al^{3+}}, wodurch ein \ce{H^{+}} abgespalten werden muss!\\
+Danach nimmt der Effekt ab.\\
+\ce{Al(OH)3 + H^{+} -> Al^{3+}_{(aq)} + 3H2O}\\
+\ce{Al(OH)3 + OH^{-} -> [Al(OH)4]^{-}}\\
 Amphoteres Verhalten.
 
 \subsubsection{Zintl-Phasen}
 Anionen ab der 13. Gruppe sind isoelektronisch zu Elementen derselben Elektronenzahl.\\
 \ce{Te^-} $\rightarrow$ \ce{Te2^{2-}} isoelektronisch zu \ce{I2}\\
 \ce{Si^-} $\rightarrow$ \ce{Si4^{4-}} isoelektronisch zu \ce{P4}\\
-\ce{Tl^-} $\rightarrow$ \ce{Tl4^{4-}} isoelektronisch zu \ce{C4}
+\ce{Tl^-} $\rightarrow$ \ce{Tl4^{4-}} isoelektronisch zu \ce{C4}\\
+
+\section{Grundzüge der Komplexchemie}
+\subsection{Allgemeines}
+Besteht aus einem Zentralatom, um welches einige Liganden liegen.\\
+Zentralatom meist metallisch, die Liganden sind meist nichtmetallisch oder besitzen einen nichtmetallischen Anteil.\\
+Komplexbildung $\rightarrow$ Lewis-Säure (Zentralatom) - Base (Liganden) - Reaktion.\\
+Die Liganden müssen freie Elektronenpaare mitbringen, das Zentralatom freie Orbitale, so viele, damit ees für die Liganden reicht.\\
+\begin{equation*}
+    \mathrm{Freie Orbitale} = \mathrm{Ligandenanzahl}
+\end{equation*}
+Freie Orbitale müssen Valenzorbitale sein (äußersten)\\
+Übergangsmetallkationen:
+\begin{itemize}
+    \item Valentorbitale: $n$ s (1 s-Orbital) ($n = 2,5,6,7$), und $(n-1)$ d Orbitale (5 d-Orbitale), und $n$ p (3 p-Orbitale) $\rightarrow$ 9 Orbitale mit 18 Elektronen $\Rightarrow$ Edelgasschale
+    \item homoleptische Komplexe: Selbe Art von Liganden
+    \item heteroletische Komplexe: Unterschiedliche Liganden
+\end{itemize}
+
+\subsection{Komplexliganden}
+Unterschieden durch Anzahl an Koordinationsstellen:
+\begin{itemize}
+    \item Einzähnige Liganden - eine Koordinationsstellen
+    \item Mehrzähnige Liganden - mehrere Koordinationsstellen zum gleichen Zentralatom (Monoatomare Liganden fallen hier aus)\\ Chelatliganden! Bsp: EDTA - EthylenDiamminTetraAcetat
+\end{itemize}
+\begin{center}
+    \begin{tabular}{|c c c|}
+        \hline
+        \ce{CO3^{2-}} & vs. & \ce{C2O4^{2-}}\\
+        \hline
+        & \makecell{An den Zwei Sauerstoffen mit\\3 freien Elektronenpaaren\\an das gleiche Zentralatom} &\\
+        \hline
+        & 90 ° Winkel am Zentralatom & \\
+        \hline
+        & 120 ° am Molekül am C-Atom & \\
+        \hline
+        & \makecell{105 ° Winkel am Sauerstoff\\ zwischen den zwei Bindungen\\ (zum Zentralatom und C)} & \\
+        \hline
+        \makecell{$\sum (\mathrm{Winkel})$\\sollte 360° sein\\ist aber 420} & & \makecell{$\sum (\mathrm{Winkel})$\\sollte 540 ° sein\\ist es auch.}\\
+        \hline
+    \end{tabular}
+\end{center}
+
+\subsection{Arten der Donor-Bindung und Ligandenverbrückung}
+\subsubsection{Arten der Donor-Bindung}
+$n$-Komplex : \chemfig{Z-L}\\
+$\pi$-Komplex : \chemfig{Z-}BENZOL\\
+$\sigma$-Komplex : Sigmabindung wird zum Zentralatom hinverlagert, schwächt die Sigmabindung, nur bei Elektronenarmen Bindungen.
+
+\subsubsection{Haptizität ($\pi$-Komplexe) $\eta$}
+\textbf{Definition: Wie viele Orbitale des Liganden-$\pi$-Sytsems tragen zur Koordination zum Zentralatom bei}
+
+\subsubsection{Verbrückung $\mu$}
+\textbf{Definition: Wie viele Zentralatome kann der Ligand miteinander Verbinden, bzw. zu ie vielen verschiedenen Zentralatomen kann er koordinieren}
+\\\\\\
+\begin{center}
+    \textbf{WICHTIG: NOMENKLATUR VON LIGANDEN LERNEN}
+\end{center}
+\subsection{Geometrien in Komplexen}
+\begin{center}
+    \textbf{SIEHE FOLIE}
+\end{center}
+Ab der Koordinationszahl CN=5 gibt es Äquatorial- und Axial-Liganden
+
+\subsection{Isomerie in Komplexen}
+\subsubsection{Geometrische Isomere}
+\begin{center}
+    \textbf{SIEHE FOLIE}
+\end{center}
+
+\subsubsection{Konstitutionsisomere}
+\begin{itemize}
+    \item Ionisationsisomere:
+\end{itemize}
+\begin{center}
+    \begin{tabular}{|c c c|}
+        \hline
+        \ce{[Pt(NH3)4Br2]Cl2} & vs. & \ce{C2O4^{2-}}\\
+        \hline
+        & \makecell{An den Zwei Sauerstoffen mit\\3 freien Elektronenpaaren\\an das gleiche Zentralatom} &\\
+        \hline
+        & 90 ° Winkel am Zentralatom & \\
+        \hline
+        & 120 ° am Molekül am C-Atom & \\
+        \hline
+        & \makecell{105 ° Winkel am Sauerstoff\\ zwischen den zwei Bindungen\\ (zum Zentralatom und C)} & \\
+        \hline
+        \makecell{$\sum (\mathrm{Winkel})$\\sollte 360° sein\\ist aber 420} & & \makecell{$\sum (\mathrm{Winkel})$\\sollte 540 ° sein\\ist es auch.}\\
+        \hline
+    \end{tabular}
+\end{center}
 \end{document}

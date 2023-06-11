@@ -1161,5 +1161,60 @@ Beispiel für ein Glas Wasser::
 \subsection{Phasendiagramm ($K=1$)}
 graphische Darstellung der Stabilität von verschiedenen Phasen in einem $p,T$-Diagramm 
 
+\subsubsection{Thermodynamik von Phasenübergängen}
+Phasengrenzlinie: thermodynamisches GGW zwischen Phasen\\
+thermisches Ggw: $T^\alpha = T^\beta$\\
+mechanisches Ggw: $p^\alpha = p^\beta$\\
+chemisches Ggw: $\mu_i^\alpha = \mu_i^\beta$\\
+für eine Komponente: $G_m^\alpha = G_m^\beta$\\\\
+\begin{align*}
+    G_m^\alpha &= G_m^\beta\\
+    dG_m^\alpha &= dG_m^\beta\\
+    V_m^\alpha \,dp -S_m^\alpha\,dT &= V_m^\beta\,dp-S_m^\beta\,dT\\
+    (V_m^\beta - V_m ^\alpha) \,dp &= (S_m^\beta - S_M^\alpha)\,dT\\
+    \frac{1-dp}{dT} &= \frac{S_M^\beta - S_m^\alpha}{V_m^\beta - V_m^\alpha}\\ &= \frac{\Delta_{Trans}S_m}{\Delta_{Trans}V_m}=\frac{\Delta_{Trans} H_m}{T_{Trans} \Delta_{Trans} V_m}
+\end{align*}
+Clapeyronsche Gleichung.
 
+\subsubsection{Schmelzdruckkurve}
+\begin{align*}
+    \frac{dp}{dT} &= \frac{\Delta_{sm} H_m}{T\Delta_{sm}V_m}\\
+    \Delta_{sm} H_m &> 0\\
+    \Delta_{sm}V_m &> 0\\
+    \int_{p_1}^{p_2}\,dp &= \int_{T_1}^{T_2} \frac{1}{T}\,dT\\
+    \int_{p_1}^{p_2}\,dp &= \frac{\Delta_{sm}H_m}{\Delta_{sm}V_m} \int_{T_1}^{T-2} \frac{1}{T}\,dT\\
+    p_2 &= p_q + \frac{\Delta_{sm}H_m}{\Delta_{sm}V_m}\ln\frac{T_2}{T_1}\\
+    \ln(\frac{T_2}{T_1}) &= \ln\left(1-\frac{T_2-T_1}{T_1}\right)\\
+    p_2 &\approx p_1 + \frac{\Delta_{sm}H_m}{\Delta_{sm}V_m} \left(\frac{T_2-T_1}{T_1}\right)\\
+\end{align*}
+
+\subsubsection{Siededruckkurve}
+\begin{align*}
+    \frac{dp}{dT} &= \frac{\Delta_V H_m}{T_V\Delta_VV_m}\\
+    V_m^g &= \frac{RT}{p}\\
+    \frac{dp}{dT} &= \frac{p\Delta_VH_m}{RT^2}\\
+    \frac{1}{p}\,dp &= \frac{\Delta_VH_m}{R}\int_{T_1}^{T_2} \frac{1}{T^2}\,dT\\
+    \ln\frac{p_2}{P_1} &= -\frac{\Delta_VH_m}{R}\left(\frac{1}{T_2}-\frac{1}{T_1}\right)\\
+    \Rightarrow p_2 &= p_1 e^{-\frac{\Delta_VH_m}{R}\left(\frac{1}{T_2}-\frac{1}{T_1}\right)}
+\end{align*}
+Augussche Dampfdruckformel\\
+\begin{align*}
+    \frac{dp}{p} &= \frac{\Delta_sub H_m}{R}\frac{dT}{T^2}\\
+    p_2 &= p_1 e^{-\frac{\Delta_{sm}H_m}{R}\left(\frac{1}{T_2}-\frac{1}{T_1}\right)}\\
+    \Delta_{Sub} H_m&=  \Delta_{sm}H_m+\Delta_VH_m
+\end{align*}
+
+\subsubsection{Einteilung nach Ehrenfest}
+\begin{itemize}
+    \item[] 1.Ordnung, Sprunghafte Änderungen\\
+    \item[] 2.Ordnung, flüssigerer Übergang
+\end{itemize}
+
+\subsection{Zweikomponentensysteme}
+binäre Mischungen - ideale Gase, Lösungen (kolligative Eigenschaften), Flüssige Mischungen im Ggw mit der Dampfphase, Flüssigkeiten/Feststoffe: Mischbarkeit\\
+
+\subsubsection{partielle Größen}
+Allgemein für eine Größe $Z \rightarrow dZ = \sum_{i} \left(\frac{\partial Z}{\partialn_i}\right)_{p,T,n'}$ $dn_i = \sum_{i} z_i \,dn_i$\\
+partielle molare freie Enthalpie $\mu_i = \left(\frac{\partial G}{\partial n_i}\right)_{p,T,n'} \Rightarrow dG = \sum_{i} \mu_i\,dn_i \Rightarrow G = \sum_{i}\mu_in_i$\\
+partielles molares Volumen $V_i = \left(\frac{\partial V}{\partial n_i}\right)_{p,T,n'}$
 \end{document}
