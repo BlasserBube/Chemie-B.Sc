@@ -326,7 +326,7 @@ a)\begin{eqnarray*}
 b)\begin{eqnarray*}
     U_1 = U_2\\
     I_1R_i = I_2R_p\\
-    \Rightarrow I_2=I_1\frac{R_i}{R_p}\\
+    \Rightarrow I_2 = I_1\frac{R_i}{R_p}\\
     I=I_1+I_2\\
     \Rightarrow R_p = \frac{I_1R_i}{I - I_1}\\
     I=50\,\mathrm{mA}:  R_p = 4.35\,\mathrm{\Omega}
@@ -334,19 +334,42 @@ b)\begin{eqnarray*}
 \end{eqnarray*}
 
 \section*{Woche 5}
-\subsection*{Aufgabe 6 (T)}
+\subsection*{Aufgabe 1}
+a) Ein Zyklotron ist ein ringförmiger Magnet, der geladene Teilchen sprialförmig beschleunigt, deshalb auch Teilchenbeschleuniger genannt wird. Durch das elektrische Feld werden die Teilchen auf der Spiralförmigen Bahn gehalten und ihre Geschwindigkeit nimmt zu (Da sie beschleunigt werden). Dadurch werden in der Kenphysik hochenergetische Teilchenstrahlen zu Forschungszwecken erzeugt.\\
+b)
 \begin{align*}
-    \oint B\,ds &= \mu_0 I\\
-    \oint B\,ds &= 2\pi r \cdot B(r)\\
-    &= \mu_0 I\\
-    B(r) &= \frac{\mu_0I}{2\pi r}
+    F_{L} &= F_{zp}\\
+    qvB &= \frac{mv^2}{r}\\
+    \frac{r}{v} &= \frac{m}{qB}\\
+    \mathrm{Umlaufdauer} &= \frac{\mathrm{Kreisumfang}}{\mathrm{Geschwindigkeit}}\\
+    T &= \frac{2\pi r}{v}\\
+    T &= \frac{2\pi m}{qB}\\
 \end{align*}
+c) \begin{align*}
+    E_{kin} &= \frac{1}{2} m v^2\\
+    v &= \frac{rqB}{m}\\
+    E_{kin} &= \frac{1}{2} v \left(\frac{rqB}{m}\right)^2\\
+    &= \frac{1}{2} \frac{(0.5\,\mathrm{m})^2\cdot\left(1.60\cdot 10^{-19}\,\mathrm{As}\right)^2\cdot\left(0.4\,\mathrm{\frac{Vs}{m^2}}\right)^2}{1.67\cdot 10^{-27\,\mathrm{kg}}}\\
+    &= 3.1\cdot 10^{-13}\,\mathrm{J}\\
+    &= 1.9\cdot 10^6\,\mathrm{eV}
+\end{align*}
+d)
 \begin{align*}
-    r&<r_0\\
-    \oint B\,ds &= \mu_0 \int_{A} j\,dA\\
-    j &= \frac{I}{\pi r_0^2}\\
-    I(r)&=j\pi r^2\\
-    &= I \frac{r^2}{r_0^2}\\
-    \Rightarrow B(r) &= \frac{\mu_0 I}{2\pi r_0^2}r
+    \Delta E  &= 2eU_0\\
+    \Delta E &= 2\cdot 10^4\,\mathrm{eV}\\
+    N &= \frac{E_{kin}}{\Delta E}\\
+    &= \frac{1.9\cdot 10^6}{2\cdot 10^4}\\
+    &\approx 100
+\end{align*}
+
+\subsection*{Aufgabe 2}
+a)\begin{align*}
+    t &= 0\\
+    \Phi &= \vec{B} \vec{A}\\
+    B_0 &= 0.5 T\vec{e_z}\\
+    A &= \left(0.2\,\mathrm{m}\right)^2\\
+    &= 0.4\,\mathrm{m^2}\\
+    \Phi &= \vec{B_0}\vec{A}\\
+    &= 0.5 T\vec{e_z}\cdot 0,4\,\mathrm{m^2} = 0.02T\,\mathrm{m^2}
 \end{align*}
 \end{document}
