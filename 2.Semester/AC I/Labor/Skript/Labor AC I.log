@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  19 APR 2023 09:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  13 JUN 2023 09:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/mgils/OneDrive/Private/Desktop/TexMex/Bibel-f-r-das-Volk/Labor AC I/Labor AC I.tex"
-(c:/Users/mgils/OneDrive/Private/Desktop/TexMex/Bibel-f-r-das-Volk/Labor AC I/Labor AC I.tex
+**"c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/AC I/Labor/Skript/Labor AC I.tex"
+(c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/AC I/Labor/Skript/Labor AC I.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-09-28> (D:\MikTex\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -387,6 +387,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--199
  []
 
 
+c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/AC I/Labor/Skript/Labor AC I.tex:204: LaTeX Error: Environment comment undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.204 \begin{comment}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
@@ -411,15 +424,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--278
 
  []
 
+
+c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/AC I/Labor/Skript/Labor AC I.tex:280: LaTeX Error: \begin{document} ended by \end{comment}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.280 \end{comment}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 [10] (Labor AC I.aux) ) 
 Here is how much of TeX's memory you used:
- 5530 strings out of 475385
- 120723 string characters out of 2793322
- 532658 words of memory out of 3000000
- 26870 multiletter control sequences out of 15000+600000
+ 5531 strings out of 475385
+ 120761 string characters out of 2793322
+ 532656 words of memory out of 3000000
+ 26871 multiletter control sequences out of 15000+600000
  476974 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,20n,120p,513b,506s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 123i,20n,120p,517b,550s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsl10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 Output written on "Labor AC I.pdf" (11 pages, 204280 bytes).
 PDF statistics:
