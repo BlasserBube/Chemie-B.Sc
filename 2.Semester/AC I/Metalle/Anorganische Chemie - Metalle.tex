@@ -5,6 +5,7 @@
 \usepackage{chemfig}
 \usepackage{tabularx}
 \usepackage{makecell}
+\usepackage{hyperref}
 \usepackage[
   left=1cm,
   right=1cm,
@@ -13,6 +14,8 @@
 ]{geometry}
 
 \begin{document}
+\tableofcontents
+\newpage
 \section{Metalle mit Ingo}
 \subsection{Eigenschaften metallischer Elemente}
 Physikalische Eigenschaften
@@ -573,4 +576,130 @@ Ab der Koordinationszahl CN=5 gibt es Äquatorial- und Axial-Liganden
         \hline
     \end{tabular}
 \end{center}
+
+\subsection{Die Kristallfeld- bzw. Ligandenfeldtheorie}
+\textbf{Kristallfeldtheorie}
+Elektrostatische Wechselwirkungen zwischen dem Ligand (negativ geladen) und dem Zentralatom (positiv geladen)
+\textbf{Ligandenfeldtheorie}
+Kristallfeldtheorie + die Erklärung der Bindung mit der Molekülorbitaltheorie (MO-Theorie)
+\subsubsection{Allgemeines}
+Energetische Aufspaltung der d-Orbitale im Feld der Liganden $\rightarrow$ elektrostatische Gründe\\
+Tetraeder: immer Lowspin, da Ligandenfeldaufspaltungsenergie geringer als Spinpaarungsenergie.\\
+Oktader: Lowspin oder Highspin, je nach Verhältnis von Ligandenfeldaufspaltungsenergie zu Spinpaarungsenergie.\\
+Bei einem quadratischen planaren Feld immer Lowspin, da Ligandenfeldaufspaltungsenergie doppelt so groß wie beim Oktaeder, limitiert auf d$^8$, machmal auch d$^9$, hier aber verzerrt\\
+\subsubsection{Die Ligandenfeldstabilisierungsenergie (LFSE)}
+\textbf{= Ligandenfeldaufspaltungsenergie}
+Beispiel: \ce{MgAl2O4} - Spinell\\
+Kubisch-dichteste-Kugelpackung aus \ce{O^{2-}}\\
+Dreiwertiges Ion in der Hälfte der Oktaederlücke\\
+Zweiwertiges Ion in $\frac{1}{8}$ der Tetraederlücken\\
+\ce{Fe3O4} $\rightarrow$ \ce{Fe^{II}Fe^{III}2O4}\\
+Tetraeder:\\
+3 Orbitale (3 e) werden um 4 Dq angehoben, 2 (3 e) Orbitale werden um -6 Dq abgesenkt:\\
+$3\cdot -6 + 3 \cdot 4 = -6 \vert \cdot \frac{4}{9}$ da Tetraeder\\
+$\hat{=} -\frac{24}{9} = 2.\bar{6}$\\
+Oktaeder:\\
+2 (2 e) Anheben um 6 Dq, 3 (3 e) Absenken um -4 Dq:\\
+$3\cdot -4 + 2\cdot 6 = 0$\\
+Gesamterenergiegewinn: -$2.\bar{6}$\\\\
+Inverser Spinell:\\
+Zweiwertige Ionen besetzen $\frac{1}{4}$ der Oktaderlücken\\
+Dreiwertige Ionen besetzen $\frac{1}{4}$ der Oktaderlücken\\
+Dreiwertige Ionen besetzen $\frac{1}{8}$ der Tetraederlücken\\\\
+Beim Oktaeder:\\
+3 Orbitale (4 e) abgesenkt um -4 Dq, 2 Orbitale (2 e) um 6 Dq angehoben:\\
+$= -4$\\
+Tetraeder:\\
+3 Orbitale (3 e) anheben um 4 Dq, 2 (2 e) absenken um -6 Dq\\
+$= 0$\\
+Gesamtgewinn: -4 Dq\\\\
+Somit eher im inversen Spinell.\\
+Oxidationsstufen werden \underline{NICHT} verändert.
+
+\subsubsection{Die spektrochemischen Reihen}
+1. Größe des Zentralatoms\\
+\begin{center}
+    \begin{tabular}{c c c}
+        LFSE groß & 5d $>$ 4d $>$ 3d & LFSE klein\\
+        & bei 4d \& 5d kein Highspin &\\
+    \end{tabular}
+\end{center}
+2. Oxidationsstufe des Zentralatoms\\
+\begin{center}
+    \begin{tabular}{c c c}
+        LFSE groß & +5 $>$ +4 $>$ +3 $>$ +2 $>$ +1 & LFSE klein\\
+    \end{tabular}
+\end{center}
+3. Ligandenstärke\\
+\ce{I^{-}} $<$ \ce{Br^{-}} $<$ \ce{Cl^{-}} $<$ \ce{F^{-}} $<$ \ce{O^{2-}} $<$ \ce{OH^{-}} $<$ \ce{H2O} $<$ \ce{NH3} $<<$ \ce{CN^{-}} $<$ \ce{CO}\\
+Bis \ce{O^{2-}} schwach\\
+
+\subsection{Physikalische Eigenschaften}
+\subsubsection{Optische Eigenschaften}
+1. Wellenlänge $\hat{=}$ Energie\\
+Bei Komplexen: LFSE\\
+2. Intensität (wie oft findet der Prozess statt?)\\
+d - d Übergänge sind verboten (quantenmechanisch)\\
+Übergang mit Spinumkehr sind verboten (quantenmechanisch)\\
+Laporte-Verbot $\rightarrow$ Übergänge unter Inversionssymmetie sind verboten.\\
+\subsubsection{Magnetismus in Komplexen}
+Alle Elektronen gepaart $\rightarrow$ Diamagnetismus, Lowspin gerade Anzahl an Elektronen\\
+Ungepaarte Elektronen $\rightarrow$ Paramagnetismus\\
+$\hookrightarrow$ Je mehr ungepaarte Elektronen, desto höher das magnetische Moment*\\
+* - Gilt nur in der ersten Übergangsmetallreihe, da die sogenannte "Spin-Bahn-Kopplung" vernachlässigt wird.\\
+
+\section{Übergangsmetalle}
+\subsection{Allgemeines}
+\subsubsection{Verschiedene Trends im Vergleich Hauptgruppenmetalle / Übergangsmetalle}
+\textbf{Siehe Folie.}
+\subsection{Die vierte Gruppe}
+\subsubsection{Vorkommen}
+Titan: $\rightarrow$ oxidisch: \ce{TiO2}, Perwoskit-Strukturtyp: \ce{CaTiO3}\\
+Zirkonium und Hafnium: oxiditsch $\rightarrow$ \ce{ZnO2} / \ce{HfO2}, \ce{ZrSiO4}
+\subsubsection{Herstellung}
+Carbochlorierung:\\
+\ce{TiO2 + 2C + 2Cl2 -> TiCl4 + 2CO}\\
+Kroll-Prozess:\\
+\ce{TiCl4 + 2Mg -> 2MgCl2 + Ti} (SChwamm)\\
+van Arlid-de Boer\\
+\ce{Ti + 2I2 ->[{873.15 K}] TiI4}\\
+Chemische Transport\\
+\textbf{Siehe Folie}\\
+\subsubsection{Verbindungen}
+Halogene:\\
+\ce{TiX4 ->[{+H2O}] Ti_{(aq)}^{4+}}\\
+\ce{[Ti(H2O)6]^{4+} - 2H^{+} -> TiO^{2+}_{(aq)}}\\
+\ce{TiO^{2+} + O2^{2-} -> [TiO(O2)]_{(aq)}}\\
+\ce{Ti^{3+} + 3X^{-} -> TiX3}\\
+$\rightarrow$ fest, \ce{BiI3}-Struktur.\\
+Chalkogenide:\\
+\ce{TiO2} $\rightarrow$ Rutil, Anatas, Brookit\\
+\ce{Ti3O5}; \ce{TiO_{2-x}}\\
+\ce{Zn + HCl -> Zn^{2+} + HCl^{-} + 2H^{-}}\\
+\ce{Ti^{4+}_{(aq)} + H -> Ti^{3+}_{(aq)} + H^{+}}\\
+Percowsit \ce{CaTiO3}\\
+\textbf{Siehe Folie}
+\subsection{Die fünfte Gruppe}
+\subsubsection{Vorkommen}
+Vanadium:\\
+Vanadit: \ce{Pb5Cl[VO4]3}\\
+Patronit: \ce{VS4}\\
+Niob + Tantal: \ce{(Fe,Mn)[NbO3]} bzw. \ce{(Fe,Mn)TaO3}\\
+\subsubsection{Herstellung}
+Vanadium: \ce{V2O5 + 5Ca -> 2V + 5CaO} metallothermisch\\
+Niob / Tantal: \ce{MsO5 + 5C -> 2M + 5CO}\\
+\subsubsection{Verbindungen}
+Halogenide: \ce{VX5}; \ce{NbX5};\ce{TaX5c}\\
+verknüpfe Aktaeder in der Krsitallstruktur\\
+niedrigere Oxidationsstufen bei \ce{Nb} und \ce{Ta}\\
+\ce{Nb6X8} oder \ce{Nb6X12}\\
+Linkes ist ein Cluster, \textbf{siehe Folie}\\
+Oxide:\\
+\ce{V2O5} analog zu \ce{P2O5} \ce{->[{H2O}] H3VO4}\\
+\ce{VO2} Rutil-Typ\\
+\ce{V2O3} Korund-Struktur\\
+\ce{VO} \ce{NaCl}-Typ\\
+Nach unten hin immer dunkler richtung schwarz\\
+\ce{2VO4^{3-} ->[{2 Protonen}] V2O3^{4-} -> V3O10^{5-} ... V2O5}
+Bei den Punkten handelt es sich um isopolysäuren.
 \end{document}

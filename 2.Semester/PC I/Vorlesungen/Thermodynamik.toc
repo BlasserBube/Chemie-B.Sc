@@ -1,77 +1,89 @@
-\contentsline {section}{\numberline {1}Thermodynamik für Knechte}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Was ist Thermodynamik?}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Thermodynamische Systeme}{3}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}Phase}{3}{subsubsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}Aggregatzustände}{4}{subsubsection.1.2.2}%
-\contentsline {subsubsection}{\numberline {1.2.3}Gleichgewicht}{4}{subsubsection.1.2.3}%
-\contentsline {subsubsection}{\numberline {1.2.4}0. Hauptsatz der Thermodynamik}{4}{subsubsection.1.2.4}%
-\contentsline {subsection}{\numberline {1.3}Zustandsgrößen}{4}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}intensive Zustandsgrößen \textcolor {gray}{(unabhängig von der Stoffmenge $n$ - \underline {in}dependent)}}{5}{subsubsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2}extensive Zustandsgrößen \textcolor {gray}{(abhängig von der Stoffmenge $n$)}}{5}{subsubsection.1.3.2}%
-\contentsline {subsubsection}{\numberline {1.3.3}Definition einer spezifische Größe \textcolor {gray}{(teilen durch Masse)}}{5}{subsubsection.1.3.3}%
-\contentsline {subsubsection}{\numberline {1.3.4}Definition einer molaren Größe \textcolor {gray}{(teilen durch Stoffmenge)}}{5}{subsubsection.1.3.4}%
-\contentsline {subsubsection}{\numberline {1.3.5}verschiedene Größen}{5}{subsubsection.1.3.5}%
-\contentsline {subsubsection}{\numberline {1.3.6}thermodynamische Prozesse}{5}{subsubsection.1.3.6}%
-\contentsline {subsection}{\numberline {1.4}Zustandsgleichung - Zusammenhang zwischen Zustandsgrößen}{6}{subsection.1.4}%
-\contentsline {section}{\numberline {2}Gase}{6}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Das ideale Gas}{6}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}ideale Gasgleichung $pV = nRT$ bzw. $pV_m = RT$}{8}{subsubsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.2}kinetische Gastheorie}{8}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Intermolekulare Wechselwirkungen}{10}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Reale Gase}{11}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Van der Waals Gleichung}{11}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Virialgleichung:}{11}{subsubsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}Kondensation}{11}{subsubsection.2.4.3}%
-\contentsline {subsubsection}{\numberline {2.4.4}Kritischer Punkt}{12}{subsubsection.2.4.4}%
-\contentsline {section}{\numberline {3}Erster Hauptsatz der Thermodynamik}{12}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Arbeit, Wärme und Energie}{12}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Arbeit = Kraft $\cdot $ Weg}{12}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Volumenarbeit}{13}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}Wärme}{13}{subsubsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.2}innere Energie 1.HS}{14}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}thermische zustandsgleichungen \textcolor {gray}{($pV=nRT$)}}{14}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Freie Expansion}{15}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}Enthalpie}{15}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Temperaturabhängigkeit \textcolor {gray}{(p = konstant)}}{15}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Druckabgängigkeit der Enthalpie \textcolor {gray}{(Entspannung durch Drossel)}}{15}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4}Kalorimetrie: Messung von Wärmeeffekten \textcolor {gray}{Schmelzenthalpien und Reaktionsenthalpien}}{16}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Adiabatisches Bombenkalorimeter}{16}{subsubsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.5}Adiabatisches Verbrennungskalorimeter}{16}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Thermochemie - Wärmeeffekte chemischer Reaktionen}{17}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}Standardreaktionsenthalpie}{17}{subsubsection.3.6.1}%
-\contentsline {subsubsection}{\numberline {3.6.2}Datz von Hess}{17}{subsubsection.3.6.2}%
-\contentsline {subsubsection}{\numberline {3.6.3}Kirchhoffsches Gesetz}{17}{subsubsection.3.6.3}%
-\contentsline {section}{\numberline {4}Der 2. Hauptsatz}{17}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Carnotscher Kreisprozess}{18}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}isotherme Prozesse (reversibel) ideales Gas}{18}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Adiabatische Prozesse (reversibel) \textcolor {gray}{($q=0$)}}{18}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Adiabatengleichung}{18}{subsubsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.4}Carnotscherkreisprozess}{19}{subsubsection.4.1.4}%
-\contentsline {subsubsection}{\numberline {4.1.5}Wärmekraftmaschine}{19}{subsubsection.4.1.5}%
-\contentsline {subsubsection}{\numberline {4.1.6}Wirkungsgrad}{19}{subsubsection.4.1.6}%
-\contentsline {section}{\numberline {5}Entropie}{19}{section.5}%
-\contentsline {subsubsection}{\numberline {5.0.1}Definition der Zustandsgröße Entropie $S$}{19}{subsubsection.5.0.1}%
-\contentsline {subsubsection}{\numberline {5.0.2}Isotherme ($\Delta T=0$), reversiple Expansion}{20}{subsubsection.5.0.2}%
-\contentsline {subsubsection}{\numberline {5.0.3}adiabatische, reversible Expansion}{20}{subsubsection.5.0.3}%
-\contentsline {subsubsection}{\numberline {5.0.4}Isobarer Phasenübergang}{20}{subsubsection.5.0.4}%
-\contentsline {subsubsection}{\numberline {5.0.5}Isobare Erhitzung}{20}{subsubsection.5.0.5}%
-\contentsline {subsubsection}{\numberline {5.0.6}Beliebiger Kreisprozess ist die Summe von Carnotprozessen}{20}{subsubsection.5.0.6}%
-\contentsline {subsubsection}{\numberline {5.0.7}Wärme Austausch zwischen einem warmen und einem kalten Reservoir}{20}{subsubsection.5.0.7}%
-\contentsline {subsection}{\numberline {5.1}Volumenänderung}{21}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Clausiussche Ungleichung}{21}{subsubsection.5.1.1}%
-\contentsline {section}{\numberline {6}3.Hauptsatz der Thermodynamik}{21}{section.6}%
-\contentsline {section}{\numberline {7}1. + 2. Hauptsatz}{22}{section.7}%
-\contentsline {subsubsection}{\numberline {7.0.1}Satz von Schwartz}{23}{subsubsection.7.0.1}%
-\contentsline {subsubsection}{\numberline {7.0.2}Guggenheim}{23}{subsubsection.7.0.2}%
-\contentsline {subsubsection}{\numberline {7.0.3}$T$- , $p$-Abhängigkeit von $G$}{23}{subsubsection.7.0.3}%
-\contentsline {subsubsection}{\numberline {7.0.4}$T$-Abhängigkeit von $G$}{23}{subsubsection.7.0.4}%
-\contentsline {subsubsection}{\numberline {7.0.5}Gibbs-Helmholtz Gleichung}{23}{subsubsection.7.0.5}%
-\contentsline {subsubsection}{\numberline {7.0.6}$p$-Abhängigkeiten $V_{gas}>>V_l>V_s$ bei $T =$konst}{23}{subsubsection.7.0.6}%
-\contentsline {subsubsection}{\numberline {7.0.7}chemisches Potential}{24}{subsubsection.7.0.7}%
-\contentsline {section}{\numberline {8}zustandsänderung}{24}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Einkomponentensysteme}{24}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Gibbsche Phasenregel}{24}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Phasendiagramm ($K=1$)}{24}{subsection.8.3}%
-\contentsline {subsubsection}{\numberline {8.3.1}Thermodynamik von Phasenübergängen}{24}{subsubsection.8.3.1}%
-\contentsline {subsubsection}{\numberline {8.3.2}Schmelzdruckkurve}{25}{subsubsection.8.3.2}%
-\contentsline {subsubsection}{\numberline {8.3.3}Siededruckkurve}{25}{subsubsection.8.3.3}%
+\contentsline {section}{\numberline {1}Thermodynamik für Knechte}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Was ist Thermodynamik?}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Thermodynamische Systeme}{2}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Phase}{2}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Aggregatzustände}{3}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Gleichgewicht}{3}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}0. Hauptsatz der Thermodynamik}{3}{subsubsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.3}Zustandsgrößen}{3}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}intensive Zustandsgrößen \textcolor {gray}{(unabhängig von der Stoffmenge $n$ - \underline {in}dependent)}}{4}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}extensive Zustandsgrößen \textcolor {gray}{(abhängig von der Stoffmenge $n$)}}{4}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Definition einer spezifische Größe \textcolor {gray}{(teilen durch Masse)}}{4}{subsubsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.4}Definition einer molaren Größe \textcolor {gray}{(teilen durch Stoffmenge)}}{4}{subsubsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {1.3.5}verschiedene Größen}{4}{subsubsection.1.3.5}%
+\contentsline {subsubsection}{\numberline {1.3.6}thermodynamische Prozesse}{4}{subsubsection.1.3.6}%
+\contentsline {subsection}{\numberline {1.4}Zustandsgleichung - Zusammenhang zwischen Zustandsgrößen}{5}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Gase}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Das ideale Gas}{5}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}ideale Gasgleichung $pV = nRT$ bzw. $pV_m = RT$}{7}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}kinetische Gastheorie}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Intermolekulare Wechselwirkungen}{9}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Reale Gase}{10}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Van der Waals Gleichung}{10}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Virialgleichung:}{10}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Kondensation}{10}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}Kritischer Punkt}{11}{subsubsection.2.4.4}%
+\contentsline {section}{\numberline {3}Erster Hauptsatz der Thermodynamik}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Arbeit, Wärme und Energie}{11}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Arbeit = Kraft $\cdot $ Weg}{11}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Volumenarbeit}{12}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Wärme}{12}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}innere Energie 1.HS}{13}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}thermische zustandsgleichungen \textcolor {gray}{($pV=nRT$)}}{13}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Freie Expansion}{14}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Enthalpie}{14}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Temperaturabhängigkeit \textcolor {gray}{(p = konstant)}}{14}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Druckabgängigkeit der Enthalpie \textcolor {gray}{(Entspannung durch Drossel)}}{14}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Kalorimetrie: Messung von Wärmeeffekten \textcolor {gray}{Schmelzenthalpien und Reaktionsenthalpien}}{15}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Adiabatisches Bombenkalorimeter}{15}{subsubsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.5}Adiabatisches Verbrennungskalorimeter}{15}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Thermochemie - Wärmeeffekte chemischer Reaktionen}{16}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Standardreaktionsenthalpie}{16}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Datz von Hess}{16}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Kirchhoffsches Gesetz}{16}{subsubsection.3.6.3}%
+\contentsline {section}{\numberline {4}Der 2. Hauptsatz}{16}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Carnotscher Kreisprozess}{17}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}isotherme Prozesse (reversibel) ideales Gas}{17}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Adiabatische Prozesse (reversibel) \textcolor {gray}{($q=0$)}}{17}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Adiabatengleichung}{17}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}Carnotscherkreisprozess}{18}{subsubsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.5}Wärmekraftmaschine}{18}{subsubsection.4.1.5}%
+\contentsline {subsubsection}{\numberline {4.1.6}Wirkungsgrad}{18}{subsubsection.4.1.6}%
+\contentsline {section}{\numberline {5}Entropie}{18}{section.5}%
+\contentsline {subsubsection}{\numberline {5.0.1}Definition der Zustandsgröße Entropie $S$}{18}{subsubsection.5.0.1}%
+\contentsline {subsubsection}{\numberline {5.0.2}Isotherme ($\Delta T=0$), reversiple Expansion}{19}{subsubsection.5.0.2}%
+\contentsline {subsubsection}{\numberline {5.0.3}adiabatische, reversible Expansion}{19}{subsubsection.5.0.3}%
+\contentsline {subsubsection}{\numberline {5.0.4}Isobarer Phasenübergang}{19}{subsubsection.5.0.4}%
+\contentsline {subsubsection}{\numberline {5.0.5}Isobare Erhitzung}{19}{subsubsection.5.0.5}%
+\contentsline {subsubsection}{\numberline {5.0.6}Beliebiger Kreisprozess ist die Summe von Carnotprozessen}{19}{subsubsection.5.0.6}%
+\contentsline {subsubsection}{\numberline {5.0.7}Wärme Austausch zwischen einem warmen und einem kalten Reservoir}{19}{subsubsection.5.0.7}%
+\contentsline {subsection}{\numberline {5.1}Volumenänderung}{20}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Clausiussche Ungleichung}{20}{subsubsection.5.1.1}%
+\contentsline {section}{\numberline {6}3.Hauptsatz der Thermodynamik}{20}{section.6}%
+\contentsline {section}{\numberline {7}1. + 2. Hauptsatz}{21}{section.7}%
+\contentsline {subsubsection}{\numberline {7.0.1}Satz von Schwartz}{22}{subsubsection.7.0.1}%
+\contentsline {subsubsection}{\numberline {7.0.2}Guggenheim}{22}{subsubsection.7.0.2}%
+\contentsline {subsubsection}{\numberline {7.0.3}$T$- , $p$-Abhängigkeit von $G$}{22}{subsubsection.7.0.3}%
+\contentsline {subsubsection}{\numberline {7.0.4}$T$-Abhängigkeit von $G$}{22}{subsubsection.7.0.4}%
+\contentsline {subsubsection}{\numberline {7.0.5}Gibbs-Helmholtz Gleichung}{22}{subsubsection.7.0.5}%
+\contentsline {subsubsection}{\numberline {7.0.6}$p$-Abhängigkeiten $V_{gas}>>V_l>V_s$ bei $T =$konst}{22}{subsubsection.7.0.6}%
+\contentsline {subsubsection}{\numberline {7.0.7}chemisches Potential}{23}{subsubsection.7.0.7}%
+\contentsline {section}{\numberline {8}zustandsänderung}{23}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Einkomponentensysteme}{23}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Gibbsche Phasenregel}{23}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Phasendiagramm ($K=1$)}{23}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}Thermodynamik von Phasenübergängen}{23}{subsubsection.8.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.2}Schmelzdruckkurve}{24}{subsubsection.8.3.2}%
+\contentsline {subsubsection}{\numberline {8.3.3}Siededruckkurve}{24}{subsubsection.8.3.3}%
+\contentsline {subsubsection}{\numberline {8.3.4}Einteilung nach Ehrenfest}{25}{subsubsection.8.3.4}%
+\contentsline {subsection}{\numberline {8.4}Zweikomponentensysteme}{25}{subsection.8.4}%
+\contentsline {subsubsection}{\numberline {8.4.1}partielle Größen}{25}{subsubsection.8.4.1}%
+\contentsline {subsubsection}{\numberline {8.4.2}Mischungen idealer Gase}{25}{subsubsection.8.4.2}%
+\contentsline {subsection}{\numberline {8.5}Kolligative Eigenschaften}{26}{subsection.8.5}%
+\contentsline {subsubsection}{\numberline {8.5.1}Isobare Siedepunkterhöhung}{26}{subsubsection.8.5.1}%
+\contentsline {subsubsection}{\numberline {8.5.2}Gefrierpunktsernidriegung}{27}{subsubsection.8.5.2}%
+\contentsline {subsubsection}{\numberline {8.5.3}Osmotischer Druck}{28}{subsubsection.8.5.3}%
+\contentsline {subsubsection}{\numberline {8.5.4}Ideale Mischungen von Flüssigkeiten in Gas mit Dampf}{28}{subsubsection.8.5.4}%
+\contentsline {subsubsection}{\numberline {8.5.5}empirisch (Raoultsches Gesetz)}{28}{subsubsection.8.5.5}%
+\contentsline {subsubsection}{\numberline {8.5.6}Aktivität des Losungsmittels}{29}{subsubsection.8.5.6}%
+\contentsline {subsubsection}{\numberline {8.5.7}Phasendiagramme von Zweikomponentensystemen}{29}{subsubsection.8.5.7}%

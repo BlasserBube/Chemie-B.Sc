@@ -1,0 +1,217 @@
+\documentclass[a4paper, fleqn]{article}
+\usepackage{chemfig}
+\usepackage{mhchem}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{chemfig}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage[
+  left=1cm,
+  right=1cm,
+  top=2cm,
+  bottom=2cm,
+]{geometry}
+
+\begin{document}
+\tableofcontents
+\newpage
+\section{Motivation und Abgrenzung zur Thermodynamik}
+\begin{center}
+    Chemische Reaktion\\
+    \begin{tabular}{c c}
+        Thermodynamik&Kinetik\\
+        \hline
+        Gibt es diese Reaktion? & Wie schnell findet diese statt?\\
+        Lage des Gleichgewichts & Geschwindigkeit der Reaktion\\
+        $\downarrow$ & und über welche Zweichenstufen wird das GGW erreicht?\\
+        In welche Richtung läuft eine Reation ab? & Neue Variable Zeit $t$\\
+        \multicolumn{2}{c}{Verknüpfung über das Massenwirkungsgesetz}\\
+    \end{tabular}
+\end{center}
+Nutzen der Reaktionskinetik:
+\begin{itemize}
+    \item[I.] Kenntnis über die Dauer einer Reaktion
+    \item[II.] Möglichkeit die Reaktionsgeschwindigkeit zu beeinflussen
+    \item[III.] Aufklärung von Reaktionsmechanismen 
+\end{itemize}
+
+\section{Grundbegriffe}
+\subsection{Definition der Reaktionsgeschwindigkeit}
+Der Reaktionsfortgang einer allgemeinen chemischen Reaktion\\
+\begin{equation*}
+    \ce{\lvert\nu_A\rvert A + \lvert\nu_B\rvert B -> \lvert\nu_C\rvert C +\lvert\nu_D\rvert D}
+\end{equation*}
+Kann eindeutig über die \textcolor{red}{Reaktionslaufzahl} $\xi$ beschrieben werden, es gilt:
+\begin{equation*}
+    d\xi = \frac{dn_A}{\nu_A} = \frac{dn_B}{\nu_B} = \frac{dn_C}{\nu_C} = \frac{dn_D}{\nu_D}
+\end{equation*}
+Für Reaktanten (Edukte) negativ, da sie wegreagieren, bzw. deren Stoffmenge abnimmt und für die Produkte positiv.\\
+Beziehungsweise mit $c=\frac{n}{V}$:
+\begin{equation*}
+    \frac{d\xi}{V} = \frac{d[A]}{\nu_A} =\frac{d[B]}{\nu_B}=\frac{d[C]}{\nu_C}=\frac{d[D]}{\nu_D}
+\end{equation*}
+$\xi$ ist mit der \textcolor{red}{Reaktionsvariablen} $x$ gemäß $x=\frac{\xi}{V}$ verknüpft.\\
+Daher gilt:
+\begin{equation*}
+    dx = \frac{d[A]}{\nu_A}=\frac{d[B]}{\nu_B}=\frac{d[C]}{\nu_C}=\frac{d[D]}{\nu_D}
+\end{equation*}
+$\xi$ und $x$ ermöglichen es Änderungen von Stoffmengen bzw. Konzentrationen ohne Festlegung auf eine bestimmte Komponente zu formulieren.\\
+Die \textcolor{red}{Reaktionsgeschwindigkeit} $v$ entspricht der zeitlichen Änderung der Reaktionslaufzahl:
+\begin{equation*}
+    v = \frac{1}{V} \frac{d\xi}{dt} = \frac{1}{\nu_A} \frac{d[A]}{dt} = \dots = \frac{1}{\nu_D} \frac{d[D]}{dt}
+\end{equation*}
+$v$ in [$\mathrm{\frac{mol}{l\cdot s}}$]
+\subsection{Formuliereung eines allgemeinen Geschwindigkeitsgesetz}
+\textcolor{red}{Elementarreaktionen} laufen in einem Schritt ohne Zwischenstufen ab.\\
+Für diese lässt sich das \textcolor{red}{Geschwindigkeitsgesetz} mithilfe eines Produkt Ansatzes formulieren.
+\begin{equation*}
+    v = k(T)[A]^\alpha[B]^\beta\dots
+\end{equation*}
+Die Exponenten $\alpha,\beta,\dots$ nennen wir \textcolor{red}{Partialordnung} bezüglich der Reaktanten A,B,$\dots$.\\
+Die Summe
+\begin{equation*}
+    n = \alpha + \beta + \dots
+\end{equation*}
+heißt \textcolor{red}{Gesamtordnung}\\
+\underline{Achtung:} Die Reaktionsordnung und die Partialordnung sind experimentelle Größen. Sie haben in der Regel keinen Bezug zu den stöchiometrischen Koeffizienten. Nur für Elementarreaktionen kann $\alpha = \lvert \nu_A \rvert$, $\beta = \lvert \nu_B \rvert$ usw. angenommen werden.\\
+Bsp.
+\begin{center}
+    \ce{N2O5_{(g)} -> 2NO2_{(g)} + 1/2 O2_{(g)}}\\
+        $c = k [\ce{N2O5}],\, n=1$\\
+    \ce{NO2_{(g)} -> NO_{(g)} + 1/2 O2_{(g)}}\\
+        $v = k[\ce{NO2}]^2 ,\, n=2$
+\end{center}
+Es gibt auf Reaktionen für die der Begriff "Ordnung" nicht anwendbar ist.\\
+Bsp.:
+\begin{equation*}
+    \ce{H2_{(g)} + Br2_{(g)} <=>[{$k$}][{$k'$}] 2HBr_{(g)}}
+\end{equation*}
+\begin{equation*}
+    v = \frac{k[\ce{H2}][\ce{Br2}]^\frac{3}{2}}{[\ce{Br2}+k'[\ce{HBr}]]}
+\end{equation*}
+$k(T)$ ist die \textcolor{red}{(Reaktions-)Geschwindigkeitskonstante}\\
+$k(T)$ ist
+\begin{itemize}
+    \item[I.] Temperaturabhängig
+    \item[II.] unabhängig von der Konzentration 
+    \item[III.] ihre Dimension (Einheit) hängt von der Reaktionsordnung ab.  
+\end{itemize}
+
+\subsection{Die Molekularität}
+Chemische Reaktionen laufen über mehrere Einzelschritte, sogenannte Elementarreaktionen ab.\\
+Die Zahl der Moleküle die an einem Einzelschritt beteiligt sind heißt \textcolor{red}{Molekularität}\\
+Bsp.: Gesamtreaktion:\\
+\begin{equation*}
+    \ce{Hs + Br2 -> 2HBr}
+\end{equation*}
+Einzelschritte:\\
+\begin{equation*}
+    \ce{Br2 -> 2 Br}
+\end{equation*}
+\underline{Ein} Molekül zerfällt $\rightarrow$ unimolekulare Reaktion.\\
+\begin{equation*}
+    \ce{Br + H2 -> HBr + H}
+\end{equation*}
+\underline{Zwei} Moleküle stoßen zusammen $\rightarrow$ bimolekulare Reaktion\\
+\underline{Achtung:} Molekularität und Reaktionsordnung sind im Allgmeinen nicht identisch. Nur bei Elementarreaktionen stimmen sie überein. Die Reaktionsordnung ist eine experimentelle Größe, die Molekularität eine theoretische Größe.\\
+Die Wahrscheinlichkeit, dass mehrere Moleküle gleichzeitig zusammenstoßen nimmt mit deren Anzahl ab.\\
+$\hookrightarrow$ Tri- und höhermolekulare Reaktionen äußerst selten.\\
+\underline{Hinweis:} Bei Komplexeren Reaktionen wird häufig die Molekularität des geschwindigkeitsbestimmenden Schrittes als Molekularität der Reaktion bezeichnet.\\
+
+\section{Einfache Geschwindigkeitsgesetze}
+\subsection{Reaktionen 0.Ordnung}
+Reaktionen die unabhängig von der Reaktionskonzentration sind.\\
+\underline{Typisches Beispiel:}\\
+Katalytische Reaktionen bei denen der Reaktant im Überschuss vorliegt, z.B. Zersetzung \ce{PH3} an einem heißen \ce{W}-Draht bei hohem Druck.\\
+Reaktion: \ce{A ->[{k}] P}\\
+Geschwindigkeitsgesetz:
+\begin{equation*}
+    v = \frac{1}{\nu_A} \frac{d[A]}{dt} = k
+\end{equation*}
+(hier:$\nu_A = -1$)\\
+$v: \left[\mathrm{\frac{mol}{l\cdot s}}\right]$\\
+$k: \left[\mathrm{\frac{mol}{l\cdot s}}\right]$\\
+Zeitlicher Verlauf der Reaktantenkonzentration?\\
+$\rightarrow$ Lösung der Differentialgleichung:\\
+\begin{itemize}
+    \item[1)] Separation der Variablen
+    \item[2)] Integration
+\end{itemize}
+\begin{align*}
+    \frac{d[A]}{dt} &= -k_t\\
+    \int_{[A(t=0)]}^{[A]} d[A] &= -k \int_{0}^{t}\,dt\\
+    \left[[A]\right]_{[A(t=0)]}^{[A]} &= -k[t]_0^t\\
+    [A]-[A(t=0)] &= -k(t-0)\\
+\end{align*}
+\textcolor{red}{Integriertes Geschwindigkeitsgesetz:}\\
+\begin{equation*}
+    [A] = [A(t=0)]-kt
+\end{equation*}\\
+Die Halbwertszeit $t_\frac{1}{2}$ ist häufig eine nützliche Größe, sie entspricht der Zeit nach der gerade die Hälfte der Ausgangskonzentration umgesetzt wurde.\\
+Für $t_\frac{1}{2}$ gilt: $[A]=\frac{[A(t=0)]}{2}$\\
+Setzt man dies in das integrierte Geschwindigkeitsgesetz ein, so erhält man:\\
+\begin{align*}
+    \frac{[A(t=0)]}{2} &= [A(t=0)]-kt_\frac{1}{2}\\
+    f_\frac{1}{2} &= \frac{[A(t=0)]}{2k}
+\end{align*}
+\subsection{Reaktionen 1.Ordnung}
+Linearer Zusammenhang zwischen Reaktantenkonzentration und Reaktionsgeschwindigkeit.\\
+\underline{Typisches Beispiel:} Radioaktiver Zerfall.\\
+Reaktion: \ce{A ->[{k}] P}\\
+\begin{align*}
+    v &= -\frac{d[A]}{dt}\\
+    &= k[A]\\
+\end{align*}
+Integration:
+\begin{align*}
+    \int_{[A(t=0)]}^{[A]}\frac{d[A]}{[A]} &= -k\int_{0}^{t}\,dt\\
+    \left[\ln [A]\right]_{[A(t=0)]}^{[A]} &= -k[t]_0^t\\
+    \ln [A] - \ln [A(t=0)] &= -k(t-0)\\
+    \text{Integriertes geschwindigkeitsgesetz:}\\
+    \ln \frac{[A]}{[A(t=0)]} &= -kt\\
+    [A] &= [A(t=0)]e^{-kt}
+\end{align*}
+Halbwertszeit $t_\frac{1}{2}$ durch Einsetzen von $[A] = \frac{[A(t=0)]}{2}$ in das integrierte Geschwindigkeitsgesetz bei Reaktionen 1. Ordnung, erhält man:\\
+\begin{align*}
+    \frac{[A(t=0)]}{2} &= [A(t=0)]e^{-kt_\frac{1}{2}}\\
+    \ln [A(t=0)] - \ln 2 &= \ln [A(t=0)] - kt_\frac{1}{2}\\
+    t_\frac{1}{2} &= \frac{\ln 2}{k}
+\end{align*}
+Die Halbwertszeit von Reaktionen 1.Ordnung ist unabhängig von der Anfangskonzentration.\\
+Wie verändert sich die Produkt konzentration mit der Zeit?\\
+\ce{A ->[{k}] P}\\
+Für $t=0,\, [P]=0,\, [A]=[A(t=0)]$\\
+Für $t=t,\, [A] = [A(t=0)]-[P]$\\
+\begin{equation*}
+    v = \frac{1}{\nu_A}\frac{d[A]}{dt} = \frac{1}{\nu_p}\frac{d[P]}{dt} = k[A]
+\end{equation*}
+\begin{align*}
+    \frac{d[P]}{dt} &= k([A(t=0)]-[P]) \text{ mit } \nu_P = 1\\
+    \int_{0}^{[P]} \frac{d[P]}{[A(t=0)]-[P]} &= k \int_{0}^{t} dt\\
+    \left[-\ln \left([A(t=0)]-[P]\right)\right]_0^{[P]} &= k[t]_0^t\\
+    -\ln \left([A(t=0)]-[P]\right) + \ln ([A(t=0)]-[0]) &= k(t-0)\\
+    \ln \frac{[A(t=0)]}{[A(t=0)]-[P]} &= kt\\
+    \frac{[A(t=0)]}{[A(t=0)]-[P]} &= e^{kt}\\
+    [A(t=0)]e^{-kt} &= [A(t=0)]-[P]\\
+    [P] &= [A(t=0)]\left(1-e^{-kt}\right)
+\end{align*}
+
+\subsection{Reaktion 2.Ordnung}
+\subsubsection{Variante 1}
+\ce{2A ->[{k}] P}   $\nu_A = -2$\\
+Geschwindigkeitsgesetz:\\
+\begin{align*}
+    -\frac{1}{2}\frac{d[A]}{dt} &= k[A]^2\\
+    \frac{d[A]}{dt} &= -2 k [A]^2
+\end{align*}
+$k: [\mathrm{\frac{l}{mol\cdot s}}]$\\
+Integration:
+\begin{align*}
+    \int_{[A(t=0)]}^{[A]} \frac{d[A]}{[A]^2} &= - 2k \int_{0}^{t} \, dt\\
+    \left[-\frac{1}{[A]}\right]^{[A]}_{[A(t=0)]} &= -2k[t]_0^t\\
+    \text{Integriertes Geschwindigkeitsgesetz:}\\
+    \frac{1}{[A]} - \frac{1}{[A(t=0)]} &= 2kt\\
+\end{align*}
+\end{document}

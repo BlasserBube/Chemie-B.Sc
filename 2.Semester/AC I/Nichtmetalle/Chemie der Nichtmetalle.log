@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  6 JUN 2023 11:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  13 JUN 2023 11:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -645,19 +645,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 396--400
 
  []
 
-[8] (Chemie der Nichtmetalle.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
+
+ []
+
+[9] (Chemie der Nichtmetalle.aux) ) 
 Here is how much of TeX's memory you used:
- 15432 strings out of 475385
- 312036 string characters out of 2793322
- 699844 words of memory out of 3000000
- 36564 multiletter control sequences out of 15000+600000
- 473229 words of font info for 41 fonts, out of 8000000 for 9000
+ 15484 strings out of 475385
+ 312931 string characters out of 2793322
+ 699942 words of memory out of 3000000
+ 36614 multiletter control sequences out of 15000+600000
+ 473907 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,19n,118p,572b,784s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on "Chemie der Nichtmetalle.pdf" (8 pages, 196366 bytes).
+ 115i,19n,118p,572b,899s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk> <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti7.pfb>
+Output written on "Chemie der Nichtmetalle.pdf" (9 pages, 201747 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
+ 108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

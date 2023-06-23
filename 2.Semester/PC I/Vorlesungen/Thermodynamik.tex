@@ -1214,7 +1214,184 @@ Augussche Dampfdruckformel\\
 binäre Mischungen - ideale Gase, Lösungen (kolligative Eigenschaften), Flüssige Mischungen im Ggw mit der Dampfphase, Flüssigkeiten/Feststoffe: Mischbarkeit\\
 
 \subsubsection{partielle Größen}
-Allgemein für eine Größe $Z \rightarrow dZ = \sum_{i} \left(\frac{\partial Z}{\partialn_i}\right)_{p,T,n'}$ $dn_i = \sum_{i} z_i \,dn_i$\\
+Allgemein für eine Größe $Z \rightarrow dZ = \sum_{i} \left(\frac{\partial Z}{\partial n_i}\right)_{p,T,n'}$ $dn_i = \sum_{i} z_i \,dn_i$\\
 partielle molare freie Enthalpie $\mu_i = \left(\frac{\partial G}{\partial n_i}\right)_{p,T,n'} \Rightarrow dG = \sum_{i} \mu_i\,dn_i \Rightarrow G = \sum_{i}\mu_in_i$\\
 partielles molares Volumen $V_i = \left(\frac{\partial V}{\partial n_i}\right)_{p,T,n'}$
+
+\begin{align*}
+    G &= \sum_{i=1}^{k} \mu_in_i\\
+    dG &= \sum_{i=1}^{k} n_id\mu_i\\
+    dG &= V\,dp - S\,dT + \sum_{i=1}^{k}n_i\,d\mu_i\\
+    0 &= \sum_{i=1}^{k} n_i\,d\mu_i\\
+\end{align*}
+
+\subsubsection{Mischungen idealer Gase}
+Reinstoffe:
+\begin{equation*}
+    G_m = G_M^0 + RT \ln \frac{p}{p^0}
+\end{equation*}
+Mischung:
+\begin{equation*}
+    \mu_i = \mu_i^0 + RT\ln\frac{p_i}{p}
+\end{equation*}
+Molenbruch\
+\begin{equation*}
+    x_i = \frac{p_i}{p}
+\end{equation*}
+Somit:
+\begin{align*}
+    \mu_i &= \mu_i^0 + RT \ln \frac{x_ip}{p^0}\\
+    &= \mu_i^0 + RT \ln\frac{p}{p_0} + RT\ln x_i\\
+    \mu_i^* &= \mu_i^0 + RT \ln\frac{p}{p_0}\\
+    \mu_i &= \mu_i^* +RT\ln x_i
+\end{align*}
+\begin{align*}
+    G_E &= n_A \mu_A + n_B \mu_B\\
+    &= n_A(\mu_A^0+RT\ln \frac{p_A}{p^0}) + n_B (\mu_B + RT \ln \frac{p_B}{p^0})\\
+    G_A &= n_A\mu_A + n_B\mu_B\\
+    &= n_A(\mu_A^0 + RT\ln\frac{p}{p^0})+n_B(\mu_B^0 + RT \ln\frac{p}{p^0})\\
+    \Delta_{Misch} G &= G_E - G_A\\
+    &= n_A 2T\ln\frac{p_A}{p}+n_BRT\ln\frac{p_B}{p}\\
+    &= nRT(x_a\ln x_a + x_B \ln x_B)\\
+    \Delta_M S &= -\left(\frac{\partial \Delta_M G}{\partial T}\right) = -n R (x_A \ln x_A + x_B \ln x_B)\\
+    \Delta_M H = 0,
+\end{align*}
+\subsection{Kolligative Eigenschaften}
+Lösung von B in Lösungsmittel in A\\
+B ist nicht flüchtig. und nicht in festem A löslich.
+\begin{align*}
+    \mu_A(l) &= \mu_A^*(s)\\ 
+    &= \mu_A^*(l)+RT_S\ln x_a\\
+    \mu_A^*(s) = \mu_A(l)\\
+    \mu_A(l) = \mu_A^*(g)
+\end{align*}
+
+\subsubsection{Isobare Siedepunkterhöhung}
+\begin{align*}
+    \mu_A^*(g) &= \mu_A^*(l)+RT\ln x_A\\
+    \ln x_A &= \frac{\mu_A^*(g) - \mu_A^*(l)}{RT}\\
+    &= \frac{\Delta_V G_A}{RT}\\
+\end{align*}
+Ableitung nach T:
+\begin{align*}
+    \frac{\partial \ln x_A}{\partial T} &= \frac{1}{R} \frac{\partial}{\partial T} \left(\frac{\Delta_V G_A}{T}\right)_p\\
+    &= - \frac{\Delta_V H_A}{RT^2}\\
+    \int_{0}^{\ln x_A} d\ln x_A &= \frac{1}{R} \int_{T*}^{T} \frac{\Delta_V H_A}{T^2}\,dT\\
+    \ln x_A &= \frac{\Delta_V H_A}{R}\left(\frac{1}{T}-\frac{1}{T*}\right)\\
+    &= \frac{\Delta_V H_A}{R} \left(\frac{T-T*}{T\cdot T*}\right)\\
+\end{align*}
+\begin{align*}
+    x_B &= 1-x_A\\
+    x_A &= 1-x_B\\
+    x_B \text{ klein: } \ln (1-x_B) &\approx - x_B\\
+    \frac{T-T*}{T\cdot T*} &\approx \frac{\Delta T}{T^{*2}}\\
+    \Delta T &= T-T*\\
+    &= K x_B\\
+    K &= \frac{RT^{*2}}{\Delta_V H}\\
+    \Delta T &= K_e b_B\\
+    b = \frac{n}{m}\\
+    \Rightarrow M_B &= \frac{m_B}{m_A}\frac{k_e}{\Delta T}
+\end{align*}
+A - gas\\
+A + b - liquid\\
+\begin{align*}
+    g&: \mu_A^*\\
+    l&: \mu_A (l) = \mu_A^*(l)+RT\ln x_A\\
+    \mathrm{Gesamt}&: \ln x_A = \frac{\mu_A^*(g)-\mu_A^*(l)}{RT}
+\end{align*}
+Annahme: $\mu_A^* (l) \neq f(p)$
+\begin{align*}
+    \frac{\partial ln x_A}{\partial p} &= \frac{\partial}{\partial p} \left(\frac{\mu_A^*(g)-\mu_A^*(l)}{RT}\right)\\
+    d\ln x_A &= \frac{1}{RT} \left(\frac{\partial \mu_A^*(g)}{\partial p}\right)_T \, dp\\
+    \left(\frac{\partial  \mu}{\partial p}\right)_T &= V_m\\
+    d\ln x_A &= \frac{V_m}{RT}\,dp\\
+    pV_m &= RT\\
+    V_m &= \frac{RT}{p}\\
+    \int_{p_A^*}^{p_A}\frac{1}{p}\,dp &= \int_{0}^{\ln x_A} \,dln x_A\\
+    \ln \frac{p_A}{p_A^*} &= \ln x_A\\
+    p_A &= x_A^l p_A^*
+\end{align*}
+$p_A$ Dampfdruck der Lösung, $p_A^*$ Dampfdruck reines Lösungsmittels\\
+\underline{NICHT} mit dem Daltonschen Partialdrucksgesetz verwechseln!\\
+\begin{equation*}
+    p_i = x_i^g p 
+\end{equation*}
+
+\subsubsection{Gefrierpunktsernidriegung}
+\begin{align*}
+    \mu_A^* (s) &= \mu_A^*(l) + RT \ln x_A\\
+    \Delta T &= K_{kr} b_B\
+    K_{kr} = \frac{RT*^2 M_A}{\Delta_{sm} H_{m,A}}
+\end{align*}
+
+\subsubsection{Osmotischer Druck}
+\begin{align*}
+    \mu_{A,l}^* (p) &= \mu_{A,l}(p+\pi)\\
+    &= \mu_{A,l}^* (p+\pi) + RT\ln x_A\\
+    \left(\frac{\partial \mu^*}{\partial p}\right)_T &= V_m\\
+    \mu_{A,l}^* (p+\pi) - \mu_{A_l}^+ (p) &= V_{m,p} \int_{p}^{p+\pi}\,dp\\
+    &= V_{m,a}\pi\\
+    -RT\ln x_A &= V_{m,A} \pi
+\end{align*}
+$\pi$ ist hier der osmotische Druck.
+\begin{align*}
+    \ln \left(1-x_B\right) &= \ln x_A\\
+    &\approx -x_B\\
+    RT x_B &= V_{m,A} \pi\\
+    \pi &= [B] RT\\
+\end{align*}
+Van't Hoffsches Gesetz des osmotischen Drucks ideal verdünnter Lösungen\\
+$[B]$ ist hier die Konzentration
+
+\subsubsection{Ideale Mischungen von Flüssigkeiten in Gas mit Dampf}
+reine Flüssigkeiten:
+\begin{align*}
+    \mu_{A,g}^* (p) &= \mu_{A,g}^0 + RT \ln \frac{p_A^*}{p^0}\\
+    \mu_{A,l}^* &= \mu_{A,g}^* + RT \ln \frac{p_A^*}{p^0}
+\end{align*}
+Gemisch:
+\begin{align*}
+    \mu_{A,g} &= \mu_{A,g}^0 + RT\ln \frac{p_A}{p^0}\\
+    \mu_{A,l} &= \mu_{A,l}^0 + RT \ln \frac{p_A}{p^0}\\
+\end{align*}
+Gesamt:
+\begin{align*}
+    \mu_{A,l} &= \mu_{A,l}^* - RT \ln \frac{p_A^*}{p^0} + RT \ln \frac{p_A}{p^0}\\
+    &= \mu_{A,l}^* + RT \ln \frac{p_A}{p_A^*}
+\end{align*}
+
+\subsubsection{empirisch (Raoultsches Gesetz)}
+\begin{equation*}
+    p_A = x_A p_A^*
+\end{equation*}
+
+für kleine $x_B$ (verdünnte Lösungen)\\
+\begin{align*}
+    p_B &= x_B k_B
+\end{align*}
+$k_B$ ist eine empirische Konstante
+
+\subsubsection{Aktivität des Losungsmittels}
+ideal:
+\begin{align*}
+    \mu_A (l) &= \mu_A^* (l) + RT \ln x_A\\
+    &= \mu_A^* (l) +RT\ln \frac{p_A}{p_A^*}
+\end{align*}
+nicht ideal:
+\begin{align*}
+    \mu_A (l) = \mu_A^* (l) + RT \ln a_A
+\end{align*}
+$a_A$ ist Aktivität $a_A = x_A \gamma_A$, $\gamma_A$ ist der Aktivitätskoeffizient\
+$x_A \rightarrow 1$ dann $\gamma_A \rightarrow 1$\\
+\begin{align*}
+    \mu_A (l) = \mu_A^*(l) + RT \ln x_A + RT\ln \gamma_A
+\end{align*}
+
+\subsubsection{Phasendiagramme von Zweikomponentensystemen}
+isotherm $T = \mathrm{konstant}$\\
+\begin{equation*}
+    F &= K-P+2 = 2\\
+    x_i^l, x_i^g, x_i
+\end{equation*}
+flüssige Phase, Gasphase, Gesamtsystem\\
 \end{document}
