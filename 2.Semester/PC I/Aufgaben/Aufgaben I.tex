@@ -686,10 +686,10 @@ b) 2 Phasen - gasförmig, flüssig. 1 Komponente\\
 \subsection*{7.1}
 a)
 \begin{align*}
-    \pi &= [\ce{NaCl}]RT\\
-    n(\ce{NaCl}) &= \frac{m}{M} = \frac{0.1}{58.4}\,\mathrm{mol} = 0.0017123\,\mathrm{mol}\\
-    [\ce{NaCl}] &= \frac{0.0017123\,\mathrm{g}}{0.1\,\mathrm{l}} = 0.017123\,\mathrm{\frac{mol}{l}}\\
-    \pi &= 0.017123\,\mathrm{\frac{mol}{l}} \cdot 8.3145\,\mathrm{\frac{J}{mol \cdot K}}\cdot 298.15\,\mathrm{K} = 42.4474\,\mathrm{\frac{J}{l}} = 42447.4\,\mathrm{\frac{J}{m^3}} = 42447.4\,\mathrm{Pa}
+    \pi &= CRT = \frac{n}{V_l}RT\\
+    n_{9\ce{NaCl}} &= 0.0017\,\mathrm{mol}\\
+    n &= 2n_{\ce{NaCl}}\\
+    \pi &= 8.48\cdot 10^4 \,\mathrm{Pa}
 \end{align*}
 b)
 Da sich bei der Gefrierpunktserniedrigung um eine Kolligative Eigenschaft handelt, also die Anzahl an zugesetzten Teilchen eine Rolle spielt, nicht die Art dieser und die 0.1$\,\mathrm{\frac{mol}{l}}$ an \ce{CaCl2} und \ce{HNO3} in Wasser gelöst werden bzw. deprotonieren, ist der Effect hier stärker als bei der Essigsäure, da bei \ce{CaCl2} 3 Ionen pro in Wasser gelöstes Molekül vorliegen, fällt hier der Effekt der Gefrierpunktserniedrigung stärker aus, als bei der simplen Deprotonierung der Salpetersäure.\\
@@ -703,16 +703,47 @@ a)
     \Delta T &= 1860\,\mathrm{\frac{K \cdot g}{mol}} \cdot 0.0000852529 \,\mathrm{\frac{mol}{g}} = 0.1586\,\mathrm{K}\\
     T_{\text{Gefrierpunkt}} &= 273.15\,\mathrm{K} - \Delta T = 272.99\,\mathrm{K}\\s
 \end{align*}
-
+b)
+\begin{align*}
+    \ce{C6H5COOH &<-> C6H5Coo^{-} + H^{+}}\\
+    \Delta T &= bK_{Kr} = \frac{nK_{Kr}}{m_w}\\
+    n &= \frac{\Delta T m_w}{K_{Kr}}\\
+    n_0 &= \frac{m_{BS}}{M_{BS}}\\
+    \alpha &= \frac{n_{Diss}}{n_0} =  \frac{n-n_0}{n_0}\\
+    \ce{HA &<-> A^- + H^+}\\
+    n_{\ce{H^+}} &= n_{\ce{A^-}} = \alpha n_0\\
+    n_{\ce{HA}} &= n_0 - \alpha n_0 = (1-\alpha)n_0\\
+    n &= n_{\ce{HA}} + n_{\ce{H^+}} + n_{\ce{A^-}} = (1-\alpha) n_0 + 2 \alpha n_0 = (1 + \alpha) n_0\\
+    1 + \alpha &= \frac{n}{n_0}\\
+    alpha &= \frac{n}{n_0}-1 = \frac{n-n_0}{n_0}\\
+    \alpha &= \frac{n}{n_0} - 1 = \frac{\Delta T m_w}{K_{Kr} \frac{m_{BS}}{M_{BS}}} - 1 = 0.093 = 9.3 \%
+\end{align*}
 \subsection*{7.3}
-
+\begin{align*}
+    \mu^*_A(s) &= \mu_A(l) = \mu^*_A(l) + RT \ln x_A\\
+    \mu^*_A(s) &= \mu^*_A(l) +RT\ln x_A\\
+    \ln x_A &= \frac{\mu^*_A(s) - \mu^*_A(l)}{RT} = \frac{\Delta_{\text{gefrieren}}G}{RT} = \frac{-\Delta_{\text{sm}} G }{RT}\\
+    \frac{d}{dT}\ln x_A &= -\frac{1}{R}\frac{d}{dt}\left\left(\frac{\Delta_{\text{sm}} G}{T}\right)\\
+    \text{Mit Gibbs-Helmholtz-Gleichung:}\\
+    \frac{\partial}{\partial T} \left(\frac{G}{T}\right) &= -\frac{H}{T^2}\\
+    \frac{d}{dT}\ln x_A &= -\frac{1}{R} \frac{-\Delta_{\text{sm}H}}{T^2}\\
+    \frac{d}{dT}\ln x_A &= \frac{\Delta_{\text{sm}}H}{R} \frac{1}{T^2}\\
+    \int_{x_A = 1}^{x_A}\,d\ln x_A &= \frac{\Delta_{\text{sm}}H}{R}\int_{T^*}^{T}\frac{dT}{T^2}\\
+    \ln x_A - \ln (1) &= \frac{-\Delta_{sm}H}{R} \left(\frac{1}{T}-\frac{1}{T^\alpha}\right) = \frac{-\Delta_{\text{sm}}H}{R}\left(\frac{T^*-T}{TT^*}\right) = \frac{-\Delta_{\text{sm}}H\cdot \Delta T}{RT^2}\\
+    \ln x_a &= \ln (1-x_b) \approx -x_B\\
+    x_B &= \frac{\Delta_{\text{sm}}H\cdot \Delta T}{RT^2}\\
+    x_B &= \frac{n_B}{n_B+n_A} \approx \frac{n_B}{n_A} = \frac{n_B}{\frac{m_A}{M_A}} = \frac{n_B M_A}{m_A}\\
+    \frac{n_B M_A}{m_A} &= \frac{\Delta_{\text{sm}}H\cdot \Delta T}{RT^2}\\
+    \Delta T &= \frac{RT^2 n_B M_A}{\Delta_{\text{sm}}H m_A} = K_{Kr}b\\
+    K_{Kr} &= \frac{RT^2 M_A}{\Delta_{\text{sm}}H}
+\end{align*}
 \subsection*{7.4}
 \begin{align*}
     x_j &= 0.2\\
     x_k &= 0.3\\
     x_i &= 0.5\\
     \text{Rein:}\\
-    \mu^*_i &= \mu^*_i + RT\ln \frac{p^*_i}{p^0}\\
+    \mu^_i &= \mu^*_i + RT\ln \frac{p^*_i}{p^0}\\
     \text{Gemisch:}\\
     \mu_i &= \mu_i^0 + RT \ln \frac{p_i}{p^0}\\
     \text{Gesamt:}\\
@@ -724,5 +755,17 @@ a)
 \end{align*}
 
 \subsection*{7.5}
-
+\begin{align*}
+    n&=\frac{pV}{RT}=\frac{100000\,\mathrm{Pa}\cdot 0.0025\,\mathrm{m^3}}{8.3145\,\mathrm{\frac{J}{K\cdot mol}} \cdot 298.15\,\mathrm{K}} = 0.1\,\mathrm{mol}\\
+    \Delta G &= n_{ges} \cdot RT(x_A\ln x_A + x_B \ln x_B) = -343.64\,\mathrm{J}\\
+    \Delta S &= -nR(x_A\ln x_A + x_B \ln x_B) = 1.15\,\mathrm{\frac{J}{K}}\\
+    \Delta_KS + \Delta_{mix}S = 0\\
+    w &= -nRT\ln\frac{V_E}{V_A}\\
+    T &= const.\\
+    \Delta U &= q+w = 0\\
+    q &= -w = nRT\ln\frac{V_E}{V_A}\\
+    \Delta_K S &= \frac{q_{rev}}{T} = nR\ln\frac{V_E}{V_A} = -\Delta_{mix}S\\
+    \ln \frac{V_E}{V_A} &= -\frac{\Delta_{mix S}}{nR}\\
+    V_E &= V_A e^{-\frac{\Delta_{mix}S}{nR}} \approx 2.5\cdot 10^{-3}\,\mathrm{m^3}
+\end{align*}
 \end{document}

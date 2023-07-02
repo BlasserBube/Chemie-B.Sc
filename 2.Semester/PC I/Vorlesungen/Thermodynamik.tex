@@ -1390,8 +1390,56 @@ $x_A \rightarrow 1$ dann $\gamma_A \rightarrow 1$\\
 \subsubsection{Phasendiagramme von Zweikomponentensystemen}
 isotherm $T = \mathrm{konstant}$\\
 \begin{equation*}
-    F &= K-P+2 = 2\\
+    F = K-P+2 = 2\\
     x_i^l, x_i^g, x_i
 \end{equation*}
 flüssige Phase, Gasphase, Gesamtsystem\\
+\subsection{Dampfdurckdiagramme}
+\begin{align*}
+    p_A &= x_A^l p*_A, p_B &= x_B^l p*_B, x_B^l = 1- x_A^l\\
+    p(s_A^l) &= p_A + p_B = x_A^lp*_A + x_B^lp*_B = p*_B + (p*_A-p*_B)x_A^l\\
+    \text{Siedekurve}\\
+    x_A^g &= \frac{p_A}{p}, x_B^g = \frac{p_B}{p} \Rightarrow p_A = x_A^lp*_A = x_A^g , p_B = x_B^lp*_B=x_B^gp\\
+    p(x_A^g) &= p*_B + (p*_A - p*_B)\frac{x_A^gp}{p*_A} = \frac{p*_Ap*_B}{p*_A+x_A^g(p*_B-p*_A)}\\
+    \text{Kondensationskurve}
+\end{align*}
+\subsection{Azeotrope}
+\chemfig{A-B} schwächer als \chemfig{A-A}, \chemfig{B-B}\\
+Die maximale Reinheit ist durch die Zusammensetzung in azeotropen Punkt.\\
+Begrenzt mischbare Flüssigkeiten:\\
+ideale flüssige Mischungen:
+\begin{equation*}
+    E_{A-A} \approx E_{B-B} \approx E_{A-B}
+\end{equation*}
+Mischung:
+\begin{equation*}
+    \mu_i = \mu*_i + RT\ln x_i
+\end{equation*}
+\begin{align*}
+    A,B \Rightarrow \Delta_M G = nRT(x_A\ln x_A + x_B \ln x_B)\\
+    \Delta_M H=0, \Delta_M S = -nR(x_A\ln x_A + x_B \ln x_B)\\
+    \Delta_M G = \Delta_MH - T\Delta_MS\\  
+\end{align*}
+\subsubsection{Beliebige Größe}
+Beliebige Größe $Z \rightarrow$ Exzessgröße\\
+\begin{align*}
+    Z^E &= \Delta_M Z - \Delta_M Z^{ideal}\\
+    \text{Exzessenthalpie: } H^E = \Delta_M H - \Delta_M H^{ideal}\\
+    \text{Exzessentropie: } S^E = \Delta_M S - \Delta_M S^{ideal}\\
+    \text{freie Exzessenthalpie: } G^E = \Delta_M G - \Delta_M G^{ideal}
+\end{align*}
+Bsp.: reguläre Lösung
+\begin{align*}
+    S^E = 0, H^E \neq 0
+\end{align*}
+Ansatz:
+\begin{equation*}
+    H^E = n\beta RTx_Ax_B
+\end{equation*}
+\begin{equation*}   
+    \beta < 0, E_{A-B}>E_{A-A},E_{B-B}
+\end{equation*}
+\begin{equation*}
+    \Delta_M G = nRT(x_A\ln x_A + x_B \ln x_B + \beta x_Ax_B)
+\end{equation*}
 \end{document}

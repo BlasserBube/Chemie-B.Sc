@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  15 JUN 2023 14:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  27 JUN 2023 12:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -566,6 +566,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package chemgreek Info: Activating mapping `default' on line 17.
 
 Package hyperref Info: Link coloring OFF on input line 17.
+ (Thermodynamik.out) (Thermodynamik.out)
 \@outlinefile=\write4
 \openout4 = `Thermodynamik.out'.
 
@@ -604,25 +605,26 @@ Package hyperref Info: Link coloring OFF on input line 17.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-No file Thermodynamik.toc.
+(Thermodynamik.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+ (D:\MikTex\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+ (D:\MikTex\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
 \tf@toc=\write5
 \openout5 = `Thermodynamik.toc'.
 
-[1
-
-{C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+ [2]
 Underfull \hbox (badness 10000) in paragraph at lines 33--36
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
-(D:\MikTex\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
- (D:\MikTex\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+
 Underfull \hbox (badness 10000) in paragraph at lines 43--50
 
  []
@@ -657,7 +659,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--99
 
  []
 
-[2]
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 103--106
 
  []
@@ -697,7 +699,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--137
 
  []
 
-[3]
+[4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 137.
@@ -783,12 +785,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--169
 
  []
 
-[4]
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 193--196
 
  []
 
-[5]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
@@ -808,7 +810,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--244
 
  []
 
-[6]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
@@ -863,7 +865,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 279--282
 
  []
 
-[7]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 351--352
 
  []
@@ -878,7 +880,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 358--361
 
  []
 
-[8]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 363--365
 
  []
@@ -888,12 +890,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 368--370
 
  []
 
-[9]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 427--428
 
  []
 
-[10]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 434--439
 
  []
@@ -925,21 +927,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 469--473
 
  []
 
-[11]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 545--547
 
  []
 
-[12]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 577.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 577.
-
 [13]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 577.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 577.
+
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 617--619
 
  []
@@ -949,7 +951,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 621--623
 
  []
 
-[14]
+[15]
 Overfull \hbox (2.44205pt too wide) in paragraph at lines 681--681
 []\OT1/cmr/bx/n/12 Kalorimetrie: Mes-sung von W^^?armeeffekten []Schmelzen-thalpien und Reak-tion-sen-thalpien[] 
  []
@@ -969,21 +971,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 694--696
 
  []
 
-[15]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 786--788
 
  []
 
-[16]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 801.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 801.
-
 [17]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 801.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 801.
+
+[18]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 892.
@@ -996,7 +998,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 892.
 
-[18]
+[19]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 905.
@@ -1009,7 +1011,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 905.
 
-[19]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 969--970
 
  []
@@ -1019,7 +1021,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1002--1005
 
  []
 
-[20]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 1017--1021
 
  []
@@ -1038,7 +1040,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1047--1050
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 1069.
 
-[21]
+[22]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1089.
@@ -1120,7 +1122,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1121--1126
 
  []
 
-[22]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 1136--1142
 
  []
@@ -1148,7 +1150,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1165--1170
 
  []
 
-[23]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 1199--1201
 
  []
@@ -1158,12 +1160,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1209--1210
 
  []
 
-[24]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 1214--1215
 
  []
 
-[25] [26]
+[26] [27]
 Underfull \hbox (badness 10000) in paragraph at lines 1294--1297
 
  []
@@ -1173,12 +1175,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1313--1316
 
  []
 
-[27]
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 1368--1369
 
  []
 
-[28]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 1383--1386
 
  []
@@ -1188,46 +1190,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 1391--1392
 
  []
 
-c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/PC I/Vorlesungen/Thermodynamik.tex:1393: Misplaced alignment tab character &.
-l.1393     F &
-              = K-P+2 = 2\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 1395--1397
 
  []
 
-[29] (Thermodynamik.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Underfull \hbox (badness 10000) in paragraph at lines 1424--1425
 
+ []
 
-Package rerunfilecheck Warning: File `Thermodynamik.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Thermodynamik.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D651A75177EBE312BE4CD543293C864E;18422.
+[30] [31] (Thermodynamik.aux)
+Package rerunfilecheck Info: File `Thermodynamik.out' has not changed.
+(rerunfilecheck)             Checksum: 25222ACD9423A5BD165F585834E92A3D;18830.
  ) 
 Here is how much of TeX's memory you used:
- 22706 strings out of 475385
- 423033 string characters out of 2793322
- 783166 words of memory out of 3000000
- 43591 multiletter control sequences out of 15000+600000
+ 22818 strings out of 475385
+ 425347 string characters out of 2793322
+ 792700 words of memory out of 3000000
+ 43692 multiletter control sequences out of 15000+600000
  478398 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,19n,118p,512b,712s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 115i,19n,118p,619b,712s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Thermodynamik.pdf (29 pages, 324681 bytes).
+Output written on Thermodynamik.pdf (31 pages, 385339 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
- 121 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 714 PDF objects out of 1000 (max. 8388607)
+ 126 named destinations out of 1000 (max. 500000)
+ 749 words of extra memory for PDF output out of 10000 (max. 10000000)
 

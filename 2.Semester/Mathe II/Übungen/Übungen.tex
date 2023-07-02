@@ -538,4 +538,44 @@ $\lambda =\sqrt{2}$:
     II &-\sqrt{2}y+\sqrt{2}z=0\\
     II &x-y-\sqrt{2}z=0
 \end{align*}
+
+\section*{Woche 7}
+\subsection*{Aufgabe 1}
+\begin{align*}
+    k_1c_A(t) &= k_2c_B(t)\\
+    \frac{1}{\mathrm{s}}c_A(t)&=\frac{0.2}{\mathrm{s}}c_B(t)\\
+    5 = \frac{c_B(t)}{c_A(t)}\\
+    c_B(t) &= 1\,\mathrm{\frac{mol}{l}} - c_A(t)\\
+    5 &= \frac{1\,\mathrm{\frac{mol}{l}} - c_A(t)}{c_A(t)}\\
+    c_A(t) &= \frac{1}{6}\,\mathrm{\frac{mol}{l}}\\
+    c_B(t) &= \frac{5}{6}\,\mathrm{\frac{mol}{l}}\\
+    \frac{d[A]}{dt} &= -(k_1 + k_2)([A]-[A](\infty))\\
+    \int_{[A](0)}^{[A]} \frac{d[A]}{[A]-[A](\infty)} &= -(k_1+k_2) \int_{t=0}^{t} \,dt\\
+    \ln \frac{[A](0)-[A](\infty)}{[A]-[A](\infty)} &= (k_1+k_2)t\\
+    [A] &= \left(e^{(k_1+k_2)t}\left([A](0)-[A](\infty)\right)\right) + [A](\infty)\\
+    [A](1) &= 0.54\,\mathrm{\frac{mol}{l}}\\
+    [A](10) &= 0.17\,\mathrm{\frac{mol}{l}}\\
+    [B](1) &= 0.46\,\mathrm{\frac{mol}{l}}\\
+    [B](10) &= 0.83\,\mathrm{\frac{mol}{l}}
+\end{align*}
+\subsection*{Aufgabe 2}
+a)
+\begin{align*}
+    y = \frac{1}{x-2},\,y'= \frac{1}{(x-2)^2},\, y''=\frac{1}{(x-2)^3}\\
+    2(x-2)\frac{1}{(x-2)^3}+(x+2)\frac{1}{(x-2)^2}+\frac{1}{x-2} &= 0\\
+    \frac{4}{(x-2)^2}-\frac{x+2}{(x-2)^2}+\frac{x-2}{(x-2)^2} &= 0\\
+    4+(-x-2)+(x-2) &= 0\\
+    0 &= 0\\
+\end{align*}
+\subsection*{Aufgabe 3}
+\begin{align*}
+    y = \sum_{n=0} a_nx^n,\,y' = \sum_{n=0} na_nx^{n-1},\,y = \sum_{n=0} n(n-1)a_nx^{n-2}\\
+    x \sum_{n=0} n(n-1)a_nx^{n-2} - \sum_{n=0} na_nx^{n-1} + x \sum_{n=0} na_nx^{n-1}+\sum_{n=0} a_nx^n &= 0\\
+    \sum_{n=1} n(n-2)a_nx^{n-1}+\sum_{n=0} (1-n) a_nx^n &=0\\
+    \sum_{n=0} ((n+1)(n-1)a_{n+1}-(n-1)a_n)x^n &=0\\
+    a_0 = 1, a_1 = 1 a_2 = \frac{1}{2}\dots\\
+    \text{Für }1+x:\\
+    -(1-x)+(1+x)\\
+    y=c_1e^x+c_2(1+2)
+\end{align*}
 \end{document}
