@@ -723,7 +723,7 @@ b)
     \mu^*_A(s) &= \mu_A(l) = \mu^*_A(l) + RT \ln x_A\\
     \mu^*_A(s) &= \mu^*_A(l) +RT\ln x_A\\
     \ln x_A &= \frac{\mu^*_A(s) - \mu^*_A(l)}{RT} = \frac{\Delta_{\text{gefrieren}}G}{RT} = \frac{-\Delta_{\text{sm}} G }{RT}\\
-    \frac{d}{dT}\ln x_A &= -\frac{1}{R}\frac{d}{dt}\left\left(\frac{\Delta_{\text{sm}} G}{T}\right)\\
+    \frac{d}{dT}\ln x_A &= -\frac{1}{R}\frac{d}{dt}\left(\frac{\Delta_{\text{sm}} G}{T}\right)\\
     \text{Mit Gibbs-Helmholtz-Gleichung:}\\
     \frac{\partial}{\partial T} \left(\frac{G}{T}\right) &= -\frac{H}{T^2}\\
     \frac{d}{dT}\ln x_A &= -\frac{1}{R} \frac{-\Delta_{\text{sm}H}}{T^2}\\
@@ -738,21 +738,21 @@ b)
     K_{Kr} &= \frac{RT^2 M_A}{\Delta_{\text{sm}}H}
 \end{align*}
 \subsection*{7.4}
-\begin{align*}
-    x_j &= 0.2\\
-    x_k &= 0.3\\
-    x_i &= 0.5\\
-    \text{Rein:}\\
-    \mu^_i &= \mu^*_i + RT\ln \frac{p^*_i}{p^0}\\
-    \text{Gemisch:}\\
-    \mu_i &= \mu_i^0 + RT \ln \frac{p_i}{p^0}\\
-    \text{Gesamt:}\\
-    \mu_i &= \mu^*_i + RT\ln \frac{p_i}{p^*_i}\\
-    \mu_i &= \mu^*_i + RT\ln \frac{x_ip^*_i}{p^*_i}\\
-    \mu_i &= \mu^*_i - 0.6931 \cdot 8.3145\,\mathrm{\frac{J}{mol \cdot K} \cdot 298\,\mathrm{K}}\\
-    \mu_i &= \mu^*_i - 1717.35\,\mathrm{\frac{J}{mol}}\\
-    \Delta \mu_i &= \mu^*_i - \mu_i = \mu^*_i - (\mu^*_i - 1717.35\,\mathrm{\frac{J}{mol}}) = 1717.35\,\mathrm{\frac{J}{mol}}
-\end{align*}
+%\begin{align*}
+%    x_j &= 0.2\\
+%    x_k &= 0.3\\
+%    x_i &= 0.5\\
+%    \text{Rein:}\\
+%    \mu^_i &= \mu^*_i + RT\ln \frac{p^*_i}{p^0}\\
+%    \text{Gemisch:}\\
+%    \mu_i &= \mu_i^0 + RT \ln \frac{p_i}{p^0}\\
+%    \text{Gesamt:}\\
+%    \mu_i &= \mu^*_i + RT\ln \frac{p_i}{p^*_i}\\
+%    \mu_i &= \mu^*_i + RT\ln \frac{x_ip^*_i}{p^*_i}\\
+%    \mu_i &= \mu^*_i - 0.6931 \cdot 8.3145\,\mathrm{\frac{J}{mol \cdot K}} \cdot 298\,\mathrm{K}\\
+%    \mu_i &= \mu^*_i - 1717.35\,\mathrm{\frac{J}{mol}}\\
+%    \Delta \mu_i &= \mu^*_i - \mu_i = \mu^*_i - (\mu^*_i - 1717.35\,\mathrm{\frac{J}{mol}}) = 1717.35\,\mathrm{\frac{J}{mol}}
+%\end{align*}
 
 \subsection*{7.5}
 \begin{align*}
@@ -768,4 +768,40 @@ b)
     \ln \frac{V_E}{V_A} &= -\frac{\Delta_{mix S}}{nR}\\
     V_E &= V_A e^{-\frac{\Delta_{mix}S}{nR}} \approx 2.5\cdot 10^{-3}\,\mathrm{m^3}
 \end{align*}
+
+\section*{Woche 8}
+\subsection*{8.1}
+Für eine Reaktion 0. Ordnung müsste der Umsatz an Reaktanten zu Produkten unabhängig zu deren Konzentration sein.\\
+Anhand der Betrachtung der ersten drei Werte ist dies nicht gegeben.\\
+Verlust an Konzentration von $t = 0$ s zu $t = 2000$ s beträgt 0.24 $\mathrm{\frac{mol}{l}}$, wobei sie von $t = 2000$ zu $t = 4000$ auch denselben Konzentrationsanteil verlieren sollte, jedoch werden nur 0.19 $\mathrm{\frac{mol}{l}}$ verloren.\\
+Um zu überprüfen ob es sich um einen linearen Zusammenhang handelt wird das Verhältnis von Konzentrationsänderung zur Ratenänderung betrachtet wird.\\
+Konzentrationsänderung 1. Schritt: 0.24 $\mathrm{\frac{mol}{l}}$\\
+Konzentrationsänderung 2. Schritt: 0.19 $\mathrm{\frac{mol}{l}}$\\
+Rate Schritt 1: 0.00012 $\mathrm{\frac{mol}{l \dot s}}$\\
+Rate Schritt 2: 0.000095 $\mathrm{\frac{mol}{l \cdot s}}$\\
+Verhältnis $c = \frac{c_2}{c_1} = \frac{0.19}{0.24} = 0.7917$\\
+Verhältnis Ratenänderung $\frac{r_2}{r_1} = \frac{0.000095}{0.00012} = 0.7917$\\
+Da beide Verhältnisse dasselbe Ergebnis liefern ist davon auszugehen, dass es sich hierbei um eine Reaktion 1. Ordnung handelt.\\
+Für die Bestimmung der Reaktionskonstante gilt somit:\\
+\begin{align*}
+    \ln \frac{[A]}{[A(t=0)]} &= -kt\\
+    - \frac{ln \frac{[A]}{[A(t=0)]}}{t} &= k\\
+    - \frac{ln \frac{0.86\,\mathrm{\frac{mol}{l}}}{1.10\,\mathrm{\frac{mol}{l}}}}{2000\,\mathrm{s}} &= k\\
+    0.00012306653\,\mathrm{\frac{1}{s}} &= k
+\end{align*}
+
+\subsection*{8.2}
+Geschwindigkeitskonstante:
+\begin{align*}
+    k &= - \frac{ln \frac{[A]}{[A(t=0)]}}{t}\\
+    k &= - \frac{ln \frac{0.8\,\mathrm{\frac{mol}{l}}}{1\,\mathrm{\frac{mol}{l}}}}{10\,\mathrm{s}}\\
+    k &= 0.0223\,\mathrm{\frac{1}{s}}
+\end{align*}
+Verbrauchte Konzentration zu $t= 40$ s:
+\begin{align*}
+    [A] &= [A(t=0)]\cdot e^{-kt}\\
+    [A] &= 1\,\mathrm{\frac{mol}{l}} \cdot e^{40\,\mathrm{s} \cdot 0.0223\,\mathrm{\frac{1}{s}}}\\
+    [A] &= 2.44\,\mathrm{\frac{mol}{l}}
+\end{align*}
+Lösung macht keinen Sinn, es kann nicht mehr Konzentration verbraucht werden als zu Beginn vorhanden ist...\\
 \end{document}
