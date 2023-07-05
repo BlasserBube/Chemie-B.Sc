@@ -214,4 +214,113 @@ Integration:
     \text{Integriertes Geschwindigkeitsgesetz:}\\
     \frac{1}{[A]} - \frac{1}{[A(t=0)]} &= 2kt\\
 \end{align*}
+Umformen nach $[A]$:\\
+\begin{align*}
+    \frac{1}{[A]} &= 2kt + \frac{1}{[A(t=0)]}\\
+    &= \frac{2kt[A(t=0)]+1}{[A(t=0)]}\\
+    [A]&=\frac{[A(t=0)]}{1+2kt[A(t=0)]}
+\end{align*}
+Nach der Halbwertszeit:\\
+\begin{align*}
+    \frac{1}{\frac{[A(t=0)]}{2}} - \frac{1}{[A(t=0)]} &= 2kt_{\frac{1}{2}}\\
+    t_\frac{1}{2} &= \frac{1}{2k[A(t=0)]}
+\end{align*}
+Umgekehrt proportional zur Anfangskonzentration\\
+Bsp.:\\
+\ce{2I -> I2}\\
+\ce{2NOBr -> 2NO + Br2}
+
+\subsubsection*{Variante 2}
+\ce{A+B -> P}\\
+Geschwindigkeitsgesetz:\\
+\begin{align*}
+    \frac{d[A]}{dt} &= - k[A][B]
+\end{align*}
+\textbf{Variante 2a:}\\
+\begin{align*}
+    [A(t=0)] &= [B(t=0)]\\
+\end{align*}
+daraus folgt $[A]=[B]$ zu jedem Zeitpunkt $t$\\
+\begin{align*}
+    \Rightarrow \frac{d[A]}{dt} &= -k[A]^2
+\end{align*}
+integriertes Geschwindigkeitsgesetz:\\
+\begin{align*}
+    \frac{1}{[A]}-\frac{1}{[A(t=0)]} &= kt\\
+    [A] &= \frac{[A(t=0)]}{1+[A(t=0)]kt}
+\end{align*}
+Halbwertszeit:\\
+\begin{align*}
+    t_\frac{1}{2} &= \frac{1}{k[A(t=0)]}
+\end{align*}\\
+
+\textbf{Merke:}\\
+Für eine Reaktion \ce{A -> P} $n$-ter Ordnung gilt:\\
+\begin{align*}
+    t_\frac{1}{2} \tilde k^{-1}[A(t=0)]^{-(n-1)}
+\end{align*}\\
+
+\textbf{Variante 2b:}\\
+\begin{equation*}
+    [A(t=0)] \neq [B(t=0)]
+\end{equation*}
+Geschwindigkeitsgesetz:\\
+\begin{align*}
+    \frac{d[A]}{dt} &= -k[A][B]
+\end{align*}
+Unter zur Hilfenahme der Reaktionsvariable $x$\\
+\begin{align*}
+    [A] &= [A(t=0)]-x\\
+    &\text{und}\\
+    [B] &= [B(t=0)]-x\\
+    &\text{Mit}\\
+    \frac{dx}{dt} &= \frac{1}{\gamma_A}\frac{d[A]}{dt}\\
+    \frac{dx}{dt} &= k([A(t=0)]-x)([B(t=0)]-x)\\
+    \int_{0}^{x} ([A(t=0)]-x)([B(t=0)]-x)\\
+    \frac{1}{[A(t=0)]-[B(t=0)]}\left(\int_{0}^{x}\frac{dx}{[B(t=0)-x]}-\int_{0}^{x} \frac{dx}{[A(t=0)]-x}\right)\\
+    = \frac{1}{[A(t=0)]-[B(t=0)]}\left(-\ln ([B(t=0)]-x)+\ln[B(t=0)]+\ln([A(t=0)]-x)-\ln[A(t=0)]\right)\\
+    \Rightarrow \frac{1}{[A(t=0)]-[B(t=0)]} \ln \left(\frac{[B(t=0)]([A(t=0)]-x)}{([B(t=0)]-x)[A(t=0)]}\right) &= kt
+\end{align*}
+Bsp.:\\
+\ce{H2 + I2 -> 2HI}\\
+\ce{H^{+} + OH^{-} -> H2O}\\
+\underline{Sonderfall:} Reaktion pseudo erster Ordnung\\
+\underline{Bsp:} Rohrzuckerinversion\\
+\ce{\text{Rohrzucker} + H2O -> \text{Fructose} + \text{Glucose}}\\
+Geschwindigkeitsgesetz:\\
+\begin{align*}
+    \frac{d[RZ]}{dt} &= -k[RZ][\ce{H2O}]
+\end{align*}\\
+Da \ce{H2O} al Lösungsmittel im großen Überschuss vorliegt, ist dessen Konzentration zeitlich nahezu konstant und kann in die Geschwindigkeitskonstante mit einbezogen werden\\
+\begin{equation*}
+    \Rightarrow \frac{d[RZ]}{dt} = - k'[RZ]
+\end{equation*}
+
+\subsection{Experimentelle Untersuchungsmethoden Prinzipielle Voraussetzungen}
+0. Messung einer Größe $\lambda_i$ die direkt mit der Konzentration $[i]$ einer bestimmten Reaktionskomponente $i$ korreliert.\\
+1. Zeitskala der Messung muss kurz ein im Vergleich zur Reaktionsgeschwindigkeit\\
+Faustregel: $t_{Mess} < t_\frac{1}{2}$\\
+2. Beginn der Reaktion muss klar definiert sein\\\\
+
+\subsubsection{Unterscheidung in zwei grundlegende Messmethoden}
+a) \underline{Diskontinuierliche Methode (ex-gita)}\\
+Probe wird aus laufender Reaktion entnommen und shließend analysiert\\
+\underline{Vorteil:} direkte Konzentrationsbestimmung\\
+\underline{Nachteil:} Reaktion schreitet zwischen Probennahme und Analyse weiter fort $\rightarrow$ Methode ist nur für langsame Reaktionen geeignet.\\
+\underline{Möglichkeiten um den Reaktionsfortschritt zu hemmen:}\\
+\begin{itemize}
+    \item Absenken der Temperatur ("Einfrieren")
+    \item Beseitigung eines Reaktionspartners durch chem. Reaktion bzw. Inhibitor.
+    \item Starkes verdünnen (Quenchen)
+\end{itemize}
+\underline{Bsp.:}\\
+Chemische Methoden:\\
+Gravimetrie\\
+Titrimetrie\\
+Instrumentelle Methoden:\\
+Massenspektrometrie\\
+Gaschromatographie\\\\
+
+b)\underline{Kontinuierliche Methode (in-situ / in-operando)}\\
+Konzentration wird unmittelbar
 \end{document}

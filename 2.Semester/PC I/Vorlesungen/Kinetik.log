@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  22 JUN 2023 11:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  4 JUL 2023 13:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -679,22 +679,127 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
 
-[5] (Kinetik.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--244
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--259
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--268
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 270--272
+
+ []
+
+
+Overfull \hbox (64.74799pt too wide) detected at line 283
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--291
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--311
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 316--323
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--323
+
+ []
+
+[8] (Kinetik.aux)
 Package rerunfilecheck Info: File `Kinetik.out' has not changed.
-(rerunfilecheck)             Checksum: 5F8FAC2A9F2A51EC4BF86B2C76AF501E;1917.
+(rerunfilecheck)             Checksum: 3B6C0AFC93598B09A21C39E9AFCA1EE2;2629.
  ) 
 Here is how much of TeX's memory you used:
- 22408 strings out of 475385
- 417931 string characters out of 2793322
- 779314 words of memory out of 3000000
- 43404 multiletter control sequences out of 15000+600000
- 472476 words of font info for 41 fonts, out of 8000000 for 9000
+ 22419 strings out of 475385
+ 418065 string characters out of 2793322
+ 779317 words of memory out of 3000000
+ 43408 multiletter control sequences out of 15000+600000
+ 472811 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,23n,118p,506b,551s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Kinetik.pdf (5 pages, 163507 bytes).
+ 115i,23n,118p,521b,551s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Kinetik.pdf (8 pages, 179661 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 171 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

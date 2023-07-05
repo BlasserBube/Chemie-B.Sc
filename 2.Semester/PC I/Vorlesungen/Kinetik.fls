@@ -877,9 +877,12 @@ OUTPUT Kinetik.toc
 INPUT C:\Users\mgils\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT D:\MikTex\fonts\tfm\public\cm\cmr12.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmbx12.tfm
+INPUT D:\MikTex\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT Kinetik.aux
 INPUT .\Kinetik.out
 INPUT .\Kinetik.out
+INPUT C:\Users\mgils\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\mgils\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx12.pfb

@@ -578,4 +578,56 @@ a)
     -(1-x)+(1+x)\\
     y=c_1e^x+c_2(1+2)
 \end{align*}
+
+\section*{Woche 8}
+\subsection*{Aufgabe 1}
+a)
+\begin{align*}
+    y'' - y' - 2y &= -4x^2-4x+10\\
+    y&= ax^2 + bx + c\\
+    y'&=2ax + b\\
+    y'' &= 2a\\
+    2a-(2ax+b)-2(ax^2+bx+c)&=-4x^2-4x+10\\
+    2a-2ax-b-2ax^2-2bx-2c &= -4x^2-4x+10\\
+    A = 2,\, B = 0,\,C=-3\\
+\end{align*}
+spezielle lösung:
+\begin{equation*}
+    y=2x^2-3
+\end{equation*}
+allgemeine Lösung:
+\begin{equation*}
+    y=c_1e^{-x}+c_2xe^{-x}+2x^2-3
+\end{equation*}
+b)
+
+\subsection*{Aufgabe 2}
+\begin{align*}
+    a^2 &\neq b^2\\y''+a^2y&=2\cos(bx)\\
+    \text{Homogen:}\\
+    \lambda^2+a^2&=0\\
+    \rightarrow\lambda_{1,2} &= \pm ia\\
+    y_h &= c_1 e^{-iax}+c_2e^{iax}\\
+    \text{Partikulär:}\\
+    y_p &= c_3 \cos(bx)\\
+    y_p' &= -c_3\sin(bx)\\
+    y_p''&=-c_3b^2\cos(bx)\\
+    -c_3b ^2\cos(bx)+a^2c_3\cos(bx)&=2\cos(bx)\\
+    -c_3b^2+a^2c_3&=2\\
+    c_3(a^2-b^2)&=2\\
+\end{align*}
+a)
+\begin{align*}
+    a^2 &\neq b^2\\
+    c_3(a^2-b^2)&=2\\
+    c_3 &= \frac{2}{(a^2-b^2)}\\
+    y&=y_h+y_p\\
+    &= c_1e^{-iax}+c_2e^{iax}+\frac{2}{(a^2-b^2)}\cdot \cos(bx)\\
+\end{align*}
+b)
+\begin{align*}
+    a^2 &= b^2\\
+    c_3 &\neq 2\frac{2}{0}
+\end{align*}
+Durch 0 kann man nicht teilen... nicht lösbar.
 \end{document}
