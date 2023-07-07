@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  28 JUN 2023 12:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  5 JUL 2023 12:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -879,22 +879,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 731--744
 
  []
 
-[18] [19] (Anorganische Chemie - Metalle.aux)
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 778--792
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--792
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--792
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 802--805
+
+ []
+
+[19] [20] (Anorganische Chemie - Metalle.aux)
 Package rerunfilecheck Info: File `"Anorganische Chemie - Metalle".out' has not changed.
-(rerunfilecheck)             Checksum: 931C4F0600B55D5845134400657AC1FC;16142.
+(rerunfilecheck)             Checksum: DE08601163DF22E8200FFD371ABAB32E;17465.
  ) 
 Here is how much of TeX's memory you used:
- 22506 strings out of 475385
- 422448 string characters out of 2793322
- 802113 words of memory out of 3000000
- 43409 multiletter control sequences out of 15000+600000
+ 22524 strings out of 475385
+ 422775 string characters out of 2793322
+ 802117 words of memory out of 3000000
+ 43418 multiletter control sequences out of 15000+600000
  474068 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,18n,104p,637b,779s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on "Anorganische Chemie - Metalle.pdf" (19 pages, 308477 bytes).
+Output written on "Anorganische Chemie - Metalle.pdf" (20 pages, 317910 bytes).
 PDF statistics:
- 665 PDF objects out of 1000 (max. 8388607)
- 116 named destinations out of 1000 (max. 500000)
- 757 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 710 PDF objects out of 1000 (max. 8388607)
+ 125 named destinations out of 1000 (max. 500000)
+ 821 words of extra memory for PDF output out of 10000 (max. 10000000)
 

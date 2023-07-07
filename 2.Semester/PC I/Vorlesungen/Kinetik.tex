@@ -319,8 +319,82 @@ Gravimetrie\\
 Titrimetrie\\
 Instrumentelle Methoden:\\
 Massenspektrometrie\\
-Gaschromatographie\\\\
+Gaschromatographie\\
 
 b)\underline{Kontinuierliche Methode (in-situ / in-operando)}\\
-Konzentration wird unmittelbar
+Konzentration wird unmittelbar am laufenden Reaktionssystem gemessen.\\
+\underline{Vorteil:}\\
+\begin{itemize}
+    \item Keine Probenentnahme - auch schnellere Reaktionen können untersucht werden
+\end{itemize}
+\underline{Nachteil:}\\
+\begin{itemize}
+    \item indirekte Konzentrationsbestimmung
+    \item Nebenprodukte können stören 
+    \item[$\hookrightarrow$] Abhilfe durch Kombination mehrerer
+\end{itemize}
+\underline{Bsp:}\\
+Klassische Methoden: Druckmessung, Volumenmessung, Polarimatrie, Refraktometrie, Kaloremetrie, Leitfähigkeit\\
+Spektroskopische Methoden: IR/Raman-Spektroskopie, MMR-Spektroskopie, $\dots$\\
+Praktisches Vorgehen für den Fall, dass die Konzentration nicht unmittelbar aus der gemessenen Größe $\lambda$ extrahiert werden kann, \underline{am Beispiel:}\\
+\begin{equation*}
+    \ce{A+B -> C+D} \text{ SIEHE FOLIE}
+\end{equation*}\\
+\underline{Initierung der Reaktion durch:}\\
+\begin{itemize}
+    \item[a)] Durchmischung $\rightarrow$ Strömungsmethode\\ Stopped-Flow-Methode (nur für vergleichsweise langsame Reaktionen geeignet)
+    \item[b)] Relaxationsmethode $\rightarrow$ Temperatur- oder Drucksprung
+    \item[c)] Photolyse $\rightarrow$ Blitzlichtphotolyse, Laser-Puls
+    \item[d)] Puls-Radiolyse
+    \item[] Details siehe Folie
+\end{itemize}
+
+\subsection{Bestimmung der Reaktionsordnung}
+Kenntnis der Reaktionsordnung ermögicht Rückschlüsse auf den Reaktionsmechanismus
+\subsubsection{Integrationsmethode}
+Gemessene Reaktandenkonzentration wird in geeigeneter Weise ($[A], \ln [A], [A]^{-1}$) gemäß der integrierten Geschwindigkeitsgesetze über die Zeit $t$ aufgetragen.\\
+0.Ordnung: $[A] = [A(t=0)]-kt$\\
+1.Ordnung: $\ln \frac{[A]}{[(t=0)]} = -kt$\\
+2. Ordnung: $\frac{1}{[A]} = \frac{1}{[A(t=0)]+kt}$\\
+
+\subsubsection{Halbwertszeitmethode}
+Messung der Halbwertszeit bei Variation der Anfangskonzentration $[A(t=0)]$\\
+$\Rightarrow t_\frac{1}{2}$ verändert sich proportional zu $[A(t=0)]$\\
+$\hookrightarrow$ Reaktion 0. Ordnung ($t_\frac{1}{2} = \frac{[A(t=0)]}{2k}$)\\
+$t_\frac{1}{2}$ ist unabhängig von $[A(t=0)]$\\
+$\hookrightarrow$ Reaktion 1. Ordnung ($t_\frac{1}{2}=\frac{\ln 2}{k}$)\\
+$t_\frac{1}{2}$ verhält sich umgekehrt proportional zu $[A(t=0)]$\\
+$\hookrightarrow$ Reaktion 2. ORdnung ($t_\frac{1}{2} = \frac{1}{k[A(t=0)]}$)\\
+allgemein: für eine Reaktion $n$-ter Ordnung:\\
+\begin{equation*}
+    t_\frac{1}{2} ~ [A(t=0)^{-(n-1)}]
+\end{equation*}
+
+\subsubsection{Isolationsmethode}
+Für Reaktionen mit mehreren Reaktanden, Beispiel:\\
+\begin{equation*}
+    \ce{A+B -> C+D}
+\end{equation*}
+\begin{align*}
+    \frac{d[A]}{dt} &= -k[A]^\alpha[B]^\beta
+\end{align*}
+$\rightarrow [B]$ wird in großem Überschuss zugegeben, sodass sich dessen Konzentration während der Reaktion (zumindest zu Beginn) quasi nicht ändert.\\
+Geschwindigkeitsgesetz vereinfacht sich zu:\\
+\begin{equation*}
+    \frac{d[A]}{dt} = -k'[A]^\alpha
+\end{equation*}
+(vgl. Reaktion pseudo-erster Ordnung)\\
+$\rightarrow$ Bestimmung der Partialordnung $\alpha$ mit der Integrations- oder der Halbwertszeitmethode.\\
+Anschließend das gleiche für $[B]$ zur Bestimmung von $\beta$.
+\subsubsection{Methode der Anfangsgeschwindigkeit}
+Reaktionsgeschwidigkeit wird nur zu Beginn der Reaktion gemessen wenn noch kaum Reaktand verbraucht wurde.\\
+Beispielreaktion:\\
+\begin{equation*}
+    \ce{A+B -> C+D}, r = -k[A]^\alpha[B]^\beta
+\end{equation*}
+$[A(t=0)]$ wird variiert, Veränderung von B wird vernachlässgt\\
+$\hookrightarrow\, \frac{d[A]}{t} = -k*[A]^\alpha$\\
+\begin{equation*}
+    \log \frac{d[A]}{dt} = -\log k' - a \log [A]
+\end{equation*} 
 \end{document}
