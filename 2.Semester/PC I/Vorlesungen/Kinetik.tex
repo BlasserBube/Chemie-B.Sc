@@ -397,4 +397,62 @@ $\hookrightarrow\, \frac{d[A]}{t} = -k*[A]^\alpha$\\
 \begin{equation*}
     \log \frac{d[A]}{dt} = -\log k' - a \log [A]
 \end{equation*} 
+\subsection{Temperaturabhängigkeit der Reaktionsgeschwindigkeitskonstante}
+Arrhenius-Gleichung:
+\begin{equation*}
+    k(T) = A\cdot e^{-\frac{E_A}{RT}}
+\end{equation*}
+Die Gleochung wurde empirisch abgeleitet, kann inzwischen aber im Rahmen der Stoßtheorie und/oder der Theorie des Übergangszustandes erklärt werden ($\rightarrow$ Statistische Thermodynamik)\\
+$A$ ist der präexponentieller Faktor / Frequenzfaktor:\\
+Er hängt von der Stoßhäufigkeit und Orientierung der Reaktanten ab ($\rightarrow$ entropisch)\\
+$E_A$ ist die Aktivierungsenergie\\
+Mindestenergie die 1 mol Teilchen für die Reaktion benötigen\\
+$e^{-\frac{E_A}{RT}}$ ist der Bruchteil der Teilchen, die bei dieser Temperatur die benötigte Aktivierungsenergie besitzen (Boltzmannverteilung)\\\\
+\underline{Bestimmung der Arrheniusparameter ($E_A, A$)}\\
+Bestimmung der Geschwindigkeitskonstante k bei verschiedenen Temperaturen $T$:\\
+\begin{equation*}
+    \ln k = \ln A - \frac{E_A}{RT}
+\end{equation*}
+Abweichung vom "Arrhenius-Verhalten" deutet auf kompliziertere Reaktionsmechanismen hin (siehe Folien)\\
+\section{Kinetik Komplexer Reaktionen}
+Komplexe Reaktionen sind aus mehreren Elementarreaktionen zusammengesetzt $\rightarrow$ Reaktionsmechanismen\\
+\underline{Grundtypen:}
+\begin{itemize}
+    \item Reversible Reaktion
+    \item Parallelreaktionen
+    \item Folgereaktionen
+\end{itemize}
+\underline{Kombination}
+\begin{itemize}
+    \item Folgereaktion mit reversiblem Teilschritt\\ vorgelagertes GGW \ce{A <-> B -> C}\\nachgelagertes GGW \ce{A -> B <-> C}
+    \item Geschlossene Folgereaktion\\\ce{A+B -> C+D}\\\ce{D+E -> A+C}\\Somit Bruttoreaktion: \ce{B+E -> 2 C}
+    \item Folgereaktion mit Parallelreaktion
+    \item und viele mehr
+\end{itemize}
+\subsection{Reversible Reaktionen}
+Im Allgemeinen laufen chemische Reaktionen nicht vollständig ab, sondern es stellt sich ein Gleichgewicht ein:
+\begin{equation*}
+    \ce{A + B <->[{k}][{k.}] C + D}
+\end{equation*}
+Hinreaktion:
+\begin{equation*}
+    \ce{A + B ->[{k}] C + D}
+\end{equation*}
+\begin{align*}
+    r &= \left(\frac{dx}{dt}\right)\\
+    &= k[A][B]\\
+    &= k([A(t=0)]+\gamma_Ax)([B(t=0)]\gamma_Bx)
+\end{align*}
+Rückreaktion:
+\begin{equation*}
+    \ce{C + D ->[{k.}] A + B}
+\end{equation*}
+\begin{align*}
+    r &= k.[C][D]\\
+    &= k.(\gamma_Cx)(\gamma_Dx)
+\end{align*}
+Gesamtreaktion:
+\begin{align*}
+    r = k[A][B]-k.[C][D]
+\end{align*}
 \end{document}
