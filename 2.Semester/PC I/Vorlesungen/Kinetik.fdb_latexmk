@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1689071868 "c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/PC I/Vorlesungen/Kinetik.tex" "Kinetik.pdf" "Kinetik" 1689071892 0
+["pdflatex"] 1689236757 "c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/PC I/Vorlesungen/Kinetik.tex" "Kinetik.pdf" "Kinetik" 1689236764 0
   "C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1686132456 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/mgils/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1681807980 11548 bab35a9c624a0c97a498ac4f39535339 ""
   "C:/Users/mgils/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1681807288 10771595 0d079affff91875ac464ba32b0914fe3 ""
@@ -26,6 +26,7 @@
   "D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596668 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb" 1247596666 32915 7bf7720c61a5b3a7ff25b0964421c9b6 ""
   "D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
+  "D:/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596674 34694 870c211f62cb72718a00e353f14f254d ""
   "D:/MikTex/tex/context/base/mkii/supp-pdf.mkii" 1580393758 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "D:/MikTex/tex/generic/atbegshi/atbegshi.sty" 1575574700 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "D:/MikTex/tex/generic/bigintcalc/bigintcalc.sty" 1576437202 40635 c40361e206be584d448876bba8a64a3b ""
@@ -156,11 +157,11 @@
   "D:/MikTex/tex/latex/tools/calc.sty" 1654690828 10214 de3e21cfc0eccc98ca7f8dac0ef263d2 ""
   "D:/MikTex/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "D:/MikTex/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "Kinetik.aux" 1689071889 3329 41ab581e959b2e4ed0a3ffd761736bcc "pdflatex"
-  "Kinetik.out" 1689071889 4304 8d5ceef7492fc2e1f7798c154c534fe2 "pdflatex"
-  "Kinetik.tex" 1689071849 19503 281129d592ba8436f27b825428b4187f ""
-  "Kinetik.toc" 1689071889 1954 974642a4847280f32dcc4f2b88988ee4 "pdflatex"
-  "c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/PC I/Vorlesungen/Kinetik.tex" 1689071849 19503 281129d592ba8436f27b825428b4187f ""
+  "Kinetik.aux" 1689236763 3455 233b555440cb6aad4bf859b5fa9bb5e2 "pdflatex"
+  "Kinetik.out" 1689236763 4452 523a4676f6988d0c82c4c9196e85106a "pdflatex"
+  "Kinetik.tex" 1689236741 21613 ee836ddfb55c13dd94ecc68727ea77fe ""
+  "Kinetik.toc" 1689236763 2039 4279eba004dbb30a97bfa00fd5a3cf7b "pdflatex"
+  "c:/Users/mgils/OneDrive/Private/Desktop/Chemie-B.Sc/2.Semester/PC I/Vorlesungen/Kinetik.tex" 1689236741 21613 ee836ddfb55c13dd94ecc68727ea77fe ""
   (generated)
   "Kinetik.aux"
   "Kinetik.log"

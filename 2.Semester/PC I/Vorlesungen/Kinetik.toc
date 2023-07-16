@@ -18,3 +18,4 @@
 \contentsline {subsection}{\numberline {3.6}Temperaturabhängigkeit der Reaktionsgeschwindigkeitskonstante}{9}{subsection.3.6}%
 \contentsline {section}{\numberline {4}Kinetik Komplexer Reaktionen}{10}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Reversible Reaktionen}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Parallelreaktionen}{11}{subsection.4.2}%

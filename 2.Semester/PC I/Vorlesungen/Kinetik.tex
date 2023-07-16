@@ -453,6 +453,70 @@ Rückreaktion:
 \end{align*}
 Gesamtreaktion:
 \begin{align*}
-    r = k[A][B]-k.[C][D]
+    r &= k[A][B]-k.[C][D]\\
+    r_{hin} &= r_{ruck}
+\end{align*}
+Prinzip der mikroskopischen Reversiabilität
+\begin{align*}
+    k[A_{GGW}][B_{GGW}]&= k.[C_{GGW}][D_{GGW}]\\
+    \frac{[A_{GGW}][B_{GGW}]}{[C_{GGW}][D_{GGW}]} &= \frac{k}{k.} = K
+\end{align*}
+Achtung: kinetische Herleitung des Massenwirkungsgesetzes gilt nur Nährungsweise, da K über die Aktivität definiert ist.\\\\
+\underline{Konhzentrationsverlauf einer reversiblen Reaktion}\\
+\ce{A <->[{k}][{k.}] B}\\
+Annahme: $[B]_0 = 0$\\
+Alle Tielschritte sind 1. Ordnung.\\
+\begin{align*}
+    r &= \frac{-d[A]}{dt}\\
+    &= k[A]-k.[B]\\
+    [B] = [A]_0 - [A]\\
+    &= k[A]-k.([A]_0-[A])\\
+    &= (k1+k.)[A]-k.[A]_0
+\end{align*}
+Im Gleichgewicht: $t \rightarrow \infty$\\
+\begin{align*}
+    r &= 0\\
+    [A_{GGW}]\\
+    0 &= (k1+k.)[A]-k.[A]_0\\
+    k[A&]_0=(k+k.)[A_{GGW}]\\
+\end{align*}
+\begin{align*}
+    -\frac{d[A]}{dt} &= (k+k.)[A]-(k+k.)[A_{GGW}]\\
+    - \int_{[A]_0}^{[A]}\,\frac{d[A]}{[A]-[A_{GGW}]} &= (k+k.) \int_{0}^{t}\,dt\\
+    \ln \left(\frac{[A]_0 - [A_{GGW}]}{[A]-[A_{GGW}]}\right) &= (k+k.)t
+\end{align*}
+Falls $\mathbb{K}$ bekannt sind über $K = \frac{k}{k.}$ auch die einzelnen Geschwindigkeitskonstante zugängiglich, nicht nur deren Summe.\\
+Konzentrationsverlauf:
+\begin{align*}
+    [A] &= [A_{GGW}] + \left([A]_0-[A_{GGW}]\right)e^{-(k+k.)t}\\
+    [B] &= [B_{GGW}] + \left([A]_0-[A_{GGW}]\right)\left(1-e^{-(k+k.)t}\right)\\
+\end{align*}
+
+\subsection{Parallelreaktionen}
+Beispiel: Spaltung von Formaldehyd\\
+Annahme:
+\begin{itemize}
+    \item Alle Teilschritte 1. Ordnung
+    \item Zu Beginn liegt nur A vor
+\end{itemize}
+Zerfall Stoff A:
+\begin{align*}
+    \frac{d[A]}{dt} &= -k[A]-k.[A]\\
+    &= -(k+k.)[A]\\
+    &= -k_{eff} [A]
+\end{align*}
+Wie Reaktion 1. Ordnung\\
+integriertes Geschwindigkeitsgesetz:
+\begin{equation*}
+    [A] = [A]_0 e^{-(k1+k.)t}
+\end{equation*}
+Bildung von B:
+\begin{equation*}
+    \frac{d[B]}{dt} = k[A]
+\end{equation*}
+\begin{align*}
+    \frac{d[B]}{dt} &= k[A]_0 e^{-(k+k.)t}\\
+    \int_{0}^{[B]}\,d[B] &= k[A]_0 \int_{0}^{t} e^{-(k+k.)t}\,dt\\
+    [B] &= 
 \end{align*}
 \end{document}
