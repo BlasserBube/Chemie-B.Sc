@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.12)  19 JUL 2023 09:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.12)  19 JUL 2023 09:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/AC I/Protokolle/Quant 1.tex"
-(c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/AC I/Protokolle/Quant 1.tex
+**"c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/AC I/Protokolle/Quant 4.tex"
+(c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/AC I/Protokolle/Quant 4.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-03-30> (E:\LaTex-Stuff\MikTex\tex/latex/koma-script\scrartcl.cls
 Document Class: scrartcl 2022/10/12 v3.38 KOMA-Script document class (article)
@@ -899,8 +899,8 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count453
 \@quotereset=\count454
-(Quant 1.aux)
-\openout1 = `"Quant 1.aux"'.
+(Quant 4.aux)
+\openout1 = `"Quant 4.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
@@ -952,11 +952,11 @@ File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `"Quant 1.bcf"'.
+\openout4 = `"Quant 4.bcf"'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '"Quant 1".bbl' found.
- (Quant 1.bbl)
+Package biblatex Info: ... file '"Quant 4".bbl' found.
+ (Quant 4.bbl)
 Package biblatex Info: Reference section=0 on input line 31.
 Package biblatex Info: Reference segment=0 on input line 31.
 
@@ -1013,52 +1013,37 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (Quant 1.toc)
+{C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (Quant 4.toc)
 \tf@toc=\write5
-\openout5 = `"Quant 1.toc"'.
+\openout5 = `"Quant 4.toc"'.
 
  [1]
-Underfull \hbox (badness 10000) in paragraph at lines 64--70
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--126
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
-
- []
-
-[3] [4] (Quant 1.aux)
-Package logreq Info: Writing requests to '"Quant 1".run.xml'.
-\openout1 = `"Quant 1.run.xml"'.
+[2] (Quant 4.aux)
+Package logreq Info: Writing requests to '"Quant 4".run.xml'.
+\openout1 = `"Quant 4.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
  38511 strings out of 476326
  916072 string characters out of 5798509
- 1916675 words of memory out of 5000000
+ 1913675 words of memory out of 5000000
  58363 multiletter control sequences out of 15000+600000
  525479 words of font info for 63 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,13n,106p,10733b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk> <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2074.pk><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Quant 1.pdf" (6 pages, 123779 bytes).
+ 108i,14n,106p,10733b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk> <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2074.pk><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmsy6.pfb><E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Quant 4.pdf" (4 pages, 127730 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
+ 243 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
