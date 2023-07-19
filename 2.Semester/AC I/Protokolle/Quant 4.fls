@@ -1095,6 +1095,13 @@ INPUT Quant 4.toc
 OUTPUT Quant 4.toc
 INPUT E:\LaTex-Stuff\MikTex\fonts\tfm\jknappen\ec\ecrm0800.tfm
 INPUT E:\LaTex-Stuff\MikTex\fonts\tfm\jknappen\ec\ecrm0600.tfm
+INPUT .\Abb\EDTA.png
+INPUT .\Abb\EDTA.png
+INPUT Abb\EDTA.png
+INPUT .\Abb\EDTA.png
+INPUT .\Abb\EDTA.png
+INPUT .\Abb\EDTA.png
+INPUT .\Abb\EDTA.png
 INPUT Quant 4.aux
 INPUT Quant 4.run.xml
 OUTPUT Quant 4.run.xml
@@ -1110,13 +1117,13 @@ INPUT C:\Users\mgils\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecs
 INPUT C:\Users\mgils\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk
 INPUT E:\LaTex-Stuff\MikTex\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT E:\LaTex-Stuff\MikTex\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT E:\LaTex-Stuff\MikTex\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT E:\LaTex-Stuff\MikTex\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT E:\LaTex-Stuff\MikTex\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT E:\LaTex-Stuff\MikTex\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT E:\LaTex-Stuff\MikTex\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT E:\LaTex-Stuff\MikTex\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT E:\LaTex-Stuff\MikTex\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT E:\LaTex-Stuff\MikTex\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT E:\LaTex-Stuff\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT E:\LaTex-Stuff\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT E:\LaTex-Stuff\MikTex\fonts\type1\public\amsfonts\cm\cmsy6.pfb
-INPUT E:\LaTex-Stuff\MikTex\fonts\type1\public\amsfonts\cm\cmsy6.pfb
-INPUT E:\LaTex-Stuff\MikTex\fonts\type1\public\amsfonts\cm\cmsy8.pfb
-INPUT E:\LaTex-Stuff\MikTex\fonts\type1\public\amsfonts\cm\cmsy8.pfb

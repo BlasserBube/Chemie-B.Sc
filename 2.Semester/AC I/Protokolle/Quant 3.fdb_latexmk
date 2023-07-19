@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber Quant 3"] 0 "Quant 3.bcf" "Quant 3.bbl" "Quant 3" 1689753292 -1
-  "Quant 3.bcf" 1689753292 106894 eb70669641f34d32cc08f28f81af3336 "pdflatex"
+["biber Quant 3"] 0 "Quant 3.bcf" "Quant 3.bbl" "Quant 3" 1689779780 -1
+  "Quant 3.bcf" 1689779780 106894 eb70669641f34d32cc08f28f81af3336 "pdflatex"
   (generated)
   "Quant 3.bbl"
   "Quant 3.blg"
   (rewritten before read)
-["pdflatex"] 1689753289 "c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/AC I/Protokolle/Quant 3.tex" "Quant 3.pdf" "Quant 3" 1689753292 0
+["pdflatex"] 1689779777 "c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/AC I/Protokolle/Quant 3.tex" "Quant 3.pdf" "Quant 3" 1689779780 0
   "C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1687083924 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/mgils/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0800.pk" 1687097669 19080 63a00cdf204bfb0876ff7897c3ede2ef ""
   "C:/Users/mgils/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1200.pk" 1687083928 28440 d8725d0af1a083ee18af3140817a0945 ""
@@ -41,7 +41,9 @@
   "E:/LaTex-Stuff/MikTex/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "E:/LaTex-Stuff/MikTex/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "E:/LaTex-Stuff/MikTex/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
+  "E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
+  "E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -241,12 +243,12 @@
   "E:/LaTex-Stuff/MikTex/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "E:/LaTex-Stuff/MikTex/tex/latex/was/upgreek.sty" 1665850770 5794 9054e31be15d93f1e6bd28cca2b6643f ""
   "E:/LaTex-Stuff/MikTex/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "Quant 3.aux" 1689753292 810 9b02ca9eded43667adbd281c380c05f6 "pdflatex"
+  "Quant 3.aux" 1689779780 810 ebe3c132b6376340b34c4299da2ac0f5 "pdflatex"
   "Quant 3.bbl" 1689750823 0 d41d8cd98f00b204e9800998ecf8427e "biber Quant 3"
-  "Quant 3.run.xml" 1689753292 2398 84be653636918cdb3da878c3530bc11a "pdflatex"
-  "Quant 3.tex" 1689753288 4818 b12a04563099ee2f9210afac6b70808b ""
-  "Quant 3.toc" 1689753292 321 02dd00f73a8b43346f68ef3cc03e1b22 "pdflatex"
-  "c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/AC I/Protokolle/Quant 3.tex" 1689753288 4818 b12a04563099ee2f9210afac6b70808b ""
+  "Quant 3.run.xml" 1689779780 2398 84be653636918cdb3da878c3530bc11a "pdflatex"
+  "Quant 3.tex" 1689779776 5278 62514573d28bc9b76bdaebe94865cea8 ""
+  "Quant 3.toc" 1689779780 321 20af8c214c03aebe6357b800eeff8f48 "pdflatex"
+  "c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/AC I/Protokolle/Quant 3.tex" 1689779776 5278 62514573d28bc9b76bdaebe94865cea8 ""
   (generated)
   "Quant 3.aux"
   "Quant 3.bcf"
