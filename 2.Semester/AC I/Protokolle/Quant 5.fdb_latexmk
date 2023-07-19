@@ -1,13 +1,15 @@
 # Fdb version 4
-["biber Quant 3"] 0 "Quant 3.bcf" "Quant 3.bbl" "Quant 3" 1689786904 -1
-  "Quant 3.bcf" 1689786903 106894 eb70669641f34d32cc08f28f81af3336 "pdflatex"
+["biber Quant 5"] 1689782668 "Quant 5.bcf" "Quant 5.bbl" "Quant 5" 1689784613 0
+  "Quant 5.bcf" 1689784613 106894 eb70669641f34d32cc08f28f81af3336 "pdflatex"
   (generated)
-  "Quant 3.bbl"
-  "Quant 3.blg"
+  "Quant 5.bbl"
+  "Quant 5.blg"
   (rewritten before read)
-["pdflatex"] 1689786900 "c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/AC I/Protokolle/Quant 3.tex" "Quant 3.pdf" "Quant 3" 1689786904 0
+["pdflatex"] 1689784610 "c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/AC I/Protokolle/Quant 5.tex" "Quant 5.pdf" "Quant 5" 1689784613 0
+  "Abb/oleg.png" 1689782651 29737 502a6ced8943636e6c665ce2aba1f18a ""
+  "Abb/oleg2.png" 1689784472 33514 b3b271f5a6675109dfbfc808ad46b921 ""
+  "Abb/oleg3.png" 1689784564 30300 dbbd7c2a75968fc77c7308cacbf2e588 ""
   "C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1687083924 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
-  "C:/Users/mgils/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0800.pk" 1687097669 19080 63a00cdf204bfb0876ff7897c3ede2ef ""
   "C:/Users/mgils/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1200.pk" 1687083928 28440 d8725d0af1a083ee18af3140817a0945 ""
   "C:/Users/mgils/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecsx1200.pk" 1687083931 27340 0bf6c63d2357046e60d2106d540bbc20 ""
   "C:/Users/mgils/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecsx1728.pk" 1687083929 42280 d91a77cd710758ad7964d876ce2ce0dc ""
@@ -47,7 +49,6 @@
   "E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
-  "E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1247596667 32587 65067f817f408bc71a7312f3d9828a9b ""
   "E:/LaTex-Stuff/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "E:/LaTex-Stuff/MikTex/tex/context/base/mkii/supp-pdf.mkii" 1580393758 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "E:/LaTex-Stuff/MikTex/tex/generic/babel/babel.sty" 1680013435 151578 01e8b46843d81abdfcc7dfbcd0188e2f ""
@@ -243,17 +244,17 @@
   "E:/LaTex-Stuff/MikTex/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "E:/LaTex-Stuff/MikTex/tex/latex/was/upgreek.sty" 1665850770 5794 9054e31be15d93f1e6bd28cca2b6643f ""
   "E:/LaTex-Stuff/MikTex/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "Quant 3.aux" 1689786903 810 ebe3c132b6376340b34c4299da2ac0f5 "pdflatex"
-  "Quant 3.bbl" 1689750823 0 d41d8cd98f00b204e9800998ecf8427e "biber Quant 3"
-  "Quant 3.run.xml" 1689786903 2398 84be653636918cdb3da878c3530bc11a "pdflatex"
-  "Quant 3.tex" 1689786899 5277 4378fac97ba8ad1dc3a764cd2a18ea79 ""
-  "Quant 3.toc" 1689786903 321 20af8c214c03aebe6357b800eeff8f48 "pdflatex"
-  "c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/AC I/Protokolle/Quant 3.tex" 1689786899 5277 4378fac97ba8ad1dc3a764cd2a18ea79 ""
+  "Quant 5.aux" 1689784613 810 877b6c9e19accfcfdfb8ea0273735f51 "pdflatex"
+  "Quant 5.bbl" 1689782673 0 d41d8cd98f00b204e9800998ecf8427e "biber Quant 5"
+  "Quant 5.run.xml" 1689784613 2398 239a91e1b3381a9b93174984186c1287 "pdflatex"
+  "Quant 5.tex" 1689784609 5708 227b19ac34ea422e7f24503053f8b37d ""
+  "Quant 5.toc" 1689784613 321 c1e913420b533af4d4a962f7f7396916 "pdflatex"
+  "c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/AC I/Protokolle/Quant 5.tex" 1689784609 5708 227b19ac34ea422e7f24503053f8b37d ""
   (generated)
-  "Quant 3.aux"
-  "Quant 3.bcf"
-  "Quant 3.log"
-  "Quant 3.pdf"
-  "Quant 3.run.xml"
-  "Quant 3.toc"
+  "Quant 5.aux"
+  "Quant 5.bcf"
+  "Quant 5.log"
+  "Quant 5.pdf"
+  "Quant 5.run.xml"
+  "Quant 5.toc"
   (rewritten before read)

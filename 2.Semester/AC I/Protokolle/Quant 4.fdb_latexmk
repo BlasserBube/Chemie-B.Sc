@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber Quant 4"] 0 "Quant 4.bcf" "Quant 4.bbl" "Quant 4" 1689780737 -1
-  "Quant 4.bcf" 1689780736 106894 eb70669641f34d32cc08f28f81af3336 "pdflatex"
+["biber Quant 4"] 0 "Quant 4.bcf" "Quant 4.bbl" "Quant 4" 1689782131 -1
+  "Quant 4.bcf" 1689782130 106894 eb70669641f34d32cc08f28f81af3336 "pdflatex"
   (generated)
   "Quant 4.bbl"
   "Quant 4.blg"
   (rewritten before read)
-["pdflatex"] 1689780733 "c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/AC I/Protokolle/Quant 4.tex" "Quant 4.pdf" "Quant 4" 1689780737 0
+["pdflatex"] 1689782127 "c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/AC I/Protokolle/Quant 4.tex" "Quant 4.pdf" "Quant 4" 1689782131 0
   "Abb/EDTA.png" 1689778897 12739 2c9dfb679fb45c42a1e79ccd38fbffbd ""
   "C:/Users/mgils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1687083924 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/mgils/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0800.pk" 1687097669 19080 63a00cdf204bfb0876ff7897c3ede2ef ""
@@ -242,12 +242,12 @@
   "E:/LaTex-Stuff/MikTex/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "E:/LaTex-Stuff/MikTex/tex/latex/was/upgreek.sty" 1665850770 5794 9054e31be15d93f1e6bd28cca2b6643f ""
   "E:/LaTex-Stuff/MikTex/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "Quant 4.aux" 1689780736 810 dfa4e8c5a4fec318a09e9f18ebb3d097 "pdflatex"
+  "Quant 4.aux" 1689782130 810 dfa4e8c5a4fec318a09e9f18ebb3d097 "pdflatex"
   "Quant 4.bbl" 1689753230 0 d41d8cd98f00b204e9800998ecf8427e "biber Quant 4"
-  "Quant 4.run.xml" 1689780736 2398 f5b041a3fa0529ade9be2efb0f8b836c "pdflatex"
-  "Quant 4.tex" 1689780732 5701 7964b4702c41c99c537bb9a1f3b5f125 ""
-  "Quant 4.toc" 1689780736 321 4ebfbec7b001b574ab513012530d5f2f "pdflatex"
-  "c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/AC I/Protokolle/Quant 4.tex" 1689780732 5701 7964b4702c41c99c537bb9a1f3b5f125 ""
+  "Quant 4.run.xml" 1689782130 2398 f5b041a3fa0529ade9be2efb0f8b836c "pdflatex"
+  "Quant 4.tex" 1689782131 5809 494fe8e79f0c98420be3c1fda1a19bb4 ""
+  "Quant 4.toc" 1689782130 321 4ebfbec7b001b574ab513012530d5f2f "pdflatex"
+  "c:/Users/mgils/Desktop/Chemie-B.Sc/2.Semester/AC I/Protokolle/Quant 4.tex" 1689782131 5809 494fe8e79f0c98420be3c1fda1a19bb4 ""
   (generated)
   "Quant 4.aux"
   "Quant 4.bcf"
