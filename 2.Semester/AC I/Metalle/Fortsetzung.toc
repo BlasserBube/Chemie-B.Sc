@@ -13,3 +13,12 @@
 \contentsline {subsubsection}{\numberline {1.2.6}Verbindungen}{4}{subsubsection.1.2.6}%
 \contentsline {section}{\numberline {2}Die Seltenerdelemente, Lanthanoide \& Actinoide}{4}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Eigenschaften}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Vorkommen}{4}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Die Seltenerdelemente}{4}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Die Actinoide}{4}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Herstellung}{5}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Die Seltenerdelemente}{5}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Die Actinoide}{5}{subsubsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.4}Verbindungen}{5}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Seltenerdelemente}{5}{subsubsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.5}Technische Verwendung}{5}{subsection.2.5}%

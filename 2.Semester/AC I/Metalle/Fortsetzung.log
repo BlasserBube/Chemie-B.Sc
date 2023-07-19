@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  12 JUL 2023 12:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  19 JUL 2023 13:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -689,22 +689,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--119
 
  []
 
-[4] (Fortsetzung.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--160
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 173--176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--204
+
+ []
+
+[5] (Fortsetzung.aux)
 Package rerunfilecheck Info: File `Fortsetzung.out' has not changed.
-(rerunfilecheck)             Checksum: E02F344123F687D2F7DF8DB4DF7EC877;2421.
+(rerunfilecheck)             Checksum: F7D3B3F3BBD4D8631376FE22FDF63D9F;3698.
  ) 
 Here is how much of TeX's memory you used:
- 22659 strings out of 475385
- 421364 string characters out of 2793322
- 806468 words of memory out of 3000000
- 43642 multiletter control sequences out of 15000+600000
+ 22678 strings out of 475385
+ 421690 string characters out of 2793322
+ 807477 words of memory out of 3000000
+ 43651 multiletter control sequences out of 15000+600000
  473855 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,16n,118p,513b,554s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on Fortsetzung.pdf (4 pages, 118419 bytes).
+ <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti7.pfb>
+Output written on Fortsetzung.pdf (5 pages, 148080 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
