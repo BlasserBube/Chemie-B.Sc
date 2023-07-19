@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  13 JUL 2023 10:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.18)  18 JUL 2023 08:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -866,13 +866,13 @@ Package rerunfilecheck Info: File `Kinetik.out' has not changed.
 Here is how much of TeX's memory you used:
  22441 strings out of 475385
  418392 string characters out of 2793322
- 779320 words of memory out of 3000000
+ 779319 words of memory out of 3000000
  43417 multiletter control sequences out of 15000+600000
  472811 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,23n,118p,521b,551s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\mgils\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Kinetik.pdf (12 pages, 219532 bytes).
+Output written on Kinetik.pdf (12 pages, 219521 bytes).
 PDF statistics:
  244 PDF objects out of 1000 (max. 8388607)
  36 named destinations out of 1000 (max. 500000)
