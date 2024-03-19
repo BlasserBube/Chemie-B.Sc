@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.6)  19 MAR 2024 12:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.6)  19 MAR 2024 13:01
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/mintmax/Documents/GitHub/Chemie-B.Sc/2.Semester/Physik/Aufgaben.tex
-(/home/mintmax/Documents/GitHub/Chemie-B.Sc/2.Semester/Physik/Aufgaben.tex
+**"/home/mintmax/Documents/GitHub/Chemie-B.Sc/2.Semester/Physik/Zusammenfassung/Zusammenfassung S1+S2.tex"
+(/home/mintmax/Documents/GitHub/Chemie-B.Sc/2.Semester/Physik/Zusammenfassung/Zusammenfassung S1+S2.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -244,8 +244,8 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count284
 \l__pdf_internal_box=\box52
-) (./Aufgaben.aux)
-\openout1 = `Aufgaben.aux'.
+) (./Zusammenfassung S1+S2.aux)
+\openout1 = `"Zusammenfassung S1+S2.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
@@ -278,9 +278,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 14.
 LaTeX Info: Redefining \pageref on input line 14.
 LaTeX Info: Redefining \nameref on input line 14.
- (./Aufgaben.out) (./Aufgaben.out)
+ (./Zusammenfassung S1+S2.out) (./Zusammenfassung S1+S2.out)
 \@outlinefile=\write3
-\openout3 = `Aufgaben.out'.
+\openout3 = `"Zusammenfassung S1+S2.out"'.
 
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -335,64 +335,32 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<Abbildungen/Abb.1.png.png, id=4, 297.11pt x 323.70938pt>
-File: Abbildungen/Abb.1.png.png Graphic file (type png)
-<use Abbildungen/Abb.1.png.png>
-Package pdftex.def Info: Abbildungen/Abb.1.png.png  used on input line 38.
-(pdftex.def)             Requested size: 297.10927pt x 323.70859pt.
- [1
+) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Abbildungen/Abb.1.png.png>]
-<Abbildungen/Abb.2.png, id=23, 558.085pt x 321.2pt>
-File: Abbildungen/Abb.2.png Graphic file (type png)
-<use Abbildungen/Abb.2.png>
-Package pdftex.def Info: Abbildungen/Abb.2.png  used on input line 62.
-(pdftex.def)             Requested size: 558.08365pt x 321.19922pt.
-
-Overfull \hbox (0.69414pt too wide) in paragraph at lines 62--63
- [] 
- []
-
-[2 <./Abbildungen/Abb.2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 105--112
-
- []
-
-
-Overfull \hbox (0.417pt too wide) in paragraph at lines 114--118
-\OT1/cmr/m/n/10 Im Ver-gle-ich zu einer Punk-t-ladung, verl^^?auft der Vek-tor ra-dial um den Draht, somit "entspringt" dieser nicht aus der Ladungsquelle
- []
-
-[3] [4] [5] [6] [7] [8]
-Overfull \hbox (7.12979pt too wide) in paragraph at lines 338--340
-\OT1/cmr/m/n/10 nimmt zu (Da sie beschle-u-nigt wer-den). Dadurch wer-den in der Ken-physik hoch-en-er-getis-che Teilchen-strahlen zu Forschungszwecken
- []
-
-[9] [10] (./Aufgaben.aux)
-Package rerunfilecheck Info: File `Aufgaben.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Zusammenfassung S1+S2.aux)
+Package rerunfilecheck Info: File `"Zusammenfassung S1+S2".out' has not changed.
+(rerunfilecheck)             Checksum: 96D74CBCE515520C92E040520BDA43E3;320.
  ) 
 Here is how much of TeX's memory you used:
- 10301 strings out of 480171
- 157285 string characters out of 5894490
- 462444 words of memory out of 5000000
- 28099 multiletter control sequences out of 15000+600000
- 472811 words of font info for 42 fonts, out of 8000000 for 9000
+ 10251 strings out of 480171
+ 156847 string characters out of 5894490
+ 449506 words of memory out of 5000000
+ 28086 multiletter control sequences out of 15000+600000
+ 472168 words of font info for 40 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,11n,63p,502b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/mintmax/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Aufgaben.pdf (10 pages, 257295 bytes).
+ 60i,9n,63p,316b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "Zusammenfassung S1+S2.pdf" (1 page, 78555 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 62 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
